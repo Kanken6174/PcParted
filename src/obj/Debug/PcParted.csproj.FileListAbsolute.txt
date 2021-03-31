@@ -1,0 +1,14 @@
+Y:\C#\PcParted\src\bin\Debug\PcParted.exe
+Y:\C#\PcParted\src\bin\Debug\PcParted.pdb
+Y:\C#\PcParted\src\obj\Debug\PcParted.csprojAssemblyReference.cache
+Y:\C#\PcParted\src\obj\Debug\MainWindow.g.cs
+Y:\C#\PcParted\src\obj\Debug\App.g.cs
+Y:\C#\PcParted\src\obj\Debug\PcParted_MarkupCompile.cache
+Y:\C#\PcParted\src\obj\Debug\PcParted_MarkupCompile.lref
+Y:\C#\PcParted\src\obj\Debug\MainWindow.baml
+Y:\C#\PcParted\src\obj\Debug\PcParted.g.resources
+Y:\C#\PcParted\src\obj\Debug\PcParted.Properties.Resources.resources
+Y:\C#\PcParted\src\obj\Debug\PcParted.csproj.GenerateResource.cache
+Y:\C#\PcParted\src\obj\Debug\PcParted.csproj.CoreCompileInputs.cache
+Y:\C#\PcParted\src\obj\Debug\PcParted.exe
+Y:\C#\PcParted\src\obj\Debug\PcParted.pdb
