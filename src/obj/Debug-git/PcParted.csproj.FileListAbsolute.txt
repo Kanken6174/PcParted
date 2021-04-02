@@ -12,3 +12,12 @@ Y:\C#\PcParted\src\obj\Debug-git\PcParted.csproj.GenerateResource.cache
 Y:\C#\PcParted\src\obj\Debug-git\PcParted.csproj.CoreCompileInputs.cache
 Y:\C#\PcParted\src\obj\Debug-git\PcParted.exe
 Y:\C#\PcParted\src\obj\Debug-git\PcParted.pdb
+Y:\C#\PcParted\src\obj\Debug-git\LoadingScreen.g.cs
+Y:\C#\PcParted\src\obj\Debug-git\GeneratedInternalTypeHelper.g.cs
+Y:\C#\PcParted\src\obj\Debug-git\LoadingScreen.baml
+Y:\C#\PcParted\src\obj\Debug-git\UserControl2.g.cs
+Y:\C#\PcParted\src\obj\Debug-git\UserControl2.baml
+Y:\C#\PcParted\src\obj\Debug-git\Card.g.cs
+Y:\C#\PcParted\src\obj\Debug-git\Card.baml
+Y:\C#\PcParted\src\obj\Debug-git\UserControl4.g.cs
+Y:\C#\PcParted\src\obj\Debug-git\UserControl4.baml
