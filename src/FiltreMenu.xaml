@@ -12,13 +12,13 @@
                 <RectangleGeometry Rect="-10,-10,195,500"  RadiusX="20" RadiusY="20"/>
             </Rectangle.Clip>
         </Rectangle>
-        <ComboBox x:Name="Constructeur" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="Constructeur" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem IsSelected="True">Tous</ComboBoxItem>
             <ComboBoxItem>Nvidia</ComboBoxItem>
             <ComboBoxItem>Amd</ComboBoxItem>
             <ComboBoxItem>Intel</ComboBoxItem>
         </ComboBox>
-        <ComboBox x:Name="Modele_series" HorizontalAlignment="Left" Margin="10,183,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="Modele_series" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem IsSelected="True" Content="Tous"/>
             <ComboBoxItem Content="3000"/>
             <ComboBoxItem Content="2000"/>
@@ -26,15 +26,16 @@
             <ComboBoxItem Content="1000"/>
             <ComboBoxItem Content="Pro"/>
         </ComboBox>
-        <RadioButton Content="Sli support" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Crossfire support" HorizontalAlignment="Left" Margin="10,245,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Blocage anti-minage" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top"/>
-        <Button Content="?" HorizontalAlignment="Left" Margin="143,265,0,0" VerticalAlignment="Top" Width="19" RenderTransformOrigin="0.053,-0.1"/>
-        <Slider x:Name="prix" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" Width="130"/>
-        <Slider x:Name="Consommation" HorizontalAlignment="Left" Margin="19,58,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.408,4.278"/>
-        <Slider x:Name="Hashrate" HorizontalAlignment="Left" Margin="19,106,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.408,4.278"/>
-        <TextBlock HorizontalAlignment="Left" Margin="19,33,0,0" TextWrapping="Wrap" Text="0             Prix      3000+" VerticalAlignment="Top" Width="124"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,81,0,0" TextWrapping="Wrap" Text="0   consommation(W)   1500+" VerticalAlignment="Top" Width="159"/>
-        <TextBlock HorizontalAlignment="Left" Margin="19,129,0,0" TextWrapping="Wrap" Text="0    Hashrate(MH/S)   300+" VerticalAlignment="Top" Width="150"/>
+        <RadioButton Content="Sli support" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Crossfire support" HorizontalAlignment="Left" Margin="10,296,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Blocage anti-minage" HorizontalAlignment="Left" Margin="10,316,0,0" VerticalAlignment="Top" ToolTip="Certaines cartes ont des blocages logiciels mises en place par le constructeur pour empêcher le minage de cryptomonnaie. Ils peuvent être contournés mais si vous n'êtes pas un utilisateur avancé, laissez cette case vide." />
+        <Slider x:Name="prix" HorizontalAlignment="Left" Margin="19,61,0,0" VerticalAlignment="Top" Width="130"/>
+        <Slider x:Name="Consommation" HorizontalAlignment="Left" Margin="19,109,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.408,4.278"/>
+        <Slider x:Name="Hashrate" HorizontalAlignment="Left" Margin="19,157,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.408,4.278"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,84,0,0" TextWrapping="Wrap" Text="0             Prix      3000+" VerticalAlignment="Top" Width="124"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="0   consommation(W)   1500+" VerticalAlignment="Top" Width="159"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,180,0,0" TextWrapping="Wrap" Text="0    Hashrate(MH/S)   300+" VerticalAlignment="Top" Width="150"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Votre recherche ici" VerticalAlignment="Top" Width="168"/>
+        <Button Content="Appliquer" HorizontalAlignment="Left" Margin="44,384,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </UserControl>
