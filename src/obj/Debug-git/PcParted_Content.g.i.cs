@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("twilight-on-the-olympic-peninsula.gif")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("gpu1.png")]
 
 

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PcParted"
         mc:Ignorable="d"
         Title="PcParted : The miner's almanach" Height="450" Width="800">
-    <ContentControl x:Name="MainView">
+    <ContentControl x:Name="MainView" Background="DimGray">
         <local:UserControl1/>
     </ContentControl>
      

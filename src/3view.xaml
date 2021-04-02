@@ -13,8 +13,7 @@
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
         <ScrollViewer x:Name="Scroller" Height="450" Grid.Column="1" VerticalScrollBarVisibility="Auto">
-            <WrapPanel x:Name="wrappy" Height="{Binding ElementName=MyScrollViewer, Path=ViewportHeight}" Grid.Column="1" Margin="0,0,16,0 " Width="{Binding ElementName=MyScrollViewer, Path=ViewportWidth}">
-            </WrapPanel>
+            <WrapPanel x:Name="wrappy" Height="{Binding ElementName=MyScrollViewer, Path=ViewportHeight}" Grid.Column="1" Width="351"/>
         </ScrollViewer>
         <Expander Header="Filtres" RenderTransformOrigin="0.5,0.5" IsExpanded="False">
 
