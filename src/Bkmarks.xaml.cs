@@ -17,18 +17,11 @@ namespace PcParted
     /// <summary>
     /// Logique d'interaction pour UserControl2.xaml
     /// </summary>
-    public partial class MainApp : UserControl
+    public partial class UserControl2 : UserControl
     {
-
-        public MainApp()
+        public UserControl2()
         {
             InitializeComponent();
-        }
-
-        private void AddCard(object sender, RoutedEventArgs e)
-        {
-            UserControl3 clone = new UserControl3();
-            wrappy.Children.Add(clone);
         }
     }
 }

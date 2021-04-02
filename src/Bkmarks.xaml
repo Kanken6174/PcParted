@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="PcParted.UserControl2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PcParted"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" Width="200">
+    <Grid>
+        <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="450" Stroke="Black" VerticalAlignment="Top" Width="200">
+
+        </Rectangle>
+        <TextBlock HorizontalAlignment="Left" Margin="41,16,0,0" TextWrapping="Wrap" Text="Liste des bookmarks" VerticalAlignment="Top" RenderTransformOrigin="1.185,6.167"/>
+        <DataGrid Name="bookmList"  HorizontalAlignment="Left" Height="283" Margin="16,37,0,0" VerticalAlignment="Top" Width="165">
+
+        </DataGrid>
+        <Rectangle Fill="DimGray" HorizontalAlignment="Left" Height="100" Margin="16,325,0,0" Stroke="Black" VerticalAlignment="Top" Width="165"/>
+
+    </Grid>
+</UserControl>

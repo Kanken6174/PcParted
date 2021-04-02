@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 Y:\C#\PcParted\src\App.xaml
-52102494326
+6-1204494066
 
-9-634271845
+10-572867776
 141881241103
-MainWindow.xaml;LoadingScreen.xaml;UserControl2.xaml;Card.xaml;UserControl4.xaml;
+MainWindow.xaml;LoadingScreen.xaml;3view.xaml;Card.xaml;FiltreMenu.xaml;Bkmarks.xaml;
 
 False
 
