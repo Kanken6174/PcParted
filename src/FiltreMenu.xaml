@@ -1,43 +1,115 @@
 ﻿<UserControl x:Class="PcParted.UserControl4"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:PcParted"
-             mc:Ignorable="d" 
-             d:DesignHeight="540" Width="188">
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             Width="188">
     <Grid>
-        <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="550" Stroke="Black" VerticalAlignment="Top" Width="188">
-            <Rectangle.Clip>
-                <RectangleGeometry Rect="-10,-10,195,545"  RadiusX="20" RadiusY="20"/>
-            </Rectangle.Clip>
-        </Rectangle>
-        <ComboBox x:Name="Constructeur" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Width="120" ToolTip="Constructeur">
+        <Rectangle Fill="Gray"
+                   HorizontalAlignment="Left"
+                   Height="450"
+                   Stroke="Black"
+                   VerticalAlignment="Top"
+                   Width="188" 
+                   RadiusY="10"
+                   RadiusX="10"/>
+
+        <ComboBox x:Name="Constructeur"
+                  HorizontalAlignment="Left"
+                  Margin="10,207,0,0"
+                  VerticalAlignment="Top"
+                  Width="120"
+                  ToolTip="Constructeur">
             <ComboBoxItem IsSelected="True">Tous</ComboBoxItem>
             <ComboBoxItem>Nvidia</ComboBoxItem>
             <ComboBoxItem>Amd</ComboBoxItem>
             <ComboBoxItem>Intel</ComboBoxItem>
         </ComboBox>
-        <ComboBox x:Name="Modele_series" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="120" ToolTip="Série">
-            <ComboBoxItem IsSelected="True" Content="Tous"/>
-            <ComboBoxItem Content="3000"/>
-            <ComboBoxItem Content="2000"/>
-            <ComboBoxItem Content="1600"/>
-            <ComboBoxItem Content="1000"/>
-            <ComboBoxItem Content="Pro"/>
+        <ComboBox x:Name="Modele_series"
+                  HorizontalAlignment="Left"
+                  Margin="10,234,0,0"
+                  VerticalAlignment="Top"
+                  Width="120"
+                  ToolTip="Série">
+            <ComboBoxItem IsSelected="True"
+                          Content="Tous" />
+            <ComboBoxItem Content="3000" />
+            <ComboBoxItem Content="2000" />
+            <ComboBoxItem Content="1600" />
+            <ComboBoxItem Content="1000" />
+            <ComboBoxItem Content="Pro" />
         </ComboBox>
-        <RadioButton Content="Sli support" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Crossfire support" HorizontalAlignment="Left" Margin="10,296,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Blocage anti-minage" HorizontalAlignment="Left" Margin="10,316,0,0" VerticalAlignment="Top" ToolTip="Certaines cartes ont des blocages logiciels mises en place par le constructeur pour empêcher le minage de cryptomonnaie. Ils peuvent être contournés mais si vous n'êtes pas un utilisateur avancé, laissez cette case vide." />
-        <Slider x:Name="prix" HorizontalAlignment="Left" Margin="19,70,0,0" VerticalAlignment="Top" Width="130"/>
-        <Slider x:Name="Consommation" HorizontalAlignment="Left" Margin="19,109,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.408,4.278"/>
-        <Slider x:Name="Hashrate" HorizontalAlignment="Left" Margin="19,157,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.408,4.278"/>
-        <TextBlock HorizontalAlignment="Left" Margin="19,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"><Run Text="0         Prix m"/><Run Text="ax"/><Run Text="     3000"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"><Run Text="0"/><Run Text=" "/><Run Text="consommation(W)"/><Run Text="max "/><Run Text="1500"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="19,180,0,0" TextWrapping="Wrap" Text="0    Hashrate(MH/S)   300+" VerticalAlignment="Top" Width="150"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Votre recherche ici" VerticalAlignment="Top" Width="168"/>
-        <Button Content="Appliquer" HorizontalAlignment="Left" Margin="44,384,0,0" VerticalAlignment="Top" Width="75"/>
-        <Slider x:Name="prix_Copy" HorizontalAlignment="Left" Margin="19,34,0,0" VerticalAlignment="Top" Width="130"/>
-        <TextBlock HorizontalAlignment="Left" Margin="19,53,0,0" TextWrapping="Wrap" Text="0         Prix min     3000" VerticalAlignment="Top" Width="124"/>
+        <RadioButton Content="Sli support"
+                     HorizontalAlignment="Left"
+                     Margin="10,276,0,0"
+                     VerticalAlignment="Top" />
+        <RadioButton Content="Crossfire support"
+                     HorizontalAlignment="Left"
+                     Margin="10,296,0,0"
+                     VerticalAlignment="Top" />
+        <CheckBox Content="Blocage anti-minage"
+                  HorizontalAlignment="Left"
+                  Margin="10,316,0,0"
+                  VerticalAlignment="Top"
+                  ToolTip="Certaines cartes ont des blocages logiciels mises en place par le constructeur pour empêcher le minage de cryptomonnaie. Ils peuvent être contournés mais si vous n'êtes pas un utilisateur avancé, laissez cette case vide." />
+        <Slider x:Name="prix"
+                HorizontalAlignment="Left"
+                Margin="19,70,0,0"
+                VerticalAlignment="Top"
+                Width="130" />
+        <Slider x:Name="Consommation"
+                HorizontalAlignment="Left"
+                Margin="19,109,0,0"
+                VerticalAlignment="Top"
+                Width="130"
+                RenderTransformOrigin="0.408,4.278" />
+        <Slider x:Name="Hashrate"
+                HorizontalAlignment="Left"
+                Margin="19,157,0,0"
+                VerticalAlignment="Top"
+                Width="130"
+                RenderTransformOrigin="0.408,4.278" />
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="19,90,0,0"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   Width="124"><Run Text="0         Prix m" /><Run Text="ax" /><Run Text="     3000" /></TextBlock>
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="10,132,0,0"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   Width="159"><Run Text="0" /><Run Text=" " /><Run Text="consommation(W)" /><Run Text="max " /><Run Text="1500" /></TextBlock>
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="19,180,0,0"
+                   TextWrapping="Wrap"
+                   Text="0    Hashrate(MH/S)   300+"
+                   VerticalAlignment="Top"
+                   Width="150" />
+        <TextBox HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="10,10,0,0"
+                 TextWrapping="Wrap"
+                 Text="Votre recherche ici"
+                 VerticalAlignment="Top"
+                 Width="168" />
+        <Button Content="Appliquer"
+                HorizontalAlignment="Left"
+                Margin="44,384,0,0"
+                VerticalAlignment="Top"
+                Width="75" />
+        <Slider x:Name="prix_Copy"
+                HorizontalAlignment="Left"
+                Margin="19,34,0,0"
+                VerticalAlignment="Top"
+                Width="130" />
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="19,53,0,0"
+                   TextWrapping="Wrap"
+                   Text="0         Prix min     3000"
+                   VerticalAlignment="Top"
+                   Width="124" />
     </Grid>
 </UserControl>

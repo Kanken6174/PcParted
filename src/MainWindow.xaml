@@ -5,9 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PcParted"
         mc:Ignorable="d"
-        Title="PcParted : The miner's almanach" Height="550" Width="800" SnapsToDevicePixels="True" Background="#52C2C2" WindowStyle="ToolWindow">
-    <ContentControl x:Name="MainView" Background="DimGray">
-        <local:UserControl1/>
+        Title="PcParted : The miner's almanach"
+        Height="550"
+        Width="800"
+        SnapsToDevicePixels="True"
+        Background="#464646"
+        WindowStyle="ToolWindow"
+        x:Name="aWindow">
+    <ContentControl x:Name="MainView"
+                    Background="#464646">
+        <TabControl HorizontalAlignment="Left"
+                    Height="520"
+                    VerticalAlignment="Top"
+                    Width="792">
+            <TabItem Header="Vue générale">
+                <local:MainApp x:Name="MainViewport" Background="DimGray"/>
+            </TabItem>
+            <TabItem Header="Bookmarks">
+                <local:UserControl5 />
+            </TabItem>
+            <TabItem Header="graphes">
+                <local:UserControl5 />
+            </TabItem>
+            <TabItem Header="paramètres">
+                <local:UserControl5 />
+            </TabItem>
+        </TabControl>
     </ContentControl>
-     
+
 </Window>
