@@ -1,27 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
+﻿using System.Windows.Controls;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace PcParted
 {
     /// <summary>
-    /// Logique d'interaction pour UserControl3.xaml
+    /// Logique d'interaction pour les cartes de gpu
     /// </summary>
     public partial class UserControl3 : UserControl
     {
         public UserControl3()
         {
             InitializeComponent();
+        }
+
+        private void UC_clicked(object sender, MouseButtonEventArgs e)
+        {
+            nom_carte.Text = "Incroyable! cliqué!!";
         }
     }
 }

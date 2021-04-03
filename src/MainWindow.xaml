@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PcParted"
         mc:Ignorable="d"
-        Title="PcParted : The miner's almanach" Height="450" Width="800" SnapsToDevicePixels="True">
+        Title="PcParted : The miner's almanach" Height="550" Width="800" SnapsToDevicePixels="True" Background="#52C2C2">
     <ContentControl x:Name="MainView" Background="DimGray">
         <local:UserControl1/>
     </ContentControl>

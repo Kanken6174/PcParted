@@ -5,20 +5,20 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PcParted"
              mc:Ignorable="d" 
-             d:DesignHeight="450" Width="188.264">
+             d:DesignHeight="540" Width="188">
     <Grid>
-        <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="450" Stroke="Black" VerticalAlignment="Top" Width="188">
+        <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="550" Stroke="Black" VerticalAlignment="Top" Width="188">
             <Rectangle.Clip>
-                <RectangleGeometry Rect="-10,-10,195,500"  RadiusX="20" RadiusY="20"/>
+                <RectangleGeometry Rect="-10,-10,195,545"  RadiusX="20" RadiusY="20"/>
             </Rectangle.Clip>
         </Rectangle>
-        <ComboBox x:Name="Constructeur" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="Constructeur" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Width="120" ToolTip="Constructeur">
             <ComboBoxItem IsSelected="True">Tous</ComboBoxItem>
             <ComboBoxItem>Nvidia</ComboBoxItem>
             <ComboBoxItem>Amd</ComboBoxItem>
             <ComboBoxItem>Intel</ComboBoxItem>
         </ComboBox>
-        <ComboBox x:Name="Modele_series" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="Modele_series" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="120" ToolTip="Série">
             <ComboBoxItem IsSelected="True" Content="Tous"/>
             <ComboBoxItem Content="3000"/>
             <ComboBoxItem Content="2000"/>
@@ -29,13 +29,15 @@
         <RadioButton Content="Sli support" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top"/>
         <RadioButton Content="Crossfire support" HorizontalAlignment="Left" Margin="10,296,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="Blocage anti-minage" HorizontalAlignment="Left" Margin="10,316,0,0" VerticalAlignment="Top" ToolTip="Certaines cartes ont des blocages logiciels mises en place par le constructeur pour empêcher le minage de cryptomonnaie. Ils peuvent être contournés mais si vous n'êtes pas un utilisateur avancé, laissez cette case vide." />
-        <Slider x:Name="prix" HorizontalAlignment="Left" Margin="19,61,0,0" VerticalAlignment="Top" Width="130"/>
+        <Slider x:Name="prix" HorizontalAlignment="Left" Margin="19,70,0,0" VerticalAlignment="Top" Width="130"/>
         <Slider x:Name="Consommation" HorizontalAlignment="Left" Margin="19,109,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.408,4.278"/>
         <Slider x:Name="Hashrate" HorizontalAlignment="Left" Margin="19,157,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.408,4.278"/>
-        <TextBlock HorizontalAlignment="Left" Margin="19,84,0,0" TextWrapping="Wrap" Text="0             Prix      3000+" VerticalAlignment="Top" Width="124"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="0   consommation(W)   1500+" VerticalAlignment="Top" Width="159"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"><Run Text="0         Prix m"/><Run Text="ax"/><Run Text="     3000"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"><Run Text="0"/><Run Text=" "/><Run Text="consommation(W)"/><Run Text="max "/><Run Text="1500"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="19,180,0,0" TextWrapping="Wrap" Text="0    Hashrate(MH/S)   300+" VerticalAlignment="Top" Width="150"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Votre recherche ici" VerticalAlignment="Top" Width="168"/>
         <Button Content="Appliquer" HorizontalAlignment="Left" Margin="44,384,0,0" VerticalAlignment="Top" Width="75"/>
+        <Slider x:Name="prix_Copy" HorizontalAlignment="Left" Margin="19,34,0,0" VerticalAlignment="Top" Width="130"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,53,0,0" TextWrapping="Wrap" Text="0         Prix min     3000" VerticalAlignment="Top" Width="124"/>
     </Grid>
 </UserControl>

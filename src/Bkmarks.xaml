@@ -6,6 +6,16 @@
              xmlns:local="clr-namespace:PcParted"
              mc:Ignorable="d" 
              d:DesignHeight="450" Width="200">
+    <UserControl.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Gray" />
+            <!-- je l'ai âs vraiment utilisée cette ligne finalement...-->
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Unispace"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+        </Style>
+    </UserControl.Resources>
     <Grid>
         <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="450" Stroke="Black" VerticalAlignment="Top" Width="200">
 
@@ -14,7 +24,11 @@
         <DataGrid Name="bookmList"  HorizontalAlignment="Left" Height="283" Margin="16,37,0,0" VerticalAlignment="Top" Width="165">
 
         </DataGrid>
-        <Rectangle Fill="DimGray" HorizontalAlignment="Left" Height="100" Margin="16,325,0,0" Stroke="Black" VerticalAlignment="Top" Width="165"/>
+        <Rectangle Fill="#4AB8FF" HorizontalAlignment="Left" Height="100" Margin="16,325,0,0" Stroke="Black" VerticalAlignment="Top" Width="165" RadiusY="10" RadiusX="10"/>
+        <Rectangle Fill="#159FF8" HorizontalAlignment="Left" Height="44" Margin="16,381,0,0" Stroke="Black" VerticalAlignment="Top" Width="165" RadiusY="10" RadiusX="10"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,359,0,0" Text="Wattage : XXX W" VerticalAlignment="Top" Foreground="#DBDE86"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,336,0,0" Text="Hashrate: XXX MH/S" VerticalAlignment="Top" Foreground="#F6C78E"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,395,0,0" Text="Coût total: XXXX €" VerticalAlignment="Top" Foreground="#8CFFCA"/>
 
     </Grid>
 </UserControl>
