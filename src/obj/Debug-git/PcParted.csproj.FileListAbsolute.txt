@@ -25,3 +25,5 @@ Y:\C#\PcParted\src\obj\Debug-git\Bkmarks.g.cs
 Y:\C#\PcParted\src\obj\Debug-git\Bkmarks.baml
 Y:\C#\PcParted\src\obj\Debug-git\MasterDetail.g.cs
 Y:\C#\PcParted\src\obj\Debug-git\MasterDetail.baml
+Y:\C#\PcParted\src\obj\Debug-git\Parametres.g.cs
+Y:\C#\PcParted\src\obj\Debug-git\Parametres.baml

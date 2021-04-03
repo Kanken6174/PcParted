@@ -28,7 +28,7 @@
                 <local:UserControl5 />
             </TabItem>
             <TabItem Header="paramètres">
-                <local:UserControl5 />
+                <local:UserControl6 />
             </TabItem>
         </TabControl>
     </ContentControl>
