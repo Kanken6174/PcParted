@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("gpu-mining.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("placeholder_nvidia.jpg")]
 
 

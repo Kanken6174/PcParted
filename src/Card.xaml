@@ -1,47 +1,109 @@
 ﻿<UserControl x:Class="PcParted.UserControl3"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:PcParted"
-             mc:Ignorable="d" Width="110" Height="175" PreviewMouseLeftButtonDown=" UC_clicked" x:Name="card">
+             mc:Ignorable="d"
+             Width="110"
+             Height="175"
+             PreviewMouseLeftButtonDown=" UC_clicked"
+             x:Name="card">
     <UserControl.Resources>
         <Style TargetType="TextBlock">
-            <Setter Property="Foreground" Value="Gray" /> <!-- je l'ai âs vraiment utilisée cette ligne finalement...-->
-            <Setter Property="FontSize" Value="12" />
-            <Setter Property="FontFamily" Value="Unispace"/>
-            <Setter Property="TextWrapping" Value="Wrap"/>
-            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Foreground"
+                    Value="Gray" />
+            <!-- je l'ai âs vraiment utilisée cette ligne finalement...-->
+            <Setter Property="FontSize"
+                    Value="12" />
+            <Setter Property="FontFamily"
+                    Value="Unispace" />
+            <Setter Property="TextWrapping"
+                    Value="Wrap" />
+            <Setter Property="VerticalAlignment"
+                    Value="Top" />
         </Style>
     </UserControl.Resources>
-    <Grid HorizontalAlignment="Left" Height="179" Margin="0,0,0,0" VerticalAlignment="Top" Width="100" x:Name="grectanctle">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="95*"/>
-            <ColumnDefinition Width="6*"/>
-        </Grid.ColumnDefinitions>
-        <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="169" VerticalAlignment="Top" Width="109" Margin="0,0,-9,0" Grid.ColumnSpan="2" RadiusY="10" RadiusX="10">
+    <Grid HorizontalAlignment="Left"
+          Height="179"
+          Margin="0,0,0,0"
+          VerticalAlignment="Top"
+          Width="100"
+          x:Name="grectanctle">
+
+        <Rectangle Fill="Gray"
+                   HorizontalAlignment="Left"
+                   Height="169"
+                   VerticalAlignment="Top"
+                   Width="109"
+                   Margin="0,0,-9,0"
+                   Grid.ColumnSpan="3"
+                   RadiusY="10"
+                   RadiusX="10">
         </Rectangle>
-        <Rectangle Fill="	#99aab5" x:Name="Bluectangle" HorizontalAlignment="Left" Height="110" VerticalAlignment="Bottom" Width="108" Margin="0,0,-8,-1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+        <Rectangle Fill="	#99aab5"
+                   x:Name="Bluectangle"
+                   HorizontalAlignment="Left"
+                   Height="110"
+                   VerticalAlignment="Bottom"
+                   Width="108"
+                   Margin="0,0,-8,-1"
+                   RenderTransformOrigin="0.5,0.5"
+                   Grid.ColumnSpan="3">
             <Rectangle.RenderTransform>
                 <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="180"/>
-                    <TranslateTransform/>
+                    <ScaleTransform />
+                    <SkewTransform />
+                    <RotateTransform Angle="180" />
+                    <TranslateTransform />
                 </TransformGroup>
             </Rectangle.RenderTransform>
             <Rectangle.Clip>
-                <RectangleGeometry Rect="-1,5,110,200"  RadiusX="10" RadiusY="10"/>
+                <RectangleGeometry Rect="-1,5,110,200"
+                                   RadiusX="10"
+                                   RadiusY="10" />
             </Rectangle.Clip>
         </Rectangle>
-        <Rectangle Grid.ColumnSpan="2" Fill="#4AB8FF" HorizontalAlignment="Left" Height="55" Margin="10,113,0,0" VerticalAlignment="Top" Width="88" RadiusY="10" RadiusX="10">
+        <Rectangle Grid.ColumnSpan="3"
+                   Fill="#4AB8FF"
+                   HorizontalAlignment="Left"
+                   Height="55"
+                   Margin="10,113,0,0"
+                   VerticalAlignment="Top"
+                   Width="88"
+                   RadiusY="10"
+                   RadiusX="10">
 
         </Rectangle>
-        <Image x:Name="ImgCard" Height="70" VerticalAlignment="Top" Width="110" Source="gpu1.png" Margin="0,0,-10,0" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="nom_carte"  HorizontalAlignment="Left" Margin="7,85,-6,0" Text="Galax 1050 TI" Width="99" Grid.ColumnSpan="2" Foreground="Black"/>
-        <TextBlock x:Name="eth_S"  HorizontalAlignment="Left" Margin="16,120,0,0" Text="5.87 MH/s" Foreground="#F6C78E"/>
-        <TextBlock x:Name="eth_S_Copy"  HorizontalAlignment="Left" Margin="16,133,0,0" Text="160 Watts" Foreground="#DBDE86"/>
-        <TextBlock x:Name="eth_S_Copy1"  HorizontalAlignment="Left" Margin="32,147,0,0" Text="150 €" Foreground="#8CFFCA"/>
+        <Image x:Name="ImgCard"
+               Height="127"
+               VerticalAlignment="Top"
+               Source="placeholder_nvidia.jpg"
+               Margin="3,20,-83,0"
+               SnapsToDevicePixels="True"
+               UseLayoutRounding="True" />
+        <TextBlock x:Name="nom_carte"
+                   HorizontalAlignment="Left"
+                   Margin="7,85,-6,0"
+                   Text="Galax 1050 TI"
+                   Width="99"
+                   Grid.ColumnSpan="3"
+                   Foreground="Black" />
+        <TextBlock x:Name="eth_S"
+                   HorizontalAlignment="Left"
+                   Margin="16,120,0,0"
+                   Text="5.87 MH/s"
+                   Foreground="#F6C78E" />
+        <TextBlock x:Name="eth_S_Copy"
+                   HorizontalAlignment="Left"
+                   Margin="16,133,0,0"
+                   Text="160 Watts"
+                   Foreground="#DBDE86" />
+        <TextBlock x:Name="eth_S_Copy1"
+                   HorizontalAlignment="Left"
+                   Margin="32,147,0,0"
+                   Text="150 €"
+                   Foreground="#8CFFCA" />
     </Grid>
 
 

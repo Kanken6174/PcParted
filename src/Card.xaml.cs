@@ -1,5 +1,7 @@
 ﻿using System.Windows.Controls;
 using System.Windows.Input;
+using System;
+using System.Windows.Media.Imaging;
 
 namespace PcParted
 {
@@ -15,7 +17,10 @@ namespace PcParted
 
         private void UC_clicked(object sender, MouseButtonEventArgs e)
         {
-            nom_carte.Text = "Incroyable! cliqué!!";
+            var Ipath = @"https://pcper.com/wp-content/uploads/2020/10/nvidia-geforce-rtx-3070-fe-9.jpg";
+            nom_carte.Text = "Nice click";
+
+            ImgCard.Source = new BitmapImage(new Uri(Ipath, UriKind.Absolute));
         }
     }
 }
