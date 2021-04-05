@@ -28,3 +28,4 @@ Y:\C#\PcParted\src\obj\Debug-git\MasterDetail.baml
 Y:\C#\PcParted\src\obj\Debug-git\Parametres.g.cs
 Y:\C#\PcParted\src\obj\Debug-git\Parametres.baml
 Y:\C#\PcParted\src\obj\Debug-git\PcParted.csproj.CopyComplete
+Y:\C#\PcParted\src\obj\Debug-git\PcParted_Content.g.cs

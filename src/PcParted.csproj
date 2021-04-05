@@ -167,7 +167,7 @@
     <Resource Include="gpu-mining.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="loader.gif" />
+    <Content Include="loader.gif" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="placeholder_nvidia.jpg" />

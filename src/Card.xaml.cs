@@ -17,10 +17,9 @@ namespace PcParted
 
         private void UC_clicked(object sender, MouseButtonEventArgs e)
         {
-            var Ipath = @"https://pcper.com/wp-content/uploads/2020/10/nvidia-geforce-rtx-3070-fe-9.jpg";
+            //var Ipath = @"https://pcper.com/wp-content/uploads/2020/10/nvidia-geforce-rtx-3070-fe-9.jpg";
             nom_carte.Text = "Nice click";
-
-            ImgCard.Source = new BitmapImage(new Uri(Ipath, UriKind.Absolute));
+            //ImgCard.Source = new BitmapImage(new Uri(Ipath, UriKind.Absolute));
         }
     }
 }

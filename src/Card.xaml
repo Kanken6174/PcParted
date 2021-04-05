@@ -75,13 +75,6 @@
                    RadiusX="10">
 
         </Rectangle>
-        <Image x:Name="ImgCard"
-               Height="127"
-               VerticalAlignment="Top"
-               Source="placeholder_nvidia.jpg"
-               Margin="3,20,-83,0"
-               SnapsToDevicePixels="True"
-               UseLayoutRounding="True" />
         <TextBlock x:Name="nom_carte"
                    HorizontalAlignment="Left"
                    Margin="7,85,-6,0"
@@ -104,6 +97,23 @@
                    Margin="32,147,0,0"
                    Text="150 €"
                    Foreground="#8CFFCA" />
+        <MediaElement x:Name="ImgCard"
+                      HorizontalAlignment="Left"
+                      LoadedBehavior="Play"
+                      UnloadedBehavior="Play"
+                      Visibility="Visible"
+                      Height="68"
+                      Margin="5,6,-2,0"
+                      VerticalAlignment="Top"
+                      Width="97"
+                      Source="Y:\C#\PcParted\src\ressources\loader.gif"
+                      SpeedRatio="1"
+                      IsMuted="False"
+                      >
+            <MediaElement.OpacityMask>
+                <ImageBrush ImageSource="Y:\C#\PcParted\src\ressources\loader.gif" />
+            </MediaElement.OpacityMask>
+        </MediaElement>
     </Grid>
 
 
