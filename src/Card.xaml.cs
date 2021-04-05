@@ -2,6 +2,7 @@
 using System.Windows.Input;
 using System;
 using System.Windows.Media.Imaging;
+using System.Timers;
 
 namespace PcParted
 {
@@ -17,9 +18,20 @@ namespace PcParted
 
         private void UC_clicked(object sender, MouseButtonEventArgs e)
         {
-            //var Ipath = @"https://pcper.com/wp-content/uploads/2020/10/nvidia-geforce-rtx-3070-fe-9.jpg";
             nom_carte.Text = "Nice click";
-            //ImgCard.Source = new BitmapImage(new Uri(Ipath, UriKind.Absolute));
+        }
+
+        private void ImgCard_Loaded(object sender, System.Windows.RoutedEventArgs e)
+        {
+            var Ipath = @"https://media.ldlc.com/r374/ld/products/00/05/80/47/LD0005804743_1.jpg";
+            BitmapImage Ipic = new BitmapImage(new Uri(Ipath, UriKind.Absolute));
+            ImgCard.Source = Ipic;
+            Ipic.DownloadCompleted += new EventHandler(PicDL);
+        }
+
+        private void PicDL(object sender, EventArgs e)
+        {
+            myMediaElement.Visibility = System.Windows.Visibility.Hidden;
         }
     }
 }

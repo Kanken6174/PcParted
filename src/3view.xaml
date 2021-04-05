@@ -119,8 +119,8 @@
                            Width="{Binding ElementName=expOneDay, Path=ActualWidth}"
                            HorizontalAlignment="Stretch" />
             </Expander.Header>
-            <Grid Height="450">
-                <local:UserControl2 Margin="0,0,0,0" />
+            <Grid Height="483">
+                <local:UserControl2 Margin="20,1,21,-1" />
             </Grid>
         </Expander>
         <Button Content="card test"
