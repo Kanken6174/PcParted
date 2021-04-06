@@ -78,7 +78,7 @@
                    Width="330" />
         <Button Content="Bookmark"
                 HorizontalAlignment="Left"
-                Margin="127,388,0,0"
+                Margin="127,402,0,0"
                 VerticalAlignment="Top"
                 Width="75"/>
     </Grid>

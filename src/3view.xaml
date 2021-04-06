@@ -84,7 +84,7 @@
                       Grid.Column="1"
                       VerticalScrollBarVisibility="Auto"
                       Template="{DynamicResource Template_SCV1}"
-                      Margin="0,41,0,0">
+                      Margin="0,10,0,0">
             <WrapPanel x:Name="wrappy"
                        Height="{Binding ElementName=MyScrollViewer, Path=ViewportHeight}"
                        Grid.Column="1"

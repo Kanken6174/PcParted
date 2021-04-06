@@ -6,31 +6,40 @@
         xmlns:local="clr-namespace:PcParted"
         mc:Ignorable="d"
         Title="PcParted : The miner's almanach"
-        Height="550"
+        Height="585"
         Width="800"
         SnapsToDevicePixels="True"
         Background="#464646"
         WindowStyle="ToolWindow"
         x:Name="aWindow">
-    <ContentControl x:Name="MainView"
-                    Background="#464646">
-        <TabControl HorizontalAlignment="Left"
-                    Height="520"
-                    VerticalAlignment="Top"
-                    Width="792">
-            <TabItem Header="Vue générale">
-                <local:MainApp x:Name="MainViewport" Background="DimGray"/>
-            </TabItem>
-            <TabItem Header="Bookmarks">
-                <local:UserControl5 />
-            </TabItem>
-            <TabItem Header="graphes">
-                <local:UserControl5 />
-            </TabItem>
-            <TabItem Header="paramètres">
-                <local:UserControl6 />
-            </TabItem>
-        </TabControl>
-    </ContentControl>
+    <Grid>
+        <ContentControl x:Name="MainView"
+                        Background="#464646"
+                        Margin="0,37,0,0">
+            <TabControl HorizontalAlignment="Left"
+                        Height="536"
+                        VerticalAlignment="Top"
+                        Width="792"
+                        Margin="0,-18,0,-35">
+                <TabItem Header="Vue générale">
+                    <local:MainApp x:Name="MainViewport"
+                                   Background="DimGray" />
+                </TabItem>
+                <TabItem Header="Bookmarks">
+                    <local:UserControl5 />
+                </TabItem>
+                <TabItem Header="graphes">
+                    <local:UserControl5 />
+                </TabItem>
+                <TabItem Header="paramètres">
+                    <local:UserControl6 />
+                </TabItem>
+            </TabControl>
+        </ContentControl>
+        <local:UserControl7 HorizontalAlignment="Left"
+                            Height="19"
+                            VerticalAlignment="Top"
+                            Width="792" />
+    </Grid>
 
 </Window>
