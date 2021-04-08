@@ -35,10 +35,9 @@
         <TextBlock HorizontalAlignment="Left"
                    Margin="16,10,0,0"
                    TextWrapping="Wrap"
-                   Text="Liste des bookmarks"
                    VerticalAlignment="Top"
-                   RenderTransformOrigin="1.185,6.167" 
-                   Foreground="AliceBlue"/>
+                   RenderTransformOrigin="1.185,6.167"
+                   Foreground="AliceBlue"><Run Text="Liste" /><LineBreak /><Run /></TextBlock>
         <!--En-dessous : les rectangles des totaux-->
         <Rectangle Fill="#4AB8FF"
                    HorizontalAlignment="Left"
@@ -80,7 +79,7 @@
                   VerticalAlignment="Stretch"
                   MaxWidth="600"
                   Background="{x:Null}"
-                  Margin="1,37,1,160">
+                  Margin="1,40,1,160">
             <DataGrid.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -111,6 +110,11 @@
             </DataGrid.Columns>
 
         </DataGrid>
+        <ComboBox HorizontalAlignment="Left"
+                  Margin="64,10,0,0"
+                  VerticalAlignment="Top"
+                  Width="120"
+                  SelectionChanged="ComboBox_SelectionChanged" />
 
     </Grid>
 </UserControl>
