@@ -10,7 +10,7 @@
              Background="Transparent">
     <UserControl.Resources>
         <Style x:Key="VSC_bar">
-            
+
         </Style>
 
         <ControlTemplate x:Key="Template_SCV1"
@@ -67,7 +67,7 @@
             </Grid>
         </ControlTemplate>
     </UserControl.Resources>
-    
+
     <!-- Definition de colonnes de la grid -->
     <Grid x:Name="MainGrid">
         <Grid.ColumnDefinitions>
@@ -84,7 +84,7 @@
                       Grid.Column="1"
                       VerticalScrollBarVisibility="Auto"
                       Template="{DynamicResource Template_SCV1}"
-                      Margin="0,10,0,0">
+                      Margin="0,40,0,0">
             <WrapPanel x:Name="wrappy"
                        Height="{Binding ElementName=MyScrollViewer, Path=ViewportHeight}"
                        Grid.Column="1"
@@ -129,6 +129,22 @@
                 Margin="108,0,137,23"
                 VerticalAlignment="Bottom"
                 Grid.Column="1" />
+        <TextBox Grid.Column="1"
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="10,10,0,0"
+                 TextWrapping="Wrap"
+                 Text="Votre recherche ici"
+                 VerticalAlignment="Top"
+                 Width="309"
+                 TextChanged="TextBox_TextChanged" />
+        <Button Content="Q&#xD;&#xA;"
+                Grid.Column="1"
+                HorizontalAlignment="Left"
+                Margin="319,10,0,0"
+                VerticalAlignment="Top"
+                Width="25"
+                Height="23" />
     </Grid>
 
 

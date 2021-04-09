@@ -30,3 +30,5 @@ Y:\C#\PcParted\src\obj\Debug-git\Parametres.baml
 Y:\C#\PcParted\src\obj\Debug-git\PcParted_Content.g.cs
 Y:\C#\PcParted\src\obj\Debug-git\ToolBar.g.cs
 Y:\C#\PcParted\src\obj\Debug-git\ToolBar.baml
+Y:\C#\PcParted\bin\PcParted.exe.config
+Y:\C#\PcParted\src\obj\Debug-git\PcParted.csproj.CopyComplete

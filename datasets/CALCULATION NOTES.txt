@@ -1,0 +1,3 @@
+ROPS * ClockSpeed = Fill Rate
+TMU * ClockSpeed = Texture Fill Rate & RT perf
+CU * 64 * ClockSpeed * 2 = TFLOPS

@@ -88,13 +88,6 @@
                    Text="0    Hashrate(MH/S)   300+"
                    VerticalAlignment="Top"
                    Width="150" />
-        <TextBox HorizontalAlignment="Left"
-                 Height="23"
-                 Margin="10,10,0,0"
-                 TextWrapping="Wrap"
-                 Text="Votre recherche ici"
-                 VerticalAlignment="Top"
-                 Width="168" />
         <Button Content="Appliquer"
                 HorizontalAlignment="Left"
                 Margin="44,384,0,0"
