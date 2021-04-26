@@ -1,0 +1,367 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF5CYzD2/Ta6qs=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 848,
+							"top": 440,
+							"width": 273,
+							"height": 129
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF5CY0CJ/Ti12E=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 944,
+							"top": 488,
+							"width": 60,
+							"height": 25,
+							"text": "Arduino"
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF5CY2D7fT4yGQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"width": 50,
+							"height": 50
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF5CY2NhPT7NoE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 216,
+							"width": 257,
+							"height": 137
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF5CY3M+vUEAo4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"width": 50,
+							"height": 50
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF5CY3SgvUHygY=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 256,
+							"top": 464,
+							"width": 265,
+							"height": 137
+						},
+						{
+							"_type": "UMLInterfaceView",
+							"_id": "AAAAAAF5CY4qcfUQjys=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAF5CY4qcfUO3mQ="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF5CY4qcvURP6Y=",
+									"_parent": {
+										"$ref": "AAAAAAF5CY4qcfUQjys="
+									},
+									"model": {
+										"$ref": "AAAAAAF5CY4qcfUO3mQ="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF5CY4qcvUScD0=",
+											"_parent": {
+												"$ref": "AAAAAAF5CY4qcvURP6Y="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 1168,
+											"top": -64,
+											"width": 64.32080078125,
+											"height": 13,
+											"text": "«interface»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF5CY4qcvUTl+w=",
+											"_parent": {
+												"$ref": "AAAAAAF5CY4qcvURP6Y="
+											},
+											"font": "Arial;13;1",
+											"left": 1141,
+											"top": 518,
+											"width": 200.052734375,
+											"height": 13,
+											"text": "potentiometers and other inputs"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF5CY4qcvUUJVg=",
+											"_parent": {
+												"$ref": "AAAAAAF5CY4qcvURP6Y="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 1168,
+											"top": -64,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF5CY4qcvUVC74=",
+											"_parent": {
+												"$ref": "AAAAAAF5CY4qcvURP6Y="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 1168,
+											"top": -64,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 1136,
+									"top": 511,
+									"width": 210.052734375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF5CY4qcvUScD0="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF5CY4qcvUTl+w="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF5CY4qcvUUJVg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF5CY4qcvUVC74="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF5CY4qcvUWnvE=",
+									"_parent": {
+										"$ref": "AAAAAAF5CY4qcfUQjys="
+									},
+									"model": {
+										"$ref": "AAAAAAF5CY4qcfUO3mQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 584,
+									"top": -32,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF5CY4qcvUXVCM=",
+									"_parent": {
+										"$ref": "AAAAAAF5CY4qcfUQjys="
+									},
+									"model": {
+										"$ref": "AAAAAAF5CY4qcfUO3mQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 584,
+									"top": -32,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF5CY4qcvUYVtI=",
+									"_parent": {
+										"$ref": "AAAAAAF5CY4qcfUQjys="
+									},
+									"model": {
+										"$ref": "AAAAAAF5CY4qcfUO3mQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 584,
+									"top": -32,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF5CY4qcvUZFrk=",
+									"_parent": {
+										"$ref": "AAAAAAF5CY4qcfUQjys="
+									},
+									"model": {
+										"$ref": "AAAAAAF5CY4qcfUO3mQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 584,
+									"top": -32,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 1136,
+							"top": 488,
+							"width": 210.052734375,
+							"height": 49,
+							"stereotypeDisplay": "icon",
+							"nameCompartment": {
+								"$ref": "AAAAAAF5CY4qcvURP6Y="
+							},
+							"suppressAttributes": true,
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAF5CY4qcvUWnvE="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF5CY4qcvUXVCM="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF5CY4qcvUYVtI="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF5CY4qcvUZFrk="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF5CY7MiPU8rrA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 232,
+							"width": 113,
+							"height": 38,
+							"text": "C# application"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF5CY8H//VC3yw=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 640,
+							"top": 440,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF5CY8SVPVFT+8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 312,
+							"top": 504,
+							"width": 121,
+							"height": 38,
+							"text": "Openglove DLL (C++)"
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAF5CY+fG/VN1Hg=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 16,
+							"top": 472,
+							"width": 144,
+							"height": 128
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF5CY+sUvVSnvI=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 56,
+							"top": 512,
+							"width": 65.630859375,
+							"height": 25,
+							"text": "SteamVR"
+						}
+					]
+				},
+				{
+					"_type": "Hyperlink",
+					"_id": "AAAAAAF5CY0pivTnOJg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Hyperlink1"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAF5CY4qcfUO3mQ=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "potentiometers and other inputs"
+				},
+				{
+					"_type": "UMLCollaboration",
+					"_id": "AAAAAAF5CY/tX/VWM0I=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Collaboration1"
+				}
+			]
+		}
+	]
+}
