@@ -61,7 +61,10 @@ namespace logicPC
 
         public override string ToString()
         {
-            return "{}";
+            string toReturn = "";
+            toReturn = $"{nomModele} {dateSortie} {architecture} {bus} {constructeur} {frequenceGpu} {frequenceMemoire} {shaderUnits}/{tmuUnits}/{ropUnits} " +
+                $"{wattage} {prix} {hashrate} {indicateurPuissance} {wattageEstExtrapole} {prixEstExtrapole} {urlVersImage} {line} ";
+            return toReturn;
         }
     }
 }

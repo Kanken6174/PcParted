@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcParted", "PcParted.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "logicPC", "..\logicPC\logicPC.csproj", "{7C9014EC-6F54-4A1C-AE2D-EDCD8BA7403F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{03B36143-D102-49F5-A740-B123E3957543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestImport", "Tests\TestImport\TestImport.csproj", "{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,9 +35,20 @@ Global
 		{7C9014EC-6F54-4A1C-AE2D-EDCD8BA7403F}.logic|Any CPU.Build.0 = Debug|Any CPU
 		{7C9014EC-6F54-4A1C-AE2D-EDCD8BA7403F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C9014EC-6F54-4A1C-AE2D-EDCD8BA7403F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}.Debug-git|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}.Debug-git|Any CPU.Build.0 = Debug|Any CPU
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}.logic|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}.logic|Any CPU.Build.0 = Debug|Any CPU
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA97FF7A-95AF-4889-9F85-A9BE7000EC0C} = {03B36143-D102-49F5-A740-B123E3957543}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A301BC1-7FB7-4EE7-964F-902C8408ECF0}

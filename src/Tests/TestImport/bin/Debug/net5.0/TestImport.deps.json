@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestImport/1.0.0": {
+        "dependencies": {
+          "logicPC": "1.0.0"
+        },
+        "runtime": {
+          "TestImport.dll": {}
+        }
+      },
+      "logicPC/1.0.0": {
+        "runtime": {
+          "logicPC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestImport/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "logicPC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
