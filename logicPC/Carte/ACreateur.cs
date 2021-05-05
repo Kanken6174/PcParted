@@ -1,13 +1,10 @@
-﻿namespace logicPC
-{
-    abstract class ACreateur
-    {
-        public abstract ICarte CreerCarte(string input, int lineNum);
-        public ICarte unTruc()
-        {
-            ICarte produit = CreerCarte("un nom de modèle   de test   séparé  par des tabs", 0);
+﻿using System.Collections.Generic;
 
-            return produit;
-        }
+namespace logicPC
+{
+    public abstract class ACreateur
+    {
+        public abstract Dictionary<int, ICarte> CreerCarte(Dictionary<int, string[]> dico);
+
     }
 }
