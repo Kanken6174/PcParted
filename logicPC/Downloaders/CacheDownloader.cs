@@ -8,7 +8,7 @@ namespace logicPC
 {
     class CacheDownloader
     {
-        public void DownIt(Uri toDown)
+        public static void DownIt(Uri toDown)
         {
  /*           var src = new BitmapImage();
             src.BeginInit();

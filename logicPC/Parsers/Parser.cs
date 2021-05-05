@@ -8,17 +8,9 @@ using System.Globalization;
 
 namespace logicPC.Parsers
 {
-    class Parser
+    public class Parser
     {
         public Parser()
-        {
-
-        }
-        /// <summary>
-        /// Utilisé pour parser un tableau de string déjà deepSplit en quelquechose d'utilisable pour la création d'une carte
-        /// </summary>
-        /// <param name="str">string à traiter</param>
-        public void parse(string[] strIN, string nomModele, DateTime dateSortie, string architecture, int bus, int constructeur, int tailleMemoire, int frequenceGpu, int frequenceMemoire, int shaderUnits, int tmuUnits, int ropUnits, int wattage, float prix, float hashrate, float indicateurPuissance, bool wattageEstExtrapole, bool prixEstExtrapole, Uri urlVersImage, int line)
         {
 
         }
@@ -28,7 +20,7 @@ namespace logicPC.Parsers
         /// </summary>
         /// <param name="str">string à traiter</param>
         /// <returns></returns>
-        public string[] deepSplit(string[] str)
+        public static string[] DeepSplit(string[] str)
         {
             string[] strOut = new string[10];
             string[] strTemp = str[7].Split('/');   // [7] contient des données de la forme .../.../... qui doivent être séparées
@@ -38,7 +30,7 @@ namespace logicPC.Parsers
             return strOut;
         }
 
-        public int ParseToIntNoSpace(string str)
+        public static int ParseToIntNoSpace(string str)
         {
             int newInt = 0;
             bool success = false;
@@ -59,7 +51,7 @@ namespace logicPC.Parsers
                     {
                         if (str.Equals("System Shared", StringComparison.InvariantCultureIgnoreCase))
                             return 0;
-                        else if (str.IndexOf(' ') == -1 || str.Split(' ')[0] == "") //pas d'espaces, seul cas : GDDR[nombre], on récupère ce nombre seul.
+                        else if (!str.Contains(' ') || str.Split(' ')[0] == "") //pas d'espaces, seul cas : GDDR[nombre], on récupère ce nombre seul.
                         {
                             char c = str.Last();
                             newInt = (int)c - '0';
@@ -85,7 +77,7 @@ namespace logicPC.Parsers
                 return -1; //unexcpected
         }
 
-        public DateTime StringToDate(string strIN)
+        public static DateTime StringToDate(string strIN)
         {
 
             DateTime dateSortie = default;

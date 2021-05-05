@@ -17,23 +17,17 @@ namespace logicPC
         /// <returns></returns>
         public object FileImportOP(string filePath)
         {
-            Dictionary<int, Uri> dico = new Dictionary<int, Uri>();
+            Dictionary<int, Uri> dico = new();
 
             IEnumerable<string> lines = File.ReadLines(filePath);       //on récupères les lignes du fichier
             foreach (string str in lines)
             {
-                Uri uriToPic = new Uri("atest");
-                uriToPic = new Uri(str);            //peut-être about:blank, cela affichera un placeholder à la place.
+                Uri uriToPic = new(str);            //peut-être about:blank, cela affichera un placeholder à la place.
 
                 dico.Add(0, uriToPic);
             }
 
             return dico;
-        }
-        private Uri StringToUri(string filepath)
-        {
-            Uri fileUri = new Uri("file:///" + filepath);
-            return fileUri;
         }
     }
 

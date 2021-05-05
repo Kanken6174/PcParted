@@ -17,24 +17,17 @@ namespace logicPC
         public object FileImportOP(string filePath)
         {
             int b = 0;
-            Parsers.Parser parser = new Parsers.Parser();
-            Dictionary<int, string[]> dico = new Dictionary<int, string[]>();
+            Dictionary<int, string[]> dico = new();
             IEnumerable<string> lines = File.ReadLines(filePath);       //on récupères les lignes du fichier
             foreach (string str in lines)
             {
                 string[] strTab = str.Split('\t'); // on les sépare(délémité par des tabs ici)
-                string[] strTabSplit = parser.deepSplit(strTab); //sépare également les TMU/ROP/... séparés par des /
+                string[] strTabSplit = Parsers.Parser.DeepSplit(strTab); //sépare également les TMU/ROP/... séparés par des /
                 dico.Add(b, strTabSplit);
                 b++;
             }
 
             return dico;
-        }
-
-        private Uri StringToUri(string filepath)
-        {
-            Uri fileUri = new Uri("file:///" + filepath);
-            return fileUri;
         }
     }
 

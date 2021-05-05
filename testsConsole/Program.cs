@@ -7,10 +7,10 @@ namespace testsConsole
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            FileImporter fI = new FileImporter();
-            CreateurConcret Cardfactory = new CreateurConcret();
+            FileImporter fI = new();
+            CreateurConcret Cardfactory = new();
 
             Dictionary<int, string[]> dico = (Dictionary<int, string[]>)fI.Import(@"Y:\cs\PcParted\datasets\names.AMD.pnm");
 
