@@ -29,12 +29,12 @@ namespace logicPC
         /// </summary>
         /// <param name="dico"></param>
         /// <returns></returns>
-        public override Dictionary<int, ICarte> CreerCarte(Dictionary<int, string[]> dico)
+        public override Dictionary<int, Carte> CreerCarte(Dictionary<int, List<string>> dico)
         {
-            Dictionary<int, ICarte> MainSet = new();
+            Dictionary<int, Carte> MainSet = new();
 
 
-            foreach (KeyValuePair<int, string[]> pair in dico)
+            foreach (KeyValuePair<int, List<string>> pair in dico)
             {
                 Carte uneNouvelleCarte = Manufacturecarte(pair.Value);
                 MainSet.Add(pair.Key, uneNouvelleCarte);
@@ -43,7 +43,7 @@ namespace logicPC
             return MainSet;
         }
 
-        public static Carte Manufacturecarte(string[] toProcess)
+        public static Carte Manufacturecarte(List<string> toProcess)
         {
             int bus = -1, constructeur = -1, frequenceGpu = -1, frequenceMemoire = -1, shaderUnits = -1, tmuUnits = -1, ropUnits = -1, wattage = -1;
             float prix = -1, hashrate = -1, indicateurPuissance = -1;

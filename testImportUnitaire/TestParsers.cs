@@ -1,9 +1,7 @@
-﻿using System;
-using logicPC;
-using System.Collections.Generic;
-using System.Diagnostics;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using logicPC;
 using logicPC.Parsers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace testsParsersUnitaires
 {
@@ -27,7 +25,7 @@ namespace testsParsersUnitaires
         public void TestToDateSimple()
         {
             DateTime dateDeTest = new();
-            DateTime dateAComparer = new DateTime(2020, 9, 1, 0, 00, 00);
+            DateTime dateAComparer = new(2020, 9, 1, 0, 00, 00);
 
             dateDeTest = Parser.StringToDate("Sep 1st, 2020");
             Assert.AreEqual(dateAComparer, dateDeTest);
@@ -38,7 +36,7 @@ namespace testsParsersUnitaires
         public void TestToDateRaccourci()
         {
             DateTime dateDeTest = new();
-            DateTime dateAComparer = new DateTime(2020, 1, 1, 0, 00, 00);
+            DateTime dateAComparer = new(2020, 1, 1, 0, 00, 00);
 
             dateDeTest = Parser.StringToDate("2020");
             Assert.AreEqual(dateAComparer, dateDeTest);
@@ -49,11 +47,18 @@ namespace testsParsersUnitaires
         public void TestToDateSale()
         {
             DateTime dateDeTest = new();
-            DateTime dateAComparer = new DateTime(0001, 1, 1, 0, 00, 00);
+            DateTime dateAComparer = new(0001, 1, 1, 0, 00, 00);
 
             dateDeTest = Parser.StringToDate("Du charabia absolu");
             Assert.AreEqual(dateAComparer, dateDeTest);
             Console.WriteLine(dateDeTest + "|" + dateAComparer);
+        }
+
+        [TestMethod]
+        public void TestBusParser()
+        {
+            string bus = "PCIe3x16";
+            Assert.AreEqual((int)EBusTypes.PCIe3x16, BusParser.ParseBus(bus));
         }
     }
 }

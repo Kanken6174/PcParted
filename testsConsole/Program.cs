@@ -2,6 +2,8 @@
 using logicPC;
 using System.Collections.Generic;
 using System.Diagnostics;
+using logicPC.ImportStrategies;
+using logicPC.Extrapolation;
 
 namespace testsConsole
 {
@@ -9,30 +11,34 @@ namespace testsConsole
     {
         static void Main()
         {
-            FileImporter fI = new();
-            CreateurConcret Cardfactory = new();
+            string path = @"Y:\cs\datacrawler";
+            string[] fileName = { "AMD", "NVIDIA" };
 
-            Dictionary<int, string[]> dico = (Dictionary<int, string[]>)fI.Import(@"Y:\cs\PcParted\datasets\names.AMD.pnm");
+            ImporterManager Im = new();
+            Dictionary<int, Carte> deckTemp = new();
+            Dictionary<string, Carte> MainDataset = new();
 
-            foreach (KeyValuePair<int, string[]> page in dico)
+
+            for (int i = 0; i < 2; i++)
             {
-                Console.Write(page.Key + " ");
-                foreach (string str in page.Value)
+                deckTemp = ImporterManager.ImportAll(path, fileName[i]+".pnm", fileName[i]+".pem", null);
+
+                foreach (KeyValuePair<int, Carte> carte in deckTemp)
                 {
-                    Console.Write(str + " ");
+                    Console.WriteLine(carte.ToString());
+                    MainDataset.Add(fileName[i]+carte.Key, carte.Value);
                 }
-                Console.WriteLine();
             }
 
-            Console.WriteLine("---------------------------------------------------------------------------------------------");
+            Console.WriteLine("-----------------------------------------------------------------------------");
             Console.WriteLine();
 
-            Dictionary<int, ICarte> deck = Cardfactory.CreerCarte(dico);
-
-            foreach(KeyValuePair<int, ICarte> carte in deck)
+            foreach (KeyValuePair<string, Carte> carte in MainDataset)
             {
-               Console.WriteLine(carte.Value.ToString());
+                MainDataset[carte.Key] = Extrapolator.ExtrapolateCardData(carte.Value, 0);
+                Console.WriteLine($"{carte.Key}|{carte.Value.ToStringNameAndPower()}");
             }
+
         }
     }
 }

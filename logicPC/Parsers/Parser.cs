@@ -8,7 +8,7 @@ using System.Globalization;
 
 namespace logicPC.Parsers
 {
-    public class Parser
+    public class Parser : DateParser
     {
         public Parser()
         {
@@ -60,7 +60,8 @@ namespace logicPC.Parsers
                         {
 
                             string[] strAR = str.Split(' ');
-                            newInt = Int32.Parse(strAR[0]);
+                            string strClean = strAR[0].Split('.')[0];
+                            newInt = Int32.Parse(strClean);
 
                             if (strAR[1].Equals("GHZ", StringComparison.InvariantCultureIgnoreCase) || strAR[1].Equals("GB", StringComparison.InvariantCultureIgnoreCase))
                                 newInt *= 1000;
@@ -75,73 +76,6 @@ namespace logicPC.Parsers
                 return 20;  //the input doesn't contain any numbers because it's HBM2 memory (got cut to just HMB)
             else
                 return -1; //unexcpected
-        }
-
-        public static DateTime StringToDate(string strIN)
-        {
-
-            DateTime dateSortie = default;
-
-
-            if (strIN.Any(char.IsDigit))
-            {
-
-                string[] strTemp = strIN.Split(' ');
-                string str = default;
-                int t = 0, r = 0, n = 0, s = 0;
-
-                if (strTemp.Length > 1)
-                {
-                    str = strTemp[1];
-                }
-                    string dateTemp = default;
-                if (str != null)
-                {
-                    t = str.IndexOf('t');   // XX th
-                    r = str.IndexOf('r');   // 3rd
-                    n = str.IndexOf('n');   // 2nd
-                    s = str.IndexOf('s');   // 1st
-                }
-                else
-                {
-                    str = strTemp[0];
-                }
-
-                if (t <= 0 && r <= 0 && s <= 0 && n<= 0)
-                {
-                    CultureInfo provider = CultureInfo.InvariantCulture;
-                    string format = "yyyy";
-                    dateSortie = DateTime.ParseExact(str, format, provider);
-                }
-                else
-                {
-                    if (s != -1)
-                    {
-                        dateTemp = str.Remove(s, 2);
-                    }
-                    else if (r != -1)
-                    {
-                        dateTemp = str.Remove(r, 2);
-                    }
-                    else if (n != -1)
-                    {
-                        dateTemp = str.Remove(n, 2);
-                    }
-                    else if (t != -1)
-                    {
-                        dateTemp = str.Remove(t, 2);
-                    }
-
-                    strTemp[1] = dateTemp;
-                    str = string.Join(' ', strTemp);
-                    dateSortie = DateTime.Parse(str);
-                }
-            }
-            else
-            {
-                dateSortie = default;
-            }
-            return dateSortie;
         }
     }
 }

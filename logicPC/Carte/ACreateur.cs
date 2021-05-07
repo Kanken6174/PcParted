@@ -4,7 +4,7 @@ namespace logicPC
 {
     public abstract class ACreateur
     {
-        public abstract Dictionary<int, ICarte> CreerCarte(Dictionary<int, string[]> dico);
+        public abstract Dictionary<int, Carte> CreerCarte(Dictionary<int, List<string>> dico);
 
     }
 }

@@ -25,9 +25,10 @@ namespace logicPC
         public int ShaderUnits { get; private set; }
         public int TmuUnits { get; private set; }
         public int RopUnits { get; private set; }
+        public int IPC { get; private set; }
         public int Wattage { get; private set; }
         public float Prix { get; private set; }
-        public float Hashrate { get; private set; }
+        public double Hashrate { get; private set; }
         public float IndicateurPuissance { get; private set; }
         public bool WattageEstExtrapole { get; private set; }
         public bool PrixEstExtrapole { get; private set; }
@@ -60,9 +61,44 @@ namespace logicPC
 
         public override string ToString()
         {
-            string toReturn = $"{NomModele} {DateSortie} {Architecture} {Bus} {Constructeur} {FrequenceGpu} {FrequenceMemoire} {ShaderUnits}/{TmuUnits}/{RopUnits} " +
+            string toReturn = $"{NomModele} {DateSortie} {Architecture} {BusToString()} {ConstructeurToString()} {FrequenceGpu} {FrequenceMemoire} {ShaderUnits}/{TmuUnits}/{RopUnits} " +
     $"{Wattage} {Prix} {Hashrate} {IndicateurPuissance} {WattageEstExtrapole} {PrixEstExtrapole} {UrlVersImage} {Line} ";
             return toReturn;
+        }
+
+        public string ToStringNameAndPower()
+        {
+            return $"{NomModele} : {IndicateurPuissance}";
+        }
+
+        public string ConstructeurToString()
+        {
+            var enumDisplayStatus = (EFabricant)Constructeur;
+            string stringValue = enumDisplayStatus.ToString();
+            return stringValue;
+        }
+
+        public string BusToString()
+        {
+            var enumDisplayStatus = (EBusTypes)Constructeur;
+            string stringValue = enumDisplayStatus.ToString();
+            return stringValue;
+        }
+
+        public void acceptExtrapolatedData(double hashrate, float IndicateurPuissance)
+        {
+            Hashrate = hashrate;
+            this.IndicateurPuissance = IndicateurPuissance;
+        }
+
+        public void SetUri(Uri toSet)
+        {
+            UrlVersImage = toSet;
+        }
+
+        public void SetConstructeur(int toSet)
+        {
+            Constructeur = toSet;
         }
     }
 }
