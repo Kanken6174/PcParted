@@ -3,6 +3,7 @@ using logicPC;
 using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using logicPC.ImportStrategies;
 
 namespace testImportUnitaire
 {
@@ -12,11 +13,9 @@ namespace testImportUnitaire
         [TestMethod]
         public void Executetestimport()
         {
-            FileImporter fI = new();
-            Assert.IsNotNull(fI);
-            Dictionary<int, string[]> dico = (Dictionary<int, string[]>)fI.Import(@"Y:\cs\PcParted\datasets\names.AMD.pnm");
+            Dictionary<int, List<string>> dico = (Dictionary<int, List<string>>)SImporterDataSets<List<string>>.FileImportOP(@"Y:\cs\PcParted\datasets\names.AMD.pnm");
 
-            foreach (KeyValuePair<int, string[]> page in dico)
+            foreach (KeyValuePair<int, List<string>> page in dico)
             {
                 Console.Write(page.Key + " ");
                 foreach (string str in page.Value)
