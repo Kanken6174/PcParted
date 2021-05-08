@@ -2,6 +2,7 @@
 using logicPC;
 using System.Collections.Generic;
 using System.Diagnostics;
+using logicPC.FiltersAndSearch;
 using logicPC.ImportStrategies;
 using logicPC.Extrapolation;
 
@@ -19,7 +20,7 @@ namespace testsConsole
             Dictionary<string, Carte> MainDataset = new();
 
 
-            for (int i = 0; i < 2; i++)
+            for (int i = 1; i < 2; i++)
             {
                 deckTemp = ImporterManager.ImportAll(path, fileName[i]+".pnm", fileName[i]+".pem", null);
 
@@ -37,6 +38,11 @@ namespace testsConsole
             {
                 MainDataset[carte.Key] = Extrapolator.ExtrapolateCardData(carte.Value, 0);
                 Console.WriteLine($"{carte.Key}|{carte.Value.ToStringNameAndPower()}");
+            }
+            MainDataset = Lookup.SearchModel("RtX", MainDataset);
+            foreach (KeyValuePair<string, Carte> carte in MainDataset)
+            {
+                Console.WriteLine(carte.Value.ToString());
             }
 
         }

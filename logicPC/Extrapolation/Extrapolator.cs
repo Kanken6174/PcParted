@@ -15,16 +15,15 @@ namespace logicPC.Extrapolation
             float fillRate = atraiter.RopUnits * GHZ;       //en gigaPixels/s
             float TextureRate = atraiter.TmuUnits * GHZ;    //en gigaTexels/s
 
-            float GFLOPS = 0;
-            double hashrate = 0;
-            
+            float GFLOPS;
             if (atraiter.IPC > 0)
                 GFLOPS = GHZ * atraiter.RopUnits * atraiter.IPC; //IPC = Instructions par cycle 
             else
                 GFLOPS = GHZ * atraiter.RopUnits * 81;    //Defaut 2 instructions par cycle
 
             float GLOPS = GFLOPS / 2;                      //1 opération integer = 2 opérations à point flottant
-            if(difficulty < 0)
+            double hashrate;
+            if (difficulty < 0)
                 hashrate = GLOPS / difficulty;
             else
                 hashrate = GLOPS / difficulte;
