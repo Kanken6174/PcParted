@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="PcParted.UserControl7"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:PcParted"
+             mc:Ignorable="d"
+             d:DesignWidth="800"
+             Height="19">
+    <UserControl.Resources>
+        <Style TargetType="MenuItem">
+            <Setter Property="Background"
+                    Value="DimGray" />
+            <Setter Property="Foreground"
+                    Value="AliceBlue" />
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Menu HorizontalAlignment="Left"
+              Height="19"
+              VerticalAlignment="Top"
+              Width="800"
+              Background="DimGray"
+              Foreground="AliceBlue">
+            <Image
+                   Height="19" />
+            <MenuItem Header="_File"
+                      Foreground="AliceBlue"
+                      Background="DimGray"
+                      RenderTransformOrigin="1.828,0.493">
+                <MenuItem Header="_New GPU list" />
+                <MenuItem Header="_Open GPU list" />
+                <MenuItem Header="_Save GPU list" />
+                <MenuItem Header="_Save GPU list As" />
+                <Separator />
+                <MenuItem Header="_Load dataset" />
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+            <MenuItem Header="_edit"
+                      Height="19"
+                      Foreground="AliceBlue"
+                      Background="DimGray">
+                <MenuItem Header="_Undo" />
+                <MenuItem Header="_Redo" />
+            </MenuItem>
+        </Menu>
+    </Grid>
+</UserControl>
