@@ -82,6 +82,5 @@
                    Width="270"
                    Height="23"
                    Text="Monnaie choisie" />
-
     </Grid>
 </UserControl>

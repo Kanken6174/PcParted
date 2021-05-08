@@ -1,16 +1,12 @@
-﻿using System;
+﻿using logicPC.Conteneurs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using logicPC.Conteneurs;
 
 namespace logicPC.Gestionnaires
 {
     /// <summary>
     /// Classe dédiée à la gestion des listes d'utilisateur
     /// </summary>
-    class GestionnaireListes
+    internal class GestionnaireListes
     {
         public Dictionary<string, UserList> MesListesUtilisateur { get; private set; }
         public string ActiveKey { get; private set; }
@@ -35,7 +31,7 @@ namespace logicPC.Gestionnaires
         public bool AjouterListe(string nom, UserList toAdd)
         {
             int alreadyExists = 1;
-            
+
             if (MesListesUtilisateur.ContainsKey(nom))
             {
                 nom = $"{nom}({alreadyExists})";

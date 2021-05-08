@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Text.RegularExpressions;
-using System.Globalization;
 
 namespace logicPC.Parsers
 {
@@ -12,7 +7,6 @@ namespace logicPC.Parsers
     {
         public Parser()
         {
-
         }
 
         /// <summary>
@@ -58,7 +52,6 @@ namespace logicPC.Parsers
                         }
                         else
                         {
-
                             string[] strAR = str.Split(' ');
                             string strClean = strAR[0].Split('.')[0];
                             newInt = Int32.Parse(strClean);

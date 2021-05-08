@@ -44,8 +44,6 @@
                 <MenuItem Header="_Undo" />
                 <MenuItem Header="_Redo" />
             </MenuItem>
-
         </Menu>
-
     </Grid>
 </UserControl>

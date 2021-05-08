@@ -18,7 +18,6 @@ namespace testsParsersUnitaires
             Assert.AreEqual(toSend[^1], excpected);
             Console.WriteLine(toSend[^1]);
             Console.WriteLine(excpected);
-
         }
 
         [TestMethod]
@@ -62,5 +61,3 @@ namespace testsParsersUnitaires
         }
     }
 }
-
-

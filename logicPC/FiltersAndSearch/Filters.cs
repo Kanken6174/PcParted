@@ -1,9 +1,6 @@
-﻿using System;
+﻿using logicPC.Parsers;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using logicPC.Parsers;
 
 namespace logicPC.FiltersAndSearch
 {
@@ -19,10 +16,9 @@ namespace logicPC.FiltersAndSearch
         /// <param name="contructeur">Le nom du construceur, case ignorée</param>
         /// <param name="deck">Le dictionnaire à traiter</param>
         /// <returns>Le dictionnaire traité</returns>
-        public Dictionary<string, Carte> ConstructorFilter(string contructeur, Dictionary<string, Carte> deck)=>
+        public Dictionary<string, Carte> ConstructorFilter(string contructeur, Dictionary<string, Carte> deck) =>
             deck.Where(carte => carte.Value.Constructeur.Equals(ParseConstructeur.StringToInt(contructeur)))
                 .ToDictionary(carte => carte.Key, carte => carte.Value);
-
 
         /// <summary>
         /// Prend un nom d'architecture, utilise LINQ pour rendre un dictionnaire contenant seulement les entrées
@@ -31,15 +27,12 @@ namespace logicPC.FiltersAndSearch
         /// <param name="contructeur">Le nom du construceur, case ignorée</param>
         /// <param name="deck">Le dictionnaire à traiter</param>
         /// <returns>Le dictionnaire traité</returns>
-        public Dictionary<string, Carte> ArchitectureFilter(string contructeur, Dictionary<string, Carte> deck)=>
+        public Dictionary<string, Carte> ArchitectureFilter(string contructeur, Dictionary<string, Carte> deck) =>
             deck.Where(carte => carte.Value.Constructeur.Equals(ParseConstructeur.StringToInt(contructeur)))
                 .ToDictionary(carte => carte.Key, carte => carte.Value);
 
-        public Dictionary<string, Carte> GflopsSlider(int min, int max, Dictionary<string, Carte> deck)=>
+        public Dictionary<string, Carte> GflopsSlider(int min, int max, Dictionary<string, Carte> deck) =>
             deck.Where(carte => carte.Value.IndicateurPuissance > min && carte.Value.IndicateurPuissance < max)
                 .ToDictionary(carte => carte.Key, carte => carte.Value);
-
-
-
     }
 }

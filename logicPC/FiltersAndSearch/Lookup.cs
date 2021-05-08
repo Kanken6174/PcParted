@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace logicPC.FiltersAndSearch
 {
@@ -16,7 +14,6 @@ namespace logicPC.FiltersAndSearch
         /// <returns>Un dictionnaire ne conetenant que les cartes contenant les termes de recherche dans leur nom</returns>
         public static Dictionary<string, Carte> SearchModel(string terms, Dictionary<string, Carte> deck)
         {
-
             Dictionary<string, Carte> validForTerms = new();
 
             //méthode LINQ
@@ -27,7 +24,6 @@ namespace logicPC.FiltersAndSearch
             //Version non-LINQ
             /*foreach (KeyValuePair < string, Carte> card in deck)
             {
-
                 if (card.Value.NomModele.Contains(terms, StringComparison.InvariantCultureIgnoreCase))
                 {
                     validForTerms.Add(card.Key, card.Value);

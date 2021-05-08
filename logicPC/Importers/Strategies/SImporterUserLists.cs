@@ -2,11 +2,10 @@
 
 namespace logicPC
 {
-
-    class SImporterUserLists
+    internal class SImporterUserLists
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <param name="filePath">Chemin vers le fichier .usl, absolu.</param>
         /// <returns></returns>
@@ -24,5 +23,4 @@ namespace logicPC
             return fileUri;
         }
     }
-
 }

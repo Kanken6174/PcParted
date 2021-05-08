@@ -73,7 +73,6 @@
                    Width="88"
                    RadiusY="10"
                    RadiusX="10">
-
         </Rectangle>
         <TextBlock x:Name="nom_carte"
                    HorizontalAlignment="Left"
@@ -134,9 +133,6 @@
                    SnapsToDevicePixels="True" />
         </Grid>
     </Grid>
-
-
-
 </UserControl>
 
 <!-- Archived code
@@ -153,5 +149,5 @@
         </EventTrigger.Actions>
     </EventTrigger>
 </MediaElement.Triggers>
-    
+
 -->

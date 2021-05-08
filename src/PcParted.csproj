@@ -202,5 +202,11 @@
   <ItemGroup>
     <Resource Include="placeholder_nvidia.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\logicPC\logicPC.csproj">
+      <Project>{7c9014ec-6f54-4a1c-ae2d-edcd8ba7403f}</Project>
+      <Name>logicPC</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

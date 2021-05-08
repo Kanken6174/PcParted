@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Globalization;
 
 namespace logicPC
 {
-
     public class CreateurConcret : ACreateur
     {
         /*       public override ICarte CreerCarte(string []input, int lineNum)
@@ -19,20 +15,18 @@ namespace logicPC
                    Uri urlVersImage = default;
                    int line = -1;
 
-
                    Carte uneNouvelleCarte = new Carte(nomModele, dateSortie, architecture, bus, constructeur, tailleMemoire, frequenceGpu, frequenceMemoire, shaderUnits, tmuUnits, ropUnits, wattage, prix, hashrate, indicateurPuissance, wattageEstExtrapole, prixEstExtrapole, urlVersImage, line);
                    return uneNouvelleCarte;
                }*/
 
         /// <summary>
-        /// Factory responsable de la création de cartes à partir d'un dictionnaire de string. 
+        /// Factory responsable de la création de cartes à partir d'un dictionnaire de string.
         /// </summary>
         /// <param name="dico"></param>
         /// <returns></returns>
         public override Dictionary<int, Carte> CreerCarte(Dictionary<int, List<string>> dico)
         {
             Dictionary<int, Carte> MainSet = new();
-
 
             foreach (KeyValuePair<int, List<string>> pair in dico)
             {
@@ -60,7 +54,7 @@ namespace logicPC
                 tailleMemoire = 0;
             else
             {
-                string[] strTemp = toProcess[4].Split(',');   ///les données sont sous la forme [XXX GB, GDDRX, XXX bit], on veut [XXX][X] et [XXX] (plus de lettres) 
+                string[] strTemp = toProcess[4].Split(',');   ///les données sont sous la forme [XXX GB, GDDRX, XXX bit], on veut [XXX][X] et [XXX] (plus de lettres)
                 int[] intTemp = new int[strTemp.Length];
 
                 for (int i = 0; i < 3; i++)

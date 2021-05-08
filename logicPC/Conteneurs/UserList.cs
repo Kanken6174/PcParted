@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace logicPC.Conteneurs
 {
@@ -15,7 +11,5 @@ namespace logicPC.Conteneurs
         public float IndicateurPuissance { get; private set; }
         public Carte CarteActive { get; private set; }
         public int IntID { get; private set; }
-
-
     }
 }

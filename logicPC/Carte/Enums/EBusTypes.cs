@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace logicPC
+﻿namespace logicPC
 {
     public enum EBusTypes
     {
@@ -14,7 +8,5 @@ namespace logicPC
         PCIe3x16,
         PCIe4x8,
         PCIe4x16    //5
-
     }
-
 }

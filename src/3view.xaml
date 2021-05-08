@@ -10,7 +10,6 @@
              Background="Transparent">
     <UserControl.Resources>
         <Style x:Key="VSC_bar">
-
         </Style>
 
         <ControlTemplate x:Key="Template_SCV1"
@@ -105,7 +104,6 @@
                                 Height="520"
                                 Margin="0,0,-2,0"
                                 Width="Auto" />
-
         </Expander>
 
         <!-- Bookmarks -->
@@ -146,6 +144,4 @@
                 Width="25"
                 Height="23" />
     </Grid>
-
-
 </UserControl>

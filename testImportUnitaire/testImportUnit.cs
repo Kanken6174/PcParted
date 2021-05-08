@@ -1,10 +1,8 @@
-using System;
 using logicPC;
-using System.Collections.Generic;
-using System.Diagnostics;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using logicPC.ImportStrategies;
 using logicPC.Parsers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Collections.Generic;
 
 namespace testImportUnitaire
 {
@@ -27,6 +25,7 @@ namespace testImportUnitaire
                 Console.WriteLine();
             }
         }
+
         [TestMethod]
         public void TestSplit()
         {

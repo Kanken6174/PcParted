@@ -1,16 +1,15 @@
-﻿using System;
-using logicPC;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using logicPC;
+using logicPC.Extrapolation;
 using logicPC.FiltersAndSearch;
 using logicPC.ImportStrategies;
-using logicPC.Extrapolation;
+using System;
+using System.Collections.Generic;
 
 namespace testsConsole
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             string path = @"Y:\cs\datacrawler";
             string[] fileName = { "AMD", "NVIDIA" };
@@ -19,15 +18,14 @@ namespace testsConsole
             Dictionary<int, Carte> deckTemp = new();
             Dictionary<string, Carte> MainDataset = new();
 
-
             for (int i = 1; i < 2; i++)
             {
-                deckTemp = ImporterManager.ImportAll(path, fileName[i]+".pnm", fileName[i]+".pem", null);
+                deckTemp = ImporterManager.ImportAll(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
 
                 foreach (KeyValuePair<int, Carte> carte in deckTemp)
                 {
                     Console.WriteLine(carte.ToString());
-                    MainDataset.Add(fileName[i]+carte.Key, carte.Value);
+                    MainDataset.Add(fileName[i] + carte.Key, carte.Value);
                 }
             }
 
@@ -44,7 +42,6 @@ namespace testsConsole
             {
                 Console.WriteLine(carte.Value.ToString());
             }
-
         }
     }
 }

@@ -1,9 +1,7 @@
-﻿using System;
+﻿using logicPC.Parsers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using logicPC.Parsers;
 
 namespace logicPC.ImportStrategies
 {
@@ -18,12 +16,12 @@ namespace logicPC.ImportStrategies
             if (path.Last() != '/')
                 path += @"/";
 
-            Dictionary<int, List<String>> dico = SImporterDataSets<List<string>>.FileImportOP(path+PnmName);
+            Dictionary<int, List<String>> dico = SImporterDataSets<List<string>>.FileImportOP(path + PnmName);
             Dictionary<int, Carte> deck = Cardfactory.CreerCarte(dico);
 
-            Dictionary<int, Uri> UriDico = SImporterPictureLink.FileImportOP(path+PemName);
-            
-            foreach(KeyValuePair<int, Uri> page in UriDico)
+            Dictionary<int, Uri> UriDico = SImporterPictureLink.FileImportOP(path + PemName);
+
+            foreach (KeyValuePair<int, Uri> page in UriDico)
             {
                 if (!deck.ContainsKey(page.Key)) // seul cas possible: le fichier .pem est trop long, peut-être érronné
                     break;

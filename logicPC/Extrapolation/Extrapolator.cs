@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace logicPC.Extrapolation
+﻿namespace logicPC.Extrapolation
 {
     public class Extrapolator
     {
-        const double difficulte = 20608845737768.16;
+        private const double difficulte = 20608845737768.16;
+
         public static Carte ExtrapolateCardData(Carte atraiter, float difficulty)
         {
             float GHZ = (float)(atraiter.FrequenceGpu / 1000.00);
@@ -17,7 +12,7 @@ namespace logicPC.Extrapolation
 
             float GFLOPS;
             if (atraiter.IPC > 0)
-                GFLOPS = GHZ * atraiter.RopUnits * atraiter.IPC; //IPC = Instructions par cycle 
+                GFLOPS = GHZ * atraiter.RopUnits * atraiter.IPC; //IPC = Instructions par cycle
             else
                 GFLOPS = GHZ * atraiter.RopUnits * 81;    //Defaut 2 instructions par cycle
 

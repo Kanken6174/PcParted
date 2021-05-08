@@ -8,7 +8,6 @@ namespace PcParted
     /// </summary>
     public partial class MainApp : UserControl
     {
-
         public MainApp()
         {
             InitializeComponent();
@@ -22,12 +21,10 @@ namespace PcParted
 
         private void wrappy_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
         {
-
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
         }
     }
 }

@@ -1,10 +1,9 @@
-using System;
 using logicPC;
-using System.Collections.Generic;
-using System.Diagnostics;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using logicPC.FiltersAndSearch;
 using logicPC.ImportStrategies;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Collections.Generic;
 
 namespace FilterTesting
 {
@@ -34,7 +33,6 @@ namespace FilterTesting
                 Assert.IsTrue(carte.Value.NomModele.Contains("GtX", StringComparison.InvariantCultureIgnoreCase));
                 Console.WriteLine(carte.Value.ToString());
             }
-
         }
     }
 }

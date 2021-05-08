@@ -1,5 +1,4 @@
 ﻿using System;
-using logicPC;
 using System.Globalization;
 using System.Linq;
 
@@ -7,16 +6,12 @@ namespace logicPC.Parsers
 {
     public class DateParser
     {
-
         public static DateTime StringToDate(string strIN)
         {
-
             DateTime dateSortie = default;
-
 
             if (strIN.Any(char.IsDigit))
             {
-
                 string[] strTemp = strIN.Split(' ');
                 string str = default;
                 int t = 0, r = 0, n = 0, s = 0;

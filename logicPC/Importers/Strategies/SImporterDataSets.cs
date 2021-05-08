@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 
 namespace logicPC
@@ -31,5 +30,4 @@ namespace logicPC
             return dico;
         }
     }
-
 }

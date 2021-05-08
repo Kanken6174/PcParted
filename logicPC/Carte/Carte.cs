@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace logicPC
 {
-
     /// <summary>
     /// classe d'une carte standard qui implémente l'interface ICarte
     /// </summary>
