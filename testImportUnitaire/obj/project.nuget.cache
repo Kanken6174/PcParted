@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wXufP/uXVI7nYEeItKXC3J2wu+qwkMGlAyKFCr7Kwt7YzoBzTEDRYv11NCwdNotW8B+/QdgHq7VFYtYHb8bsQw==",
+  "dgSpecHash": "t5pttm27TQhyeYc2046HSxcbKKizn964OFPKDdY0XRys+KpAuRy41fEmAthefDjRoYIe6NdLokrv25Tu7mF1Yw==",
   "success": true,
-  "projectFilePath": "Y:\\cs\\PcParted\\testImportUnitaire\\testsUnitaires.csproj",
+  "projectFilePath": "Y:\\cs\\PcParted\\PcParted\\testImportUnitaire\\testsUnitaires.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yorick\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

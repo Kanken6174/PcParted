@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj": {}
+    "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj": {}
   },
   "projects": {
-    "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj": {
+    "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj": {
       "version": "0.8.0",
       "restore": {
-        "projectUniqueName": "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj",
+        "projectUniqueName": "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj",
         "projectName": "logicPC",
-        "projectPath": "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj",
+        "projectPath": "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj",
         "packagesPath": "C:\\Users\\Yorick\\.nuget\\packages\\",
-        "outputPath": "Y:\\cs\\PcParted\\logicPC\\obj\\",
+        "outputPath": "Y:\\cs\\PcParted\\PcParted\\logicPC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

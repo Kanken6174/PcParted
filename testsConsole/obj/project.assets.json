@@ -132,11 +132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\cs\\PcParted\\testsConsole\\testsConsole.csproj",
+      "projectUniqueName": "Y:\\cs\\PcParted\\PcParted\\testsConsole\\testsConsole.csproj",
       "projectName": "testsConsole",
-      "projectPath": "Y:\\cs\\PcParted\\testsConsole\\testsConsole.csproj",
+      "projectPath": "Y:\\cs\\PcParted\\PcParted\\testsConsole\\testsConsole.csproj",
       "packagesPath": "C:\\Users\\Yorick\\.nuget\\packages\\",
-      "outputPath": "Y:\\cs\\PcParted\\testsConsole\\obj\\",
+      "outputPath": "Y:\\cs\\PcParted\\PcParted\\testsConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -154,8 +154,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj": {
-              "projectPath": "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj"
+            "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj": {
+              "projectPath": "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj"
             }
           }
         }

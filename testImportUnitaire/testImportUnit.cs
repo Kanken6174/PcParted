@@ -12,7 +12,7 @@ namespace testImportUnitaire
         [TestMethod]
         public void Executetestimport()
         {
-            Dictionary<int, List<string>> dico = (Dictionary<int, List<string>>)SImporterDataSets<List<string>>.FileImportOP(@"Y:\cs\PcParted\datasets\names.AMD.pnm");
+            Dictionary<int, List<string>> dico = (Dictionary<int, List<string>>)SImporterDataSets<List<string>>.FileImportOP(@"Y:\cs\datacrawler\AMD.pnm");
 
             foreach (KeyValuePair<int, List<string>> page in dico)
             {

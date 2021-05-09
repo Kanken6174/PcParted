@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kDXL94ZuIJmng+P3VdzRARQM9SOK2os3Za6d73gKEVFjmmFVo4tBmnSUEtlP+m/aVn+hBtuf6fG/Ax2EKUCwaA==",
+  "dgSpecHash": "SJAm4E6JK5iLvLe/QxbIpXYZKQby3oEHUacc3jPNcKWcd6hsEfnIFseB/7eLWNoSVhCqErLQkTGxDkmoDdO/2Q==",
   "success": true,
-  "projectFilePath": "Y:\\cs\\PcParted\\testsConsole\\testsConsole.csproj",
+  "projectFilePath": "Y:\\cs\\PcParted\\PcParted\\testsConsole\\testsConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
