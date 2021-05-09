@@ -122,11 +122,11 @@
             </Grid>
         </Expander>
         <Button Content="card test"
-                Click="AddCard"
                 Height="36"
                 Margin="108,0,137,23"
                 VerticalAlignment="Bottom"
-                Grid.Column="1" />
+                Grid.Column="1" 
+                Click="Button_Click"/>
         <TextBox Grid.Column="1"
                  HorizontalAlignment="Left"
                  Height="23"
@@ -143,5 +143,21 @@
                 VerticalAlignment="Top"
                 Width="25"
                 Height="23" />
+        <local:UserControl5 x:Name="DetailedCard"
+                            Grid.Column="1"
+                            HorizontalAlignment="Center"
+                            Margin="0,40,0,0"
+                            VerticalAlignment="Top"
+                            Visibility="Visible" />
+        <Button x:Name="closeDetailButton"
+            Content="X"
+                HorizontalAlignment="Left"
+                Margin="315,50,0,0"
+                VerticalAlignment="Top"
+                Height="25"
+                Width="25"
+                Click="CloseDetail"
+                Grid.Column="1" 
+                Visibility="Visible"/>
     </Grid>
 </UserControl>

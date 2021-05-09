@@ -2,6 +2,9 @@
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
+using logicPC;
+using System.Windows.Threading;
+using logicPC.Gestionnaires;
 
 namespace PcParted
 {
@@ -10,27 +13,39 @@ namespace PcParted
     /// </summary>
     public partial class UserControl3 : UserControl
     {
+        public MainApp parent3view;
+        public Card laCarte;
+        public string ID;
         public UserControl3()
         {
             InitializeComponent();
+            
         }
 
         private void UC_clicked(object sender, MouseButtonEventArgs e)
         {
-            nom_carte.Text = "Nice click";
+            nom_carte.Text = "A été cliqué!!!";
+            parent3view.ToShow = laCarte;
         }
 
         private void ImgCard_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            var Ipath = @"https://media.ldlc.com/r374/ld/products/00/05/80/47/LD0005804743_1.jpg";
-            BitmapImage Ipic = new BitmapImage(new Uri(Ipath, UriKind.Absolute));
+            nom_carte.Text = laCarte.Model as string;
+            
+
+            /*
+            if (!laCarte.PictureURL.Equals("about:blank"))
+            {
+            BitmapImage Ipic = new BitmapImage(laCarte.PictureURL);
             ImgCard.Source = Ipic;
             Ipic.DownloadCompleted += new EventHandler(PicDL);
+            }
+            */
         }
 
         private void PicDL(object sender, EventArgs e)
         {
-            myMediaElement.Visibility = System.Windows.Visibility.Hidden;
+            
         }
     }
 }

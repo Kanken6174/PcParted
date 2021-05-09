@@ -6,11 +6,16 @@ namespace logicPC.Gestionnaires
     /// <summary>
     /// Classe dédiée à la gestion des listes d'utilisateur
     /// </summary>
-    internal class GestionnaireListes
+    public class GestionnaireListes
     {
+        public Dictionary<string, Card> Data;
         public Dictionary<string, UserList> MesListesUtilisateur { get; private set; }
-        public string ActiveKey { get; private set; }
+        public string ActiveKey = default;
 
+        public GestionnaireListes()
+        {
+            Data = ImportStrategies.ImporterManager.ImportAll();
+        }
         public GestionnaireListes(Dictionary<string, UserList> dico, string Active)
         {
             MesListesUtilisateur = dico;
@@ -86,5 +91,6 @@ namespace logicPC.Gestionnaires
 
             return isIn;
         }
+
     }
 }

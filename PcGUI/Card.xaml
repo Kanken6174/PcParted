@@ -13,7 +13,6 @@
         <Style TargetType="TextBlock">
             <Setter Property="Foreground"
                     Value="Gray" />
-            <!-- je l'ai âs vraiment utilisée cette ligne finalement...-->
             <Setter Property="FontSize"
                     Value="12" />
             <Setter Property="FontFamily"
@@ -97,37 +96,9 @@
                    Text="150 €"
                    Foreground="#8CFFCA" />
         <Grid>
-            <MediaElement Name="myMediaElement"
-                          Grid.ZIndex="0"
-                          HorizontalAlignment="Left"
-                          LoadedBehavior="Play"
-                          UnloadedBehavior="Play"
-                          Height="68"
-                          Margin="5,6,-2,0"
-                          VerticalAlignment="Top"
-                          Width="97"
-                          Visibility="Visible">
-                <MediaElement.Triggers>
-                    <EventTrigger RoutedEvent="MediaElement.Loaded">
-                        <EventTrigger.Actions>
-                            <BeginStoryboard>
-                                <Storyboard>
-                                    <MediaTimeline Source="Y:\C#\PcParted\src\ressources\loader.gif"
-                                                   Storyboard.TargetName="myMediaElement"
-                                                   RepeatBehavior="Forever" />
-                                </Storyboard>
-                            </BeginStoryboard>
-                        </EventTrigger.Actions>
-                    </EventTrigger>
-                </MediaElement.Triggers>
-                <MediaElement.OpacityMask>
-                    <ImageBrush x:Name="ImgCardBR"
-                                ImageSource="gpu1.png" />
-                </MediaElement.OpacityMask>
-            </MediaElement>
             <Image x:Name="ImgCard"
                    Loaded="ImgCard_Loaded"
-                   Source="https://www.notebookcheck.net/fileadmin/_processed_/f/4/csm_Dell_Precision_7740_right_view_bd082a6947.jpg"
+                   Source="https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg"
                    Grid.ZIndex="2"
                    Margin="0,6,-9,109"
                    SnapsToDevicePixels="True" />

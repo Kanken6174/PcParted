@@ -44,7 +44,8 @@
                    VerticalAlignment="Top"
                    Width="348"
                    Margin="1,221,0,0" />
-        <Image HorizontalAlignment="Left"
+        <Image x:Name="masterDetailPic"
+               HorizontalAlignment="Left"
                Height="204"
                Margin="45,10,0,0"
                VerticalAlignment="Top"

@@ -2,38 +2,42 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 
 namespace logicPC.ImportStrategies
 {
-    public class ImporterManager
+    public class ImporterManager : ImporterManagerBase
     {
-        public static Dictionary<int, Card> ImportAll(string path, string PnmName, string PemName, string UslName)
+        public static Dictionary<string, Card> ImportAll()
         {
-            int constructeur = ParseConstructeur.StringToInt(PemName.Split('.').FirstOrDefault());
+            string path = @"Y:\cs\datacrawler";
 
-            CreateurConcret Cardfactory = new();
-
-            if (path.Last() != '/')
-                path += @"/";
-
-            Dictionary<int, List<String>> dico = SImporterDataSets<List<string>>.FileImportOP(path + PnmName);
-            Dictionary<int, Card> deck = Cardfactory.CreerCard(dico);
-
-            Dictionary<int, Uri> UriDico = SImporterPictureLink.FileImportOP(path + PemName);
-
-            foreach (KeyValuePair<int, Uri> page in UriDico)
+            if (!Directory.Exists(path))
             {
-                if (!deck.ContainsKey(page.Key)) // seul cas possible: le fichier .pem est trop long, peut-être érronné
-                    break;
-
-                Card temp = deck[page.Key];
-                temp.PictureURL = page.Value;
-
-                temp.SetConstructeur(constructeur);
-                deck[page.Key] = temp;
+                throw new IOException("This directory does not exist!");
             }
 
-            return deck;
+            string[] fileName = Directory.GetFiles(path, "*.pnm");
+
+            for (int i = 0; i < fileName.Length; i++)
+            {
+                fileName[i] = Path.GetFileNameWithoutExtension(fileName[i]);
+            }
+
+            Dictionary<int, Card> deckTemp = new Dictionary<int, Card>();
+            Dictionary<string, Card> MainDataset = new();
+
+            for (int i = 0; i < fileName.Length; i++)
+            {
+                deckTemp = ImporterManager.ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
+
+                foreach (KeyValuePair<int, Card> carte in deckTemp)
+                {
+                    MainDataset.Add(fileName[i] + carte.Key, carte.Value);
+                }
+            }
+
+            return MainDataset;
         }
     }
 }
