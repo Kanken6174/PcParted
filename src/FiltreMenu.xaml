@@ -13,9 +13,9 @@
                    Height="450"
                    Stroke="Black"
                    VerticalAlignment="Top"
-                   Width="188" 
+                   Width="188"
                    RadiusY="10"
-                   RadiusX="10"/>
+                   RadiusX="10" />
 
         <ComboBox x:Name="Constructeur"
                   HorizontalAlignment="Left"

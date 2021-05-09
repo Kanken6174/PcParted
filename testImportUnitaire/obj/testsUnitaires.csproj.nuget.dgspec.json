@@ -5,7 +5,7 @@
   },
   "projects": {
     "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj": {
-      "version": "1.0.0",
+      "version": "0.8.0",
       "restore": {
         "projectUniqueName": "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj",
         "projectName": "logicPC",
@@ -40,6 +40,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

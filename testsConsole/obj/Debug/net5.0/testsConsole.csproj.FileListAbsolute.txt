@@ -17,3 +17,6 @@ Y:\cs\PcParted\testsConsole\obj\Debug\net5.0\testsConsole.dll
 Y:\cs\PcParted\testsConsole\obj\Debug\net5.0\ref\testsConsole.dll
 Y:\cs\PcParted\testsConsole\obj\Debug\net5.0\testsConsole.pdb
 Y:\cs\PcParted\testsConsole\obj\Debug\net5.0\testsConsole.genruntimeconfig.cache
+Y:\cs\PcParted\testsConsole\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+Y:\cs\PcParted\testsConsole\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+Y:\cs\PcParted\testsConsole\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll

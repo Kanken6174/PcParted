@@ -2234,12 +2234,12 @@
 										"$ref": "AAAAAAF5F27pP39OEso="
 									},
 									"font": "Arial;13;0",
-									"left": 1135,
-									"top": 698,
+									"left": 1238,
+									"top": 711,
 									"width": 32.16357421875,
 									"height": 13,
-									"alpha": 0.4979362190321224,
-									"distance": 72.91776189653656,
+									"alpha": 3.9567244549484872,
+									"distance": 32.14031735997639,
 									"hostEdge": {
 										"$ref": "AAAAAAF5F27pP39SinM="
 									},
@@ -2711,30 +2711,13 @@
 											"height": 13,
 											"text": "+intID: int",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF5HKIj0OCNC4U=",
-											"_parent": {
-												"$ref": "AAAAAAF5F3G4R63aFKs="
-											},
-											"model": {
-												"$ref": "AAAAAAF5HKIjvuCBYCU="
-											},
-											"font": "Arial;13;0",
-											"left": 813,
-											"top": 839,
-											"width": 211.37060546875,
-											"height": 13,
-											"text": "+nom: String",
-											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 808,
 									"top": 729,
 									"width": 221.37060546875,
-									"height": 128
+									"height": 113
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -2757,7 +2740,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 813,
-											"top": 862,
+											"top": 847,
 											"width": 211.37060546875,
 											"height": 13,
 											"text": "+GetList(): this",
@@ -2766,7 +2749,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 808,
-									"top": 857,
+									"top": 842,
 									"width": 221.37060546875,
 									"height": 23
 								},
@@ -10573,15 +10556,6 @@
 							},
 							"name": "intID",
 							"type": "int"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF5HKIjvuCBYCU=",
-							"_parent": {
-								"$ref": "AAAAAAF5F3G4R63SpkM="
-							},
-							"name": "nom",
-							"type": "String"
 						}
 					],
 					"operations": [

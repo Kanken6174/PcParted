@@ -3,14 +3,29 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Configurations>Debug;Release;logic</Configurations>
+    <Version>0.8</Version>
+    <Authors>Kanken6174</Authors>
+    <Company>none</Company>
+    <Description>This is a library meant to be used in conjuction with the PCParted app.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Kanken6174/PcParted</RepositoryUrl>
+    <RepositoryType>github, closed source.</RepositoryType>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
-<!--  <ItemGroup> -->
- <!--   <Reference Include="PresentationCore"> -->
- <!--     <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll</HintPath> -->
-  <!--  </Reference> -->
-<!--	<FrameworkReference Include="Microsoft.WindowsDesktop.App"/> -->
-<!--  </ItemGroup> -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MajorSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MajorSettings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 
 
 </Project>

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vmwL0b6qm/Ie9buJj+I3B+nuK4Wh7BSC2KiafyLERadtv8PWgC/+Ao83lpva33W8T2egNdpNmFQfHw0LqX0vBA==",
+  "dgSpecHash": "xnXQlD9XGins35kWqwYXO3gsPdqKua08vf6bk+EQcdmvasj4WwdZTs8waOaqfwpZBWXhISPzTpBVcs8UMldSXQ==",
   "success": true,
   "projectFilePath": "Y:\\cs\\PcParted\\logicPC\\logicPC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,37 +1,46 @@
-﻿using System;
-using logicPC;
+﻿using logicPC;
+using logicPC.Extrapolation;
+using logicPC.FiltersAndSearch;
+using logicPC.ImportStrategies;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace testsConsole
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
-            FileImporter fI = new();
-            CreateurConcret Cardfactory = new();
+            string path = @"Y:\cs\datacrawler";
+            string[] fileName = { "AMD", "NVIDIA" };
 
-            Dictionary<int, string[]> dico = (Dictionary<int, string[]>)fI.Import(@"Y:\cs\PcParted\datasets\names.AMD.pnm");
+            ImporterManager Im = new();
+            Dictionary<int, Card> deckTemp = new();
+            Dictionary<string, Card> MainDataset = new();
 
-            foreach (KeyValuePair<int, string[]> page in dico)
+            for (int i = 1; i < 2; i++)
             {
-                Console.Write(page.Key + " ");
-                foreach (string str in page.Value)
+                deckTemp = ImporterManager.ImportAll(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
+
+                foreach (KeyValuePair<int, Card> carte in deckTemp)
                 {
-                    Console.Write(str + " ");
+                    Console.WriteLine(carte.ToString());
+                    MainDataset.Add(fileName[i] + carte.Key, carte.Value);
                 }
-                Console.WriteLine();
             }
 
-            Console.WriteLine("---------------------------------------------------------------------------------------------");
+            Console.WriteLine("-----------------------------------------------------------------------------");
             Console.WriteLine();
 
-            Dictionary<int, ICarte> deck = Cardfactory.CreerCarte(dico);
-
-            foreach(KeyValuePair<int, ICarte> carte in deck)
+            foreach (KeyValuePair<string, Card> carte in MainDataset)
             {
-               Console.WriteLine(carte.Value.ToString());
+                MainDataset[carte.Key] = Extrapolator.ExtrapolateCardData(carte.Value, 0);
+                Console.WriteLine($"{carte.Key}|{carte.Value.ToStringNameAndPower()}");
+            }
+            MainDataset = Lookup.SearchModel("RtX", MainDataset);
+            foreach (KeyValuePair<string, Card> carte in MainDataset)
+            {
+                Console.WriteLine(carte.Value.ToString());
             }
         }
     }

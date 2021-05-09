@@ -1,0 +1,54 @@
+GeForce GTX 1650 GDDR6 01/04/2020 00:00:00 TU117 IGP Nvidia 1410 1500 896/56/32 -1 -1 -1 -1 -1 False False https://img.pccomponentes.com/articles/25/252756/gv-n165soc-4gd-2.jpg 
+GeForce GTX 1650 Max-Q 15/04/2020 00:00:00 TU117 IGP Nvidia 930 1250 1024/64/32 -1 -1 -1 -1 -1 False False about:blank 
+GeForce GTX 1650 Mobile 15/04/2020 00:00:00 TU117 IGP Nvidia 1380 1500 1024/64/32 -1 -1 -1 -1 -1 False False https://pcmod.pl/wp-content/uploads/2019/04/evga-geforce-gtx-1650-xc-gaming-4.jpg 
+GeForce GTX 1650 TU106 18/06/2020 00:00:00 TU106 IGP Nvidia 1410 1500 896/56/32 -1 -1 -1 -1 -1 False False https://cdn.videocardz.com/1/2020/06/GALAXY-Geforce-GTX-1650-Ultra-1-1000x724.jpg 
+GeForce GTX 1650 TU116 07/07/2020 00:00:00 TU116 IGP Nvidia 1410 1500 896/56/32 -1 -1 -1 -1 -1 False False https://media.ldlc.com/r1600/ld/products/00/05/29/76/LD0005297633_2.jpg 
+GeForce GTX 1650 Ti Max-Q 02/04/2020 00:00:00 TU117 IGP Nvidia 1035 1250 1024/64/32 -1 -1 -1 -1 -1 False False https://ddtech.mx/assets/uploads/d4a96f7de311d311baf5fa97be93397a.jpg 
+GeForce GTX 1650 Ti Mobile 02/04/2020 00:00:00 TU117 IGP Nvidia 1350 1500 1024/64/32 -1 -1 -1 -1 -1 False False https://o.aolcdn.com/images/dims?resize=2000%2C2000%2Cshrink&image_uri=https://s.yimg.com/os/creatr-uploaded-images/2019-04/718a7d00-65b8-11e9-bf5f-0488e819e930&client=a1acac3e1b3290917d92&signature=19fee94173d1efa08c17fb6e00b9732caa35ff43 
+GeForce GTX 1650 Ti Mobile 23/04/2020 00:00:00 TU116 IGP Nvidia 1350 1500 1024/64/32 -1 -1 -1 -1 -1 False False https://o.aolcdn.com/images/dims?resize=2000%2C2000%2Cshrink&image_uri=https://s.yimg.com/os/creatr-uploaded-images/2019-04/718a7d00-65b8-11e9-bf5f-0488e819e930&client=a1acac3e1b3290917d92&signature=19fee94173d1efa08c17fb6e00b9732caa35ff43 
+GeForce GTX 1050 Mobile 3 GB 01/02/2019 00:00:00 GP107 IGP Nvidia 1366 1752 768/48/24 -1 -1 -1 -1 -1 False False https://compstore.az/data/images/GTX1050 2 GB-3.png 
+GeForce GTX 1650 23/04/2019 00:00:00 TU117 IGP Nvidia 1485 2001 896/56/32 -1 -1 -1 -1 -1 False False http://images.icecat.biz/img/gallery/70399144_1622623424.jpg 
+GeForce GTX 1650 Max-Q 23/04/2019 00:00:00 TU117 IGP Nvidia 1020 1751 1024/64/32 -1 -1 -1 -1 -1 False False https://ddtech.mx/assets/uploads/94edf74cb452b570d466a68f79ca7770.jpg 
+GeForce GTX 1650 Mobile 23/04/2019 00:00:00 TU117 IGP Nvidia 1395 2001 1024/64/32 -1 -1 -1 -1 -1 False False https://pcmod.pl/wp-content/uploads/2019/04/evga-geforce-gtx-1650-xc-gaming-4.jpg 
+GeForce GTX 1650 SUPER 22/11/2019 00:00:00 TU116 IGP Nvidia 1530 1500 1280/80/32 -1 -1 -1 -1 -1 False False https://images.idgesg.net/images/article/2019/11/asus-rog-strix-geforce-gtx-1650-super-6-100819159-large.jpg 
+GeForce GTX 1660 14/03/2019 00:00:00 TU116 IGP Nvidia 1530 2001 1408/88/48 -1 -1 -1 -1 -1 False False https://www.topachat.com/boutique/img/in/in1011/in10118110/03.jpg 
+GeForce GTX 1660 SUPER 29/10/2019 00:00:00 TU116 IGP Nvidia 1530 1750 1408/88/48 -1 -1 -1 -1 -1 False False https://www.bhphotovideo.com/images/images2000x2000/gigabyte_gv_n166sgaming_oc_6gd_geforce_gtx_1660_super_1543377.jpg 
+GeForce GTX 1660 Ti 22/02/2019 00:00:00 TU116 IGP Nvidia 1500 1500 1536/96/48 -1 -1 -1 -1 -1 False False https://www.bhphotovideo.com/images/images2500x2500/msi_geforce_gtx_1660_ti_1462386.jpg 
+GeForce GTX 1660 Ti Max-Q 23/04/2019 00:00:00 TU116 IGP Nvidia 1140 1500 1536/96/48 -1 -1 -1 -1 -1 False False about:blank 
+GeForce GTX 1660 Ti Mobile 23/04/2019 00:00:00 TU116 IGP Nvidia 1455 1500 1536/96/48 -1 -1 -1 -1 -1 False False about:blank 
+GeForce GTX 1050 3 GB 21/05/2018 00:00:00 GP107 IGP Nvidia 1392 1752 768/48/24 -1 -1 -1 -1 -1 False False https://hardzone.es/app/uploads-hardzone.es/2018/06/Gigabyte-GeForce-GTX-1050-3-GB-OC-01.jpg 
+GeForce GTX 1050 Max-Q 03/01/2018 00:00:00 GP107 IGP Nvidia 1000 1752 640/40/16 -1 -1 -1 -1 -1 False False https://ddtech.mx/assets/uploads/551253fd6b655f08f575b895f4740a85.jpg 
+GeForce GTX 1050 Ti Max-Q 03/01/2018 00:00:00 GP107 IGP Nvidia 1152 1752 768/48/32 -1 -1 -1 -1 -1 False False https://farm5.staticflickr.com/4606/39711366272_6988a3976f_o.jpg 
+GeForce GTX 1060 6 GB GDDR5X 18/10/2018 00:00:00 GP104 IGP Nvidia 1506 1001 1280/80/48 -1 -1 -1 -1 -1 False False https://www.ixbt.com/img/x780x600/n1/news/2018/10/4/fwWIcQ1IOvDfYNfb.jpg 
+GeForce GTX 1060 6 GB GP104 08/03/2018 00:00:00 GP104 IGP Nvidia 1506 2002 1280/80/48 -1 -1 -1 -1 -1 False False https://www.ixbt.com/img/x780x600/n1/news/2018/10/4/fwWIcQ1IOvDfYNfb.jpg 
+GeForce GTX 1060 6 GB Rev. 2 05/01/2018 00:00:00 GP106 IGP Nvidia 1506 2002 1280/80/48 -1 -1 -1 -1 -1 False False http://a.scdn.gr/images/sku_main_images/009929/9929191/20160923151727_gigabyte_geforce_gtx1060_6gb_d5_gv_n1060d5_6gd.jpeg 
+GeForce GTX 1060 8 GB GDDR5X 01/01/0001 00:00:00 GP104 IGP Nvidia 1506 1001 1280/80/64 -1 -1 -1 -1 -1 False False https://cdn.videocardz.com/1/2018/10/PALIT-GeForce-GTX-1060-6GB-GDDR5X-GamingPro-OC-1.jpg 
+GeForce GTX 1070 GDDR5X 04/12/2018 00:00:00 GP104 IGP Nvidia 1506 1001 1920/120/64 -1 -1 -1 -1 -1 False False about:blank 
+GeForce GTX 1080 Ti 10 GB 01/01/0001 00:00:00 GP102 IGP Nvidia 1557 1376 3200/200/80 -1 -1 -1 -1 -1 False False https://muropaketti.com/wp-content/uploads/2017/10/msi-geforce-gtx-1080-ti-g.jpg 
+GeForce GTX 1050 Mobile 03/01/2017 00:00:00 GP107 IGP Nvidia 1354 1752 640/40/16 -1 -1 -1 -1 -1 False False http://cdn.benchmark.pl/uploads/article/55737/BIGICON/74dec1143a47ce579f8bda53b7acd1df82bcb2ca.jpg 
+GeForce GTX 1050 Mobile 03/01/2017 00:00:00 GP107 IGP Nvidia 1354 1752 640/40/16 -1 -1 -1 -1 -1 False False http://cdn.benchmark.pl/uploads/article/55737/BIGICON/74dec1143a47ce579f8bda53b7acd1df82bcb2ca.jpg 
+GeForce GTX 1050 Ti Mobile 03/01/2017 00:00:00 GP107 IGP Nvidia 1493 1752 768/48/32 -1 -1 -1 -1 -1 False False https://s2.bukalapak.com/img/7691068652/w-1000/AFOX_GeForce_GTX_1050_Ti_4GB_DDR5_Dual_Fan.jpg 
+GeForce GTX 1050 Ti Mobile 01/02/2017 00:00:00 GP106 IGP Nvidia 1493 1752 768/48/32 -1 -1 -1 -1 -1 False False http://cdn.wccftech.com/wp-content/uploads/2016/10/NVIDIA-GeForce-GTX-1050-TI_2.jpg 
+GeForce GTX 1060 5 GB 26/12/2017 00:00:00 GP106 IGP Nvidia 1506 2002 1280/80/40 -1 -1 -1 -1 -1 False False https://s.yimg.com/aah/outletpc/msi-geforce-gtx-1060-6gt-ocv1-6gb-192-bit-gddr5-pci-express-3-0-x16-directx-12-video-card-198.jpg 
+GeForce GTX 1060 6 GB 9Gbps 20/04/2017 00:00:00 GP106 IGP Nvidia 1506 2257 1280/80/48 -1 -1 -1 -1 -1 False False https://duckduckgo.com/?q=GeForce+GTX+1060+6+GB+9Gbps&iax=images&ia=images 
+GeForce GTX 1060 Max-Q 27/06/2017 00:00:00 GP106 IGP Nvidia 1063 2002 1280/80/48 -1 -1 -1 -1 -1 False False https://i1.wp.com/laptopmedia.com/wp-content/uploads/2017/01/Geforce-GTX-1060-25.jpg%3Ffit%3D300%252C169 
+GeForce GTX 1070 Max-Q 27/06/2017 00:00:00 GP104 IGP Nvidia 1215 2002 2048/128/64 -1 -1 -1 -1 -1 False False http://gearopen.com/wp-content/uploads/2018/08/DSC02626.jpg 
+GeForce GTX 1070 Ti 02/11/2017 00:00:00 GP104 IGP Nvidia 1607 2002 2432/152/64 -1 -1 -1 -1 -1 False False https://cdn.windowsreport.com/wp-content/uploads/2017/10/NVIDIA-GeForce-GTX-1070-Ti.jpg 
+GeForce GTX 1080 11Gbps 20/04/2017 00:00:00 GP104 IGP Nvidia 1607 1376 2560/160/64 -1 -1 -1 -1 -1 False False https://tweakers.net/i/dYaXhHThOad-rArernNJ300yYBg%3D/i/2001484621.jpeg 
+GeForce GTX 1080 Max-Q 27/06/2017 00:00:00 GP104 IGP Nvidia 1290 1251 2560/160/64 -1 -1 -1 -1 -1 False False https://notebooks-und-mobiles.de/wp-content/uploads/2017/12/Nvidia_Geforce_GTX1080_1m.jpg 
+GeForce GTX 1080 Ti 10/03/2017 00:00:00 GP102 IGP Nvidia 1481 1376 3584/224/88 -1 -1 -1 -1 -1 False False https://edge.alluremedia.com.au/m/g/2017/04/nvidia_geforce_gtx_1080_ti_4.jpg 
+GeForce GTX 1050 25/10/2016 00:00:00 GP107 IGP Nvidia 1354 1752 640/40/32 -1 -1 -1 -1 -1 False False https://www.bhphotovideo.com/images/images2500x2500/msi_geforce_gtx_1050_2g_1294299.jpg 
+GeForce GTX 1050 Ti 25/10/2016 00:00:00 GP107 IGP Nvidia 1291 1752 768/48/32 -1 -1 -1 -1 -1 False False https://www.bhphotovideo.com/images/images2500x2500/msi_gtx_1050_ti_gaming_x_4g_geforce_gtx_1050_ti_1292076.jpg 
+GeForce GTX 1060 3 GB 18/08/2016 00:00:00 GP106 IGP Nvidia 1506 2002 1152/72/48 -1 -1 -1 -1 -1 False False https://www.profesionalreview.com/wp-content/uploads/2016/08/Nvidia-anuncia-la-GeForce-GTX-1060-3-GB.jpg 
+GeForce GTX 1060 3 GB GP104 25/12/2016 00:00:00 GP104 IGP Nvidia 1506 2002 1152/72/48 -1 -1 -1 -1 -1 False False https://tpucdn.com/gpu-specs/images/c/2926-front.jpg 
+GeForce GTX 1060 6 GB 19/07/2016 00:00:00 GP106 IGP Nvidia 1506 2002 1280/80/48 -1 -1 -1 -1 -1 False False https://s.yimg.com/aah/outletpc/msi-geforce-gtx-1060-6gt-ocv1-6gb-192-bit-gddr5-pci-express-3-0-x16-directx-12-video-card-198.jpg 
+GeForce GTX 1060 Mobile 15/08/2016 00:00:00 GP106 IGP Nvidia 1404 2002 1280/80/48 -1 -1 -1 -1 -1 False False https://tpucdn.com/gpu-specs/images/c/2868-front.jpg 
+GeForce GTX 1070 10/06/2016 00:00:00 GP104 IGP Nvidia 1506 2002 1920/120/64 -1 -1 -1 -1 -1 False False https://www.bhphotovideo.com/images/images2500x2500/zotac_zt_p10700g_10m_mini_gtx_1070_1299077.jpg 
+GeForce GTX 1070 Mobile 15/08/2016 00:00:00 GP104 IGP Nvidia 1442 2002 2048/128/64 -1 -1 -1 -1 -1 False False http://cdn.wccftech.com/wp-content/uploads/2016/07/GTX-1070-mobile-4.jpg 
+GeForce GTX 1080 27/05/2016 00:00:00 GP104 IGP Nvidia 1607 1251 2560/160/64 -1 -1 -1 -1 -1 False False http://www.legitreviews.com/wp-content/uploads/2016/05/GeForce_GTX_1080_Angle.jpg 
+GeForce GTX 1080 Mobile 15/08/2016 00:00:00 GP104 IGP Nvidia 1556 1251 2560/160/64 -1 -1 -1 -1 -1 False False https://cdn.videocardz.net/cache/afa3cfee593e324074d74c2d13a61a97-1200x900.jpg 
+GeForce GTX 760 OEM 06/11/2016 00:00:00 GK104 IGP Nvidia 993 1650 1344/112/32 -1 -1 -1 -1 -1 False False http://www.vgastore.com/content/images/thumbs/1009090_2015776.jpg 
+GeForce GTX 950 Low Power 01/03/2016 00:00:00 GM206 IGP Nvidia 1026 1653 768/48/32 -1 -1 -1 -1 -1 False False http://images.anandtech.com/doci/10237/evga_geforce_gtx_950_low-power_1.jpg 
+GeForce GTX 950 OEM 01/01/2016 00:00:00 GM206 IGP Nvidia 937 1253 1024/64/32 -1 -1 -1 -1 -1 False False https://www.techpowerup.com/gpudb/images/2817.jpg 
+GeForce GTX 965M 01/01/2016 00:00:00 GM206 IGP Nvidia 935 1253 1024/64/32 -1 -1 -1 -1 -1 False False http://www.notebookcheck.net/uploads/tx_nbc2/GM204_02.jpg 
+GeForce GTX 980MX 01/06/2016 00:00:00 GM204 IGP Nvidia 1050 1500 1664/104/64 -1 -1 -1 -1 -1 False False https://i.ebayimg.com/images/g/F3gAAOSwDrpdXgbW/s-l640.jpg 

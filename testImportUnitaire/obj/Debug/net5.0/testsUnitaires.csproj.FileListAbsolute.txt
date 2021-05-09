@@ -98,3 +98,6 @@ Y:\cs\PcParted\testImportUnitaire\obj\Debug\net5.0\testsUnitaires.dll
 Y:\cs\PcParted\testImportUnitaire\obj\Debug\net5.0\ref\testsUnitaires.dll
 Y:\cs\PcParted\testImportUnitaire\obj\Debug\net5.0\testsUnitaires.pdb
 Y:\cs\PcParted\testImportUnitaire\obj\Debug\net5.0\testsUnitaires.genruntimeconfig.cache
+Y:\cs\PcParted\testImportUnitaire\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+Y:\cs\PcParted\testImportUnitaire\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+Y:\cs\PcParted\testImportUnitaire\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
