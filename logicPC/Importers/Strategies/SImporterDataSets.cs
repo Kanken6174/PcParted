@@ -16,13 +16,13 @@ namespace logicPC
         public static Dictionary<int, T> FileImportOP(string filePath)
         {
             int b = 0;
-            Dictionary<int, T> dico = new Dictionary<int, T>();
+            Dictionary<int, T> dico = new();
             IEnumerable<string> lines = File.ReadLines(filePath);       //on récupères les lignes du fichier
             foreach (string str in lines)
             {
                 string[] strTab = str.Split('\t'); // on les sépare(délémité par des tabs ici)
                 string[] strTabSplit = Parsers.Parser.DeepSplit(strTab); //sépare également les TMU/ROP/... séparés par des /
-                List<string> strList = new List<string>(strTabSplit);
+                List<string> strList = new(strTabSplit);
                 dico.Add(b, strList as T);
                 b++;
             }

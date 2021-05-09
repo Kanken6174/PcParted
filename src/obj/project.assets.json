@@ -1007,7 +1007,7 @@
           }
         }
       },
-      "logicPC/1.0.0": {
+      "logicPC/0.8.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -3312,7 +3312,7 @@
         "version.txt"
       ]
     },
-    "logicPC/1.0.0": {
+    "logicPC/0.8.0": {
       "type": "project",
       "path": "../logicPC/logicPC.csproj",
       "msbuildProject": "../logicPC/logicPC.csproj"
@@ -3325,7 +3325,7 @@
       "Microsoft.Windows.Compatibility >= 5.0.2",
       "System.Reactive >= 5.0.0",
       "System.Runtime.CompilerServices.Unsafe >= 5.0.0",
-      "logicPC >= 1.0.0"
+      "logicPC >= 0.8.0"
     ]
   },
   "packageFolders": {

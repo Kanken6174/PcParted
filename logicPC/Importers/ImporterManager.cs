@@ -7,7 +7,7 @@ namespace logicPC.ImportStrategies
 {
     public class ImporterManager
     {
-        public static Dictionary<int, Carte> ImportAll(string path, string PnmName, string PemName, string UslName)
+        public static Dictionary<int, Card> ImportAll(string path, string PnmName, string PemName, string UslName)
         {
             int constructeur = ParseConstructeur.StringToInt(PemName.Split('.').FirstOrDefault());
 
@@ -17,7 +17,7 @@ namespace logicPC.ImportStrategies
                 path += @"/";
 
             Dictionary<int, List<String>> dico = SImporterDataSets<List<string>>.FileImportOP(path + PnmName);
-            Dictionary<int, Carte> deck = Cardfactory.CreerCarte(dico);
+            Dictionary<int, Card> deck = Cardfactory.CreerCard(dico);
 
             Dictionary<int, Uri> UriDico = SImporterPictureLink.FileImportOP(path + PemName);
 
@@ -26,8 +26,8 @@ namespace logicPC.ImportStrategies
                 if (!deck.ContainsKey(page.Key)) // seul cas possible: le fichier .pem est trop long, peut-être érronné
                     break;
 
-                Carte temp = deck[page.Key];
-                temp.SetUri(page.Value);
+                Card temp = deck[page.Key];
+                temp.PictureURL = page.Value;
 
                 temp.SetConstructeur(constructeur);
                 deck[page.Key] = temp;

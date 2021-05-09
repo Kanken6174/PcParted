@@ -4,9 +4,9 @@
     {
         private const double difficulte = 20608845737768.16;
 
-        public static Carte ExtrapolateCardData(Carte atraiter, float difficulty)
+        public static Card ExtrapolateCardData(Card atraiter, float difficulty)
         {
-            float GHZ = (float)(atraiter.FrequenceGpu / 1000.00);
+            float GHZ = (float)(atraiter.GpuFrequency / 1000.00);
             float fillRate = atraiter.RopUnits * GHZ;       //en gigaPixels/s
             float TextureRate = atraiter.TmuUnits * GHZ;    //en gigaTexels/s
 
@@ -23,7 +23,7 @@
             else
                 hashrate = GLOPS / difficulte;
 
-            atraiter.acceptExtrapolatedData(hashrate, GFLOPS);
+            atraiter.AcceptExtrapolatedData(hashrate, GFLOPS, fillRate);
 
             return atraiter;
         }

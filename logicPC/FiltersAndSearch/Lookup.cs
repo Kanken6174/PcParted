@@ -4,25 +4,25 @@ using System.Linq;
 
 namespace logicPC.FiltersAndSearch
 {
-    public class Lookup
+    public static class Lookup
     {
         /// <summary>
         /// Méthode de recherche par nom de modèle
         /// </summary>
         /// <param name="terms">Recherche de l'utilisateur</param>
-        /// <param name="deck">dictionnaire readonly de toutes les cartes graphiques, ou autre ditionnaire similaire</param>
-        /// <returns>Un dictionnaire ne conetenant que les cartes contenant les termes de recherche dans leur nom</returns>
-        public static Dictionary<string, Carte> SearchModel(string terms, Dictionary<string, Carte> deck)
+        /// <param name="deck">dictionnaire readonly de toutes les cards graphiques, ou autre ditionnaire similaire</param>
+        /// <returns>Un dictionnaire ne conetenant que les cards contenant les termes de recherche dans leur nom</returns>
+        public static Dictionary<string, Card> SearchModel(string terms, Dictionary<string, Card> deck)
         {
-            Dictionary<string, Carte> validForTerms = new();
+            Dictionary<string, Card> validForTerms = new();
 
             //méthode LINQ
 
-            validForTerms = deck.Where(carte => carte.Value.NomModele.Contains(terms, StringComparison.InvariantCultureIgnoreCase))
-                                .ToDictionary(carte => carte.Key, carte => carte.Value);
+            validForTerms = deck.Where(card => card.Value.Model.Contains(terms, StringComparison.InvariantCultureIgnoreCase))
+                                .ToDictionary(card => card.Key, card => card.Value);
 
             //Version non-LINQ
-            /*foreach (KeyValuePair < string, Carte> card in deck)
+            /*foreach (KeyValuePair < string, Card> card in deck)
             {
                 if (card.Value.NomModele.Contains(terms, StringComparison.InvariantCultureIgnoreCase))
                 {

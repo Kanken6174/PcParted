@@ -16,23 +16,34 @@ namespace logicPC.FiltersAndSearch
         /// <param name="contructeur">Le nom du construceur, case ignorée</param>
         /// <param name="deck">Le dictionnaire à traiter</param>
         /// <returns>Le dictionnaire traité</returns>
-        public Dictionary<string, Carte> ConstructorFilter(string contructeur, Dictionary<string, Carte> deck) =>
-            deck.Where(carte => carte.Value.Constructeur.Equals(ParseConstructeur.StringToInt(contructeur)))
-                .ToDictionary(carte => carte.Key, carte => carte.Value);
+        public static Dictionary<string, Card> ConstructorFilter(string contructeur, Dictionary<string, Card> deck) =>
+            deck.Where(card => card.Value.Manufacturer.Equals(ParseConstructeur.StringToInt(contructeur)))
+                .ToDictionary(card => card.Key, card => card.Value);
 
         /// <summary>
         /// Prend un nom d'architecture, utilise LINQ pour rendre un dictionnaire contenant seulement les entrées
-        /// Correspondantes (carte graphique ayant telle architecture).
+        /// Correspondantes (card graphique ayant telle architecture).
         /// </summary>
         /// <param name="contructeur">Le nom du construceur, case ignorée</param>
         /// <param name="deck">Le dictionnaire à traiter</param>
         /// <returns>Le dictionnaire traité</returns>
-        public Dictionary<string, Carte> ArchitectureFilter(string contructeur, Dictionary<string, Carte> deck) =>
-            deck.Where(carte => carte.Value.Constructeur.Equals(ParseConstructeur.StringToInt(contructeur)))
-                .ToDictionary(carte => carte.Key, carte => carte.Value);
+        public static Dictionary<string, Card> ArchitectureFilter(string contructeur, Dictionary<string, Card> deck) =>
+            deck.Where(card => card.Value.Manufacturer.Equals(ParseConstructeur.StringToInt(contructeur)))
+                .ToDictionary(card => card.Key, card => card.Value);
 
-        public Dictionary<string, Carte> GflopsSlider(int min, int max, Dictionary<string, Carte> deck) =>
-            deck.Where(carte => carte.Value.IndicateurPuissance > min && carte.Value.IndicateurPuissance < max)
-                .ToDictionary(carte => carte.Key, carte => carte.Value);
+        /// <summary>
+        /// Filtre pour la puissance en gigaFlops.
+        /// </summary>
+        /// <param name="min">puissance minimale</param>
+        /// <param name="max">puissance maximale</param>
+        /// <param name="deck">dictionnaire à traiter</param>
+        /// <returns>dictionnaire traité</returns>
+        public static Dictionary<string, Card> GflopsSlider(int min, int max, Dictionary<string, Card> deck) =>
+            deck.Where(card => card.Value.RPI > min && card.Value.RPI < max)
+                .ToDictionary(card => card.Key, card => card.Value);
+
+        public static Dictionary<string, Card> PriceSlider(int min, int max, Dictionary<string, Card> deck) =>
+            deck.Where(card => card.Value.PriceMSRP > min && card.Value.RPI < max)
+                .ToDictionary(card => card.Key, card => card.Value);
     }
 }

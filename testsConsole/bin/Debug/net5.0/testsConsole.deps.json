@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "testsConsole/1.0.0": {
         "dependencies": {
-          "logicPC": "1.0.0"
+          "logicPC": "0.8.0"
         },
         "runtime": {
           "testsConsole.dll": {}
@@ -45,7 +45,7 @@
           }
         }
       },
-      "logicPC/1.0.0": {
+      "logicPC/0.8.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "5.0.0"
         },
@@ -82,7 +82,7 @@
       "path": "microsoft.extensions.primitives/5.0.0",
       "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
     },
-    "logicPC/1.0.0": {
+    "logicPC/0.8.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

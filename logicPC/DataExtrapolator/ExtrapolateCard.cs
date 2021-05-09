@@ -2,11 +2,11 @@
 {
     internal class ExtrapolateCard
     {
-        public static Carte Extrapolate(Carte carte)
+        public static Card Extrapolate(Card card)
         {
-            Carte carteExtrapolee = carte;
+            Card cardExtrapolee = card;
 
-            return carteExtrapolee;
+            return cardExtrapolee;
         }
     }
 }

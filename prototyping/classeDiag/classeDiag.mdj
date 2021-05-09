@@ -2234,12 +2234,12 @@
 										"$ref": "AAAAAAF5F27pP39OEso="
 									},
 									"font": "Arial;13;0",
-									"left": 1135,
-									"top": 698,
+									"left": 1238,
+									"top": 711,
 									"width": 32.16357421875,
 									"height": 13,
-									"alpha": 0.4979362190321224,
-									"distance": 72.91776189653656,
+									"alpha": 3.9567244549484872,
+									"distance": 32.14031735997639,
 									"hostEdge": {
 										"$ref": "AAAAAAF5F27pP39SinM="
 									},

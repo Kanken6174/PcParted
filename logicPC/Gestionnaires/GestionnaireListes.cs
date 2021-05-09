@@ -20,7 +20,7 @@ namespace logicPC.Gestionnaires
         /// <summary>
         /// Renvoie la liste utilisateur active
         /// </summary>
-        /// <returns>Une liste utilisateur UserList qui contient des cartes graphiques</returns>
+        /// <returns>Une liste utilisateur UserList qui contient des cards graphiques</returns>
         public UserList GetActive() => MesListesUtilisateur[ActiveKey];
 
         /// <summary>
@@ -61,7 +61,7 @@ namespace logicPC.Gestionnaires
         {
             if (MesListesUtilisateur.ContainsKey(key))
             {
-                UserList clone = new();
+                UserList clone;
                 MesListesUtilisateur.TryGetValue(key, out clone);
                 return AjouterListe(key, clone);
             }
