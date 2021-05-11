@@ -5,26 +5,13 @@ namespace logicPC
 {
     public class CreateurConcret : ACreateur
     {
-        /*       public override ICard CreerCard(string []input, int lineNum)
-               {
-                   string nomModele = "", architecture = "";
-                   DateTime dateSortie = default;
-                   int bus = -1, constructeur = -1, tailleMemoire = -1, frequenceGpu = -1, frequenceMemoire = -1, shaderUnits = -1, tmuUnits = -1, ropUnits = -1, wattage = -1;
-                   float prix = -1, hashrate = -1, indicateurPuissance = -1;
-                   bool wattageEstExtrapole = false, prixEstExtrapole = false;
-                   Uri urlVersImage = default;
-                   int line = -1;
-
-                   Card uneNouvelleCard = new Card(nomModele, dateSortie, architecture, bus, constructeur, tailleMemoire, frequenceGpu, frequenceMemoire, shaderUnits, tmuUnits, ropUnits, wattage, prix, hashrate, indicateurPuissance, wattageEstExtrapole, prixEstExtrapole, urlVersImage, line);
-                   return uneNouvelleCard;
-               }*/
 
         /// <summary>
         /// Factory responsable de la création de cards à partir d'un dictionnaire de string.
         /// </summary>
         /// <param name="dico"></param>
         /// <returns></returns>
-        public override Dictionary<int, Card> CreerCard(Dictionary<int, List<string>> dico)
+        public override Dictionary<int, Card> MakeCard(Dictionary<int, List<string>> dico)
         {
             Dictionary<int, Card> MainSet = new();
 

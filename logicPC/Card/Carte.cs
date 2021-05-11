@@ -5,7 +5,7 @@ namespace logicPC
     /// <summary>
     /// classe d'une card standard qui implémente l'interface ICard
     /// </summary>
-    public class Card : ICard
+    public class Card
     {
         public string Model { get; private set; }
         public DateTime ReleaseDate { get; private set; }

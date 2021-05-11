@@ -18,7 +18,7 @@ namespace logicPC.ImportStrategies
                 path += @"/";
 
             Dictionary<int, List<String>> dico = SImporterDataSets<List<string>>.FileImportOP(path + PnmName);
-            Dictionary<int, Card> deck = Cardfactory.CreerCard(dico);
+            Dictionary<int, Card> deck = Cardfactory.MakeCard(dico);
 
             Dictionary<int, Uri> UriDico = SImporterPictureLink.FileImportOP(path + PemName);
 
