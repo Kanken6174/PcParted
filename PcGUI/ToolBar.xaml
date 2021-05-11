@@ -29,11 +29,11 @@
                       Background="DimGray"
                       RenderTransformOrigin="1.828,0.493">
                 <MenuItem Header="_New GPU list" />
-                <MenuItem Header="_Open GPU list" />
+                <MenuItem Header="_Open GPU list" Click="MenuItem_Click"/>
                 <MenuItem Header="_Save GPU list" />
                 <MenuItem Header="_Save GPU list As" />
                 <Separator />
-                <MenuItem Header="_Load dataset" />
+                <MenuItem Header="_Load dataset" Click="MenuItem_Click"/>
                 <Separator />
                 <MenuItem Header="_Exit" />
             </MenuItem>

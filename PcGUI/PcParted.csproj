@@ -51,4 +51,17 @@
     <Compile Remove="Tests\TestImport\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
     <Compile Remove="Tests\TestImport\obj\Debug\net5.0\TestImport.AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Settings1.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
 </Project>

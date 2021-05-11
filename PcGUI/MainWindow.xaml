@@ -11,7 +11,8 @@
         SnapsToDevicePixels="True"
         Background="#464646"
         WindowStyle="ToolWindow"
-        x:Name="aWindow">
+        x:Name="aWindow"
+        UseLayoutRounding="True">
     <Grid>
         <ContentControl x:Name="MainView"
                         Background="#464646"

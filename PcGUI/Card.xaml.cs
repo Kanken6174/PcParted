@@ -24,7 +24,6 @@ namespace PcParted
 
         private void UC_clicked(object sender, MouseButtonEventArgs e)
         {
-            nom_carte.Text = "A été cliqué!!!";
             parent3view.ToShow = laCarte;
         }
 

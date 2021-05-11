@@ -6,7 +6,9 @@
              xmlns:local="clr-namespace:PcParted"
              mc:Ignorable="d"
              d:DesignHeight="450"
-             d:DesignWidth="350">
+             d:DesignWidth="350"
+             VerticalAlignment="Top"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}">
     <Grid>
         <Rectangle Fill="Gray"
                    HorizontalAlignment="Left"
@@ -50,17 +52,19 @@
                Margin="45,10,0,0"
                VerticalAlignment="Top"
                Width="266"
-               Source="gpu1.png" />
+               Source="gpu1.png"
+               RenderOptions.BitmapScalingMode="HighQuality" />
         <TextBlock x:Name="nom_carte"
-                   HorizontalAlignment="Left"
-                   Margin="41,227,0,187"
+                   HorizontalAlignment="Center"
+                   Margin="0,227,0,187"
                    Text="Galax 1050 TI"
                    TextAlignment="Center"
-                   Width="264"
+                   Width="349"
                    Foreground="Black"
                    RenderTransformOrigin="0.5,0.5"
                    FontFamily="Unispace"
-                   FontSize="25">
+                   FontSize="25"
+                   TextWrapping="Wrap">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform />
@@ -70,17 +74,33 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Left"
-                   Margin="10,282,0,0"
+        <TextBlock HorizontalAlignment="Center"
+                   Margin="0,270,0,0"
                    TextWrapping="Wrap"
-                   Text="Des détails sur la carte incluant son prix, constructeur, specs, ect"
+                   Text="{Binding Path=parentElement.ToShow.Architecture, StringFormat='Architecture : {0}', UpdateSourceTrigger=PropertyChanged}"
                    VerticalAlignment="Top"
-                   Height="55"
+                   Height="23"
                    Width="330" />
-        <Button Content="Bookmark"
+        <Button Content="Ajoute à la liste"
                 HorizontalAlignment="Left"
-                Margin="127,402,0,0"
+                Margin="121,400,0,0"
                 VerticalAlignment="Top"
-                Width="75" />
+                Width="103" />
+        <Button x:Name="closeDetailButton"
+                Content="X"
+                HorizontalAlignment="Left"
+                Margin="315,10,0,0"
+                VerticalAlignment="Top"
+                Height="25"
+                Width="25"
+                Click="closeDetailButton_Click"
+                Visibility="Visible" />
+        <TextBlock HorizontalAlignment="Center"
+                   Margin="0,298,0,0"
+                   TextWrapping="Wrap"
+                   Text="{Binding carte.Architecture, StringFormat=Architecture : \{0\}, UpdateSourceTrigger=PropertyChanged}"
+                   VerticalAlignment="Top"
+                   Height="23"
+                   Width="330" />
     </Grid>
 </UserControl>

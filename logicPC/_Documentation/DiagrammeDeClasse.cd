@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="logicPC.ACreateur" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card\ACreateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.Card" BaseTypeListCollapsed="true">
+    <Position X="5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>iAsAACCAAAIIAgAEEFAACAAAIAAjAIAAAAgBEAAAAQA=</HashCode>
+      <FileName>Card\Carte.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="logicPC.CreateurConcret" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Card\CreateurConcret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.CacheDownloader" Collapsed="true">
+    <Position X="14.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Downloaders\CacheDownloader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.ExporterManager" Collapsed="true">
+    <Position X="18.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExportStrategies\ExporterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.SImporterDataSets&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importers\Strategies\SImporterDataSets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.SImporterPictureLink" Collapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importers\Strategies\SImporterPictureLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.SImporterUserLists" Collapsed="true">
+    <Position X="13" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Importers\Strategies\SImporterUserLists.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.Conteneurs.UserList" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAgAAQAIACAAAAAAAAAgAAAAAAAAAABAAAQA=</HashCode>
+      <FileName>Conteneurs\UserList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.DataExtrapolator.ExtrapolateCard" Collapsed="true">
+    <Position X="13" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DataExtrapolator\ExtrapolateCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.Extrapolation.Extrapolator" Collapsed="true">
+    <Position X="14.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Extrapolation\Extrapolator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.FiltersAndSearch.Filters" Collapsed="true">
+    <Position X="16.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEQABAAAAA=</HashCode>
+      <FileName>FiltersAndSearch\Filters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.FiltersAndSearch.Lookup" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FiltersAndSearch\Lookup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.Gestionnaires.GestionnaireListes" Collapsed="true">
+    <Position X="18.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAQAAAAJAAgIAAAAAAAAAABAAAAAIAAAIAAA=</HashCode>
+      <FileName>Gestionnaires\GestionnaireListes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.ImportStrategies.ImporterManager" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importers\ImporterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.ImportStrategies.ImporterManagerBase" Collapsed="true">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importers\ImporterManagerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.Parsers.BusParser" Collapsed="true">
+    <Position X="13" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parsers\BusParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.Parsers.DateParser" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parsers\DateParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.Parsers.ParseConstructeur" Collapsed="true">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parsers\ParseConstructeur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="logicPC.Parsers.Parser" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Parsers\Parser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="logicPC.ICard" Collapsed="true">
+    <Position X="13" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card\ICarte.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="logicPC.EBusTypes" Collapsed="true">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAACAEABAAAAAAAAgAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Card\Enums\EBusTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="logicPC.EFabricant" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAA=</HashCode>
+      <FileName>Card\Enums\EFabricant.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

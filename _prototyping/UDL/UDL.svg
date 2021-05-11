@@ -1,0 +1,440 @@
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="1218.498046875" height="852">
+    <defs/>
+    <g>
+        
+        <g transform="translate(-134,-30) scale(1,1)">
+            <rect fill="#ffffff" stroke="none" x="232" y="40" width="744" height="832"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 232 40 L 976 40 L 976 872 L 232 872 L 232 40 Z Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="533" y="58">Pcparted app</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 171.60661594460228 569.6800000000001 C 171.60661594460228 564.8861679360001 175.49245826954774 561 180.285888671875 561 C 185.07931907420226 561 188.96516139914772 564.8861679360001 188.96516139914772 569.6800000000001 C 188.96516139914772 574.473832064 185.07931907420226 578.36 180.285888671875 578.36 C 175.49245826954774 578.36 171.60661594460228 574.473832064 171.60661594460228 569.6800000000001 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 171.60661594460228 569.6800000000001 C 171.60661594460228 564.8861679360001 175.49245826954774 561 180.285888671875 561 C 185.07931907420226 561 188.96516139914772 564.8861679360001 188.96516139914772 569.6800000000001 C 188.96516139914772 574.473832064 185.07931907420226 578.36 180.285888671875 578.36 C 175.49245826954774 578.36 171.60661594460228 574.473832064 171.60661594460228 569.6800000000001 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 180.285888671875 578.36 L 180.285888671875 595.64" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 171.09607049005683 584.84 L 189.47570685369317 584.84" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 180.285888671875 595.64 L 167.52225230823865 613" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 180.285888671875 595.64 L 193.04952503551135 613" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="151.38818359375" y="633.5">Utilisateur</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 463 696 C 463 686.6111584 543.1410208 679 642 679 C 740.8589792 679 821 686.6111584 821 696 C 821 705.3888416 740.8589792 713 642 713 C 543.1410208 713 463 705.3888416 463 696 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 456 689 C 456 679.6111584 536.1410208 672 635 672 C 733.8589792 672 814 679.6111584 814 689 C 814 698.3888416 733.8589792 706 635 706 C 536.1410208 706 456 698.3888416 456 689 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 456 689 C 456 679.6111584 536.1410208 672 635 672 C 733.8589792 672 814 679.6111584 814 689 C 814 698.3888416 733.8589792 706 635 706 C 536.1410208 706 456 698.3888416 456 689 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="522.4814453125" y="696">modifier les paramètres de l'application</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 218 606 L 544 671" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 559 288 C 559 278.6111584 654.5871952 271 772.5 271 C 890.4128048 271 986 278.6111584 986 288 C 986 297.3888416 890.4128048 305 772.5 305 C 654.5871952 305 559 297.3888416 559 288 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 552 281 C 552 271.6111584 647.5871952 264 765.5 264 C 883.4128048 264 979 271.6111584 979 281 C 979 290.3888416 883.4128048 298 765.5 298 C 647.5871952 298 552 290.3888416 552 281 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 552 281 C 552 271.6111584 647.5871952 264 765.5 264 C 883.4128048 264 979 271.6111584 979 281 C 979 290.3888416 883.4128048 298 765.5 298 C 647.5871952 298 552 290.3888416 552 281 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="629.130126953125" y="288">charger le fichier de liens d'images lié à la base</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 1081.5338620383523 289.68 C 1081.5338620383523 284.886167936 1085.4197043632978 281 1090.213134765625 281 C 1095.0065651679522 281 1098.8924074928977 284.886167936 1098.8924074928977 289.68 C 1098.8924074928977 294.473832064 1095.0065651679522 298.36 1090.213134765625 298.36 C 1085.4197043632978 298.36 1081.5338620383523 294.473832064 1081.5338620383523 289.68 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1081.5338620383523 289.68 C 1081.5338620383523 284.886167936 1085.4197043632978 281 1090.213134765625 281 C 1095.0065651679522 281 1098.8924074928977 284.886167936 1098.8924074928977 289.68 C 1098.8924074928977 294.473832064 1095.0065651679522 298.36 1090.213134765625 298.36 C 1085.4197043632978 298.36 1081.5338620383523 294.473832064 1081.5338620383523 289.68 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1090.213134765625 298.36 L 1090.213134765625 315.64" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1081.0233165838067 304.84 L 1099.4029529474433 304.84" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1090.213134765625 315.64 L 1077.4494984019886 333" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1090.213134765625 315.64 L 1102.9767711292614 333" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="1025.17822265625" y="353.5">Compileur de datasets</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 655 200 C 655 190.6111584 736.9318816 183 838 183 C 939.0681184 183 1021 190.6111584 1021 200 C 1021 209.3888416 939.0681184 217 838 217 C 736.9318816 217 655 209.3888416 655 200 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 648 193 C 648 183.6111584 729.9318816 176 831 176 C 932.0681184 176 1014 183.6111584 1014 193 C 1014 202.3888416 932.0681184 210 831 210 C 729.9318816 210 648 202.3888416 648 193 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 648 193 C 648 183.6111584 729.9318816 176 831 176 C 932.0681184 176 1014 183.6111584 1014 193 C 1014 202.3888416 932.0681184 210 831 210 C 729.9318816 210 648 202.3888416 648 193 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="714.64111328125" y="200">met à disposistion une base de données</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1090 280 L 1090 192 L 1014 192" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 1250.5697507102273 289.68 C 1250.5697507102273 284.886167936 1254.4555930351728 281 1259.2490234375 281 C 1264.0424538398272 281 1267.9282961647727 284.886167936 1267.9282961647727 289.68 C 1267.9282961647727 294.473832064 1264.0424538398272 298.36 1259.2490234375 298.36 C 1254.4555930351728 298.36 1250.5697507102273 294.473832064 1250.5697507102273 289.68 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1250.5697507102273 289.68 C 1250.5697507102273 284.886167936 1254.4555930351728 281 1259.2490234375 281 C 1264.0424538398272 281 1267.9282961647727 284.886167936 1267.9282961647727 289.68 C 1267.9282961647727 294.473832064 1264.0424538398272 298.36 1259.2490234375 298.36 C 1254.4555930351728 298.36 1250.5697507102273 294.473832064 1250.5697507102273 289.68 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1259.2490234375 298.36 L 1259.2490234375 315.64" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1250.0592052556817 304.84 L 1268.4388416193183 304.84" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1259.2490234375 315.64 L 1246.4853870738636 333" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1259.2490234375 315.64 L 1272.0126598011364 333" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="1184.813232421875" y="353.5">Développeur de PcParted</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 799 176 L 799 156 L 1256 156 L 1256 280" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 311 304 C 311 294.6111584 344.57864 287 386 287 C 427.42136 287 461 294.6111584 461 304 C 461 313.3888416 427.42136 321 386 321 C 344.57864 321 311 313.3888416 311 304 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 304 297 C 304 287.6111584 337.57864 280 379 280 C 420.42136 280 454 287.6111584 454 297 C 454 306.3888416 420.42136 314 379 314 C 337.57864 314 304 306.3888416 304 297 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 304 297 C 304 287.6111584 337.57864 280 379 280 C 420.42136 280 454 287.6111584 454 297 C 454 306.3888416 420.42136 314 379 314 C 337.57864 314 304 306.3888416 304 297 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="333.84912109375" y="304">Gérer ses listes</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 367 315 L 206 559" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 287 208 C 287 198.6111584 328.1897984 191 379 191 C 429.8102016 191 471 198.6111584 471 208 C 471 217.3888416 429.8102016 225 379 225 C 328.1897984 225 287 217.3888416 287 208 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 280 201 C 280 191.6111584 321.1897984 184 372 184 C 422.8102016 184 464 191.6111584 464 201 C 464 210.3888416 422.8102016 218 372 218 C 321.1897984 218 280 210.3888416 280 201 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 280 201 C 280 191.6111584 321.1897984 184 372 184 C 422.8102016 184 464 191.6111584 464 201 C 464 210.3888416 422.8102016 218 372 218 C 321.1897984 218 280 210.3888416 280 201 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="316.0009765625" y="208">Supprimer une liste</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 372 218 L 372 256 L 392 256 L 392 280" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 387.790482243984 269.83732514237585 L 392 280 L 396.209517756016 269.83732514237585" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="375.5" y="244.5">«extend»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 535 248 C 535 238.6111584 574.8466528 231 624 231 C 673.1533472 231 713 238.6111584 713 248 C 713 257.3888416 673.1533472 265 624 265 C 574.8466528 265 535 257.3888416 535 248 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 528 241 C 528 231.6111584 567.8466528 224 617 224 C 666.1533472 224 706 231.6111584 706 241 C 706 250.3888416 666.1533472 258 617 258 C 567.8466528 258 528 250.3888416 528 241 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 528 241 C 528 231.6111584 567.8466528 224 617 224 C 666.1533472 224 706 231.6111584 706 241 C 706 250.3888416 666.1533472 258 617 258 C 567.8466528 258 528 250.3888416 528 241 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="563.162353515625" y="248">Dupliquer une liste</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 528 240 L 440 240 L 440 280" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 435.790482243984 269.83732514237585 L 440 280 L 444.209517756016 269.83732514237585" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="471.5" y="236.5">«extend»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 463 376 C 463 366.6111584 495.2354944 359 535 359 C 574.7645056 359 607 366.6111584 607 376 C 607 385.3888416 574.7645056 393 535 393 C 495.2354944 393 463 385.3888416 463 376 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 456 369 C 456 359.6111584 488.2354944 352 528 352 C 567.7645056 352 600 359.6111584 600 369 C 600 378.3888416 567.7645056 386 528 386 C 488.2354944 386 456 378.3888416 456 369 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 456 369 C 456 359.6111584 488.2354944 352 528 352 C 567.7645056 352 600 359.6111584 600 369 C 600 378.3888416 567.7645056 386 528 386 C 488.2354944 386 456 378.3888416 456 369 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="483.569580078125" y="376">Retirer un GPU</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 528 352 L 528 332 L 392 332 L 392 314" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 396.209517756016 324.16267485762415 L 392 314 L 387.790482243984 324.16267485762415" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="399.5" y="348.5">«extend»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 287 512 C 287 502.6111584 394.00393280000003 495 526 495 C 657.9960672 495 765 502.6111584 765 512 C 765 521.3888416 657.9960672 529 526 529 C 394.00393280000003 529 287 521.3888416 287 512 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 280 505 C 280 495.6111584 387.00393280000003 488 519 488 C 650.9960672 488 758 495.6111584 758 505 C 758 514.3888416 650.9960672 522 519 522 C 387.00393280000003 522 280 514.3888416 280 505 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 280 505 C 280 495.6111584 387.00393280000003 488 519 488 C 650.9960672 488 758 495.6111584 758 505 C 758 514.3888416 650.9960672 522 519 522 C 387.00393280000003 522 280 514.3888416 280 505 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="399.400634765625" y="512">Lister les GPUs dans la base de données</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 367 424 C 367 414.6111584 406.6227952 407 455.5 407 C 504.3772048 407 544 414.6111584 544 424 C 544 433.3888416 504.3772048 441 455.5 441 C 406.6227952 441 367 433.3888416 367 424 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 360 417 C 360 407.6111584 399.6227952 400 448.5 400 C 497.3772048 400 537 407.6111584 537 417 C 537 426.3888416 497.3772048 434 448.5 434 C 399.6227952 434 360 426.3888416 360 417 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 360 417 C 360 407.6111584 399.6227952 400 448.5 400 C 497.3772048 400 537 407.6111584 537 417 C 537 426.3888416 497.3772048 434 448.5 434 C 399.6227952 434 360 426.3888416 360 417 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="395.0400390625" y="424">Préciser des filtres</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 448 434 L 448 464 L 488 464 L 488 488" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 483.790482243984 477.83732514237585 L 488 488 L 492.209517756016 477.83732514237585" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="471.5" y="460.5">«extend»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 559 416 C 559 406.6111584 647.8714672 399 757.5 399 C 867.1285328 399 956 406.6111584 956 416 C 956 425.3888416 867.1285328 433 757.5 433 C 647.8714672 433 559 425.3888416 559 416 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 552 409 C 552 399.6111584 640.8714672 392 750.5 392 C 860.1285328 392 949 399.6111584 949 409 C 949 418.3888416 860.1285328 426 750.5 426 C 640.8714672 426 552 418.3888416 552 409 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 552 409 C 552 399.6111584 640.8714672 392 750.5 392 C 860.1285328 392 949 399.6111584 949 409 C 949 418.3888416 860.1285328 426 750.5 426 C 640.8714672 426 552 418.3888416 552 409 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="665.939697265625" y="416">Choisir une base de données</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 218 589 L 454 523" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 367 608 C 367 598.6111584 421.845112 591 489.5 591 C 557.154888 591 612 598.6111584 612 608 C 612 617.3888416 557.154888 625 489.5 625 C 421.845112 625 367 617.3888416 367 608 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 360 601 C 360 591.6111584 414.845112 584 482.5 584 C 550.154888 584 605 591.6111584 605 601 C 605 610.3888416 550.154888 618 482.5 618 C 414.845112 618 360 610.3888416 360 601 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 360 601 C 360 591.6111584 414.845112 584 482.5 584 C 550.154888 584 605 591.6111584 605 601 C 605 610.3888416 550.154888 618 482.5 618 C 414.845112 618 360 610.3888416 360 601 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="405.541015625" y="608">Ajouter un GPU à une liste</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 490 584 L 490 564 L 504 564 L 504 522" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 508.209517756016 532.1626748576241 L 504 522 L 499.790482243984 532.1626748576241" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="519.5" y="556.5">«extend»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 568 488 L 568 468 L 788 468 L 788 426" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 792.209517756016 436.16267485762415 L 788 426 L 783.790482243984 436.16267485762415" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="671.5" y="460.5">«include»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 750 392 L 750 372 L 624 372 L 624 298" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 628.209517756016 308.16267485762415 L 624 298 L 619.790482243984 308.16267485762415" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="663.5" y="364.5">«include»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 711 600 C 711 590.6111584 770.0984064 583 843 583 C 915.9015936 583 975 590.6111584 975 600 C 975 609.3888416 915.9015936 617 843 617 C 770.0984064 617 711 609.3888416 711 600 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 704 593 C 704 583.6111584 763.0984064 576 836 576 C 908.9015936 576 968 583.6111584 968 593 C 968 602.3888416 908.9015936 610 836 610 C 763.0984064 610 704 602.3888416 704 593 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 704 593 C 704 583.6111584 763.0984064 576 836 576 C 908.9015936 576 968 583.6111584 968 593 C 968 602.3888416 908.9015936 610 836 610 C 763.0984064 610 704 602.3888416 704 593 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="753.451904296875" y="600">accéder aux détails d'un gpu</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 816 576 L 816 505 L 758 505" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 768.1626748576241 500.790482243984 L 758 505 L 768.1626748576241 509.209517756016" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="815.5" y="531.5">«extend»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 528 584 L 528 576 L 634 576 L 634 592 L 704 592" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 693.8373251423759 596.209517756016 L 704 592 L 693.8373251423758 587.790482243984" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="599.5" y="571.5">«extend»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 239 768 C 239 758.6111584 367.4942624 751 526 751 C 684.5057376 751 813 758.6111584 813 768 C 813 777.3888416 684.5057376 785 526 785 C 367.4942624 785 239 777.3888416 239 768 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 232 761 C 232 751.6111584 360.4942624 744 519 744 C 677.5057376 744 806 751.6111584 806 761 C 806 770.3888416 677.5057376 778 519 778 C 360.4942624 778 232 770.3888416 232 761 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 232 761 C 232 751.6111584 360.4942624 744 519 744 C 677.5057376 744 806 751.6111584 806 761 C 806 770.3888416 677.5057376 778 519 778 C 360.4942624 778 232 770.3888416 232 761 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="334.578369140625" y="768">Projeter les revenus et déficits d'une liste de GPU sur graphique</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#C0C0C0" stroke="none" d="M 255 96 C 255 86.6111584 322.15728 79 405 79 C 487.84272 79 555 86.6111584 555 96 C 555 105.3888416 487.84272 113 405 113 C 322.15728 113 255 105.3888416 255 96 Z" opacity="0.2"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 248 89 C 248 79.6111584 315.15728 72 398 72 C 480.84272 72 548 79.6111584 548 89 C 548 98.3888416 480.84272 106 398 106 C 315.15728 106 248 98.3888416 248 89 Z"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 248 89 C 248 79.6111584 315.15728 72 398 72 C 480.84272 72 548 79.6111584 548 89 C 548 98.3888416 480.84272 106 398 106 C 315.15728 106 248 98.3888416 248 89 Z" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="302.985107421875" y="96">Exporter une liste au format CSV</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 379 106 L 379 144 L 248 144 L 248 264 L 328 264 L 328 280" stroke-miterlimit="10" stroke-dasharray="3"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 323.790482243984 269.83732514237585 L 328 280 L 332.209517756016 269.83732514237585" stroke-miterlimit="10"/>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none"/>
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="271.5" y="140.5">«extend»</text>
+            </g>
+        </g>
+        <g transform="translate(-134,-30) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 218 617 L 481 743" stroke-miterlimit="10"/>
+        </g>
+    </g>
+</svg>

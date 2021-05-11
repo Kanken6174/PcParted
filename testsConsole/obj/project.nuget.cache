@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "SJAm4E6JK5iLvLe/QxbIpXYZKQby3oEHUacc3jPNcKWcd6hsEfnIFseB/7eLWNoSVhCqErLQkTGxDkmoDdO/2Q==",
+  "dgSpecHash": "xytqfLWe7rUJn7L/e10ez+QK+WWDuuP2KnZ9RDWF+V80b3OSIJzhquE6FOFZ4kleIlBhVzowvJQOPOwNrt/7EQ==",
   "success": true,
   "projectFilePath": "Y:\\cs\\PcParted\\PcParted\\testsConsole\\testsConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

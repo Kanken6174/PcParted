@@ -14,7 +14,6 @@ Y:\cs\PcParted\PcParted\logicPC\bin\Debug\net5.0\logicPC.deps.json
 Y:\cs\PcParted\PcParted\logicPC\bin\Debug\net5.0\logicPC.dll
 Y:\cs\PcParted\PcParted\logicPC\bin\Debug\net5.0\ref\logicPC.dll
 Y:\cs\PcParted\PcParted\logicPC\bin\Debug\net5.0\logicPC.pdb
-Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\logicPC.csprojAssemblyReference.cache
 Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\logicPC.GeneratedMSBuildEditorConfig.editorconfig
 Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\logicPC.AssemblyInfoInputs.cache
 Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\logicPC.AssemblyInfo.cs
@@ -22,3 +21,4 @@ Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\logicPC.csproj.CoreCompileInput
 Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\logicPC.dll
 Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\ref\logicPC.dll
 Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\logicPC.pdb
+Y:\cs\PcParted\PcParted\logicPC\obj\Debug\net5.0\logicPC.csprojAssemblyReference.cache

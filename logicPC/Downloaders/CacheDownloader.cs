@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 
 namespace logicPC
 {
@@ -6,6 +7,7 @@ namespace logicPC
     {
         public static void DownIt(Uri toDown)
         {
+            
             //Cette methode requiert de l'interaction WPF. Elle sera implémentée plus tard.
         }
     }

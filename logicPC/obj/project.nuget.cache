@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "3Aog3YuDMb1UZiDnUyr+wrtrgdkEQhpklsFwo/fgxR/TiH1eZ/a8jNMGqdHzTa+XgXlW2gNVDtW6YUPSp9uPbw==",
+  "dgSpecHash": "SfLfqaXRuxzAdh6mtlcRMH5dAaJB9eS8BLHtEpkD+tfbyshcFIpw6mWE4dRhCrotzDu0Cw0YP7PBxyw6Jll+fQ==",
   "success": true,
   "projectFilePath": "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

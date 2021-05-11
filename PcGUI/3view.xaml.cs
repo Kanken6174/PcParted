@@ -3,6 +3,7 @@ using System.Windows.Controls;
 using logicPC.Gestionnaires;
 using logicPC;
 using System.Collections.Generic;
+using logicPC.FiltersAndSearch;
 
 namespace PcParted
 {
@@ -13,13 +14,14 @@ namespace PcParted
     {
         public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
         public bool ShouldDetailbeShown = false;
+        public string searchTerms = default;
 
         private Card _toShow;
         public Card ToShow { get { return _toShow; }
                              set {
 
                 _toShow = value;
-                ShouldDetailbeShown = true;
+                ShouldDetailbeShown = !ShouldDetailbeShown;
                 DetailedCard.onVisibilityChanged(ToShow);
                 showChanged();
             }
@@ -28,19 +30,22 @@ namespace PcParted
         public MainApp()
         {
             InitializeComponent();
+            refreshAll();
+            DetailedCard.parentElement = this;
+        }
 
-
+        public void refreshAll()
+        {
             wrappy.Children.Clear();
             UserControl3 cloneCarte = new();
             foreach (KeyValuePair<string, Card> card in gestionnaire.Data)
             {
-                cloneCarte = new();    
+                cloneCarte = new();
                 cloneCarte.laCarte = card.Value;
                 cloneCarte.ID = card.Key;
                 cloneCarte.parent3view = this;
                 wrappy.Children.Add(cloneCarte);
             }
-            ToShow = cloneCarte.laCarte;
         }
 
         private void showChanged()
@@ -48,12 +53,10 @@ namespace PcParted
             if (ShouldDetailbeShown)
             {
                 DetailedCard.Visibility = Visibility.Visible;
-                closeDetailButton.Visibility = Visibility.Visible;
             }
             else
             {
                 DetailedCard.Visibility = Visibility.Hidden;
-                closeDetailButton.Visibility = Visibility.Hidden;
             }
         }
 
@@ -69,6 +72,7 @@ namespace PcParted
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
+            searchTerms = (sender as TextBox).Text;
         }
 
         private void UserControl5_Loaded(object sender, RoutedEventArgs e)
@@ -76,10 +80,9 @@ namespace PcParted
 
         }
 
-        private void CloseDetail(object sender, RoutedEventArgs e)
+        public void CloseDetail(object sender, RoutedEventArgs e)
         {
             DetailedCard.Visibility = Visibility.Hidden;
-            closeDetailButton.Visibility = Visibility.Hidden;
             ShouldDetailbeShown = false;
         }
 
@@ -87,7 +90,18 @@ namespace PcParted
         {
             ShouldDetailbeShown = true;
             DetailedCard.Visibility = Visibility.Visible;
-            closeDetailButton.Visibility = Visibility.Visible;
+        }
+
+        private void DetailedCard_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void search(object sender, RoutedEventArgs e)
+        {
+            gestionnaire.Data = Lookup.SearchModel(searchTerms, gestionnaire.Data);
+            refreshAll();
+            gestionnaire.Data = (Dictionary<string,Card>)gestionnaire.ProtectedData;
         }
     }
 }

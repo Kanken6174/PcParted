@@ -9,12 +9,14 @@ namespace logicPC.Gestionnaires
     public class GestionnaireListes
     {
         public Dictionary<string, Card> Data;
+        public IReadOnlyDictionary<string, Card> ProtectedData;
         public Dictionary<string, UserList> MesListesUtilisateur { get; private set; }
         public string ActiveKey = default;
 
         public GestionnaireListes()
         {
             Data = ImportStrategies.ImporterManager.ImportAll();
+            ProtectedData = Data;
         }
         public GestionnaireListes(Dictionary<string, UserList> dico, string Active)
         {
