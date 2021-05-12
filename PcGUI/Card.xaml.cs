@@ -29,7 +29,7 @@ namespace PcParted
 
         private void ImgCard_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            nom_carte.Text = laCarte.Model as string;
+            nom_carte.Text = laCarte.Informations.Model as string;
             
 
             /*

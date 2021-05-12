@@ -13,18 +13,18 @@ namespace PcParted
         public Card carte;
         public UserControl5()
         {
-            carte = new("dummy", default, "dummy", default, default, default, default, default, default, default, default);
+            carte = new(null, null);
             InitializeComponent();
         }
         
         public void onVisibilityChanged(Card carte)
         {
             this.carte = carte;
-            nom_carte.Text = carte.Model;
+            nom_carte.Text = carte.Informations.Model;
             BitmapImage Ipic;
-            if (!carte.PictureURL.Equals("about:blank"))
+            if (!carte.Informations.PictureURL.Equals("about:blank"))
             {
-                Ipic = new BitmapImage(carte.PictureURL);
+                Ipic = new BitmapImage(carte.Informations.PictureURL);
             }
             else
             {

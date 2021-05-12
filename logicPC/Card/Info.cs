@@ -14,10 +14,10 @@ namespace logicPC.CardData
 
         public string Architecture { get; private set; }
         public string Bus { get; private set; }
-        public string Manufacturer { get; private set; }
+        public string Manufacturer;
         public Uri PictureURL { get; set; }
 
-        public Info(string model, DateTime dateOfRelease, string architecture, string bus, string manufacturer, Uri pictureURL)
+        public Info(string model, DateTime dateOfRelease, string architecture, string bus, string manufacturer="", Uri pictureURL=null)
         {
             Model = model;
             ReleaseDate = dateOfRelease;

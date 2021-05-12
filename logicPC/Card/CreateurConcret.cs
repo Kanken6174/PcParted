@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using logicPC.CardData;
 
 namespace logicPC
 {
@@ -26,15 +27,19 @@ namespace logicPC
 
         public static Card ManufactureCard(List<string> toProcess)
         {
-            int bus = -1, constructeur = -1, frequenceGpu = -1, frequenceMemoire = -1, shaderUnits = -1, tmuUnits = -1, ropUnits = -1;
+            int frequenceGpu = -1, frequenceMemoire = -1, shaderUnits = -1, tmuUnits = -1, ropUnits = -1, MemoryType = -1, BitRate = -1;
 
             string nomModele = toProcess[0];
             string architecture = toProcess[1];
             DateTime dateSortie = Parsers.Parser.StringToDate(toProcess[2]);
+            string bus = toProcess[3];
             int tailleMemoire;
-            //EBusTypes eBusTypes = (EBusTypes)Enum.Parse(typeof(EBusTypes), toProcess[3]);
+
             if (toProcess[4] == "System Shared")
+            {
                 tailleMemoire = 0;
+            }
+
             else
             {
                 string[] strTemp = toProcess[4].Split(',');   ///les données sont sous la forme [XXX GB, GDDRX, XXX bit], on veut [XXX][X] et [XXX] (plus de lettres)
@@ -45,16 +50,18 @@ namespace logicPC
                     intTemp[i] = Parsers.Parser.ParseToIntNoSpace(strTemp[i]);
                 }
                 tailleMemoire = intTemp[0];
+                MemoryType = intTemp[1];
+                BitRate = intTemp[2];
                 frequenceGpu = Parsers.Parser.ParseToIntNoSpace(toProcess[5]);
                 frequenceMemoire = Parsers.Parser.ParseToIntNoSpace(toProcess[6]);
                 shaderUnits = Parsers.Parser.ParseToIntNoSpace(toProcess[7]);
                 tmuUnits = Parsers.Parser.ParseToIntNoSpace(toProcess[8]);
                 ropUnits = Parsers.Parser.ParseToIntNoSpace(toProcess[9]);
             }
-            //string strTemp2 = parser.ParseToIntNoSpace(toProcess[5]);
 
-            Card uneNouvelleCard = new(nomModele, dateSortie, architecture, bus, constructeur, tailleMemoire, frequenceGpu, 
-                                        frequenceMemoire, shaderUnits, tmuUnits, ropUnits);
+            Info info = new(nomModele, dateSortie, architecture, bus);
+            Specs specs = new(MemoryType, BitRate, tailleMemoire, frequenceMemoire, frequenceGpu, shaderUnits, tmuUnits, ropUnits);
+            Card uneNouvelleCard = new(info, specs);
 
             return uneNouvelleCard;
         }

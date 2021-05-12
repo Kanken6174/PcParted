@@ -18,7 +18,7 @@ namespace logicPC.FiltersAndSearch
 
             //méthode LINQ
 
-            validForTerms = deck.Where(card => card.Value.Model.Contains(terms, StringComparison.InvariantCultureIgnoreCase))
+            validForTerms = deck.Where(card => card.Value.Informations.Model.Contains(terms, StringComparison.InvariantCultureIgnoreCase))
                                 .ToDictionary(card => card.Key, card => card.Value);
 
             //Version non-LINQ

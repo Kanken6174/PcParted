@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using logicPC.Extrapolation;
 
 namespace logicPC.Conteneurs
 {
@@ -21,12 +20,6 @@ namespace logicPC.Conteneurs
             HashrateTotale = 0;
             PrixTotal = 0;
             IndicateurPuissance = 0;
-
-            foreach(KeyValuePair<string, Card> card in LesCards)
-            {
-                Extrapolator.ExtrapolateCardData(card.Value, 0);
-            }
-            
         }
     }
 }

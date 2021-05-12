@@ -1,5 +1,4 @@
 ﻿using logicPC;
-using logicPC.Extrapolation;
 using logicPC.FiltersAndSearch;
 using logicPC.ImportStrategies;
 using System;
@@ -47,8 +46,7 @@ namespace testsConsole
 
             foreach (KeyValuePair<string, Card> carte in MainDataset)
             {
-                MainDataset[carte.Key] = Extrapolator.ExtrapolateCardData(carte.Value, 0);
-                Console.WriteLine($"{carte.Key}|{carte.Value.ToStringNameAndPower()}");
+                Console.WriteLine($"{carte.Key}|{carte.Value.ToString()}");
             }
             MainDataset = Lookup.SearchModel("RtX", MainDataset);
             foreach (KeyValuePair<string, Card> carte in MainDataset)

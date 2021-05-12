@@ -24,14 +24,27 @@ namespace logicPC.Parsers
             return strOut;
         }
 
+        /// <summary>
+        /// Methode responsable de la conversion en int des strings, selon leur format.
+        /// </summary>
+        /// <param name="str">string à traiter</param>
+        /// <returns>int du string traité</returns>
         public static int ParseToIntNoSpace(string str)
         {
             int newInt = 0;
             bool success = false;
             bool hadDigits = str.Any(char.IsDigit);
+            bool isBitrate = str.Contains("bit");
 
             if (str == "HMB2")
                 return 20;
+
+            if (isBitrate)
+            {
+                string[] strAR = str.Split(' ');
+                newInt = Int32.Parse(strAR[1]);
+                return newInt;
+            }
 
             if (hadDigits)
             {

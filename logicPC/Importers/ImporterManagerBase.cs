@@ -10,7 +10,7 @@ namespace logicPC.ImportStrategies
 
         public static Dictionary<int, Card> ImportSet(string path, string PnmName, string PemName, string UslName)
         {
-            int constructeur = ParseConstructeur.StringToInt(PemName.Split('.').FirstOrDefault());
+            string constructeur = PemName.Split('.').FirstOrDefault();
 
             CreateurConcret Cardfactory = new();
 
@@ -28,9 +28,10 @@ namespace logicPC.ImportStrategies
                     break;
 
                 Card temp = deck[page.Key];
-                temp.PictureURL = page.Value;
 
-                temp.SetConstructeur(constructeur);
+                temp.Informations.PictureURL = page.Value;
+                temp.Informations.Manufacturer = constructeur;
+
                 deck[page.Key] = temp;
             }
 

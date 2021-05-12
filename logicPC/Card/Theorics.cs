@@ -10,6 +10,7 @@ namespace logicPC.CardData
         public double Hashrate;
         public float TempLoad;
         public int energyConsumption;
+        public float price;
 
         private float DateFactor;
         private float ManufacturerFactor;
@@ -18,17 +19,22 @@ namespace logicPC.CardData
 
         public Theorics(Specs specs, Info info)
         {
-            float GHZ = specs.GpuFrequency / 1000;
-            PixelFillrate = GHZ * specs.RopUnits;
-            TextureFillrate = GHZ * specs.TmuUnits;
-            mayBeMobile = false;
+            if (specs != null && info != null)
+            {
+                float GHZ = specs.GpuFrequency / 1000;
+                PixelFillrate = GHZ * specs.RopUnits;
+                TextureFillrate = GHZ * specs.TmuUnits;
+                mayBeMobile = false;
 
-            processFactors(info);
+                processFactors(info);
+
+                FP32GFLOPS = GHZ * 64;
+            }
         }
 
         public void processFactors(Info info)
         {
-            DateTime oldestDt = new(2000, 0, 0);
+            DateTime oldestDt = new(2000, 1, 1);
             int nY = info.ReleaseDate.Year - oldestDt.Year;
             DateFactor = nY / (DateTime.Now.Year - 2000);
 

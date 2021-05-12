@@ -17,7 +17,7 @@ namespace logicPC.FiltersAndSearch
         /// <param name="deck">Le dictionnaire à traiter</param>
         /// <returns>Le dictionnaire traité</returns>
         public static Dictionary<string, Card> ConstructorFilter(string Manufacturer, Dictionary<string, Card> deck) =>
-            deck.Where(card => card.Value.Manufacturer.Equals(ParseConstructeur.StringToInt(Manufacturer)))
+            deck.Where(card => card.Value.Informations.Manufacturer.Equals(ParseConstructeur.StringToInt(Manufacturer)))
                 .ToDictionary(card => card.Key, card => card.Value);
 
         /// <summary>
@@ -28,7 +28,7 @@ namespace logicPC.FiltersAndSearch
         /// <param name="deck">Le dictionnaire à traiter</param>
         /// <returns>Le dictionnaire traité</returns>
         public static Dictionary<string, Card> ArchitectureFilter(string Architecture, Dictionary<string, Card> deck) =>
-            deck.Where(card => card.Value.Architecture.Equals(ParseConstructeur.StringToInt(Architecture)))
+            deck.Where(card => card.Value.Informations.Equals(ParseConstructeur.StringToInt(Architecture)))
                 .ToDictionary(card => card.Key, card => card.Value);
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace logicPC.FiltersAndSearch
         /// <param name="deck">dictionnaire à traiter</param>
         /// <returns>dictionnaire traité</returns>
         public static Dictionary<string, Card> GflopsSlider(int min, int max, Dictionary<string, Card> deck) =>
-            deck.Where(card => card.Value.RPI > min && card.Value.RPI < max)
+            deck.Where(card => card.Value.Theorics.FP32GFLOPS > min && card.Value.Theorics.FP32GFLOPS < max)
                 .ToDictionary(card => card.Key, card => card.Value);
 
         /// <summary>
@@ -50,7 +50,7 @@ namespace logicPC.FiltersAndSearch
         /// <param name="deck">dictionnaire à traiter</param>
         /// <returns>dictionnaire traité</returns>
         public static Dictionary<string, Card> PriceSlider(int min, int max, Dictionary<string, Card> deck) =>
-            deck.Where(card => card.Value.PriceMSRP > min && card.Value.RPI < max)
+            deck.Where(card => card.Value.Theorics.price > min && card.Value.Theorics.price < max)
                 .ToDictionary(card => card.Key, card => card.Value);
     }
 }
