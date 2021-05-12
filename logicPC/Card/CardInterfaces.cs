@@ -8,7 +8,7 @@ namespace logicPC
 
     public interface ICard : IInfo, ISpecs, CardInterfaces
     {
-        public CardData.Info informations();
+
     }
    public interface IInfo : IStringable
     {
@@ -24,7 +24,6 @@ namespace logicPC
     }
     public interface CardInterfaces : ISpecs
     {
-
 
     }
     public interface IStringable

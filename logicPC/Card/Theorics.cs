@@ -34,8 +34,18 @@ namespace logicPC.CardData
 
         public void processFactors(Info info)
         {
+            if(info == null)
+            {
+                DateFactor = 1;
+                ManufacturerFactor = 1;
+                BusFactor = 1;
+                return;
+            }
+
             DateTime oldestDt = new(2000, 1, 1);
-            int nY = info.ReleaseDate.Year - oldestDt.Year;
+            int nY;
+            nY = info.ReleaseDate.Year - oldestDt.Year;
+
             DateFactor = nY / (DateTime.Now.Year - 2000);
 
             switch (info.Manufacturer.ToLowerInvariant())

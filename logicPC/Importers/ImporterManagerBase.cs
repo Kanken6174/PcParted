@@ -17,11 +17,12 @@ namespace logicPC.ImportStrategies
             if (path.Last() != '/')
                 path += @"/";
 
-            Dictionary<int, List<String>> dico = SImporterDataSets<List<string>>.FileImportOP(path + PnmName);
-            Dictionary<int, Card> deck = Cardfactory.MakeCard(dico);
+            Dictionary<int, List<String>> dicoRaws = SImporterDataSets<List<string>>.FileImportOP(path + PnmName);
+            Dictionary<int, Card> deck = Cardfactory.MakeCard(dicoRaws);
 
             Dictionary<int, Uri> UriDico = SImporterPictureLink.FileImportOP(path + PemName);
 
+            int i = 0;
             foreach (KeyValuePair<int, Uri> page in UriDico)
             {
                 if (!deck.ContainsKey(page.Key)) // seul cas possible: le fichier .pem est trop long, peut-être érronné
@@ -31,8 +32,10 @@ namespace logicPC.ImportStrategies
 
                 temp.Informations.PictureURL = page.Value;
                 temp.Informations.Manufacturer = constructeur;
-
+                temp.fullOriginPath = path+PnmName;
+                temp.line = i;
                 deck[page.Key] = temp;
+                i++;
             }
 
             return deck;

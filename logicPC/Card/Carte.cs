@@ -1,12 +1,13 @@
 ﻿using System;
 using logicPC.CardData;
+using logicPC.Templates;
 
 namespace logicPC
 {
     /// <summary>
     /// classe d'une card standard qui implémente l'interface ICard
     /// </summary>
-    public class Card : IStringable, CardInterfaces
+    public class Card : DataEntry, ICard
     {
         public Info Informations;
         public Specs Specifications;

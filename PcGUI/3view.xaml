@@ -153,6 +153,5 @@
                             VerticalAlignment="Top"
                             Visibility="Hidden"
                             Loaded="DetailedCard_Loaded" />
-        <local:spinner x:Name="spin"/>
     </Grid>
 </UserControl>

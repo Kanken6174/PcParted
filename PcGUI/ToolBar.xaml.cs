@@ -24,5 +24,10 @@ namespace PcParted
             if (openFileDialog.ShowDialog() == true)
                 _ = File.ReadAllText(openFileDialog.FileName);
         }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.MainWindow.Close();
+        }
     }
 }

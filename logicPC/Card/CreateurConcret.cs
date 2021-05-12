@@ -18,8 +18,8 @@ namespace logicPC
 
             foreach (KeyValuePair<int, List<string>> pair in dico)
             {
-                Card uneNouvelleCard = ManufactureCard(pair.Value);
-                MainSet.Add(pair.Key, uneNouvelleCard);
+                Card uneNouvelleCarte = ManufactureCard(pair.Value);
+                MainSet.Add(pair.Key, uneNouvelleCarte);
             }
 
             return MainSet;
@@ -62,7 +62,6 @@ namespace logicPC
             Info info = new(nomModele, dateSortie, architecture, bus);
             Specs specs = new(MemoryType, BitRate, tailleMemoire, frequenceMemoire, frequenceGpu, shaderUnits, tmuUnits, ropUnits);
             Card uneNouvelleCard = new(info, specs);
-
             return uneNouvelleCard;
         }
     }

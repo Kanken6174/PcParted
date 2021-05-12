@@ -35,7 +35,7 @@
                 <Separator />
                 <MenuItem Header="_Load dataset" Click="MenuItem_Click"/>
                 <Separator />
-                <MenuItem Header="_Exit" />
+                <MenuItem Header="_Exit" Click="MenuItem_Click_1"/>
             </MenuItem>
             <MenuItem Header="_edit"
                       Height="19"
