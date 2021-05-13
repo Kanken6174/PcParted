@@ -15,6 +15,11 @@ namespace logicPC.Conteneurs
         public Card CardActive { get; private set; }
         public int IntID { get; private set; }
 
+        public UserList()
+        {
+            LesCards = new();
+            QuantiteCards = new();
+        }
         public void ProcessTot()
         {
             HashrateTotale = 0;

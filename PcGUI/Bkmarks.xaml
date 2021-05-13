@@ -6,7 +6,8 @@
              xmlns:local="clr-namespace:PcParted"
              mc:Ignorable="d"
              d:DesignHeight="450"
-             Width="200">
+             Width="200"
+             DataContext="DataBinder">
     <UserControl.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="Foreground"
@@ -20,9 +21,6 @@
             <Setter Property="VerticalAlignment"
                     Value="Top" />
         </Style>
-        <ObjectDataProvider x:Key="Listes"
-                            
-                            MethodName="GetLists" />
     </UserControl.Resources>
     <Grid>
         <Rectangle Fill="Gray"
@@ -81,7 +79,8 @@
                   VerticalAlignment="Stretch"
                   MaxWidth="600"
                   Background="{x:Null}"
-                  Margin="1,40,1,160">
+                  Margin="1,40,1,160"
+                  ItemsSource="{Binding MesListesUtilisateur}">
             <DataGrid.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -115,7 +114,7 @@
                   VerticalAlignment="Top"
                   Width="120"
                   SelectionChanged="ComboBox_SelectionChanged"
-                  SelectedValuePath="key" DisplayMemberPath="value"
-                  ItemsSource="{Binding Source={StaticResource Listes}}"/>
+                  SelectedValuePath="Key" DisplayMemberPath="Key"
+                  ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"/>
     </Grid>
 </UserControl>

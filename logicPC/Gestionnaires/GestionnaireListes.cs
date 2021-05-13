@@ -30,7 +30,6 @@ namespace logicPC.Gestionnaires
         /// </summary>
         /// <returns>Une liste utilisateur UserList qui contient des cards graphiques</returns>
         public UserList GetActive() => MesListesUtilisateur[ActiveKey];
-
         /// <summary>
         /// Ajoute une liste vide au dictionnaire de listes d'utilisateur
         /// </summary>

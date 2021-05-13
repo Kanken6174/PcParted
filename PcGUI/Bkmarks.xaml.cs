@@ -13,7 +13,11 @@ namespace PcParted
         public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
         public UserControl2()
         {
+            for (int i = 0; i < 10; i++)
+                gestionnaire.AjouterListe("exemple", new());
+
             InitializeComponent();
+            DataContext = gestionnaire;
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -25,4 +29,5 @@ namespace PcParted
             return gestionnaire.MesListesUtilisateur;
         }
     }
+
 }
