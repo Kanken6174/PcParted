@@ -17,16 +17,19 @@ namespace PcParted
         public string searchTerms = default;
 
         private Card _toShow;
-        public Card ToShow { get { return _toShow; }
-                             set {
+        public Card ToShow
+        {
+            get { return _toShow; }
+            set
+            {
 
                 _toShow = value;
                 ShouldDetailbeShown = !ShouldDetailbeShown;
                 DetailedCard.onVisibilityChanged(ToShow);
                 showChanged();
             }
-                              }
-        
+        }
+
         public MainApp()
         {
             InitializeComponent();
@@ -99,9 +102,9 @@ namespace PcParted
 
         private void search(object sender, RoutedEventArgs e)
         {
-            gestionnaire.Data = Lookup.SearchModel(searchTerms, gestionnaire.Data);
+            gestionnaire.Data = gestionnaire.Data.SearchModel(searchTerms);
             refreshAll();
-            gestionnaire.Data = (Dictionary<string,Card>)gestionnaire.ProtectedData;
+            gestionnaire.Data = (Dictionary<string, Card>)gestionnaire.ProtectedData;
         }
     }
 }

@@ -4,4 +4,14 @@
     <ProjectView>ProjectFiles</ProjectView>
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Graph.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Graph.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
 </Project>

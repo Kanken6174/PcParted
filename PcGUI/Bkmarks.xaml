@@ -20,6 +20,9 @@
             <Setter Property="VerticalAlignment"
                     Value="Top" />
         </Style>
+        <ObjectDataProvider x:Key="Listes"
+                            
+                            MethodName="GetLists" />
     </UserControl.Resources>
     <Grid>
         <Rectangle Fill="Gray"
@@ -111,6 +114,8 @@
                   Margin="64,10,0,0"
                   VerticalAlignment="Top"
                   Width="120"
-                  SelectionChanged="ComboBox_SelectionChanged" />
+                  SelectionChanged="ComboBox_SelectionChanged"
+                  SelectedValuePath="key" DisplayMemberPath="value"
+                  ItemsSource="{Binding Source={StaticResource Listes}}"/>
     </Grid>
 </UserControl>

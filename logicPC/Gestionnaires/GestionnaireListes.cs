@@ -17,6 +17,7 @@ namespace logicPC.Gestionnaires
         {
             Data = ImportStrategies.ImporterManager.ImportAll();
             ProtectedData = Data;
+            MesListesUtilisateur = new();
         }
         public GestionnaireListes(Dictionary<string, UserList> dico, string Active)
         {
@@ -38,17 +39,15 @@ namespace logicPC.Gestionnaires
         public bool AjouterListe(string nom, UserList toAdd)
         {
             int alreadyExists = 1;
-
             if (MesListesUtilisateur.ContainsKey(nom))
             {
-                nom = $"{nom}({alreadyExists})";
                 while (MesListesUtilisateur.ContainsKey($"{nom}({alreadyExists})"))
                 {
                     alreadyExists++;
-                    nom = $"{nom}({alreadyExists})";
                 }
-            }
 
+                nom = $"{nom}({alreadyExists})";
+            }
             return MesListesUtilisateur.TryAdd(nom, toAdd);
         }
 

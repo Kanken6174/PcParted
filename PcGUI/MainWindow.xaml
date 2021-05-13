@@ -30,7 +30,7 @@
                     <local:UserControl5 />
                 </TabItem>
                 <TabItem Header="graphes">
-                    <local:UserControl5 />
+                    <local:Graph/>
                 </TabItem>
                 <TabItem Header="paramètres">
                     <local:UserControl6 />
