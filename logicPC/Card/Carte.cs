@@ -1,6 +1,7 @@
 ﻿using System;
 using logicPC.CardData;
 using logicPC.Templates;
+using logicPC.Interfaces;
 
 namespace logicPC
 {
@@ -19,12 +20,12 @@ namespace logicPC
             Specifications = specifications;
             Theorics = new(specifications, informations);
 
-            Theorics.processFactors(informations);
+            Theorics.ProcessFactors(informations);
         }
 
         public override string ToString()
         {
-            return $"{Informations.ToString()} {Specifications.ToString()} {Theorics.ToString()}";
+            return $"{Informations} {Specifications} {Theorics}";
         }
     }
 }

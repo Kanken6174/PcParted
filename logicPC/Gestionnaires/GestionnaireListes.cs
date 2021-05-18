@@ -1,21 +1,25 @@
 ﻿using logicPC.Conteneurs;
 using System.Collections.Generic;
+using System.ComponentModel;
+using logicPC.ImportStrategies;
 
 namespace logicPC.Gestionnaires
 {
     /// <summary>
     /// Classe dédiée à la gestion des listes d'utilisateur
     /// </summary>
-    public class GestionnaireListes
+    public class GestionnaireListes : INotifyPropertyChanged
     {
         public Dictionary<string, Card> Data;
         public IReadOnlyDictionary<string, Card> ProtectedData;
         public Dictionary<string, UserList> MesListesUtilisateur { get; private set; }
         public string ActiveKey = default;
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
         public GestionnaireListes()
         {
-            Data = ImportStrategies.ImporterManager.ImportAll();
+            Data = ImporterManager.ImportAll();
             ProtectedData = Data;
             MesListesUtilisateur = new();
         }
@@ -35,7 +39,7 @@ namespace logicPC.Gestionnaires
         /// </summary>
         /// <param name="nom">Le nom de la liste à ajouter</param>
         /// <returns></returns>
-        public bool AjouterListe(string nom, UserList toAdd)
+        public void AjouterListe(string nom, UserList toAdd)
         {
             int alreadyExists = 1;
             if (MesListesUtilisateur.ContainsKey(nom))
@@ -47,7 +51,9 @@ namespace logicPC.Gestionnaires
 
                 nom = $"{nom}({alreadyExists})";
             }
-            return MesListesUtilisateur.TryAdd(nom, toAdd);
+            MesListesUtilisateur.TryAdd(nom, toAdd);
+            //PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
+            
         }
 
         /// <summary>
@@ -55,22 +61,26 @@ namespace logicPC.Gestionnaires
         /// </summary>
         /// <param name="key">la clé (string) à supprimer du dictionnaire</param>
         /// <returns></returns>
-        public bool SupprimeListe(string key) => MesListesUtilisateur.Remove(key);
+        public bool SupprimeListe(string key)
+        {
+            //PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
+            return MesListesUtilisateur.Remove(key);
+        }
 
         /// <summary>
         /// Duplique une entrée du dictionnaire MesListes
         /// </summary>
         /// <param name="key">Clé de l'entrée à dupliquer</param>
         /// <returns></returns>
-        public bool DuplicateList(string key)
+        public void DuplicateList(string key)
         {
             if (MesListesUtilisateur.ContainsKey(key))
             {
                 UserList clone;
                 MesListesUtilisateur.TryGetValue(key, out clone);
-                return AjouterListe(key, clone);
+                AjouterListe(key, clone);
             }
-            return false;
+            //PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
         }
 
         /// <summary>
@@ -79,7 +89,7 @@ namespace logicPC.Gestionnaires
         /// <param name="oldKey">clé d'origine dans le dictionnaire</param>
         /// <param name="newKey">nouvelle clé voulue. Cela équivaut également au nom de la liste affiché dans l'application</param>
         /// <returns>bool : succès de l'opération</returns>
-        public bool RenommeListe(string oldKey, string newKey)
+        public void RenommeListe(string oldKey, string newKey)
         {
             UserList temp = new();
             bool isIn = MesListesUtilisateur.TryGetValue(oldKey, out temp);
@@ -87,9 +97,8 @@ namespace logicPC.Gestionnaires
             {
                 MesListesUtilisateur.Remove(oldKey);
                 AjouterListe(newKey, temp);
+                PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
             }
-
-            return isIn;
         }
 
     }

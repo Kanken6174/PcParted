@@ -1,4 +1,6 @@
-﻿namespace logicPC.CardData
+﻿using logicPC.Interfaces;
+
+namespace logicPC.CardData
 {
     public class Specs : ISpecs
     {

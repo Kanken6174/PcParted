@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace logicPC.Templates
 {
-    public abstract class plotterTemplate
+    public static class plotterTemplate
     {
 
     }

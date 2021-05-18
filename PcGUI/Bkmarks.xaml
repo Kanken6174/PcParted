@@ -6,8 +6,7 @@
              xmlns:local="clr-namespace:PcParted"
              mc:Ignorable="d"
              d:DesignHeight="450"
-             Width="200"
-             DataContext="DataBinder">
+             Width="200">
     <UserControl.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="Foreground"
@@ -80,7 +79,7 @@
                   MaxWidth="600"
                   Background="{x:Null}"
                   Margin="1,40,1,160"
-                  ItemsSource="{Binding MesListesUtilisateur}">
+                  ItemsSource="{Binding ElementName=ListBox, Path=SelectedItem.user, Mode=OneWay}">
             <DataGrid.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -94,22 +93,15 @@
                                     Header="Modèle"
                                     Width="50"
                                     Visibility="Visible"
-                                    Binding="{Binding modelCol}" />
+                                    Binding="{Binding Model}" />
                 <DataGridTextColumn x:Name="Clhash"
                                     Header="hasrate"
                                     Width="50"
                                     Binding="{Binding hashCol}" />
-                <DataGridTextColumn x:Name="Clprix"
-                                    Header="prix"
-                                    Width="40"
-                                    Binding="{Binding prixCol}" />
-                <DataGridTextColumn x:Name="Clwatt"
-                                    Header="Wattage"
-                                    Width="60"
-                                    Binding="{Binding SubStatus}" />
             </DataGrid.Columns>
         </DataGrid>
-        <ComboBox HorizontalAlignment="Left"
+        <ComboBox x:Name="ListBox"
+                  HorizontalAlignment="Left"
                   Margin="64,10,0,0"
                   VerticalAlignment="Top"
                   Width="120"

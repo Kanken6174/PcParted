@@ -73,13 +73,13 @@ namespace testsConsole
             int M = 0;
             while(M <= 50)
             {
-                gest.MesListesUtilisateur["exemple"].LesCards.Add($"AMD{M}",gest.Data[$"AMD{M}"]);
+                gest.MesListesUtilisateur["exemple"].Cards.Add($"AMD{M}",gest.Data[$"AMD{M}"]);
                 M++;
             }
 
-            foreach (string key in (gest.MesListesUtilisateur["exemple"]).LesCards.Keys)
+            foreach (string key in (gest.MesListesUtilisateur["exemple"]).Cards.Keys)
             {
-                Console.WriteLine($"{key} {gest.MesListesUtilisateur["exemple"].LesCards[key]}");
+                Console.WriteLine($"{key} {gest.MesListesUtilisateur["exemple"].Cards[key]}");
             }
 
             Console.WriteLine(gest.MesListesUtilisateur.Values.ToString());

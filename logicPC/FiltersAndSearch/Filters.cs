@@ -7,7 +7,7 @@ namespace logicPC.FiltersAndSearch
     /// <summary>
     /// Cette classe contient toutes les méthodes liées aux filtres du panneau de gauche sur la GUI
     /// </summary>
-    public class Filters
+    public static class Filters
     {
         /// <summary>
         /// Prend un nom de constructeur, utilise LINQ pour rendre un dictionnaire contenant seulement les entrées
@@ -50,7 +50,7 @@ namespace logicPC.FiltersAndSearch
         /// <param name="deck">dictionnaire à traiter</param>
         /// <returns>dictionnaire traité</returns>
         public static Dictionary<string, Card> PriceSlider(int min, int max, Dictionary<string, Card> deck) =>
-            deck.Where(card => card.Value.Theorics.price > min && card.Value.Theorics.price < max)
+            deck.Where(card => card.Value.Theorics.Price > min && card.Value.Theorics.Price < max)
                 .ToDictionary(card => card.Key, card => card.Value);
     }
 }

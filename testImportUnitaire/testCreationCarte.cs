@@ -16,7 +16,7 @@ namespace testsCreationCardUnitaires
             string[] toSend = Parser.DeepSplit(toSplit);
             Console.WriteLine(toSend);
             List<string> toSendList = new List<string>(toSend);
-            Card testcard = CreateurConcret.ManufactureCard(toSendList);
+            Card testcard = CreateurConcretCarte.ManufactureCard(toSendList);
 
             Assert.IsNotNull(testcard);
             Console.WriteLine(testcard.ToString());

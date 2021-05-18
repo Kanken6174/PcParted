@@ -12,7 +12,7 @@ namespace logicPC.ImportStrategies
         {
             string constructeur = PemName.Split('.').FirstOrDefault();
 
-            CreateurConcret Cardfactory = new();
+            CreateurConcretCarte Cardfactory = new();
 
             if (path.Last() != '/')
                 path += @"/";

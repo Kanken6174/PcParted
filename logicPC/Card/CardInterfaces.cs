@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace logicPC
+namespace logicPC.Interfaces
 {
     /// <summary>
     /// Interface d'une card
     /// </summary>
 
-    public interface ICard : IInfo, ISpecs, CardInterfaces
+    public interface ICard : IInfo, ISpecs
     {
 
     }
@@ -20,12 +20,9 @@ namespace logicPC
     }
     public interface ITheoric : IInfo, ISpecs
     {
-        public void processFactors(logicPC.CardData.Info info);
+        public void ProcessFactors(logicPC.CardData.Info info);
     }
-    public interface CardInterfaces : ISpecs
-    {
 
-    }
     public interface IStringable
     {
         public string ToString();

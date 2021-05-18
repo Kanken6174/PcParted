@@ -1,4 +1,5 @@
 ﻿using System;
+using logicPC.Interfaces;
 
 namespace logicPC.CardData
 {
@@ -9,13 +10,13 @@ namespace logicPC.CardData
         public float FP32GFLOPS;    // 1 milion floating point operations per second, FP32
         public double Hashrate;
         public float TempLoad;
-        public int energyConsumption;
-        public float price;
+        public int EnergyConsumption;
+        public float Price;
 
         private float DateFactor;
         private float ManufacturerFactor;
         private float BusFactor;
-        private bool mayBeMobile;
+        private bool MayBeMobile;
 
         public Theorics(Specs specs, Info info)
         {
@@ -24,15 +25,15 @@ namespace logicPC.CardData
                 float GHZ = specs.GpuFrequency / 1000;
                 PixelFillrate = GHZ * specs.RopUnits;
                 TextureFillrate = GHZ * specs.TmuUnits;
-                mayBeMobile = false;
+                MayBeMobile = false;
 
-                processFactors(info);
+                ProcessFactors(info);
 
                 FP32GFLOPS = GHZ * 64;
             }
         }
 
-        public void processFactors(Info info)
+        public void ProcessFactors(Info info)
         {
             if(info == null)
             {
@@ -68,7 +69,7 @@ namespace logicPC.CardData
             {
                 case "igp":
                     BusFactor = 0.5F;
-                    mayBeMobile = true;
+                    MayBeMobile = true;
                     break;
                 case "pcie4x16":
                     BusFactor = 1F;
@@ -91,7 +92,7 @@ namespace logicPC.CardData
 
         public override string ToString()
         {
-            return $"{PixelFillrate} {TextureFillrate} {FP32GFLOPS} {Hashrate} {TempLoad} {energyConsumption}";
+            return $"{PixelFillrate} {TextureFillrate} {FP32GFLOPS} {Hashrate} {TempLoad} {EnergyConsumption}";
         }
     }
 }

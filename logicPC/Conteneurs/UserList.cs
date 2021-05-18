@@ -7,8 +7,8 @@ namespace logicPC.Conteneurs
     /// </summary>
     public class UserList
     {
-        public Dictionary<string, Card> LesCards { get; private set; } // Même système que pour 
-        public Dictionary<string, int> QuantiteCards { get; private set; }
+        public Dictionary<string, Card> Cards { get; private set; } // Même système que pour 
+        public Dictionary<string, int> QuantityCards { get; private set; }
         public float PrixTotal { get; private set; }
         public float HashrateTotale { get; private set; }
         public float IndicateurPuissance { get; private set; }
@@ -17,8 +17,8 @@ namespace logicPC.Conteneurs
 
         public UserList()
         {
-            LesCards = new();
-            QuantiteCards = new();
+            Cards = new();
+            QuantityCards = new();
         }
         public void ProcessTot()
         {
