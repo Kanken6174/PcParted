@@ -21,7 +21,7 @@ namespace logicPC
             foreach (string str in lines)
             {
                 string[] strTab = str.Split('\t'); // on les sépare(délémité par des tabs ici)
-                string[] strTabSplit = Parsers.Parser.DeepSplit(strTab); //sépare également les TMU/ROP/... séparés par des /
+                string[] strTabSplit = Parsers.MainParser.DeepSplit(strTab); //sépare également les TMU/ROP/... séparés par des /
                 List<string> strList = new(strTabSplit);
                 dico.Add(b, strList as T);
                 b++;

@@ -29,7 +29,7 @@ namespace logicPC.ImportStrategies
 
             for (int i = 0; i < fileName.Length; i++)
             {
-                deckTemp = ImporterManager.ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
+                deckTemp = ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
 
                 foreach (KeyValuePair<int, Card> carte in deckTemp)
                 {

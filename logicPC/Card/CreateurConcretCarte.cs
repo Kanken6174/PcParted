@@ -31,7 +31,7 @@ namespace logicPC
 
             string nomModele = toProcess[0];
             string architecture = toProcess[1];
-            DateTime dateSortie = Parsers.Parser.StringToDate(toProcess[2]);
+            DateTime dateSortie = Parsers.MainParser.StringToDate(toProcess[2]);
             string bus = toProcess[3];
             int tailleMemoire;
 
@@ -47,16 +47,16 @@ namespace logicPC
 
                 for (int i = 0; i < 3; i++)
                 {
-                    intTemp[i] = Parsers.Parser.ParseToIntNoSpace(strTemp[i]);
+                    intTemp[i] = Parsers.MainParser.ParseToIntNoSpace(strTemp[i]);
                 }
                 tailleMemoire = intTemp[0];
                 MemoryType = intTemp[1];
                 BitRate = intTemp[2];
-                frequenceGpu = Parsers.Parser.ParseToIntNoSpace(toProcess[5]);
-                frequenceMemoire = Parsers.Parser.ParseToIntNoSpace(toProcess[6]);
-                shaderUnits = Parsers.Parser.ParseToIntNoSpace(toProcess[7]);
-                tmuUnits = Parsers.Parser.ParseToIntNoSpace(toProcess[8]);
-                ropUnits = Parsers.Parser.ParseToIntNoSpace(toProcess[9]);
+                frequenceGpu = Parsers.MainParser.ParseToIntNoSpace(toProcess[5]);
+                frequenceMemoire = Parsers.MainParser.ParseToIntNoSpace(toProcess[6]);
+                shaderUnits = Parsers.MainParser.ParseToIntNoSpace(toProcess[7]);
+                tmuUnits = Parsers.MainParser.ParseToIntNoSpace(toProcess[8]);
+                ropUnits = Parsers.MainParser.ParseToIntNoSpace(toProcess[9]);
             }
 
             Info info = new(nomModele, dateSortie, architecture, bus);

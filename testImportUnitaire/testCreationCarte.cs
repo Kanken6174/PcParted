@@ -13,7 +13,7 @@ namespace testsCreationCardUnitaires
         public void TestCard()
         {
             string[] toSplit = "GeForce RTX 2070 SUPER	TU104	Jul 9th, 2019	PCIe 3.0 x16	8 GB, GDDR6, 256 bit	1605 MHz	1750 MHz	2560 / 160 / 64".Split('\t');
-            string[] toSend = Parser.DeepSplit(toSplit);
+            string[] toSend = MainParser.DeepSplit(toSplit);
             Console.WriteLine(toSend);
             List<string> toSendList = new List<string>(toSend);
             Card testcard = CreateurConcretCarte.ManufactureCard(toSendList);

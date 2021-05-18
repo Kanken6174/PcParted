@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace logicPC.Parsers
 {
-    public class Parser : DateParser
+    public class MainParser : DateParser
     {
-        public Parser()
+        public MainParser()
         {
         }
 
