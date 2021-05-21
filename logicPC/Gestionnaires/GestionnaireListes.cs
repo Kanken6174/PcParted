@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using logicPC.ImportStrategies;
+using logicPC.Downloaders;
+using System.Threading.Tasks;
+using System.Net.Http;
+using System.IO;
+using System.Drawing;
 
 namespace logicPC.Gestionnaires
 {
@@ -22,11 +27,27 @@ namespace logicPC.Gestionnaires
             Data = ImporterManager.ImportAll();
             ProtectedData = Data;
             MesListesUtilisateur = new();
+            GetAllPics();
         }
         public GestionnaireListes(Dictionary<string, UserList> dico, string Active)
         {
             MesListesUtilisateur = dico;
             ActiveKey = Active;
+        }
+
+        public async void GetAllPics()
+        {
+            foreach(KeyValuePair<string,Card> carte in Data)
+            {
+                if (carte.Value.Informations.PictureURL != new System.Uri("about:blank"))
+                {
+                    Stream getPicsTask = await PictureDownloader.GetPicture(carte.Value.Informations.PictureURL);
+                    carte.Value.Informations.miniature = getPicsTask;
+                }
+                else
+                    carte.Value.Informations.miniature = null;
+            }
+            
         }
 
         /// <summary>

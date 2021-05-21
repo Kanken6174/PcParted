@@ -20,7 +20,7 @@ namespace logicPC.Interfaces
     }
     public interface ITheoric : IInfo, ISpecs
     {
-        public void ProcessFactors(logicPC.CardData.Info info);
+        public void ProcessFactors(CardData.Info info);
     }
 
     public interface IStringable

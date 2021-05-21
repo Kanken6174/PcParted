@@ -34,7 +34,7 @@ namespace logicPC.Plotters
             return ret;
         }
 
-        public static List<PointF> GeneratePoints(List<float> X, float YStart, float Yincrement)
+        private static List<PointF> GeneratePoints(List<float> X, float YStart, float Yincrement)
         {
             List<PointF> toReturn = new();
             float CurrentY = YStart;

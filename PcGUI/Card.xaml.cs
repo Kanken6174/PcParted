@@ -5,6 +5,7 @@ using System.Windows.Media.Imaging;
 using logicPC;
 using System.Windows.Threading;
 using logicPC.Gestionnaires;
+using System.Runtime.InteropServices;
 
 namespace PcParted
 {
@@ -16,11 +17,13 @@ namespace PcParted
         public MainApp parent3view;
         public Card laCarte;
         public string ID;
+        BitmapImage miniPic;
         public UserControl3()
         {
             InitializeComponent();
-            
+            miniPic = new();
         }
+
 
         private void UC_clicked(object sender, MouseButtonEventArgs e)
         {

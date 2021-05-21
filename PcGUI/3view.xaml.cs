@@ -4,6 +4,9 @@ using logicPC.Gestionnaires;
 using logicPC;
 using System.Collections.Generic;
 using logicPC.FiltersAndSearch;
+using logicPC.Downloaders;
+using System.Threading.Tasks;
+using System.Windows.Media.Imaging;
 
 namespace PcParted
 {
@@ -15,6 +18,7 @@ namespace PcParted
         public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
         public bool ShouldDetailbeShown = false;
         public string searchTerms = default;
+        public Dictionary<string,BitmapImage> miniatures;
 
         private Card _toShow;
         public Card ToShow
@@ -32,23 +36,56 @@ namespace PcParted
 
         public MainApp()
         {
+            miniatures = new();
             InitializeComponent();
-            refreshAll();
+            InitRefresh();
             DetailedCard.parentElement = this;
         }
 
-        public void refreshAll()
+        public void InitRefresh()
         {
             wrappy.Children.Clear();
-            UserControl3 cloneCarte = new();
-            foreach (KeyValuePair<string, Card> card in gestionnaire.Data)
+            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
             {
-                cloneCarte = new();
+                UserControl3 cloneCarte = new();
                 cloneCarte.laCarte = card.Value;
                 cloneCarte.ID = card.Key;
                 cloneCarte.parent3view = this;
+                cloneCarte.laCarte = SavePic(cloneCarte.laCarte, card.Key);
+                cloneCarte.ImgCard.Source = miniatures[card.Key];
                 wrappy.Children.Add(cloneCarte);
             }
+        }
+
+        public void RefreshAll()
+        {
+            wrappy.Children.Clear();
+            foreach (KeyValuePair<string, Card> card in gestionnaire.Data)
+            {
+                UserControl3 cloneCarte = new();
+                cloneCarte.laCarte = card.Value;
+                cloneCarte.ID = card.Key;
+                cloneCarte.parent3view = this;
+                cloneCarte.ImgCard.Source = miniatures[card.Key];
+                wrappy.Children.Add(cloneCarte);
+            }
+        }
+
+        public Card SavePic(Card toSave, string ID)
+        {
+            BitmapImage bmp = new(new System.Uri("https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg"));
+                if (toSave != null)
+                    if (toSave.Informations.miniature != default)
+                    {
+                    bmp = new();
+                    bmp.BeginInit();
+                    bmp.StreamSource = toSave.Informations.miniature;
+                    bmp.CacheOption = BitmapCacheOption.OnLoad;
+                    bmp.EndInit();
+                    bmp.Freeze();
+                    }
+            miniatures.Add(ID, bmp);
+            return toSave;
         }
 
         private void showChanged()
@@ -103,7 +140,7 @@ namespace PcParted
         private void search(object sender, RoutedEventArgs e)
         {
             gestionnaire.Data = gestionnaire.Data.SearchModel(searchTerms);
-            refreshAll();
+            RefreshAll();
             gestionnaire.Data = (Dictionary<string, Card>)gestionnaire.ProtectedData;
         }
     }

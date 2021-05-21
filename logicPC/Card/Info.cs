@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using logicPC.Interfaces;
+using System.Drawing;
+using System.Net.Http;
+using System.IO;
 
 namespace logicPC.CardData
 {
@@ -17,6 +20,7 @@ namespace logicPC.CardData
         public string Bus { get; private set; }
         public string Manufacturer;
         public Uri PictureURL { get; set; }
+        public Stream miniature { get; set; }
 
         public Info(string model, DateTime dateOfRelease, string architecture, string bus, string manufacturer="", Uri pictureURL=null)
         {
