@@ -40,6 +40,12 @@ namespace PcParted
             InitializeComponent();
             InitRefresh();
             DetailedCard.parentElement = this;
+            gestionnaire.PropertyChanged += Gestionnaire_PropertyChanged;
+        }
+
+        private void Gestionnaire_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            RefreshAll();
         }
 
         public void InitRefresh()

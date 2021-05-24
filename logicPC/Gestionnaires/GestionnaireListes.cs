@@ -25,10 +25,17 @@ namespace logicPC.Gestionnaires
         public GestionnaireListes()
         {
             Data = ImporterManager.ImportAll();
+            PropertyChanged += GestionnaireListes_PropertyChangedDummy;
             ProtectedData = Data;
             MesListesUtilisateur = new();
             GetAllPics();
         }
+
+        private void GestionnaireListes_PropertyChangedDummy(object sender, PropertyChangedEventArgs e)
+        {
+            //Ne fait rien, évite juste une exception
+        }
+
         public GestionnaireListes(Dictionary<string, UserList> dico, string Active)
         {
             MesListesUtilisateur = dico;
@@ -73,7 +80,7 @@ namespace logicPC.Gestionnaires
                 nom = $"{nom}({alreadyExists})";
             }
             MesListesUtilisateur.TryAdd(nom, toAdd);
-            //PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
+            PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
             
         }
 
@@ -84,7 +91,7 @@ namespace logicPC.Gestionnaires
         /// <returns></returns>
         public bool SupprimeListe(string key)
         {
-            //PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
+            PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
             return MesListesUtilisateur.Remove(key);
         }
 
@@ -101,7 +108,7 @@ namespace logicPC.Gestionnaires
                 MesListesUtilisateur.TryGetValue(key, out clone);
                 AjouterListe(key, clone);
             }
-            //PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
+            PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
         }
 
         /// <summary>
