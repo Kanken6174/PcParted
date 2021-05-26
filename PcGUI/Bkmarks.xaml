@@ -4,6 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:PcParted"
+             xmlns:gestionnaires="clr-namespace:logicPC.Gestionnaires;assembly=logicPC"
+             d:DataContext="{d:DesignInstance Type=gestionnaires:GestionnaireListes}"
              mc:Ignorable="d"
              d:DesignHeight="450"
              Width="200">
@@ -36,7 +38,7 @@
                    TextWrapping="Wrap"
                    VerticalAlignment="Top"
                    RenderTransformOrigin="1.185,6.167"
-                   Foreground="AliceBlue"><Run Text="Liste" /><LineBreak /><Run /></TextBlock>
+                   Foreground="AliceBlue"><Run Text="Liste" /><Run /></TextBlock>
         <!--En-dessous : les rectangles des totaux-->
         <Rectangle Fill="#4AB8FF"
                    HorizontalAlignment="Left"
@@ -68,18 +70,27 @@
                    Foreground="#F6C78E" />
         <TextBlock HorizontalAlignment="Left"
                    Margin="21,395,0,0"
-                   Text="Coût total: XXXX €"
                    VerticalAlignment="Top"
-                   Foreground="#8CFFCA" />
+                   Foreground="#8CFFCA">
+            <Run Text="Coût total: "/>
+            <Run Text="{Binding ElementName=ListBox, Path=SelectedItem.value, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Run Text="€" />
+        </TextBlock>
 
-        <DataGrid x:Name="GrdBkmarks"
-                  AutoGenerateColumns="False"
+        <DataGrid
+                  x:Name="GrdBkmarks"
                   HorizontalAlignment="Stretch"
                   VerticalAlignment="Stretch"
                   MaxWidth="600"
-                  Background="{x:Null}"
                   Margin="1,40,1,160"
-                  ItemsSource="{Binding ElementName=ListBox, Path=SelectedItem.user, Mode=OneWay}">
+                  ItemsSource="{Binding ElementName=ListBox, Path=SelectedItem, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                  AutoGenerateColumns="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Key"
+                                    Binding="{Binding Key}" />
+                <DataGridTextColumn Header="Value"
+                                    Binding="{Binding Value}" />
+            </DataGrid.Columns>
             <DataGrid.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -88,17 +99,6 @@
                 </LinearGradientBrush>
             </DataGrid.BorderBrush>
 
-            <DataGrid.Columns>
-                <DataGridTextColumn x:Name="Clmod"
-                                    Header="Modèle"
-                                    Width="50"
-                                    Visibility="Visible"
-                                    Binding="{Binding Model}" />
-                <DataGridTextColumn x:Name="Clhash"
-                                    Header="hasrate"
-                                    Width="50"
-                                    Binding="{Binding hashCol}" />
-            </DataGrid.Columns>
         </DataGrid>
         <ComboBox x:Name="ListBox"
                   HorizontalAlignment="Left"
@@ -107,6 +107,7 @@
                   Width="120"
                   SelectionChanged="ComboBox_SelectionChanged"
                   SelectedValuePath="Key" DisplayMemberPath="Key"
-                  ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"/>
+                  ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"
+                  SelectedIndex="0"/>
     </Grid>
 </UserControl>

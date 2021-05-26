@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace logicPC
+namespace logicPC.ImportStrategies
 {
     internal class SImporterUserLists
     {

@@ -1,6 +1,8 @@
 ﻿using System.Windows.Controls;
-using logicPC;
 using System.Windows.Media.Imaging;
+using logicPC.CardData;
+using logicPC.Gestionnaires;
+using logicPC.Conteneurs;
 
 namespace PcParted
 {
@@ -10,16 +12,19 @@ namespace PcParted
     public partial class UserControl5 : UserControl
     {
         public MainApp parentElement;
+        public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
         public Card carte;
+        public string carteID;
         public UserControl5()
         {
             carte = new(null, null);
             InitializeComponent();
         }
         
-        public void onVisibilityChanged(Card carte)
+        public void onVisibilityChanged(Card carte, string ID)
         {
             this.carte = carte;
+            this.carteID = ID;
             nom_carte.Text = carte.Informations.Model;
             BitmapImage Ipic;
             if (!carte.Informations.PictureURL.Equals("about:blank"))
@@ -38,6 +43,17 @@ namespace PcParted
         private void closeDetailButton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             parentElement.CloseDetail(sender, e);
+        }
+
+        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if (!gestionnaire.MesListesUtilisateur[gestionnaire.ActiveKey].Cards.ContainsKey(carteID))
+            {
+                gestionnaire.MesListesUtilisateur[gestionnaire.ActiveKey].Cards.Add(carteID, carte);
+                gestionnaire.MesListesUtilisateur[gestionnaire.ActiveKey].QuantityCards.Add(carteID, 1);
+            }
+            else
+                gestionnaire.MesListesUtilisateur[gestionnaire.ActiveKey].QuantityCards[carteID]++;
         }
     }
 }

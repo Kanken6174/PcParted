@@ -1,6 +1,7 @@
 ﻿using logicPC.Parsers;
 using System.Collections.Generic;
 using System.Linq;
+using logicPC.CardData;
 
 namespace logicPC.FiltersAndSearch
 {

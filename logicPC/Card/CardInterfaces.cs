@@ -1,4 +1,5 @@
 ﻿using System;
+using logicPC.CardData;
 
 namespace logicPC.Interfaces
 {
@@ -8,7 +9,9 @@ namespace logicPC.Interfaces
 
     public interface ICard : IInfo, ISpecs
     {
-
+        public Info Informations { get; set; }
+        public Specs Specifications { get; set; }
+        public Theorics Theorics { get; set; }
     }
    public interface IInfo : IStringable
     {

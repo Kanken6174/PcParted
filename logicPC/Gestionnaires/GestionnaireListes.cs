@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.IO;
 using System.Drawing;
+using logicPC.CardData;
+using logicPC.Importers;
+using logicPC.Settings;
+using Swordfish.NET.Collections;
 
 namespace logicPC.Gestionnaires
 {
@@ -17,29 +21,23 @@ namespace logicPC.Gestionnaires
     {
         public Dictionary<string, Card> Data;
         public IReadOnlyDictionary<string, Card> ProtectedData;
-        public Dictionary<string, UserList> MesListesUtilisateur { get; private set; }
+        public ConcurrentObservableSortedDictionary<string, UserList> MesListesUtilisateur { get; set; }
         public string ActiveKey = default;
+        private int _activelist;
+        public int ActiveList
+        {
+            get { return _activelist; }
+            set { _activelist = value; PropertyChanged?.Invoke(nameof(_activelist), new PropertyChangedEventArgs("e")); }
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
         public GestionnaireListes()
         {
             Data = ImporterManager.ImportAll();
-            PropertyChanged += GestionnaireListes_PropertyChangedDummy;
             ProtectedData = Data;
             MesListesUtilisateur = new();
             GetAllPics();
-        }
-
-        private void GestionnaireListes_PropertyChangedDummy(object sender, PropertyChangedEventArgs e)
-        {
-            //Ne fait rien, évite juste une exception
-        }
-
-        public GestionnaireListes(Dictionary<string, UserList> dico, string Active)
-        {
-            MesListesUtilisateur = dico;
-            ActiveKey = Active;
         }
 
         public async void GetAllPics()
@@ -70,7 +68,7 @@ namespace logicPC.Gestionnaires
         public void AjouterListe(string nom, UserList toAdd)
         {
             int alreadyExists = 1;
-            if (MesListesUtilisateur.ContainsKey(nom))
+            if (nom != null && MesListesUtilisateur.ContainsKey(nom))
             {
                 while (MesListesUtilisateur.ContainsKey($"{nom}({alreadyExists})"))
                 {
@@ -79,8 +77,7 @@ namespace logicPC.Gestionnaires
 
                 nom = $"{nom}({alreadyExists})";
             }
-            MesListesUtilisateur.TryAdd(nom, toAdd);
-            PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
+            MesListesUtilisateur.Add(nom, toAdd);
             
         }
 
@@ -91,8 +88,12 @@ namespace logicPC.Gestionnaires
         /// <returns></returns>
         public bool SupprimeListe(string key)
         {
-            PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
-            return MesListesUtilisateur.Remove(key);
+            if (key != null && MesListesUtilisateur.ContainsKey(key))
+            {
+                bool reussi = MesListesUtilisateur.Remove(key);
+                return reussi;
+            }
+            return false;
         }
 
         /// <summary>
@@ -102,13 +103,12 @@ namespace logicPC.Gestionnaires
         /// <returns></returns>
         public void DuplicateList(string key)
         {
-            if (MesListesUtilisateur.ContainsKey(key))
+            if (key != null && MesListesUtilisateur.ContainsKey(key))
             {
                 UserList clone;
                 MesListesUtilisateur.TryGetValue(key, out clone);
                 AjouterListe(key, clone);
             }
-            PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
         }
 
         /// <summary>
@@ -125,7 +125,7 @@ namespace logicPC.Gestionnaires
             {
                 MesListesUtilisateur.Remove(oldKey);
                 AjouterListe(newKey, temp);
-                PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
+                //PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
             }
         }
 

@@ -23,7 +23,7 @@
                 <TransformGroup>
                     <ScaleTransform />
                     <SkewTransform />
-                    <RotateTransform x:Name="angst" Angle="0" />
+                    <RotateTransform x:Name="angst" Angle="{Binding i, UpdateSourceTrigger=PropertyChanged}" />
                     <TranslateTransform />
                 </TransformGroup>
             </Ellipse.RenderTransform>

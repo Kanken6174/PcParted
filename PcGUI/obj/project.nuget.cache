@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FdFJm9IdZliw5DDD1OaZwWtQqWz9B/iSv/XemVY/oz24XAwaKmcpQsIVXht+j0jZkzFgtHMvu8Ay41Rvza+L4A==",
+  "dgSpecHash": "y5QEXtIbrx0I9p1qpdBIbVoOp68ZqheBHKhIr6XZ539REh+Nek6DzJaEUeO83K3Vu8IhOjCrmORiD45Yy0cM3A==",
   "success": true,
   "projectFilePath": "Y:\\cs\\PcParted\\PcParted\\PcGUI\\PcParted.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,9 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\swordfish.net.collectionsv3\\3.3.7\\swordfish.net.collectionsv3.3.3.7.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\system.componentmodel.composition.5.0.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0\\system.componentmodel.composition.registration.5.0.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

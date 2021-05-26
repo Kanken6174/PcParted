@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using logicPC.CardData;
 
-namespace logicPC
+namespace logicPC.CardFactory
 {
     public class CreateurConcretCarte : CreateurTemplate
     {

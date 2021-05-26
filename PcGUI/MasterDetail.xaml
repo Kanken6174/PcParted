@@ -85,7 +85,8 @@
                 HorizontalAlignment="Left"
                 Margin="121,400,0,0"
                 VerticalAlignment="Top"
-                Width="103" />
+                Width="103" 
+                Click="Button_Click"/>
         <Button x:Name="closeDetailButton"
                 Content="X"
                 HorizontalAlignment="Left"

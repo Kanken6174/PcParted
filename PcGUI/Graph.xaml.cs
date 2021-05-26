@@ -29,6 +29,7 @@ namespace PcParted
         public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
         public Graph()
         {
+            DataContext = gestionnaire;
             InitializeComponent();
         }
 
@@ -37,6 +38,9 @@ namespace PcParted
             
         }
 
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
+        }
     }
 }

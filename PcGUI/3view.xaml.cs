@@ -7,6 +7,7 @@ using logicPC.FiltersAndSearch;
 using logicPC.Downloaders;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
+using logicPC.CardData;
 
 namespace PcParted
 {
@@ -19,6 +20,7 @@ namespace PcParted
         public bool ShouldDetailbeShown = false;
         public string searchTerms = default;
         public Dictionary<string,BitmapImage> miniatures;
+        public string cardID = default;
 
         private Card _toShow;
         public Card ToShow
@@ -29,7 +31,7 @@ namespace PcParted
 
                 _toShow = value;
                 ShouldDetailbeShown = !ShouldDetailbeShown;
-                DetailedCard.onVisibilityChanged(ToShow);
+                DetailedCard.onVisibilityChanged(ToShow, cardID);
                 showChanged();
             }
         }
@@ -56,9 +58,11 @@ namespace PcParted
                 UserControl3 cloneCarte = new();
                 cloneCarte.laCarte = card.Value;
                 cloneCarte.ID = card.Key;
+                DetailedCard.carteID = card.Key;
                 cloneCarte.parent3view = this;
                 cloneCarte.laCarte = SavePic(cloneCarte.laCarte, card.Key);
                 cloneCarte.ImgCard.Source = miniatures[card.Key];
+
                 wrappy.Children.Add(cloneCarte);
             }
         }

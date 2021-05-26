@@ -3,14 +3,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using logicPC.CardData;
+using logicPC.Settings;
 
-namespace logicPC.ImportStrategies
+namespace logicPC.Importers
 {
     public class ImporterManager : ImporterManagerBase
     {
+        /// <summary>
+        /// Importe toutes les cartes dans le répertoire par défaut indiqué dans logicPC.Settings
+        /// </summary>
+        /// <returns>Un dictionnaire contenant toutes les cartes issues de ce réprertoire</returns>
         public static Dictionary<string, Card> ImportAll()
         {
-            string path = @"Y:\cs\datacrawler";
+            string path = SettingsLogic.PATH;
 
             if (!Directory.Exists(path))
             {

@@ -20,10 +20,16 @@
                    StrokeThickness="2"
                    VerticalAlignment="Top"
                    Width="271" />
-        <ComboBox HorizontalAlignment="Left"
+        <ComboBox x:Name="SelectionBox"
+                  HorizontalAlignment="Left"
                   Margin="585,23,0,0"
                   VerticalAlignment="Top"
-                  Width="120" />
+                  Width="120"
+                  SelectedValuePath="Key"
+                  DisplayMemberPath="Key"
+                  ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"
+                  SelectionChanged="ComboBox_SelectionChanged"
+                  SelectedIndex="{Binding ActiveList, UpdateSourceTrigger=PropertyChanged}" />
         <TextBox HorizontalAlignment="Left"
                  Margin="527,350,0,0"
                  Text="TextBox"

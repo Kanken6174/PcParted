@@ -96,7 +96,6 @@
             <Expander.Header>
                 <TextBlock Foreground="White"
                            Text="Filtres"
-                           Width="{Binding ActualWidth, ElementName=expOneDay}"
                            HorizontalAlignment="Stretch" />
             </Expander.Header>
 

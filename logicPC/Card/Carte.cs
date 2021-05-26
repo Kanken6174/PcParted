@@ -3,16 +3,16 @@ using logicPC.CardData;
 using logicPC.Templates;
 using logicPC.Interfaces;
 
-namespace logicPC
+namespace logicPC.CardData
 {
     /// <summary>
     /// classe d'une card standard qui implémente l'interface ICard
     /// </summary>
     public class Card : DataEntry, ICard
     {
-        public Info Informations;
-        public Specs Specifications;
-        public Theorics Theorics;
+        public Info Informations { get; set; }
+        public Specs Specifications { get; set; }
+        public Theorics Theorics { get; set; }
 
         public Card(Info informations, Specs specifications)
         {

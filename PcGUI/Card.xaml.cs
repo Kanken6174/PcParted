@@ -6,6 +6,7 @@ using logicPC;
 using System.Windows.Threading;
 using logicPC.Gestionnaires;
 using System.Runtime.InteropServices;
+using logicPC.CardData;
 
 namespace PcParted
 {
@@ -27,6 +28,7 @@ namespace PcParted
 
         private void UC_clicked(object sender, MouseButtonEventArgs e)
         {
+            parent3view.cardID = ID;
             parent3view.ToShow = laCarte;
         }
 

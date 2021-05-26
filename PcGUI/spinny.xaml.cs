@@ -21,6 +21,7 @@ namespace PcParted
             }
             set { tik = value; }
             }
+        
         public spinner()
         {
             InitializeComponent();
@@ -36,6 +37,7 @@ namespace PcParted
                      i++;
                      if (i >= 360)
                          i = 1;
+                     
                      Thread.Sleep(50);
                      _ = tok;
                  }

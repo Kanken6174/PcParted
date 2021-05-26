@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.IO;
 using logicPC.Gestionnaires;
 using logicPC.Conteneurs;
+using logicPC.CardData;
+using logicPC.Importers;
 
 
 namespace testsConsole

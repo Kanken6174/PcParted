@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rD+Bq7plULuTZXzw3+fENTDu1qO9Jah49gjGY0rGVc/eX9AWUjPq4f5lepM04uYUgIkPd7vgXTilektNp9iBCg==",
+  "dgSpecHash": "M3DdNSHcc3yEaXDg2a/x6gNP0dg9B+gPwXkG4f4Ap+qgX8CSy4/m2ESQzHZYJduCICHTzZP25UizE4sn1QWBZw==",
   "success": true,
   "projectFilePath": "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\swordfish.net.collectionsv3\\3.3.7\\swordfish.net.collectionsv3.3.3.7.nupkg.sha512",
+    "C:\\Users\\Yorick\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
   ],
   "logs": []

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using logicPC.Gestionnaires;
 using logicPC.Conteneurs;
+using System.ComponentModel;
+using Swordfish.NET.Collections;
 
 namespace PcParted
 {
@@ -13,18 +15,18 @@ namespace PcParted
         public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
         public UserControl2()
         {
-            for (int i = 0; i < 10; i++)
-                gestionnaire.AjouterListe("exemple", new());
+            DataContext = gestionnaire;
+            gestionnaire.AjouterListe("Liste Vide", new());
 
             InitializeComponent();
-            DataContext = gestionnaire;
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            gestionnaire.ActiveKey = (string)ListBox.SelectedValue;
         }
 
-        public Dictionary<string, UserList> GetLists()
+        public ConcurrentObservableSortedDictionary<string, UserList> GetLists()
         {
             return gestionnaire.MesListesUtilisateur;
         }

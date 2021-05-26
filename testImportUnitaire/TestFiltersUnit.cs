@@ -4,6 +4,8 @@ using logicPC.ImportStrategies;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+using logicPC.CardData;
+using logicPC.Importers;
 
 namespace FilterTesting
 {
@@ -25,12 +27,12 @@ namespace FilterTesting
                 foreach (KeyValuePair<int, Card> carte in deckTemp)
                     MainDataset.Add(fileName[i] + carte.Key, carte.Value);
             }
-            MainDataset = Lookup.SearchModel("gtx", MainDataset);
+            MainDataset = Lookup.SearchModel(MainDataset, "gtx");
             Assert.AreNotEqual(MainDataset, null);
 
             foreach (KeyValuePair<string, Card> carte in MainDataset)
             {
-                Assert.IsTrue(carte.Value.Model.Contains("GtX", StringComparison.InvariantCultureIgnoreCase));
+                Assert.IsTrue(carte.Value.Informations.Model.Contains("GtX", StringComparison.InvariantCultureIgnoreCase));
                 Console.WriteLine(carte.Value.ToString());
             }
         }

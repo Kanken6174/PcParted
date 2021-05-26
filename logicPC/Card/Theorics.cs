@@ -1,5 +1,6 @@
 ﻿using System;
 using logicPC.Interfaces;
+using logicPC.Settings;
 
 namespace logicPC.CardData
 {
@@ -30,9 +31,14 @@ namespace logicPC.CardData
                 ProcessFactors(info);
 
                 FP32GFLOPS = GHZ * 64;
+                Hashrate = FP32GFLOPS / SettingsLogic.Difficulty;
             }
         }
 
+        /// <summary>
+        /// Extrapole les facteurs de calcul à partir d'une classe Info
+        /// </summary>
+        /// <param name="info">la classe Info source d'informations de constructeur entre-autres</param>
         public void ProcessFactors(Info info)
         {
             if(info == null)
@@ -78,7 +84,7 @@ namespace logicPC.CardData
                     BusFactor = 0.95F;
                     break;
                 case "pcie3x16":
-                    BusFactor = 0.8F;
+                    BusFactor = 0.85F;
                     break;
                 case "pcie3x8":
                     BusFactor = 0.75F;

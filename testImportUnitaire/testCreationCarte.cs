@@ -3,7 +3,8 @@ using logicPC.Parsers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-
+using logicPC.CardData;
+using logicPC.CardFactory;
 namespace testsCreationCardUnitaires
 {
     [TestClass]

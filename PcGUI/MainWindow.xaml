@@ -27,7 +27,7 @@
                                    Background="DimGray" />
                 </TabItem>
                 <TabItem Header="Bookmarks">
-                    <local:UserControl5 />
+                    <local:UserListsPannel/>
                 </TabItem>
                 <TabItem Header="graphes">
                     <local:Graph/>

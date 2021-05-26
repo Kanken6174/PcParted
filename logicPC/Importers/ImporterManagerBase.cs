@@ -3,7 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
-namespace logicPC.ImportStrategies
+using logicPC.CardData;
+using logicPC.CardFactory;
+using logicPC.ImportStrategies;
+
+namespace logicPC.Importers
 {
     public class ImporterManagerBase
     {
