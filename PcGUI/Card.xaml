@@ -79,20 +79,20 @@
                    Text="Galax 1050 TI"
                    Width="99"
                    Grid.ColumnSpan="3"
-                   Foreground="Black" 
-                   TextWrapping="NoWrap"/>
-        <TextBlock 
-                   HorizontalAlignment="Left"
+                   Foreground="Black"
+                   TextWrapping="NoWrap" />
+        <TextBlock HorizontalAlignment="Left"
                    Margin="16,120,0,0"
                    Foreground="#F6C78E">
-            <Run x:Name="eth_S" Text="0" />
+            <Run x:Name="eth_S"
+                 Text="0" />
             <Run Text="MH/S" />
         </TextBlock>
-        <TextBlock
-                   HorizontalAlignment="Left"
+        <TextBlock HorizontalAlignment="Left"
                    Margin="16,133,0,0"
                    Foreground="#DBDE86">
-            <Run x:Name="watt" Text="0" />
+            <Run x:Name="watt"
+                 Text="0" />
             <Run Text="W" />
         </TextBlock>
         <TextBlock x:Name="eth_S_Copy1"
@@ -104,12 +104,12 @@
         </TextBlock>
         <Grid>
             <Image x:Name="ImgCard"
+                   Opacity="1"
                    Loaded="ImgCard_Loaded"
-                   Source="https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg"
                    Grid.ZIndex="2"
                    Margin="0,6,-9,109"
-                   SnapsToDevicePixels="True" 
-                   RenderOptions.BitmapScalingMode="Fant"/>
+                   SnapsToDevicePixels="True"
+                   RenderOptions.BitmapScalingMode="Fant" />
         </Grid>
     </Grid>
 </UserControl>

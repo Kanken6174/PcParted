@@ -35,9 +35,9 @@ namespace PcParted
         private void ImgCard_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
             nom_carte.Text = laCarte.Informations.Model as string;
-            eth_S.Text = laCarte.Theorics.Hashrate.ToString();
-            watt.Text = laCarte.Theorics.EnergyConsumption.ToString();
-            prix.Text = laCarte.Theorics.Price.ToString();
+            eth_S.Text = laCarte.Theorics.Hashrate.ToString("#0.000");
+            watt.Text = laCarte.Theorics.EnergyConsumption.ToString("#0");
+            prix.Text = laCarte.Theorics.Price.ToString("#0.00");
         }
 
         private void PicDL(object sender, EventArgs e)

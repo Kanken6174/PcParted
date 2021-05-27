@@ -114,7 +114,7 @@
             <Expander.Header>
                 <TextBlock Foreground="White"
                            Text="Bookmarks"
-                           Width="{Binding ActualWidth, ElementName=expOneDay}"
+                           Width="100"
                            HorizontalAlignment="Stretch" />
             </Expander.Header>
             <Grid Height="483">

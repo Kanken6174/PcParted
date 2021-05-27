@@ -23,7 +23,7 @@ namespace logicPC.CardData
         {
             if (specs != null && info != null)
             {
-                float GHZ = specs.GpuFrequency / 1000;
+                float GHZ = specs.GpuFrequency / 1000F;
                 PixelFillrate = GHZ * specs.RopUnits;
                 TextureFillrate = GHZ * specs.TmuUnits;
                 MayBeMobile = false;
@@ -32,6 +32,8 @@ namespace logicPC.CardData
 
                 FP32GFLOPS = GHZ * 64;
                 Hashrate = FP32GFLOPS / SettingsLogic.Difficulty;
+
+                processResults(info);
             }
         }
 
@@ -53,7 +55,11 @@ namespace logicPC.CardData
             int nY;
             nY = info.ReleaseDate.Year - oldestDt.Year;
 
-            DateFactor = nY / (DateTime.Now.Year - 2000);
+            if (nY < -90)
+                nY = 21;
+            DateFactor = (DateTime.Now.Year - 2000);
+            DateFactor /= nY;
+            DateFactor *= (2 / DateFactor);
 
             switch (info.Manufacturer.ToLowerInvariant())
             {
@@ -94,6 +100,12 @@ namespace logicPC.CardData
                     BusFactor = 1F;
                     break;
             }
+        }
+
+        public void processResults(Info info)
+        {
+            Price = (DateFactor * FP32GFLOPS * 3F);
+            EnergyConsumption = (int)((DateFactor*(FP32GFLOPS / Price)) * 10);
         }
 
         public override string ToString()
