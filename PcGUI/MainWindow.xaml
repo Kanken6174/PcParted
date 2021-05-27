@@ -12,7 +12,8 @@
         Background="#464646"
         WindowStyle="ToolWindow"
         x:Name="aWindow"
-        UseLayoutRounding="True">
+        UseLayoutRounding="True"
+        Loaded="aWindow_Loaded">
     <Grid>
         <ContentControl x:Name="MainView"
                         Background="#464646"

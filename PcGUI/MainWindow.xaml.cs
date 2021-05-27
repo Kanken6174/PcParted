@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using logicPC.Gestionnaires;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+
 namespace PcParted
 {
     /// <summary>
@@ -13,6 +15,11 @@ namespace PcParted
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private async void aWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            await gestionnaire.GetAllPics();
         }
     }
 }

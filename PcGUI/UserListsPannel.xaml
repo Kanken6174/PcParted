@@ -4,12 +4,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:PcParted"
+             xmlns:gestionnaires="clr-namespace:logicPC.Gestionnaires;assembly=logicPC"
+             d:DataContext="{d:DesignInstance Type=gestionnaires:GestionnaireListes}"
              mc:Ignorable="d"
              d:DesignHeight="536"
              d:DesignWidth="792"
              Background="Gray">
     <Grid>
-        <DataGrid x:Name="DGrid"
+        <DataGrid DataContext="{Binding UserListsPannel}"
+                  x:Name="DGrid"
                   HorizontalAlignment="Left"
                   Height="350"
                   Margin="60,80,0,0"

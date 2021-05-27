@@ -8,6 +8,8 @@ using logicPC.Downloaders;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 using logicPC.CardData;
+using System.Net.Http;
+using System.IO;
 
 namespace PcParted
 {
@@ -19,7 +21,7 @@ namespace PcParted
         public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
         public bool ShouldDetailbeShown = false;
         public string searchTerms = default;
-        public Dictionary<string,BitmapImage> miniatures;
+        public Dictionary<string, BitmapImage> miniatures;
         public string cardID = default;
 
         private Card _toShow;
@@ -43,6 +45,42 @@ namespace PcParted
             InitRefresh();
             DetailedCard.parentElement = this;
             gestionnaire.PropertyChanged += Gestionnaire_PropertyChanged;
+            gestionnaire.StreamRoot.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
+        }
+
+        private void Gestionnaire_RenderRefreshNeeded(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        {
+            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
+            {
+                BitmapImage bmp = makeBmp(card.Key);
+                miniatures.TryAdd(card.Key, bmp);
+            }
+        }
+
+        private BitmapImage makeBmp(string key)
+        {
+
+            BitmapImage bmp = new(new System.Uri("https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg"));
+            if (gestionnaire.StreamRoot.ContainsKey(key)) 
+            {
+                using (var memStream = new MemoryStream())
+                {
+                    gestionnaire.StreamRoot[key].CopyTo(memStream);
+                    {
+                        memStream.Position = 0;
+                        bmp = new();
+                        bmp.BeginInit();
+                        bmp.StreamSource = memStream;
+                        bmp.CacheOption = BitmapCacheOption.OnLoad;
+                        bmp.EndInit();
+                    }
+                }
+            }
+            else
+            {
+
+            }
+            return bmp;
         }
 
         private void Gestionnaire_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -51,6 +89,23 @@ namespace PcParted
         }
 
         public void InitRefresh()
+        {
+            wrappy.Children.Clear();
+            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
+            {
+                UserControl3 cloneCarte = new();
+                cloneCarte.laCarte = card.Value;
+                cloneCarte.ID = card.Key;
+                DetailedCard.carteID = card.Key;
+                cloneCarte.parent3view = this;
+                cloneCarte.laCarte = SavePic(cloneCarte.laCarte, card.Key);
+                cloneCarte.ImgCard.Source = miniatures[card.Key];
+
+                wrappy.Children.Add(cloneCarte);
+            }
+        }
+
+        public void RefreshRenderNoFilter()
         {
             wrappy.Children.Clear();
             foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
@@ -76,7 +131,8 @@ namespace PcParted
                 cloneCarte.laCarte = card.Value;
                 cloneCarte.ID = card.Key;
                 cloneCarte.parent3view = this;
-                cloneCarte.ImgCard.Source = miniatures[card.Key];
+                if(miniatures.ContainsKey(card.Key))
+                    cloneCarte.ImgCard.Source = miniatures[card.Key];
                 wrappy.Children.Add(cloneCarte);
             }
         }
@@ -84,16 +140,16 @@ namespace PcParted
         public Card SavePic(Card toSave, string ID)
         {
             BitmapImage bmp = new(new System.Uri("https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg"));
-                if (toSave != null)
-                    if (toSave.Informations.miniature != default)
-                    {
+            if (toSave != null)
+                if (toSave.Informations.CarteMin != default)
+                {
                     bmp = new();
                     bmp.BeginInit();
-                    bmp.StreamSource = toSave.Informations.miniature;
+                    bmp.StreamSource = toSave.Informations.CarteMin;
                     bmp.CacheOption = BitmapCacheOption.OnLoad;
                     bmp.EndInit();
                     bmp.Freeze();
-                    }
+                }
             miniatures.Add(ID, bmp);
             return toSave;
         }

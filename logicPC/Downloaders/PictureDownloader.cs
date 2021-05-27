@@ -14,11 +14,21 @@ namespace logicPC.Downloaders
 
         public static async Task<Stream> GetPicture(Uri uri)
         {
-
+            try
+            {
                 HttpResponseMessage response = await Client.GetAsync(uri);
-                
+
                 Stream responseBody = await response.Content.ReadAsStreamAsync();
                 return responseBody;
+            }
+            catch (TaskCanceledException)
+            {
+                return null;
+            }
+            catch (HttpRequestException)
+            {
+                return null;
+            }
 
         }
     }

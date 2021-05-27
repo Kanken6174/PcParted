@@ -77,7 +77,7 @@
         <TextBlock HorizontalAlignment="Center"
                    Margin="0,270,0,0"
                    TextWrapping="Wrap"
-                   Text="{Binding Path=parentElement.ToShow.Informations.Architecture, StringFormat='Architecture : {0}', UpdateSourceTrigger=PropertyChanged}"
+                   Text="Achitecture"
                    VerticalAlignment="Top"
                    Height="23"
                    Width="330" />
@@ -99,7 +99,7 @@
         <TextBlock HorizontalAlignment="Center"
                    Margin="0,298,0,0"
                    TextWrapping="Wrap"
-                   Text="{Binding Path=parentElement.ToShow.Informations.Manufacturer, StringFormat=Constructeur : \{0\}, UpdateSourceTrigger=PropertyChanged}"
+                   Text="Fabricant"
                    VerticalAlignment="Top"
                    Height="23"
                    Width="330" />

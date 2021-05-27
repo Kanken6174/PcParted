@@ -21,6 +21,7 @@ namespace logicPC.Gestionnaires
     {
         public Dictionary<string, Card> Data;
         public IReadOnlyDictionary<string, Card> ProtectedData;
+        public ConcurrentObservableDictionary<string, Stream> StreamRoot;
         public ConcurrentObservableSortedDictionary<string, UserList> MesListesUtilisateur { get; set; }
         public string ActiveKey = default;
         private int _activelist;
@@ -31,26 +32,37 @@ namespace logicPC.Gestionnaires
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler RenderRefreshNeeded;
 
         public GestionnaireListes()
         {
             Data = ImporterManager.ImportAll();
             ProtectedData = Data;
             MesListesUtilisateur = new();
-            GetAllPics();
+            StreamRoot = new();
+            StreamRoot.PropertyChanged += RenderRefreshNeeded;
+            
         }
 
-        public async void GetAllPics()
+        public async Task GetAllPics()
         {
             foreach(KeyValuePair<string,Card> carte in Data)
             {
-                if (carte.Value.Informations.PictureURL != new System.Uri("about:blank"))
+                if (carte.Value.Informations.PictureURL != new System.Uri("about:blank") && carte.Key != null)
                 {
-                    Stream getPicsTask = await PictureDownloader.GetPicture(carte.Value.Informations.PictureURL);
-                    carte.Value.Informations.miniature = getPicsTask;
+                    try
+                    {
+                        StreamRoot.TryAdd(carte.Key, await PictureDownloader.GetPicture(carte.Value.Informations.PictureURL));
+                        carte.Value.Informations.CarteMin = StreamRoot[carte.Key];
+                       
+                    }
+                    catch (TaskCanceledException)
+                    {
+                        carte.Value.Informations.CarteMin = null;
+                    }
                 }
                 else
-                    carte.Value.Informations.miniature = null;
+                    carte.Value.Informations.CarteMin = null;
             }
             
         }

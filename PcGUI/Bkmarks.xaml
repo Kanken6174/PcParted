@@ -107,6 +107,7 @@
                   Width="120"
                   SelectionChanged="ComboBox_SelectionChanged"
                   SelectedValuePath="Key" DisplayMemberPath="Key"
+                  IsSynchronizedWithCurrentItem="False"
                   ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"
                   SelectedIndex="0"/>
     </Grid>
