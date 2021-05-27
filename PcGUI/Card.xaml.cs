@@ -35,16 +35,9 @@ namespace PcParted
         private void ImgCard_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
             nom_carte.Text = laCarte.Informations.Model as string;
-            
-
-            /*
-            if (!laCarte.PictureURL.Equals("about:blank"))
-            {
-            BitmapImage Ipic = new BitmapImage(laCarte.PictureURL);
-            ImgCard.Source = Ipic;
-            Ipic.DownloadCompleted += new EventHandler(PicDL);
-            }
-            */
+            eth_S.Text = laCarte.Theorics.Hashrate.ToString();
+            watt.Text = laCarte.Theorics.EnergyConsumption.ToString();
+            prix.Text = laCarte.Theorics.Price.ToString();
         }
 
         private void PicDL(object sender, EventArgs e)

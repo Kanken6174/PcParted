@@ -79,22 +79,29 @@
                    Text="Galax 1050 TI"
                    Width="99"
                    Grid.ColumnSpan="3"
-                   Foreground="Black" />
-        <TextBlock x:Name="eth_S"
+                   Foreground="Black" 
+                   TextWrapping="NoWrap"/>
+        <TextBlock 
                    HorizontalAlignment="Left"
                    Margin="16,120,0,0"
-                   Text="5.87 MH/s"
-                   Foreground="#F6C78E" />
-        <TextBlock x:Name="eth_S_Copy"
+                   Foreground="#F6C78E">
+            <Run x:Name="eth_S" Text="0" />
+            <Run Text="MH/S" />
+        </TextBlock>
+        <TextBlock
                    HorizontalAlignment="Left"
                    Margin="16,133,0,0"
-                   Text="160 Watts"
-                   Foreground="#DBDE86" />
+                   Foreground="#DBDE86">
+            <Run x:Name="watt" Text="0" />
+            <Run Text="W" />
+        </TextBlock>
         <TextBlock x:Name="eth_S_Copy1"
                    HorizontalAlignment="Left"
-                   Margin="32,147,0,0"
-                   Text="150 €"
-                   Foreground="#8CFFCA" />
+                   Margin="16,147,0,0"
+                   Foreground="#8CFFCA">
+            <Run x:Name="prix" />
+            <Run Text="€" />
+        </TextBlock>
         <Grid>
             <Image x:Name="ImgCard"
                    Loaded="ImgCard_Loaded"
@@ -102,24 +109,7 @@
                    Grid.ZIndex="2"
                    Margin="0,6,-9,109"
                    SnapsToDevicePixels="True" 
-                   RenderOptions.BitmapScalingMode="HighQuality"/>
+                   RenderOptions.BitmapScalingMode="Fant"/>
         </Grid>
     </Grid>
 </UserControl>
-
-<!-- Archived code
-<MediaElement.Triggers>
-    <EventTrigger RoutedEvent="MediaElement.Loaded">
-        <EventTrigger.Actions>
-            <BeginStoryboard>
-                <Storyboard>
-                    <MediaTimeline Source="Y:\C#\PcParted\src\ressources\loader.gif"
-                                   Storyboard.TargetName="myMediaElement"
-                                   RepeatBehavior="Forever" />
-                </Storyboard>
-            </BeginStoryboard>
-        </EventTrigger.Actions>
-    </EventTrigger>
-</MediaElement.Triggers>
-
--->

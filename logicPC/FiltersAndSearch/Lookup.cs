@@ -13,7 +13,7 @@ namespace logicPC.FiltersAndSearch
         /// <param name="terms">Recherche de l'utilisateur</param>
         /// <param name="deck">dictionnaire readonly de toutes les cards graphiques, ou autre ditionnaire similaire</param>
         /// <returns>Un dictionnaire ne conetenant que les cards contenant les termes de recherche dans leur nom</returns>
-        public static Dictionary<string, Card> SearchModel(this Dictionary<string, Card> deck, string terms)
+        public static Dictionary<string, Card> SearchModel(this IReadOnlyDictionary<string, Card> deck, string terms)
         {
             Dictionary<string, Card> validForTerms = new();
 
