@@ -18,7 +18,9 @@ namespace logicPC.Downloaders
             {
                 HttpResponseMessage response = await Client.GetAsync(uri);
 
-                Stream responseBody = await response.Content.ReadAsStreamAsync();
+                Stream responseBody = new MemoryStream();
+                responseBody.Position = 0;
+                responseBody = await response.Content.ReadAsStreamAsync();
                 return responseBody;
             }
             catch (TaskCanceledException)

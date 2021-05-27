@@ -46,7 +46,7 @@ namespace logicPC.Gestionnaires
 
         public async Task GetAllPics()
         {
-            foreach(KeyValuePair<string,Card> carte in Data)
+            foreach(KeyValuePair<string,Card> carte in ProtectedData)
             {
                 if (carte.Value.Informations.PictureURL != new System.Uri("about:blank") && carte.Key != null)
                 {

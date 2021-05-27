@@ -1,14 +1,12 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using logicPC.Gestionnaires;
-using logicPC;
+using logicPC.Settings;
 using System.Collections.Generic;
 using logicPC.FiltersAndSearch;
-using logicPC.Downloaders;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 using logicPC.CardData;
-using System.Net.Http;
 using System.IO;
 
 namespace PcParted
@@ -23,6 +21,7 @@ namespace PcParted
         public string searchTerms = default;
         public Dictionary<string, BitmapImage> miniatures;
         public string cardID = default;
+        private int minTick = 0;
 
         private Card _toShow;
         public Card ToShow
@@ -48,31 +47,46 @@ namespace PcParted
             gestionnaire.StreamRoot.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
         }
 
-        private void Gestionnaire_RenderRefreshNeeded(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        private async void Gestionnaire_RenderRefreshNeeded(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
         {
-            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
+            minTick++;
+            if (minTick > SettingsLogic.PoolingMax)
             {
-                BitmapImage bmp = makeBmp(card.Key);
-                miniatures.TryAdd(card.Key, bmp);
+                foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
+                {
+                    BitmapImage bmp = new();
+                    bmp = await makeBmp(card.Key);
+                    if (miniatures.ContainsKey(card.Key))
+                        miniatures.Remove(card.Key);
+                    miniatures.TryAdd(card.Key, bmp);
+                }
+                minTick = 0;
+                RefreshAll();
             }
         }
 
-        private BitmapImage makeBmp(string key)
+        private async Task<BitmapImage> makeBmp(string key)
         {
-
-            BitmapImage bmp = new(new System.Uri("https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg"));
-            if (gestionnaire.StreamRoot.ContainsKey(key)) 
+            BitmapImage bmp = new(SettingsLogic.DummyPic);
+            if (gestionnaire.StreamRoot.ContainsKey(key))
             {
                 using (var memStream = new MemoryStream())
                 {
-                    gestionnaire.StreamRoot[key].CopyTo(memStream);
+                    gestionnaire.StreamRoot[key].Position = 0;
+                    await gestionnaire.StreamRoot[key].CopyToAsync(memStream);
                     {
-                        memStream.Position = 0;
-                        bmp = new();
-                        bmp.BeginInit();
-                        bmp.StreamSource = memStream;
-                        bmp.CacheOption = BitmapCacheOption.OnLoad;
-                        bmp.EndInit();
+                        try{
+                            bmp = new BitmapImage();
+                            memStream.Position = 0;
+                            bmp.BeginInit();
+                            bmp.StreamSource = memStream;
+                            bmp.CacheOption = BitmapCacheOption.OnLoad;
+                            bmp.EndInit();
+                        }
+                        catch (System.NotSupportedException)
+                        {
+                            bmp = new(SettingsLogic.DummyPic);
+                        }
                     }
                 }
             }
@@ -115,7 +129,7 @@ namespace PcParted
                 cloneCarte.ID = card.Key;
                 DetailedCard.carteID = card.Key;
                 cloneCarte.parent3view = this;
-                cloneCarte.laCarte = SavePic(cloneCarte.laCarte, card.Key);
+                cloneCarte.laCarte = card.Value;
                 cloneCarte.ImgCard.Source = miniatures[card.Key];
 
                 wrappy.Children.Add(cloneCarte);
@@ -136,10 +150,15 @@ namespace PcParted
                 wrappy.Children.Add(cloneCarte);
             }
         }
-
+        /// <summary>
+        /// Sauvegarde une 
+        /// </summary>
+        /// <param name="toSave"></param>
+        /// <param name="ID"></param>
+        /// <returns></returns>
         public Card SavePic(Card toSave, string ID)
         {
-            BitmapImage bmp = new(new System.Uri("https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg"));
+            BitmapImage bmp = new(SettingsLogic.DummyPic);
             if (toSave != null)
                 if (toSave.Informations.CarteMin != default)
                 {

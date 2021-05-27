@@ -14,5 +14,6 @@ namespace logicPC.Settings
         public static float BitcoinPrice = 49814.19F;
         public static float KWHPrice = 0.1765F;
         public static float Currency = 1F;
+        public static int PoolingMax = 0;
     }
 }
