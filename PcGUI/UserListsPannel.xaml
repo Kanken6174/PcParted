@@ -5,23 +5,31 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:PcParted"
              xmlns:gestionnaires="clr-namespace:logicPC.Gestionnaires;assembly=logicPC"
+             xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
              d:DataContext="{d:DesignInstance Type=gestionnaires:GestionnaireListes}"
              mc:Ignorable="d"
              d:DesignHeight="536"
              d:DesignWidth="792"
              Background="Gray">
     <Grid>
-        <DataGrid DataContext="{Binding UserListsPannel}"
+        <DataGrid 
                   x:Name="DGrid"
                   HorizontalAlignment="Left"
                   Height="350"
                   Margin="60,80,0,0"
                   VerticalAlignment="Top"
                   Width="495"
-                  SelectedValuePath="Key"
-                  DisplayMemberPath="Value"
+
                   AutoGenerateColumns="True"
-                  ItemsSource="{Binding ListesComboBox.SelectedItem, UpdateSourceTrigger=PropertyChanged}">
+                  ItemsSource="{Binding Value ,UpdateSourceTrigger=PropertyChanged, diag:PresentationTraceSources.TraceLevel=High}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Quantité"
+                                    Binding="{Binding QuantityCards.Value}" />
+                <DataGridTextColumn Header="Modèle"
+                                    Binding="{Binding Cards.Value.Info.Model}" />
+                <DataGridTextColumn Header="Prix"
+                                    Binding="{Binding Cards.Value.Theorics.Price}" />
+            </DataGrid.Columns>
         </DataGrid>
         <ComboBox x:Name="ListesComboBox"
                   HorizontalAlignment="Left"
@@ -32,7 +40,8 @@
                   DisplayMemberPath="Key"
                   Height="33"
                   ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"
-                  SelectedIndex="0">
+                  SelectedIndex="0"
+                  SelectionChanged="ListesComboBox_SelectionChanged">
         </ComboBox>
         <Button Content="Supprimer"
                 HorizontalAlignment="Left"

@@ -22,7 +22,8 @@ namespace PcParted
         public bool ShouldDetailbeShown = false;
         public string searchTerms = default;
         public string cardID = default;
-        private int minTick = 0;
+        private int availablePackets = 0;
+        private int PacketsDoneIndex = 0;
 
         private Card _toShow;
         public Card ToShow
@@ -44,33 +45,47 @@ namespace PcParted
             InitializeComponent();
             InitRefresh();
             DetailedCard.parentElement = this;
-            gestionnaire.PropertyChanged += Gestionnaire_PropertyChanged;
+            //gestionnaire.PropertyChanged += Gestionnaire_PropertyChanged;
             gestionnaire.StreamRoot.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
         }
 
         /// <summary>
         /// évènement répmondant à la condition: une bitmapimage a fini d'être téléchargée. Fonctionne par pool d'un certain nombre d'images avant de refresh.
+        /// Si l'évènement est appellé moins de fois que le paramètre requis, il ne se lancera pas pour économiser des ressources. (3 par 3 par défaut)
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private async void Gestionnaire_RenderRefreshNeeded(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
         {
-            minTick++;
-            if (minTick > SettingsLogic.PoolingMax)
+            availablePackets++;
+            if (availablePackets > SettingsLogic.PoolingMax)
             {
+                int i = 0;
                 List<string> group = new();
                 foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
                 {
-                    BitmapImage bmp = new();
-                    bmp = await makeBmp(card.Key);
-                    if (miniatures.ContainsKey(card.Key))
-                        miniatures.Remove(card.Key);
-                    miniatures.TryAdd(card.Key, bmp);
-                    group.Add(card.Key);
+                    if (i < (SettingsLogic.PoolingMax + PacketsDoneIndex) && i >= PacketsDoneIndex)
+                    {
+                        BitmapImage bmp = new();
+                        bmp = await makeBmp(card.Key);
+                        bmp.CacheOption = BitmapCacheOption.OnDemand;
+                        if (miniatures.ContainsKey(card.Key))
+                            miniatures.Remove(card.Key);
+                        miniatures.TryAdd(card.Key, bmp);
+                        group.Add(card.Key);
+                    }
+                    i++;
+                    
                 }
-                minTick = 0;
+                PacketsDoneIndex += SettingsLogic.PoolingMax;
+                availablePackets = 0;
                 RefreshGroup(group);
             }
+        }
+        private void ShowSpinnerFor(string name)
+        {
+            UserControl3 clone = (UserControl3)wrappy.FindName(name);
+            clone.loader.Visibility = Visibility.Visible;
         }
 
         private void Gestionnaire_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -118,7 +133,9 @@ namespace PcParted
                         clone.ImgCard.Source = miniatures[name];
 
                     if (clone != null && gestionnaire.Data.ContainsKey(name))
+                    {
                         clone.Visibility = Visibility.Visible;
+                    }
 
                 }
 
@@ -180,6 +197,7 @@ namespace PcParted
                             bmp.BeginInit();
                             bmp.StreamSource = memStream;
                             bmp.CacheOption = BitmapCacheOption.OnLoad;
+                            
                             bmp.EndInit();
                         }
                         catch (System.NotSupportedException)
@@ -214,10 +232,6 @@ namespace PcParted
             wrappy.Children.Add(clone);
         }
 
-        private void wrappy_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
-        {
-        }
-
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             searchTerms = (sender as TextBox).Text;
@@ -249,6 +263,11 @@ namespace PcParted
         {
             gestionnaire.Data = gestionnaire.ProtectedData.SearchModel(searchTerms);
             RefreshAll();
+        }
+
+        private async void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            await gestionnaire.GetAllPics();
         }
     }
 }

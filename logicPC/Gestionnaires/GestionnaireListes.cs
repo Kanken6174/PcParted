@@ -31,6 +31,7 @@ namespace logicPC.Gestionnaires
             set { _activelist = value; PropertyChanged?.Invoke(nameof(_activelist), new PropertyChangedEventArgs("e")); }
         }
 
+        public event PropertyChangedEventHandler ULChanged;
         public event PropertyChangedEventHandler PropertyChanged;
         public event PropertyChangedEventHandler RenderRefreshNeeded;
 
@@ -41,7 +42,7 @@ namespace logicPC.Gestionnaires
             MesListesUtilisateur = new();
             StreamRoot = new();
             StreamRoot.PropertyChanged += RenderRefreshNeeded;
-            
+            MesListesUtilisateur.PropertyChanged += ULChanged;
         }
 
         public async Task GetAllPics()
@@ -77,7 +78,7 @@ namespace logicPC.Gestionnaires
         /// </summary>
         /// <param name="nom">Le nom de la liste à ajouter</param>
         /// <returns></returns>
-        public void AjouterListe(string nom, UserList toAdd)
+        public string AjouterListe(string nom, UserList toAdd)
         {
             int alreadyExists = 1;
             if (nom != null && MesListesUtilisateur.ContainsKey(nom))
@@ -90,7 +91,7 @@ namespace logicPC.Gestionnaires
                 nom = $"{nom}({alreadyExists})";
             }
             MesListesUtilisateur.Add(nom, toAdd);
-            
+            return nom;
         }
 
         /// <summary>

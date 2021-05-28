@@ -30,7 +30,7 @@ namespace PcParted
 
         private void Button_Click_add(object sender, RoutedEventArgs e)
         {
-            gestionnaire.AjouterListe("Nouvelle liste", new());
+            ListesComboBox.SelectedItem = gestionnaire.AjouterListe("Nouvelle liste", new());
         }
 
         private void Button_Click_rem(object sender, RoutedEventArgs e)
@@ -47,7 +47,12 @@ namespace PcParted
                 gestionnaire.DuplicateList((string)ListesComboBox.SelectedValue);
             else
                 gestionnaire.DuplicateList((string)ListesComboBox.SelectedValue);
+
         }
 
+        private void ListesComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            DGrid.DataContext = ListesComboBox.SelectedItem;
+        }
     }
 }

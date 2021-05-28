@@ -73,7 +73,7 @@
                    VerticalAlignment="Top"
                    Foreground="#8CFFCA">
             <Run Text="Coût total: "/>
-            <Run Text="{Binding ElementName=ListBox, Path=SelectedItem.value, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Run Text="{Binding ElementName=ListBox, Path=SelectedItem.Value.PrixTotalStr, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
             <Run Text="€" />
         </TextBlock>
 
@@ -83,7 +83,7 @@
                   VerticalAlignment="Stretch"
                   MaxWidth="600"
                   Margin="1,40,1,160"
-                  ItemsSource="{Binding ElementName=ListBox, Path=SelectedItem, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                  ItemsSource="{Binding ElementName=ListBox, Path=SelectedItem.Value, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
                   AutoGenerateColumns="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Key"

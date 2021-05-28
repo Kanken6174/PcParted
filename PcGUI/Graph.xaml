@@ -8,11 +8,15 @@
              Height="536"
              Width="792">
     <Grid Background="Gray">
-        <Canvas x:Name="graphScreen"
-            Margin="10,10,294,86"
-                Background="AliceBlue">
+        <Border BorderBrush="Black"
+                BorderThickness="3"
+                ClipToBounds="True"
+                Margin="10,10,294,86">
+            <Canvas x:Name="graphScreen"
+                    Background="AliceBlue">
 
-        </Canvas>
+            </Canvas>
+        </Border>
         <Rectangle HorizontalAlignment="Left"
                    Height="385"
                    Margin="511,10,0,0"
@@ -30,23 +34,38 @@
                   ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"
                   SelectionChanged="ComboBox_SelectionChanged"
                   SelectedIndex="{Binding ActiveList, UpdateSourceTrigger=PropertyChanged}" />
-        <TextBox HorizontalAlignment="Left"
+        <TextBox x:Name="incrementBox"
+                 HorizontalAlignment="Left"
                  Margin="527,350,0,0"
-                 Text="TextBox"
+                 Text="1"
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
                  Width="65" />
-        <TextBox HorizontalAlignment="Left"
+        <TextBox x:Name="EndBox"
+                 HorizontalAlignment="Left"
                  Margin="699,350,0,0"
-                 Text="TextBox"
+                 Text="50"
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
                  Width="65" />
         <Button Content="Plot"
                 HorizontalAlignment="Left"
-                Margin="627,405,0,0"
-                VerticalAlignment="Top" 
-                Click="Button_Click"/>
+                Margin="615,350,0,0"
+                VerticalAlignment="Top"
+                Click="Button_Click"
+                Width="55" />
+        <DataGrid HorizontalAlignment="Left"
+                  Height="280"
+                  Margin="527,55,0,0"
+                  VerticalAlignment="Top"
+                  Width="237" />
+        <Button Content="Export PNG"
+                HorizontalAlignment="Left"
+                Height="25"
+                Margin="511,425,0,0"
+                VerticalAlignment="Top"
+                Width="99" 
+                Click="Button_Click_1"/>
 
     </Grid>
 </UserControl>

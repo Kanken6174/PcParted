@@ -99,7 +99,7 @@
                    HorizontalAlignment="Left"
                    Margin="16,147,0,0"
                    Foreground="#8CFFCA">
-            <Run x:Name="prix" />
+            <Run x:Name="prix" Text="0"/>
             <Run Text="€" />
         </TextBlock>
         <Grid>
@@ -110,6 +110,13 @@
                    Margin="0,6,-9,109"
                    SnapsToDevicePixels="True"
                    RenderOptions.BitmapScalingMode="Fant" />
+            <local:spinner HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           Height="70"
+                           Width="70"
+                           Margin="20,0,0,0" 
+                           Visibility="Collapsed"
+                           x:Name="loader"/>
         </Grid>
     </Grid>
 </UserControl>

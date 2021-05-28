@@ -7,7 +7,8 @@
              mc:Ignorable="d"
              d:DesignHeight="500"
              d:DesignWidth="800"
-             Background="Transparent">
+             Background="Transparent"
+             Loaded="UserControl_Loaded">
     <UserControl.Resources>
         <Style x:Key="VSC_bar" />
 

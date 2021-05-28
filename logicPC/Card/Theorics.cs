@@ -105,7 +105,7 @@ namespace logicPC.CardData
         public void processResults(Info info)
         {
             Price = (DateFactor * FP32GFLOPS * 3F);
-            EnergyConsumption = (int)((DateFactor*(FP32GFLOPS / Price)) * 10);
+            EnergyConsumption = (int)((DateFactor*(FP32GFLOPS / SettingsLogic.gflopPrice)) * 100);
         }
 
         public override string ToString()

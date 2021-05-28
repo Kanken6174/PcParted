@@ -16,10 +16,5 @@ namespace PcParted
         {
             InitializeComponent();
         }
-
-        private async void aWindow_Loaded(object sender, RoutedEventArgs e)
-        {
-            await gestionnaire.GetAllPics();
-        }
     }
 }
