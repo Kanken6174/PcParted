@@ -1,25 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Net.Http;
 using System.IO;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace logicPC.Downloaders
 {
-    public static class PictureDownloader
+    static internal class PictureDownloader
     {
-        static readonly HttpClient Client= new HttpClient();
+        private static readonly HttpClient Client = new();
 
-        public static async Task<Stream> GetPicture(Uri uri)
+        internal static async Task<Stream> GetPicture(Uri uri)
         {
             try
             {
                 HttpResponseMessage response = await Client.GetAsync(uri);
 
-                Stream responseBody = new MemoryStream();
-                responseBody.Position = 0;
+                Stream responseBody = new MemoryStream
+                {
+                    Position = 0
+                };
                 responseBody = await response.Content.ReadAsStreamAsync();
                 return responseBody;
             }
@@ -31,7 +30,6 @@ namespace logicPC.Downloaders
             {
                 return null;
             }
-
         }
     }
 }

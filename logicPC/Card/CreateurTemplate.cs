@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using logicPC.CardData;
+﻿using logicPC.CardData;
+using System.Collections.Generic;
 
 namespace logicPC.CardFactory
 {
-    public abstract class CreateurTemplate
+    internal abstract class CreateurTemplate
     {
-        public abstract Dictionary<int, Card> MakeCard(Dictionary<int, List<string>> dico);
+        internal abstract Dictionary<int, Card> MakeCard(Dictionary<int, List<string>> dico);
     }
 }

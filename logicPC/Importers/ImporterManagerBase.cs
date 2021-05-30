@@ -1,18 +1,15 @@
-﻿using logicPC.Parsers;
+﻿using logicPC.CardData;
+using logicPC.CardFactory;
+using logicPC.ImportStrategies;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.IO;
-using logicPC.CardData;
-using logicPC.CardFactory;
-using logicPC.ImportStrategies;
 
 namespace logicPC.Importers
 {
-    public class ImporterManagerBase
+    internal class ImporterManagerBase
     {
-
-        public static Dictionary<int, Card> ImportSet(string path, string PnmName, string PemName, string UslName)
+        internal static Dictionary<int, Card> ImportSet(string path, string PnmName, string PemName, string UslName)
         {
             string constructeur = PemName.Split('.').FirstOrDefault();
 
@@ -36,7 +33,7 @@ namespace logicPC.Importers
 
                 temp.Informations.PictureURL = page.Value;
                 temp.Informations.Manufacturer = constructeur;
-                temp.fullOriginPath = path+PnmName;
+                temp.fullOriginPath = path + PnmName;
                 temp.line = i;
                 deck[page.Key] = temp;
                 i++;

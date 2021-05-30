@@ -12,24 +12,15 @@
              d:DesignWidth="792"
              Background="Gray">
     <Grid>
-        <DataGrid 
-                  x:Name="DGrid"
+        <DataGrid x:Name="DGrid"
                   HorizontalAlignment="Left"
                   Height="350"
                   Margin="60,80,0,0"
                   VerticalAlignment="Top"
                   Width="495"
-
                   AutoGenerateColumns="True"
-                  ItemsSource="{Binding Value ,UpdateSourceTrigger=PropertyChanged, diag:PresentationTraceSources.TraceLevel=High}">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Quantité"
-                                    Binding="{Binding QuantityCards.Value}" />
-                <DataGridTextColumn Header="Modèle"
-                                    Binding="{Binding Cards.Value.Info.Model}" />
-                <DataGridTextColumn Header="Prix"
-                                    Binding="{Binding Cards.Value.Theorics.Price}" />
-            </DataGrid.Columns>
+                  ItemsSource="{Binding Datagridcards, UpdateSourceTrigger=PropertyChanged}"
+                  >
         </DataGrid>
         <ComboBox x:Name="ListesComboBox"
                   HorizontalAlignment="Left"
@@ -39,9 +30,9 @@
                   SelectedValuePath="Key"
                   DisplayMemberPath="Key"
                   Height="33"
-                  ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"
+                  ItemsSource="{Binding UserListsStorage, UpdateSourceTrigger=PropertyChanged}"
                   SelectedIndex="0"
-                  SelectionChanged="ListesComboBox_SelectionChanged">
+                  SelectionChanged="DatagridRefresh_needed">
         </ComboBox>
         <Button Content="Supprimer"
                 HorizontalAlignment="Left"

@@ -31,9 +31,9 @@
                   Width="120"
                   SelectedValuePath="Key"
                   DisplayMemberPath="Key"
-                  ItemsSource="{Binding MesListesUtilisateur, UpdateSourceTrigger=PropertyChanged}"
+                  ItemsSource="{Binding UserListsStorage, UpdateSourceTrigger=PropertyChanged}"
                   SelectionChanged="ComboBox_SelectionChanged"
-                  SelectedIndex="{Binding ActiveList, UpdateSourceTrigger=PropertyChanged}" />
+                  SelectedIndex="{Binding ActiveList, UpdateSourceTrigger=PropertyChanged, BindsDirectlyToSource=True}" />
         <TextBox x:Name="incrementBox"
                  HorizontalAlignment="Left"
                  Margin="527,350,0,0"
@@ -54,7 +54,8 @@
                 VerticalAlignment="Top"
                 Click="Button_Click"
                 Width="55" />
-        <DataGrid HorizontalAlignment="Left"
+        <DataGrid x:Name="DGrid"
+                  HorizontalAlignment="Left"
                   Height="280"
                   Margin="527,55,0,0"
                   VerticalAlignment="Top"

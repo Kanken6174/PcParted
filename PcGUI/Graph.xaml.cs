@@ -1,28 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using PcParted;
-using logicPC;
-using logicPC.Templates;
 using logicPC.Plotters;
 using logicPC.Gestionnaires;
-using logicPC.Conteneurs;
 using System.Text.RegularExpressions;
 using logicPC.Settings;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
+using logicPC.CardData;
 
 namespace PcParted
 {
@@ -37,6 +28,7 @@ namespace PcParted
         {
             DataContext = gestionnaire;
             InitializeComponent();
+            gestionnaire.DataNotifier += DatagridRefresh_needed;
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
@@ -62,24 +54,24 @@ namespace PcParted
                 float.TryParse(EndBox.Text, NumberStyles.Any, CultureInfo.InvariantCulture,out float endNF);
                 float.TryParse(incrementBox.Text, NumberStyles.Any, CultureInfo.InvariantCulture,out float incNF);
 
-            List<PointF> hashpoints = HashPlotter.plot(gestionnaire.MesListesUtilisateur[SelectionBox.SelectedValue as string].Cards, gestionnaire.MesListesUtilisateur[SelectionBox.SelectedValue as string].QuantityCards, endNF, incNF, SettingsLogic.DepreciationFactor);
-            List<PointF> powerDrawPoints = HashPlotter.plotPowerCost(gestionnaire.MesListesUtilisateur[SelectionBox.SelectedValue as string].Cards, gestionnaire.MesListesUtilisateur[SelectionBox.SelectedValue as string].QuantityCards, endNF, incNF, SettingsLogic.powerInflationFactor);
+            List<PointF> hashpoints = HashPlotter.Plot(gestionnaire.UserListsStorage[SelectionBox.SelectedValue as string].Cards, gestionnaire.UserListsStorage[SelectionBox.SelectedValue as string].QuantityCards, endNF, incNF, SettingsLogic.DepreciationFactor);
+            List<PointF> powerDrawPoints = HashPlotter.PlotPowerCost(gestionnaire.UserListsStorage[SelectionBox.SelectedValue as string].Cards, gestionnaire.UserListsStorage[SelectionBox.SelectedValue as string].QuantityCards, endNF, incNF, SettingsLogic.powerInflationFactor);
             
             graphScreen.Children.Clear();
             PointF old = new(0,0);
             foreach (PointF point in hashpoints)
             {
-                await setPoint(point, old, System.Windows.Media.Brushes.Red);
+                await setPoint(point, old, System.Windows.Media.Brushes.Red, incNF);
                 old = point;
             }
             old = new(0, 0);
             foreach (PointF point in powerDrawPoints)
             {
-                await setPoint(point, old, System.Windows.Media.Brushes.Orange);
+                await setPoint(point, old, System.Windows.Media.Brushes.Orange, incNF);
                 old = point;
             }
         }
-        private async Task setPoint(PointF point, PointF old, System.Windows.Media.SolidColorBrush brush)
+        private async Task setPoint(PointF point, PointF old, System.Windows.Media.SolidColorBrush brush, float precisionDelay)
         {
             Ellipse ellipse = new();
             ellipse.Height = 5;
@@ -96,7 +88,7 @@ namespace PcParted
             else
                 Canvas.SetBottom(ellipse, point.X);
 
-            await Task.Delay(SettingsLogic.GraphAnimationDelay);
+            await Task.Delay((int)(SettingsLogic.GraphAnimationDelay*precisionDelay));
 
             if (old.X != 0)
             {
@@ -153,6 +145,24 @@ namespace PcParted
             {
                 enc.Save(stm);
             }
+        }
+        private void DatagridRefresh_needed<E>(object sender, E e)
+        {
+            string selected = new("");
+            if (SelectionBox.SelectedValue is not null)
+                selected = SelectionBox.SelectedValue.ToString();
+
+            if (selected != null)
+                if (gestionnaire.UserListsStorage.ContainsKey(selected))
+                {
+                    foreach (KeyValuePair<string, Card> card in gestionnaire.UserListsStorage[selected].Cards)
+                    {
+                        gestionnaire.Datagridcards.TryAdd(gestionnaire.UserListsStorage[selected].QuantityCards[card.Key], card.Value);
+                    }
+                    DGrid.ItemsSource = null;
+                    DGrid.ItemsSource = gestionnaire.Datagridcards;
+                }
+
         }
     }
 }

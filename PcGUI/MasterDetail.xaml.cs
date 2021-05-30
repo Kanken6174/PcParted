@@ -2,7 +2,10 @@
 using System.Windows.Media.Imaging;
 using logicPC.CardData;
 using logicPC.Gestionnaires;
+using logicPC.Settings;
 using logicPC.Conteneurs;
+using System.Windows;
+using System.ComponentModel;
 
 namespace PcParted
 {
@@ -23,6 +26,7 @@ namespace PcParted
         
         public void onVisibilityChanged(Card carte, string ID)
         {
+            spinny.Visibility = System.Windows.Visibility.Visible;
             this.carte = carte;
             this.carteID = ID;
             nom_carte.Text = carte.Informations.Model;
@@ -30,14 +34,21 @@ namespace PcParted
             if (!carte.Informations.PictureURL.Equals("about:blank"))
             {
                 Ipic = new BitmapImage(carte.Informations.PictureURL);
+                Ipic.DownloadCompleted += Ipic_DownloadCompleted;
             }
             else
             {
-                Ipic = new BitmapImage(new System.Uri(@"https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg"));
+                Ipic = new BitmapImage(SettingsLogic.DummyPic);
+                spinny.Visibility = System.Windows.Visibility.Hidden;
             }
        
             masterDetailPic.UseLayoutRounding = true;
             masterDetailPic.Source = Ipic;
+        }
+
+        private void Ipic_DownloadCompleted(object sender, System.EventArgs e)
+        {
+            spinny.Visibility = System.Windows.Visibility.Hidden;
         }
 
         private void closeDetailButton_Click(object sender, System.Windows.RoutedEventArgs e)
@@ -47,13 +58,15 @@ namespace PcParted
 
         private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            if (!gestionnaire.MesListesUtilisateur[gestionnaire.ActiveKey].Cards.ContainsKey(carteID))
+            if (!gestionnaire.UserListsStorage[gestionnaire.ActiveKey].Cards.ContainsKey(carteID))
             {
-                gestionnaire.MesListesUtilisateur[gestionnaire.ActiveKey].Cards.Add(carteID, carte);
-                gestionnaire.MesListesUtilisateur[gestionnaire.ActiveKey].QuantityCards.Add(carteID, 1);
+                gestionnaire.UserListsStorage[gestionnaire.ActiveKey].Cards.Add(carteID, carte);
+                gestionnaire.UserListsStorage[gestionnaire.ActiveKey].QuantityCards.Add(carteID, 1);
             }
             else
-                gestionnaire.MesListesUtilisateur[gestionnaire.ActiveKey].QuantityCards[carteID]++;
+                gestionnaire.UserListsStorage[gestionnaire.ActiveKey].QuantityCards[carteID]++;
+
+            gestionnaire.NotifyAction(sender, "refreshDatagrids");
         }
     }
 }

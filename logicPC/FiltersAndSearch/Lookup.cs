@@ -1,7 +1,7 @@
-﻿using System;
+﻿using logicPC.CardData;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using logicPC.CardData;
 
 namespace logicPC.FiltersAndSearch
 {

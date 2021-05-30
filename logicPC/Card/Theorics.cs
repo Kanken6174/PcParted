@@ -1,6 +1,6 @@
-﻿using System;
-using logicPC.Interfaces;
+﻿using logicPC.Interfaces;
 using logicPC.Settings;
+using System;
 
 namespace logicPC.CardData
 {
@@ -33,7 +33,7 @@ namespace logicPC.CardData
                 FP32GFLOPS = GHZ * 64;
                 Hashrate = FP32GFLOPS / SettingsLogic.Difficulty;
 
-                processResults(info);
+                ProcessResults(info);
             }
         }
 
@@ -43,7 +43,7 @@ namespace logicPC.CardData
         /// <param name="info">la classe Info source d'informations de constructeur entre-autres</param>
         public void ProcessFactors(Info info)
         {
-            if(info == null)
+            if (info == null)
             {
                 DateFactor = 1;
                 ManufacturerFactor = 1;
@@ -61,37 +61,32 @@ namespace logicPC.CardData
             DateFactor /= nY;
             DateFactor *= (2 / DateFactor);
 
-            switch (info.Manufacturer.ToLowerInvariant())
+            ManufacturerFactor = info.Manufacturer.ToLowerInvariant() switch
             {
-                case "nvidia":
-                    ManufacturerFactor = 0.8F;
-                    break;
-                case "amd":
-                    ManufacturerFactor = 1.2F;
-                    break;
-                case "intel":
-                    ManufacturerFactor = 0.5F;
-                    break;
-                default:
-                    ManufacturerFactor = 1F;
-                    break;
-            }
-
+                "nvidia" => 0.8F,
+                "amd" => 1.2F,
+                "intel" => 0.5F,
+                _ => 1F,
+            };
             switch (info.Bus.ToLowerInvariant())
             {
                 case "igp":
                     BusFactor = 0.5F;
                     MayBeMobile = true;
                     break;
+
                 case "pcie4x16":
                     BusFactor = 1F;
                     break;
+
                 case "pcie4x8":
                     BusFactor = 0.95F;
                     break;
+
                 case "pcie3x16":
                     BusFactor = 0.85F;
                     break;
+
                 case "pcie3x8":
                     BusFactor = 0.75F;
                     break;
@@ -102,10 +97,10 @@ namespace logicPC.CardData
             }
         }
 
-        public void processResults(Info info)
+        public void ProcessResults(Info info)
         {
             Price = (DateFactor * FP32GFLOPS * 3F);
-            EnergyConsumption = (int)((DateFactor*(FP32GFLOPS / SettingsLogic.gflopPrice)) * 100);
+            EnergyConsumption = (int)((DateFactor * (FP32GFLOPS / SettingsLogic.gflopPrice) * ManufacturerFactor * BusFactor) * 100);
         }
 
         public override string ToString()

@@ -1,6 +1,8 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows;
+using System.Runtime.CompilerServices;
+
 
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Pour modifier les informations
@@ -13,6 +15,8 @@ using System.Windows;
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+[assembly: InternalsVisibleTo("testsUnitaires")]
+
 
 // L'affectation de la valeur false à ComVisible rend les types invisibles dans cet assembly
 // aux composants COM. Si vous devez accéder à un type dans cet assembly à partir de

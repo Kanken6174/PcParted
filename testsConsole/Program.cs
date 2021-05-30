@@ -66,25 +66,25 @@ namespace testsConsole
             for (int i = 0; i < 4; i++)
                 gest.AjouterListe("exemple", new());
 
-            Console.WriteLine(gest.MesListesUtilisateur.Count);
+            Console.WriteLine(gest.UserListsStorage.Count);
 
-            foreach(KeyValuePair<string, UserList> keypair in gest.MesListesUtilisateur)
+            foreach(KeyValuePair<string, UserList> keypair in gest.UserListsStorage)
             {
                 Console.WriteLine($"{keypair.Key} {keypair.Value}");
             }
             int M = 0;
             while(M <= 50)
             {
-                gest.MesListesUtilisateur["exemple"].Cards.Add($"AMD{M}",gest.Data[$"AMD{M}"]);
+                gest.UserListsStorage["exemple"].Cards.Add($"AMD{M}",gest.Data[$"AMD{M}"]);
                 M++;
             }
 
-            foreach (string key in (gest.MesListesUtilisateur["exemple"]).Cards.Keys)
+            foreach (string key in (gest.UserListsStorage["exemple"]).Cards.Keys)
             {
-                Console.WriteLine($"{key} {gest.MesListesUtilisateur["exemple"].Cards[key]}");
+                Console.WriteLine($"{key} {gest.UserListsStorage["exemple"].Cards[key]}");
             }
 
-            Console.WriteLine(gest.MesListesUtilisateur.Values.ToString());
+            Console.WriteLine(gest.UserListsStorage.Values.ToString());
         }
     }
 }

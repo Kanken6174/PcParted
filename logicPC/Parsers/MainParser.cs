@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace logicPC.Parsers
 {
-    public class MainParser : DateParser
+    internal class MainParser : DateParser
     {
-        public MainParser()
+        internal MainParser()
         {
         }
 
@@ -14,7 +14,7 @@ namespace logicPC.Parsers
         /// </summary>
         /// <param name="str">string à traiter</param>
         /// <returns></returns>
-        public static string[] DeepSplit(string[] str)
+        internal static string[] DeepSplit(string[] str)
         {
             string[] strOut = new string[10];
             string[] strTemp = str[7].Split('/');   // [7] contient des données de la forme .../.../... qui doivent être séparées
@@ -29,7 +29,7 @@ namespace logicPC.Parsers
         /// </summary>
         /// <param name="str">string à traiter</param>
         /// <returns>int du string traité</returns>
-        public static int ParseToIntNoSpace(string str)
+        internal static int ParseToIntNoSpace(string str)
         {
             int newInt = 0;
             bool success = false;

@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using logicPC.Gestionnaires;
+using logicPC.Conteneurs;
+using logicPC.CardData;
+using System.Collections.Generic;
+using Swordfish.NET.Collections;
 
 namespace PcParted
 {
@@ -22,11 +14,14 @@ namespace PcParted
     public partial class UserListsPannel : UserControl
     {
         public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
+        
         public UserListsPannel()
         {
             DataContext = gestionnaire;
             InitializeComponent();
+            gestionnaire.DataNotifier += DatagridRefresh_needed;
         }
+
 
         private void Button_Click_add(object sender, RoutedEventArgs e)
         {
@@ -35,7 +30,7 @@ namespace PcParted
 
         private void Button_Click_rem(object sender, RoutedEventArgs e)
         {   
-            if(ListesComboBox.SelectedValue == null)
+            if(ListesComboBox.SelectedValue is null)
             gestionnaire.SupprimeListe((string)ListesComboBox.SelectedValue);
             else
             gestionnaire.SupprimeListe((string)ListesComboBox.SelectedValue);
@@ -43,16 +38,30 @@ namespace PcParted
 
         private void Button_Click_dupe(object sender, RoutedEventArgs e)
         {
-            if (ListesComboBox.SelectedValue == null)
+            if (ListesComboBox.SelectedValue is null)
                 gestionnaire.DuplicateList((string)ListesComboBox.SelectedValue);
             else
                 gestionnaire.DuplicateList((string)ListesComboBox.SelectedValue);
 
         }
 
-        private void ListesComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void DatagridRefresh_needed<E>(object sender, E e)
         {
-            DGrid.DataContext = ListesComboBox.SelectedItem;
+            string selected = new("");
+            if (ListesComboBox.SelectedValue is not null)
+               selected  = ListesComboBox.SelectedValue.ToString();
+
+            if(selected != null)
+                if (gestionnaire.UserListsStorage.ContainsKey(selected))
+                {
+                    foreach (KeyValuePair<string, Card> card in gestionnaire.UserListsStorage[selected].Cards)
+                    {
+                        gestionnaire.Datagridcards.TryAdd(gestionnaire.UserListsStorage[selected].QuantityCards[card.Key], card.Value);
+                    }
+                    DGrid.ItemsSource = null;
+                    DGrid.ItemsSource = gestionnaire.Datagridcards;
+                }
+           
         }
     }
 }

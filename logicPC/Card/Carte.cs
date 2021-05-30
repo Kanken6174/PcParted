@@ -1,7 +1,5 @@
-﻿using System;
-using logicPC.CardData;
+﻿using logicPC.Interfaces;
 using logicPC.Templates;
-using logicPC.Interfaces;
 
 namespace logicPC.CardData
 {

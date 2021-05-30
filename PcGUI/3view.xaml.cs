@@ -45,8 +45,7 @@ namespace PcParted
             InitializeComponent();
             InitRefresh();
             DetailedCard.parentElement = this;
-            //gestionnaire.PropertyChanged += Gestionnaire_PropertyChanged;
-            gestionnaire.StreamRoot.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
+            gestionnaire.StreamStorage.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
         }
 
         /// <summary>
@@ -183,12 +182,12 @@ namespace PcParted
         private async Task<BitmapImage> makeBmp(string key)
         {
             BitmapImage bmp = new(SettingsLogic.DummyPic);
-            if (gestionnaire.StreamRoot.ContainsKey(key) && gestionnaire.StreamRoot[key] != null)
+            if (gestionnaire.StreamStorage.ContainsKey(key) && gestionnaire.StreamStorage[key] != null)
             {
                 using (var memStream = new MemoryStream())
                 {
-                    gestionnaire.StreamRoot[key].Position = 0;
-                    await gestionnaire.StreamRoot[key].CopyToAsync(memStream);
+                    gestionnaire.StreamStorage[key].Position = 0;
+                    await gestionnaire.StreamStorage[key].CopyToAsync(memStream);
                     {
                         try
                         {
@@ -197,7 +196,7 @@ namespace PcParted
                             bmp.BeginInit();
                             bmp.StreamSource = memStream;
                             bmp.CacheOption = BitmapCacheOption.OnLoad;
-                            
+                            bmp.DecodePixelWidth = 75;
                             bmp.EndInit();
                         }
                         catch (System.NotSupportedException)

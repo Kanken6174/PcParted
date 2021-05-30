@@ -1,16 +1,12 @@
-﻿using logicPC.Conteneurs;
+﻿using logicPC.CardData;
+using logicPC.Conteneurs;
+using logicPC.Downloaders;
+using logicPC.Importers;
+using Swordfish.NET.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
-using logicPC.ImportStrategies;
-using logicPC.Downloaders;
-using System.Threading.Tasks;
-using System.Net.Http;
 using System.IO;
-using System.Drawing;
-using logicPC.CardData;
-using logicPC.Importers;
-using logicPC.Settings;
-using Swordfish.NET.Collections;
+using System.Threading.Tasks;
 
 namespace logicPC.Gestionnaires
 {
@@ -21,41 +17,60 @@ namespace logicPC.Gestionnaires
     {
         public Dictionary<string, Card> Data;
         public IReadOnlyDictionary<string, Card> ProtectedData;
-        public ConcurrentObservableDictionary<string, Stream> StreamRoot;
-        public ConcurrentObservableSortedDictionary<string, UserList> MesListesUtilisateur { get; set; }
-        public string ActiveKey = default;
-        private int _activelist;
-        public int ActiveList
+        public ConcurrentObservableDictionary<string, Stream> StreamStorage;
+        public ConcurrentObservableSortedDictionary<string, UserList> UserListsStorage { get; set; }
+        public ConcurrentObservableDictionary<int, Card> Datagridcards { get; set; }
+        private string _ActiveKey;
+
+        public string ActiveKey
         {
-            get { return _activelist; }
-            set { _activelist = value; PropertyChanged?.Invoke(nameof(_activelist), new PropertyChangedEventArgs("e")); }
+            get
+            {
+                return _ActiveKey;
+            }
+            set { _ActiveKey = value; }
         }
 
-        public event PropertyChangedEventHandler ULChanged;
-        public event PropertyChangedEventHandler PropertyChanged;
-        public event PropertyChangedEventHandler RenderRefreshNeeded;
+        public int ActiveList { get; set; }
+
+        public event PropertyChangedEventHandler DataNotifier;  //Les classes abonnées à cet évènement recevront toutes les notifications envoyées par NotifyAction()
+
+        public event PropertyChangedEventHandler PropertyChanged;   //PropertyChanged de GestionnaireListes... peu fonctionnel et remplacé par DataNotifier.
+
+        public event PropertyChangedEventHandler RenderRefreshNeeded;   //Téléchargement d'une bitmapImage terminé.
 
         public GestionnaireListes()
         {
+            ActiveKey = new string("");
+            ActiveList = 0;
+            Datagridcards = new();
             Data = ImporterManager.ImportAll();
             ProtectedData = Data;
-            MesListesUtilisateur = new();
-            StreamRoot = new();
-            StreamRoot.PropertyChanged += RenderRefreshNeeded;
-            MesListesUtilisateur.PropertyChanged += ULChanged;
+            UserListsStorage = new();
+            StreamStorage = new();
+            StreamStorage.PropertyChanged += RenderRefreshNeeded;
+            DataNotifier += Ignore;
         }
 
+        private void Ignore(object sender, PropertyChangedEventArgs e)
+        {
+            //Simplement pour éviter un crash en cas de non-utilisation
+        }
+
+        /// <summary>
+        /// Appellée une fois au démarrage. Va remplir StreamStorage de streams pointant sur les différentes Uri correspondant à chaque image.
+        /// </summary>
+        /// <returns></returns>
         public async Task GetAllPics()
         {
-            foreach(KeyValuePair<string,Card> carte in ProtectedData)
+            foreach (KeyValuePair<string, Card> carte in ProtectedData)
             {
                 if (carte.Value.Informations.PictureURL != new System.Uri("about:blank") && carte.Key != null)
                 {
                     try
                     {
-                        StreamRoot.TryAdd(carte.Key, await PictureDownloader.GetPicture(carte.Value.Informations.PictureURL));
-                        carte.Value.Informations.CarteMin = StreamRoot[carte.Key];
-                       
+                        StreamStorage.TryAdd(carte.Key, await PictureDownloader.GetPicture(carte.Value.Informations.PictureURL));
+                        carte.Value.Informations.CarteMin = StreamStorage[carte.Key];
                     }
                     catch (TaskCanceledException)
                     {
@@ -65,14 +80,14 @@ namespace logicPC.Gestionnaires
                 else
                     carte.Value.Informations.CarteMin = null;
             }
-            
         }
 
         /// <summary>
         /// Renvoie la liste utilisateur active
         /// </summary>
         /// <returns>Une liste utilisateur UserList qui contient des cards graphiques</returns>
-        public UserList GetActive() => MesListesUtilisateur[ActiveKey];
+        public UserList GetActive() => UserListsStorage[ActiveKey];
+
         /// <summary>
         /// Ajoute une liste vide au dictionnaire de listes d'utilisateur
         /// </summary>
@@ -81,16 +96,16 @@ namespace logicPC.Gestionnaires
         public string AjouterListe(string nom, UserList toAdd)
         {
             int alreadyExists = 1;
-            if (nom != null && MesListesUtilisateur.ContainsKey(nom))
+            if (nom != null && UserListsStorage.ContainsKey(nom))
             {
-                while (MesListesUtilisateur.ContainsKey($"{nom}({alreadyExists})"))
+                while (UserListsStorage.ContainsKey($"{nom}({alreadyExists})"))
                 {
                     alreadyExists++;
                 }
 
                 nom = $"{nom}({alreadyExists})";
             }
-            MesListesUtilisateur.Add(nom, toAdd);
+            UserListsStorage.Add(nom, toAdd);
             return nom;
         }
 
@@ -101,9 +116,9 @@ namespace logicPC.Gestionnaires
         /// <returns></returns>
         public bool SupprimeListe(string key)
         {
-            if (key != null && MesListesUtilisateur.ContainsKey(key))
+            if (key != null && UserListsStorage.ContainsKey(key))
             {
-                bool reussi = MesListesUtilisateur.Remove(key);
+                bool reussi = UserListsStorage.Remove(key);
                 return reussi;
             }
             return false;
@@ -116,10 +131,9 @@ namespace logicPC.Gestionnaires
         /// <returns></returns>
         public void DuplicateList(string key)
         {
-            if (key != null && MesListesUtilisateur.ContainsKey(key))
+            if (key != null && UserListsStorage.ContainsKey(key))
             {
-                UserList clone;
-                MesListesUtilisateur.TryGetValue(key, out clone);
+                UserListsStorage.TryGetValue(key, out UserList clone);
                 AjouterListe(key, clone);
             }
         }
@@ -132,15 +146,25 @@ namespace logicPC.Gestionnaires
         /// <returns>bool : succès de l'opération</returns>
         public void RenommeListe(string oldKey, string newKey)
         {
-            UserList temp = new();
-            bool isIn = MesListesUtilisateur.TryGetValue(oldKey, out temp);
+            bool isIn = UserListsStorage.TryGetValue(oldKey, out UserList temp);
             if (isIn)
             {
-                MesListesUtilisateur.Remove(oldKey);
-                AjouterListe(newKey, temp);
-                //PropertyChanged(this, new PropertyChangedEventArgs("ListesUtilisateur"));
+                UserListsStorage.Remove(oldKey);
+                AjouterListe(newKey, temp ?? new());
             }
         }
 
+        /// <summary>
+        /// Un système de notification baséesur des évènements pour simplifier la communication entre certains évènements de la vue et du code-behind.
+        /// Surtout utilisé pour les datagrids où le binding de données venant de plusieurs sources de type dictionnaire est compliquée...
+        /// </summary>
+        /// <param name="sender">L'objet envoyant la notification</param>
+        /// <param name="toast">Le type d'action demandée/param>
+        public void NotifyAction(object sender, string toast)
+        {
+            DataNotifier.Invoke(sender, new(toast));
+            if (toast == "refreshDatagrids")
+                Datagridcards = new();
+        }
     }
 }

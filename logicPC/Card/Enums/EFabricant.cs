@@ -1,6 +1,6 @@
-﻿namespace logicPC
+﻿namespace logicPC.enums
 {
-    public enum EFabricant
+    internal enum EFabricant
     {
         Nvidia,    //0
         Amd,

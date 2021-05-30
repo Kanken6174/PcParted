@@ -1,12 +1,5 @@
-﻿using System;
-using System.Globalization;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using logicPC.Interfaces;
-using System.Drawing;
-using System.Net.Http;
+﻿using logicPC.Interfaces;
+using System;
 using System.IO;
 
 namespace logicPC.CardData
@@ -22,7 +15,7 @@ namespace logicPC.CardData
         public Uri PictureURL { get; set; }
         public Stream CarteMin { get; set; }
 
-        public Info(string model, DateTime dateOfRelease, string architecture, string bus, string manufacturer="", Uri pictureURL=null)
+        public Info(string model, DateTime dateOfRelease, string architecture, string bus, string manufacturer = "", Uri pictureURL = null)
         {
             Model = model;
             ReleaseDate = dateOfRelease;
@@ -36,6 +29,5 @@ namespace logicPC.CardData
         {
             return $"{Model} {ReleaseDate} {Architecture} {Bus} {Manufacturer}";
         }
-
     }
 }

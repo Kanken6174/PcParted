@@ -11,8 +11,8 @@ namespace logicPC.ImportStrategies
         /// <returns></returns>
         public T FileImportOP<T>(string filePath)
         {
-            var FP = filePath as string;
-            var FA = StringToUri(FP);
+            //var FP = filePath as string;
+            //var FA = StringToUri(FP);
 
             return (T)Convert.ChangeType("", typeof(T));
         }

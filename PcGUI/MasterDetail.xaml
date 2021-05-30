@@ -53,7 +53,9 @@
                VerticalAlignment="Top"
                Width="266"
                Source="gpu1.png"
-               RenderOptions.BitmapScalingMode="HighQuality" />
+               RenderOptions.BitmapScalingMode="HighQuality" 
+               Opacity="1"
+               Panel.ZIndex="4"/>
         <TextBlock x:Name="nom_carte"
                    HorizontalAlignment="Center"
                    Margin="0,227,0,187"
@@ -85,8 +87,8 @@
                 HorizontalAlignment="Left"
                 Margin="121,400,0,0"
                 VerticalAlignment="Top"
-                Width="103" 
-                Click="Button_Click"/>
+                Width="103"
+                Click="Button_Click" />
         <Button x:Name="closeDetailButton"
                 Content="X"
                 HorizontalAlignment="Left"
@@ -103,5 +105,12 @@
                    VerticalAlignment="Top"
                    Height="23"
                    Width="330" />
+        <local:spinner x:Name="spinny"
+            HorizontalAlignment="Center"
+                       Margin="0,33,0,0"
+                       VerticalAlignment="Top"
+                       Height="150"
+                       Width="150" 
+                       Visibility="Hidden"/>
     </Grid>
 </UserControl>

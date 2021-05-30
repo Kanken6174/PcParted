@@ -12,12 +12,15 @@
     <RepositoryUrl>https://github.com/Kanken6174/PcParted</RepositoryUrl>
     <RepositoryType>github, closed source.</RepositoryType>
     <SignAssembly>false</SignAssembly>
+    <AssemblyName>logicPC</AssemblyName>
+    <ApplicationIcon>OneDrive.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Optimize>false</Optimize>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile></DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

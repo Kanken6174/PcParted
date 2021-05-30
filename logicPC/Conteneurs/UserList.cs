@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using logicPC.CardData;
+﻿using logicPC.CardData;
 using Swordfish.NET.Collections;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 using System.ComponentModel;
 
 namespace logicPC.Conteneurs
@@ -21,6 +20,7 @@ namespace logicPC.Conteneurs
         public string ConsommationTotStr { get { return ConsommationTot.ToString("#0"); } private set { } }
         public Card CardActive { get; private set; }
         public string IntID { get; private set; }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         public UserList()

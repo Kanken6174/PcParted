@@ -1,20 +1,17 @@
-﻿using logicPC.Parsers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.IO;
-using logicPC.CardData;
+﻿using logicPC.CardData;
 using logicPC.Settings;
+using System.Collections.Generic;
+using System.IO;
 
 namespace logicPC.Importers
 {
-    public class ImporterManager : ImporterManagerBase
+    internal class ImporterManager : ImporterManagerBase
     {
         /// <summary>
         /// Importe toutes les cartes dans le répertoire par défaut indiqué dans logicPC.Settings
         /// </summary>
         /// <returns>Un dictionnaire contenant toutes les cartes issues de ce réprertoire</returns>
-        public static Dictionary<string, Card> ImportAll()
+        internal static Dictionary<string, Card> ImportAll()
         {
             string path = SettingsLogic.PATH;
 
@@ -30,12 +27,11 @@ namespace logicPC.Importers
                 fileName[i] = Path.GetFileNameWithoutExtension(fileName[i]);
             }
 
-            Dictionary<int, Card> deckTemp = new Dictionary<int, Card>();
             Dictionary<string, Card> MainDataset = new();
 
             for (int i = 0; i < fileName.Length; i++)
             {
-                deckTemp = ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
+                Dictionary<int, Card> deckTemp = ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
 
                 foreach (KeyValuePair<int, Card> carte in deckTemp)
                 {

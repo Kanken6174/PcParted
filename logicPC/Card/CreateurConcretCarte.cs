@@ -1,18 +1,17 @@
-﻿using System;
+﻿using logicPC.CardData;
+using System;
 using System.Collections.Generic;
-using logicPC.CardData;
 
 namespace logicPC.CardFactory
 {
-    public class CreateurConcretCarte : CreateurTemplate
+    internal class CreateurConcretCarte : CreateurTemplate
     {
-
         /// <summary>
         /// Factory responsable de la création de cards à partir d'un dictionnaire de string.
         /// </summary>
         /// <param name="dico"></param>
         /// <returns></returns>
-        public override Dictionary<int, Card> MakeCard(Dictionary<int, List<string>> dico)
+        internal override Dictionary<int, Card> MakeCard(Dictionary<int, List<string>> dico)
         {
             Dictionary<int, Card> MainSet = new();
 
@@ -21,11 +20,10 @@ namespace logicPC.CardFactory
                 Card uneNouvelleCarte = ManufactureCard(pair.Value);
                 MainSet.Add(pair.Key, uneNouvelleCarte);
             }
-
             return MainSet;
         }
 
-        public static Card ManufactureCard(List<string> toProcess)
+        internal static Card ManufactureCard(List<string> toProcess)
         {
             int frequenceGpu = -1, frequenceMemoire = -1, shaderUnits = -1, tmuUnits = -1, ropUnits = -1, MemoryType = -1, BitRate = -1;
 
@@ -39,10 +37,9 @@ namespace logicPC.CardFactory
             {
                 tailleMemoire = 0;
             }
-
             else
             {
-                string[] strTemp = toProcess[4].Split(',');   ///les données sont sous la forme [XXX GB, GDDRX, XXX bit], on veut [XXX][X] et [XXX] (plus de lettres)
+                string[] strTemp = toProcess[4].Split(',');   //les données sont sous la forme [XXX GB, GDDRX, XXX bit], on veut [XXX][X] et [XXX] (plus de lettres)
                 int[] intTemp = new int[strTemp.Length];
 
                 for (int i = 0; i < 3; i++)

@@ -1,5 +1,6 @@
 ﻿using logicPC;
 using logicPC.Parsers;
+using logicPC.enums;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
@@ -23,10 +24,9 @@ namespace testsParsersUnitaires
         [TestMethod]
         public void TestToDateSimple()
         {
-            DateTime dateDeTest = new();
             DateTime dateAComparer = new(2020, 9, 1, 0, 00, 00);
 
-            dateDeTest = MainParser.StringToDate("Sep 1st, 2020");
+            DateTime dateDeTest = DateParser.StringToDate("Sep 1st, 2020");
             Assert.AreEqual(dateAComparer, dateDeTest);
             Console.WriteLine(dateDeTest + "|" + dateAComparer);
         }
@@ -34,10 +34,9 @@ namespace testsParsersUnitaires
         [TestMethod]
         public void TestToDateRaccourci()
         {
-            DateTime dateDeTest = new();
             DateTime dateAComparer = new(2020, 1, 1, 0, 00, 00);
 
-            dateDeTest = MainParser.StringToDate("2020");
+            DateTime dateDeTest = DateParser.StringToDate("2020");
             Assert.AreEqual(dateAComparer, dateDeTest);
             Console.WriteLine(dateDeTest + "|" + dateAComparer);
         }
@@ -45,10 +44,9 @@ namespace testsParsersUnitaires
         [TestMethod]
         public void TestToDateSale()
         {
-            DateTime dateDeTest = new();
             DateTime dateAComparer = new(0001, 1, 1, 0, 00, 00);
 
-            dateDeTest = MainParser.StringToDate("Du charabia absolu");
+            DateTime dateDeTest = DateParser.StringToDate("Du charabia absolu");
             Assert.AreEqual(dateAComparer, dateDeTest);
             Console.WriteLine(dateDeTest + "|" + dateAComparer);
         }

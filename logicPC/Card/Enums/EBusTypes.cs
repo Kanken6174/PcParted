@@ -1,6 +1,6 @@
-﻿namespace logicPC
+﻿namespace logicPC.enums
 {
-    public enum EBusTypes
+    internal enum EBusTypes
     {
         IGP,    //0
         MXMB3,

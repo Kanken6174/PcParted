@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using logicPC.Templates;
-using System.Drawing;
-using logicPC.CardData;
-using Swordfish.NET.Collections;
+﻿using logicPC.CardData;
 using logicPC.Settings;
+using Swordfish.NET.Collections;
+using System.Collections.Generic;
+using System.Drawing;
 
 namespace logicPC.Plotters
 {
     public static class HashPlotter
     {
-        public static List<PointF> plot(ConcurrentObservableDictionary<string, Card> dico, ConcurrentObservableDictionary<string, int> quantities, float end, float increment, float depreciationFactor)
+        public static List<PointF> Plot(ConcurrentObservableDictionary<string, Card> dico, ConcurrentObservableDictionary<string, int> quantities, float end, float increment, float depreciationFactor)
         {
             List<float> X = new();
             float hashpoint = 0;
@@ -21,12 +16,12 @@ namespace logicPC.Plotters
 
             foreach (KeyValuePair<string, Card> card in dico)
             {
-               hashpoint += (float)card.Value.Theorics.Hashrate * quantities[card.Key];
+                hashpoint += (float)card.Value.Theorics.Hashrate * quantities[card.Key];
                 incremented += increment;
             }
             X.Add(hashpoint);
 
-            while(incremented < end)
+            while (incremented < end)
             {
                 hashpoint *= depreciationFactor;
                 X.Add(hashpoint);
@@ -37,7 +32,7 @@ namespace logicPC.Plotters
             return ret;
         }
 
-        public static List<PointF> plotPowerCost(ConcurrentObservableDictionary<string, Card> dico, ConcurrentObservableDictionary<string, int> quantities, float end, float increment, float depreciationFactor)
+        public static List<PointF> PlotPowerCost(ConcurrentObservableDictionary<string, Card> dico, ConcurrentObservableDictionary<string, int> quantities, float end, float increment, float depreciationFactor)
         {
             List<float> X = new();
             float powerDraw = 0;
@@ -45,7 +40,7 @@ namespace logicPC.Plotters
 
             foreach (KeyValuePair<string, Card> card in dico)
             {
-                powerDraw += (float)(card.Value.Theorics.EnergyConsumption/10) * quantities[card.Key];
+                powerDraw += (float)(card.Value.Theorics.EnergyConsumption / 10) * quantities[card.Key];
                 incremented += increment;
             }
             X.Add(powerDraw);
@@ -68,7 +63,7 @@ namespace logicPC.Plotters
             foreach (float x in X)
             {
                 PointF newPoint = new(x, CurrentY);
-                CurrentY += Yincrement*SettingsLogic.GraphIncrement;
+                CurrentY += Yincrement * SettingsLogic.GraphIncrement;
                 toReturn.Add(newPoint);
             }
             return toReturn;
