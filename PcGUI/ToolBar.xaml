@@ -22,27 +22,19 @@
               Width="800"
               Background="DimGray"
               Foreground="AliceBlue">
-            <Image
-                   Height="19" />
+
             <MenuItem Header="_File"
                       Foreground="AliceBlue"
                       Background="DimGray"
                       RenderTransformOrigin="1.828,0.493">
-                <MenuItem Header="_New GPU list" />
+                <MenuItem Header="_New GPU list" Click="newList"/>
                 <MenuItem Header="_Open GPU list" Click="MenuItem_Click"/>
                 <MenuItem Header="_Save GPU list" />
                 <MenuItem Header="_Save GPU list As" />
                 <Separator />
                 <MenuItem Header="_Load dataset" Click="MenuItem_Click"/>
                 <Separator />
-                <MenuItem Header="_Exit" />
-            </MenuItem>
-            <MenuItem Header="_edit"
-                      Height="19"
-                      Foreground="AliceBlue"
-                      Background="DimGray">
-                <MenuItem Header="_Undo" />
-                <MenuItem Header="_Redo" />
+                <MenuItem Header="_Exit" Click="MenuItem_Click_1"/>
             </MenuItem>
         </Menu>
     </Grid>

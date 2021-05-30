@@ -7,29 +7,34 @@
              mc:Ignorable="d"
              Height="80"
              Width="80"
-             DataContext="{Binding RelativeSource={RelativeSource Self}}">
+             Loaded="UserControl_Loaded">
+    
     <Grid>
-        <Ellipse x:Name="mySpinner"
-                 HorizontalAlignment="Left"
-                 Height="80"
-                 Stroke="red"
-                 StrokeThickness="7.5"
-                 StrokeDashArray="7.5"
-                 VerticalAlignment="Top"
-                 Width="80"
-                 RenderTransformOrigin="0.5,0.5"
-                 Loaded="mySpinner_Loaded">
-            <Ellipse.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform />
-                    <SkewTransform />
-                    <RotateTransform x:Name="angst" Angle="0" />
-                    <TranslateTransform />
-                </TransformGroup>
-            </Ellipse.RenderTransform>
 
+        <Ellipse x:Name="lo"
+                 Stroke="White"
+                 StrokeThickness="13"
+                 StrokeDashArray="{Binding StrokeArray}" />
+
+        <Ellipse Name="blurry"
+                 Stroke="#FF7CA2CE"
+                 StrokeThickness="5">
+            <Ellipse.Effect>
+                <BlurEffect />
+            </Ellipse.Effect>
+            <Ellipse.OpacityMask>
+                <VisualBrush Visual="{Binding ElementName=lo}" />
+            </Ellipse.OpacityMask>
         </Ellipse>
-      
-         
+
+        <!-- The line itself -->
+        <Ellipse Name="core"
+                 Stroke="Blue"
+                 StrokeThickness="1">
+            <Ellipse.OpacityMask>
+                <VisualBrush Visual="{Binding ElementName=lo}" />
+            </Ellipse.OpacityMask>
+        </Ellipse>
+
     </Grid>
 </UserControl>

@@ -2,9 +2,9 @@
 
 namespace logicPC.Parsers
 {
-    public static class ParseConstructeur
+    internal static class ParseConstructeur
     {
-        public static int StringToInt(string constructeur)
+        internal static int StringToInt(string constructeur)
         {
             int toReturn = -1;
 

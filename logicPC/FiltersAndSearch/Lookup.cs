@@ -1,4 +1,5 @@
-﻿using System;
+﻿using logicPC.CardData;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -12,13 +13,13 @@ namespace logicPC.FiltersAndSearch
         /// <param name="terms">Recherche de l'utilisateur</param>
         /// <param name="deck">dictionnaire readonly de toutes les cards graphiques, ou autre ditionnaire similaire</param>
         /// <returns>Un dictionnaire ne conetenant que les cards contenant les termes de recherche dans leur nom</returns>
-        public static Dictionary<string, Card> SearchModel(string terms, Dictionary<string, Card> deck)
+        public static Dictionary<string, Card> SearchModel(this IReadOnlyDictionary<string, Card> deck, string terms)
         {
             Dictionary<string, Card> validForTerms = new();
 
             //méthode LINQ
 
-            validForTerms = deck.Where(card => card.Value.Model.Contains(terms, StringComparison.InvariantCultureIgnoreCase))
+            validForTerms = deck.Where(card => card.Value.Informations.Model.Contains(terms, StringComparison.InvariantCultureIgnoreCase))
                                 .ToDictionary(card => card.Key, card => card.Value);
 
             //Version non-LINQ

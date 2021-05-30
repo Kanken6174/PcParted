@@ -1,55 +1,112 @@
-﻿using logicPC.Conteneurs;
+﻿using logicPC.CardData;
+using logicPC.Conteneurs;
+using logicPC.Downloaders;
+using logicPC.Importers;
+using Swordfish.NET.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace logicPC.Gestionnaires
 {
     /// <summary>
     /// Classe dédiée à la gestion des listes d'utilisateur
     /// </summary>
-    public class GestionnaireListes
+    public class GestionnaireListes : INotifyPropertyChanged
     {
         public Dictionary<string, Card> Data;
         public IReadOnlyDictionary<string, Card> ProtectedData;
-        public Dictionary<string, UserList> MesListesUtilisateur { get; private set; }
-        public string ActiveKey = default;
+        public ConcurrentObservableDictionary<string, Stream> StreamStorage;
+        public ConcurrentObservableSortedDictionary<string, UserList> UserListsStorage { get; set; }
+        public ConcurrentObservableDictionary<int, Card> Datagridcards { get; set; }
+        private string _ActiveKey;
+
+        public string ActiveKey
+        {
+            get
+            {
+                return _ActiveKey;
+            }
+            set { _ActiveKey = value; }
+        }
+
+        public int ActiveList { get; set; }
+
+        public event PropertyChangedEventHandler DataNotifier;  //Les classes abonnées à cet évènement recevront toutes les notifications envoyées par NotifyAction()
+
+        public event PropertyChangedEventHandler PropertyChanged;   //PropertyChanged de GestionnaireListes... peu fonctionnel et remplacé par DataNotifier.
+
+        public event PropertyChangedEventHandler RenderRefreshNeeded;   //Téléchargement d'une bitmapImage terminé.
 
         public GestionnaireListes()
         {
-            Data = ImportStrategies.ImporterManager.ImportAll();
+            ActiveKey = new string("");
+            ActiveList = 0;
+            Datagridcards = new();
+            Data = ImporterManager.ImportAll();
             ProtectedData = Data;
+            UserListsStorage = new();
+            StreamStorage = new();
+            StreamStorage.PropertyChanged += RenderRefreshNeeded;
+            DataNotifier += Ignore;
         }
-        public GestionnaireListes(Dictionary<string, UserList> dico, string Active)
+
+        private void Ignore(object sender, PropertyChangedEventArgs e)
         {
-            MesListesUtilisateur = dico;
-            ActiveKey = Active;
+            //Simplement pour éviter un crash en cas de non-utilisation
+        }
+
+        /// <summary>
+        /// Appellée une fois au démarrage. Va remplir StreamStorage de streams pointant sur les différentes Uri correspondant à chaque image.
+        /// </summary>
+        /// <returns></returns>
+        public async Task GetAllPics()
+        {
+            foreach (KeyValuePair<string, Card> carte in ProtectedData)
+            {
+                if (carte.Value.Informations.PictureURL != new System.Uri("about:blank") && carte.Key != null)
+                {
+                    try
+                    {
+                        StreamStorage.TryAdd(carte.Key, await PictureDownloader.GetPicture(carte.Value.Informations.PictureURL));
+                        carte.Value.Informations.CarteMin = StreamStorage[carte.Key];
+                    }
+                    catch (TaskCanceledException)
+                    {
+                        carte.Value.Informations.CarteMin = null;
+                    }
+                }
+                else
+                    carte.Value.Informations.CarteMin = null;
+            }
         }
 
         /// <summary>
         /// Renvoie la liste utilisateur active
         /// </summary>
         /// <returns>Une liste utilisateur UserList qui contient des cards graphiques</returns>
-        public UserList GetActive() => MesListesUtilisateur[ActiveKey];
+        public UserList GetActive() => UserListsStorage[ActiveKey];
 
         /// <summary>
         /// Ajoute une liste vide au dictionnaire de listes d'utilisateur
         /// </summary>
         /// <param name="nom">Le nom de la liste à ajouter</param>
         /// <returns></returns>
-        public bool AjouterListe(string nom, UserList toAdd)
+        public string AjouterListe(string nom, UserList toAdd)
         {
             int alreadyExists = 1;
-
-            if (MesListesUtilisateur.ContainsKey(nom))
+            if (nom != null && UserListsStorage.ContainsKey(nom))
             {
-                nom = $"{nom}({alreadyExists})";
-                while (MesListesUtilisateur.ContainsKey($"{nom}({alreadyExists})"))
+                while (UserListsStorage.ContainsKey($"{nom}({alreadyExists})"))
                 {
                     alreadyExists++;
-                    nom = $"{nom}({alreadyExists})";
                 }
-            }
 
-            return MesListesUtilisateur.TryAdd(nom, toAdd);
+                nom = $"{nom}({alreadyExists})";
+            }
+            UserListsStorage.Add(nom, toAdd);
+            return nom;
         }
 
         /// <summary>
@@ -57,22 +114,28 @@ namespace logicPC.Gestionnaires
         /// </summary>
         /// <param name="key">la clé (string) à supprimer du dictionnaire</param>
         /// <returns></returns>
-        public bool SupprimeListe(string key) => MesListesUtilisateur.Remove(key);
+        public bool SupprimeListe(string key)
+        {
+            if (key != null && UserListsStorage.ContainsKey(key))
+            {
+                bool reussi = UserListsStorage.Remove(key);
+                return reussi;
+            }
+            return false;
+        }
 
         /// <summary>
         /// Duplique une entrée du dictionnaire MesListes
         /// </summary>
         /// <param name="key">Clé de l'entrée à dupliquer</param>
         /// <returns></returns>
-        public bool DuplicateList(string key)
+        public void DuplicateList(string key)
         {
-            if (MesListesUtilisateur.ContainsKey(key))
+            if (key != null && UserListsStorage.ContainsKey(key))
             {
-                UserList clone;
-                MesListesUtilisateur.TryGetValue(key, out clone);
-                return AjouterListe(key, clone);
+                UserListsStorage.TryGetValue(key, out UserList clone);
+                AjouterListe(key, clone);
             }
-            return false;
         }
 
         /// <summary>
@@ -81,18 +144,27 @@ namespace logicPC.Gestionnaires
         /// <param name="oldKey">clé d'origine dans le dictionnaire</param>
         /// <param name="newKey">nouvelle clé voulue. Cela équivaut également au nom de la liste affiché dans l'application</param>
         /// <returns>bool : succès de l'opération</returns>
-        public bool RenommeListe(string oldKey, string newKey)
+        public void RenommeListe(string oldKey, string newKey)
         {
-            UserList temp = new();
-            bool isIn = MesListesUtilisateur.TryGetValue(oldKey, out temp);
+            bool isIn = UserListsStorage.TryGetValue(oldKey, out UserList temp);
             if (isIn)
             {
-                MesListesUtilisateur.Remove(oldKey);
-                AjouterListe(newKey, temp);
+                UserListsStorage.Remove(oldKey);
+                AjouterListe(newKey, temp ?? new());
             }
-
-            return isIn;
         }
 
+        /// <summary>
+        /// Un système de notification baséesur des évènements pour simplifier la communication entre certains évènements de la vue et du code-behind.
+        /// Surtout utilisé pour les datagrids où le binding de données venant de plusieurs sources de type dictionnaire est compliquée...
+        /// </summary>
+        /// <param name="sender">L'objet envoyant la notification</param>
+        /// <param name="toast">Le type d'action demandée/param>
+        public void NotifyAction(object sender, string toast)
+        {
+            DataNotifier.Invoke(sender, new(toast));
+            if (toast == "refreshDatagrids")
+                Datagridcards = new();
+        }
     }
 }

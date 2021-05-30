@@ -304,3 +304,8 @@ Y:\cs\PcParted\PcParted\PcGUI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcore
 Y:\cs\PcParted\PcParted\PcGUI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 Y:\cs\PcParted\PcParted\PcGUI\obj\Debug\net5.0-windows\spinny.g.cs
 Y:\cs\PcParted\PcParted\PcGUI\obj\Debug\net5.0-windows\spinny.baml
+Y:\cs\PcParted\PcParted\PcGUI\obj\Debug\net5.0-windows\Graph.g.cs
+Y:\cs\PcParted\PcParted\PcGUI\obj\Debug\net5.0-windows\Graph.baml
+Y:\cs\PcParted\PcParted\PcGUI\obj\Debug\net5.0-windows\UserListsPannel.g.cs
+Y:\cs\PcParted\PcParted\PcGUI\obj\Debug\net5.0-windows\UserListsPannel.baml
+Y:\cs\PcParted\PcParted\PcGUI\bin\Debug\net5.0-windows\Swordfish.NET.CollectionsV3.dll

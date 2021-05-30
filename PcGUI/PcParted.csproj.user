@@ -4,4 +4,20 @@
     <ProjectView>ProjectFiles</ProjectView>
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Graph.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserListsPannel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Graph.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserListsPannel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
 </Project>

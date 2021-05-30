@@ -1,4 +1,5 @@
-﻿using System;
+﻿using logicPC.enums;
+using System;
 
 namespace logicPC.Parsers
 {
@@ -6,9 +7,7 @@ namespace logicPC.Parsers
     {
         public static int ParseBus(string bus)
         {
-            object Fabricant = new();
-            bool succes = false;
-            succes = Enum.TryParse(typeof(EBusTypes), bus, out Fabricant);
+            bool succes = Enum.TryParse(typeof(EBusTypes), bus, out object Fabricant);
 
             if (!succes)
                 return -1;

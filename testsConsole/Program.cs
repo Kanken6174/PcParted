@@ -1,10 +1,13 @@
 ﻿using logicPC;
-using logicPC.Extrapolation;
 using logicPC.FiltersAndSearch;
 using logicPC.ImportStrategies;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using logicPC.Gestionnaires;
+using logicPC.Conteneurs;
+using logicPC.CardData;
+using logicPC.Importers;
 
 
 namespace testsConsole
@@ -13,7 +16,9 @@ namespace testsConsole
     {
         private static void Main()
         {
+            GestionnaireListes gest = new();
             string path = @"Y:\cs\datacrawler";
+            
 
             if (!Directory.Exists(path))
             {
@@ -44,17 +49,42 @@ namespace testsConsole
 
             Console.WriteLine("-----------------------------------------------------------------------------");
             Console.WriteLine();
-
+            gest.Data = MainDataset;
             foreach (KeyValuePair<string, Card> carte in MainDataset)
             {
-                MainDataset[carte.Key] = Extrapolator.ExtrapolateCardData(carte.Value, 0);
-                Console.WriteLine($"{carte.Key}|{carte.Value.ToStringNameAndPower()}");
+                Console.WriteLine($"{carte.Key}|{carte.Value.ToString()}");
             }
-            MainDataset = Lookup.SearchModel("RtX", MainDataset);
+            MainDataset = Lookup.SearchModel( MainDataset, "RtX");
             foreach (KeyValuePair<string, Card> carte in MainDataset)
             {
                 Console.WriteLine(carte.Value.ToString());
             }
+
+            Console.WriteLine("-----------------------------------------------------------------------------");
+            Console.WriteLine();
+
+            for (int i = 0; i < 4; i++)
+                gest.AjouterListe("exemple", new());
+
+            Console.WriteLine(gest.UserListsStorage.Count);
+
+            foreach(KeyValuePair<string, UserList> keypair in gest.UserListsStorage)
+            {
+                Console.WriteLine($"{keypair.Key} {keypair.Value}");
+            }
+            int M = 0;
+            while(M <= 50)
+            {
+                gest.UserListsStorage["exemple"].Cards.Add($"AMD{M}",gest.Data[$"AMD{M}"]);
+                M++;
+            }
+
+            foreach (string key in (gest.UserListsStorage["exemple"]).Cards.Keys)
+            {
+                Console.WriteLine($"{key} {gest.UserListsStorage["exemple"].Cards[key]}");
+            }
+
+            Console.WriteLine(gest.UserListsStorage.Values.ToString());
         }
     }
 }

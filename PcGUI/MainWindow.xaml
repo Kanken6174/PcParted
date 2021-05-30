@@ -27,10 +27,10 @@
                                    Background="DimGray" />
                 </TabItem>
                 <TabItem Header="Bookmarks">
-                    <local:UserControl5 />
+                    <local:UserListsPannel/>
                 </TabItem>
                 <TabItem Header="graphes">
-                    <local:UserControl5 />
+                    <local:Graph/>
                 </TabItem>
                 <TabItem Header="paramètres">
                     <local:UserControl6 />

@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace logicPC.Parsers
 {
-    public class DateParser
+    internal class DateParser
     {
-        public static DateTime StringToDate(string strIN)
+        internal static DateTime StringToDate(string strIN)
         {
             DateTime dateSortie = default;
 

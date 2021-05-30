@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>logicPC</name>
+    </assembly>
+    <members>
+        <member name="T:logicPC.Interfaces.ICard">
+            <summary>
+            Interface d'une card
+            </summary>
+        </member>
+        <member name="T:logicPC.CardData.Card">
+            <summary>
+            classe d'une card standard qui implémente l'interface ICard
+            </summary>
+        </member>
+        <member name="M:logicPC.CardData.Theorics.ProcessFactors(logicPC.CardData.Info)">
+            <summary>
+            Extrapole les facteurs de calcul à partir d'une classe Info
+            </summary>
+            <param name="info">la classe Info source d'informations de constructeur entre-autres</param>
+        </member>
+        <member name="M:logicPC.CardFactory.CreateurConcretCarte.MakeCard(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.String}})">
+            <summary>
+            Factory responsable de la création de cards à partir d'un dictionnaire de string.
+            </summary>
+            <param name="dico"></param>
+            <returns></returns>
+        </member>
+        <member name="T:logicPC.Conteneurs.UserList">
+            <summary>
+            Class d'une UserList.
+            </summary>
+        </member>
+        <member name="T:logicPC.FiltersAndSearch.Filters">
+            <summary>
+            Cette classe contient toutes les méthodes liées aux filtres du panneau de gauche sur la GUI
+            </summary>
+        </member>
+        <member name="M:logicPC.FiltersAndSearch.Filters.ConstructorFilter(System.String,System.Collections.Generic.Dictionary{System.String,logicPC.CardData.Card})">
+            <summary>
+            Prend un nom de constructeur, utilise LINQ pour rendre un dictionnaire contenant seulement les entrées
+            Correspondantes.
+            </summary>
+            <param name="Manufacturer">Le nom du construceur, case ignorée</param>
+            <param name="deck">Le dictionnaire à traiter</param>
+            <returns>Le dictionnaire traité</returns>
+        </member>
+        <member name="M:logicPC.FiltersAndSearch.Filters.ArchitectureFilter(System.String,System.Collections.Generic.Dictionary{System.String,logicPC.CardData.Card})">
+            <summary>
+            Prend un nom d'architecture, utilise LINQ pour rendre un dictionnaire contenant seulement les entrées
+            Correspondantes (card graphique ayant telle architecture).
+            </summary>
+            <param name="Architecture">Le nom du construceur, case ignorée</param>
+            <param name="deck">Le dictionnaire à traiter</param>
+            <returns>Le dictionnaire traité</returns>
+        </member>
+        <member name="M:logicPC.FiltersAndSearch.Filters.GflopsSlider(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,logicPC.CardData.Card})">
+            <summary>
+            Filtre pour la puissance en gigaFlops.
+            </summary>
+            <param name="min">puissance minimale</param>
+            <param name="max">puissance maximale</param>
+            <param name="deck">dictionnaire à traiter</param>
+            <returns>dictionnaire traité</returns>
+        </member>
+        <member name="M:logicPC.FiltersAndSearch.Filters.PriceSlider(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,logicPC.CardData.Card})">
+            <summary>
+            Filtre de prix
+            </summary>
+            <param name="min">prix maximal</param>
+            <param name="max">prix minimal</param>
+            <param name="deck">dictionnaire à traiter</param>
+            <returns>dictionnaire traité</returns>
+        </member>
+        <member name="M:logicPC.FiltersAndSearch.Lookup.SearchModel(System.Collections.Generic.IReadOnlyDictionary{System.String,logicPC.CardData.Card},System.String)">
+            <summary>
+            Méthode de recherche par nom de modèle
+            </summary>
+            <param name="terms">Recherche de l'utilisateur</param>
+            <param name="deck">dictionnaire readonly de toutes les cards graphiques, ou autre ditionnaire similaire</param>
+            <returns>Un dictionnaire ne conetenant que les cards contenant les termes de recherche dans leur nom</returns>
+        </member>
+        <member name="T:logicPC.Gestionnaires.GestionnaireListes">
+            <summary>
+            Classe dédiée à la gestion des listes d'utilisateur
+            </summary>
+        </member>
+        <member name="M:logicPC.Gestionnaires.GestionnaireListes.GetAllPics">
+            <summary>
+            Appellée une fois au démarrage. Va remplir StreamStorage de streams pointant sur les différentes Uri correspondant à chaque image.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:logicPC.Gestionnaires.GestionnaireListes.GetActive">
+            <summary>
+            Renvoie la liste utilisateur active
+            </summary>
+            <returns>Une liste utilisateur UserList qui contient des cards graphiques</returns>
+        </member>
+        <member name="M:logicPC.Gestionnaires.GestionnaireListes.AjouterListe(System.String,logicPC.Conteneurs.UserList)">
+            <summary>
+            Ajoute une liste vide au dictionnaire de listes d'utilisateur
+            </summary>
+            <param name="nom">Le nom de la liste à ajouter</param>
+            <returns></returns>
+        </member>
+        <member name="M:logicPC.Gestionnaires.GestionnaireListes.SupprimeListe(System.String)">
+            <summary>
+            supprime une UserList de MesListes
+            </summary>
+            <param name="key">la clé (string) à supprimer du dictionnaire</param>
+            <returns></returns>
+        </member>
+        <member name="M:logicPC.Gestionnaires.GestionnaireListes.DuplicateList(System.String)">
+            <summary>
+            Duplique une entrée du dictionnaire MesListes
+            </summary>
+            <param name="key">Clé de l'entrée à dupliquer</param>
+            <returns></returns>
+        </member>
+        <member name="M:logicPC.Gestionnaires.GestionnaireListes.RenommeListe(System.String,System.String)">
+            <summary>
+            Permet de renommer une UserListe dans le dictionnaire en changeant sa clé (sauvegarde,suppression et ajout)
+            </summary>
+            <param name="oldKey">clé d'origine dans le dictionnaire</param>
+            <param name="newKey">nouvelle clé voulue. Cela équivaut également au nom de la liste affiché dans l'application</param>
+            <returns>bool : succès de l'opération</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:logicPC.Gestionnaires.GestionnaireListes.NotifyAction(System.Object,System.String)" -->
+        <member name="M:logicPC.Importers.ImporterManager.ImportAll">
+            <summary>
+            Importe toutes les cartes dans le répertoire par défaut indiqué dans logicPC.Settings
+            </summary>
+            <returns>Un dictionnaire contenant toutes les cartes issues de ce réprertoire</returns>
+        </member>
+        <member name="T:logicPC.ImportStrategies.SImporterDataSets`1">
+            <summary>
+            Classe d'importation de sets de données
+            </summary>
+        </member>
+        <member name="M:logicPC.ImportStrategies.SImporterDataSets`1.FileImportOP(System.String)">
+            <summary>
+            Méthode d'importation de sets de données
+            </summary>
+            <param name="filePath">Le chemin vers le fichier .pnm, absolu.</param>
+            <returns></returns>
+        </member>
+        <member name="T:logicPC.ImportStrategies.SImporterPictureLink">
+            <summary>
+            Stratégie d'importation pour les liens d'images
+            </summary>
+        </member>
+        <member name="M:logicPC.ImportStrategies.SImporterPictureLink.FileImportOP(System.String)">
+            <summary>
+            Méthode d'importation de liens d'images
+            </summary>
+            <param name="filePath">Chemin vers le fichier .pem (liens d'image), absolu.</param>
+            <returns></returns>
+        </member>
+        <member name="M:logicPC.ImportStrategies.SImporterUserLists.FileImportOP``1(System.String)">
+             <summary>
+             </summary>
+             <param name="filePath">Chemin vers le fichier .usl, absolu.</param>
+             <returns></returns>
+        </member>
+        <member name="M:logicPC.Parsers.MainParser.DeepSplit(System.String[])">
+            <summary>
+            split les données concaténées par des / (SHADERS/TMUs/ROPs)
+            </summary>
+            <param name="str">string à traiter</param>
+            <returns></returns>
+        </member>
+        <member name="M:logicPC.Parsers.MainParser.ParseToIntNoSpace(System.String)">
+            <summary>
+            Methode responsable de la conversion en int des strings, selon leur format.
+            </summary>
+            <param name="str">string à traiter</param>
+            <returns>int du string traité</returns>
+        </member>
+    </members>
+</doc>

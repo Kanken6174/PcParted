@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace logicPC
+namespace logicPC.ImportStrategies
 {
     /// <summary>
     /// Stratégie d'importation pour les liens d'images

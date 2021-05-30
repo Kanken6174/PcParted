@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using logicPC.Gestionnaires;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+
 namespace PcParted
 {
     /// <summary>

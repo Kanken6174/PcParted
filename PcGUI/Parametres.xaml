@@ -82,5 +82,19 @@
                    Width="270"
                    Height="23"
                    Text="Monnaie choisie" />
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="99,247,0,0"
+                   TextWrapping="Wrap"
+                   Width="270"
+                   Height="23"><Run Language="fr-fr"
+                                    Text="Quantité de cartes par pool" /><LineBreak /><Run Language="fr-fr" /></TextBlock>
+        <TextBox x:Name="maxPool"
+            HorizontalAlignment="Left"
+                 Margin="45,247,0,0"
+                 Text="3"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="49"
+                 TextChanged="TextBox_TextChanged" />
     </Grid>
 </UserControl>

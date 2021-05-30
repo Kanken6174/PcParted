@@ -1,37 +1,42 @@
-﻿using logicPC.Parsers;
+﻿using logicPC.CardData;
+using logicPC.CardFactory;
+using logicPC.ImportStrategies;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.IO;
-namespace logicPC.ImportStrategies
+
+namespace logicPC.Importers
 {
-    public class ImporterManagerBase
+    internal class ImporterManagerBase
     {
-
-        public static Dictionary<int, Card> ImportSet(string path, string PnmName, string PemName, string UslName)
+        internal static Dictionary<int, Card> ImportSet(string path, string PnmName, string PemName, string UslName)
         {
-            int constructeur = ParseConstructeur.StringToInt(PemName.Split('.').FirstOrDefault());
+            string constructeur = PemName.Split('.').FirstOrDefault();
 
-            CreateurConcret Cardfactory = new();
+            CreateurConcretCarte Cardfactory = new();
 
             if (path.Last() != '/')
                 path += @"/";
 
-            Dictionary<int, List<String>> dico = SImporterDataSets<List<string>>.FileImportOP(path + PnmName);
-            Dictionary<int, Card> deck = Cardfactory.CreerCard(dico);
+            Dictionary<int, List<String>> dicoRaws = SImporterDataSets<List<string>>.FileImportOP(path + PnmName);
+            Dictionary<int, Card> deck = Cardfactory.MakeCard(dicoRaws);
 
             Dictionary<int, Uri> UriDico = SImporterPictureLink.FileImportOP(path + PemName);
 
+            int i = 0;
             foreach (KeyValuePair<int, Uri> page in UriDico)
             {
                 if (!deck.ContainsKey(page.Key)) // seul cas possible: le fichier .pem est trop long, peut-être érronné
                     break;
 
                 Card temp = deck[page.Key];
-                temp.PictureURL = page.Value;
 
-                temp.SetConstructeur(constructeur);
+                temp.Informations.PictureURL = page.Value;
+                temp.Informations.Manufacturer = constructeur;
+                temp.fullOriginPath = path + PnmName;
+                temp.line = i;
                 deck[page.Key] = temp;
+                i++;
             }
 
             return deck;
