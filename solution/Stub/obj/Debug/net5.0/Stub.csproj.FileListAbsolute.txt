@@ -1,0 +1,15 @@
+Y:\cs\PcParted\PcParted\solution\Stub\bin\Debug\net5.0\Stub.deps.json
+Y:\cs\PcParted\PcParted\solution\Stub\bin\Debug\net5.0\Stub.dll
+Y:\cs\PcParted\PcParted\solution\Stub\bin\Debug\net5.0\ref\Stub.dll
+Y:\cs\PcParted\PcParted\solution\Stub\bin\Debug\net5.0\Stub.pdb
+Y:\cs\PcParted\PcParted\solution\Stub\bin\Debug\net5.0\logicPC.dll
+Y:\cs\PcParted\PcParted\solution\Stub\bin\Debug\net5.0\logicPC.pdb
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\Stub.csprojAssemblyReference.cache
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\Stub.GeneratedMSBuildEditorConfig.editorconfig
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\Stub.AssemblyInfoInputs.cache
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\Stub.AssemblyInfo.cs
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cache
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\Stub.csproj.CopyComplete
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\Stub.dll
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\ref\Stub.dll
+Y:\cs\PcParted\PcParted\solution\Stub\obj\Debug\net5.0\Stub.pdb

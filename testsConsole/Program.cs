@@ -1,14 +1,11 @@
-﻿using logicPC;
+﻿using logicPC.CardData;
+using logicPC.Conteneurs;
 using logicPC.FiltersAndSearch;
-using logicPC.ImportStrategies;
+using logicPC.Gestionnaires;
+using logicPC.Importers;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using logicPC.Gestionnaires;
-using logicPC.Conteneurs;
-using logicPC.CardData;
-using logicPC.Importers;
-
 
 namespace testsConsole
 {
@@ -18,7 +15,6 @@ namespace testsConsole
         {
             GestionnaireListes gest = new();
             string path = @"Y:\cs\datacrawler";
-            
 
             if (!Directory.Exists(path))
             {
@@ -29,16 +25,15 @@ namespace testsConsole
 
             for (int i = 0; i < fileName.Length; i++)
             {
-               fileName[i]=Path.GetFileNameWithoutExtension(fileName[i]);
+                fileName[i] = Path.GetFileNameWithoutExtension(fileName[i]);
             }
-
 
             Dictionary<int, Card> deckTemp = new Dictionary<int, Card>();
             Dictionary<string, Card> MainDataset = new();
 
             for (int i = 0; i < fileName.Length; i++)
             {
-                deckTemp = ImporterManager.ImportSet(path, fileName[i]+".pnm", fileName[i] + ".pem", null);
+                deckTemp = ImporterManager.ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
 
                 foreach (KeyValuePair<int, Card> carte in deckTemp)
                 {
@@ -54,7 +49,7 @@ namespace testsConsole
             {
                 Console.WriteLine($"{carte.Key}|{carte.Value.ToString()}");
             }
-            MainDataset = Lookup.SearchModel( MainDataset, "RtX");
+            MainDataset = Lookup.SearchModel(MainDataset, "RtX");
             foreach (KeyValuePair<string, Card> carte in MainDataset)
             {
                 Console.WriteLine(carte.Value.ToString());
@@ -68,14 +63,14 @@ namespace testsConsole
 
             Console.WriteLine(gest.UserListsStorage.Count);
 
-            foreach(KeyValuePair<string, UserList> keypair in gest.UserListsStorage)
+            foreach (KeyValuePair<string, UserList> keypair in gest.UserListsStorage)
             {
                 Console.WriteLine($"{keypair.Key} {keypair.Value}");
             }
             int M = 0;
-            while(M <= 50)
+            while (M <= 50)
             {
-                gest.UserListsStorage["exemple"].Cards.Add($"AMD{M}",gest.Data[$"AMD{M}"]);
+                gest.UserListsStorage["exemple"].Cards.Add($"AMD{M}", gest.Data[$"AMD{M}"]);
                 M++;
             }
 

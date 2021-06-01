@@ -17,7 +17,7 @@ namespace logicPC.Importers
 
             if (!Directory.Exists(path))
             {
-                throw new IOException("This directory does not exist!");
+                return new();
             }
 
             string[] fileName = Directory.GetFiles(path, "*.pnm");

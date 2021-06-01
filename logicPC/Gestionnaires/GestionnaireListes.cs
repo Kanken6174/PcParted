@@ -2,6 +2,7 @@
 using logicPC.Conteneurs;
 using logicPC.Downloaders;
 using logicPC.Importers;
+using logicPC.Settings;
 using Swordfish.NET.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,21 +16,37 @@ namespace logicPC.Gestionnaires
     /// </summary>
     public class GestionnaireListes : INotifyPropertyChanged
     {
+        /// <summary>
+        /// Gestionnaire de persistance
+        /// </summary>
+        public IPersistanceManager Persistance { get; set; }
+
+        public void LoadUL(string PATH=@".\UserLists\")
+        {
+            var data = Persistance.Load();
+            foreach(var j in data)
+            {
+                AjouterListe(j.Key, j.Value);
+            }
+        }
+
+        public void SaveUL(string PATH = @".\UserLists\")
+        {
+            Persistance.Save(UserListsStorage);
+        }
+
+        /// <summary>
+        /// Données du manager / gestionnaire de UserListes
+        /// </summary>
         public Dictionary<string, Card> Data;
         public IReadOnlyDictionary<string, Card> ProtectedData;
         public ConcurrentObservableDictionary<string, Stream> StreamStorage;
         public ConcurrentObservableSortedDictionary<string, UserList> UserListsStorage { get; set; }
-        public ConcurrentObservableDictionary<int, Card> Datagridcards { get; set; }
-        private string _ActiveKey;
 
-        public string ActiveKey
-        {
-            get
-            {
-                return _ActiveKey;
-            }
-            set { _ActiveKey = value; }
-        }
+
+        public ConcurrentObservableDictionary<int, Card> CardDataToDisplay { get; set; }
+
+        public string ActiveKey { get; set; }
 
         public int ActiveList { get; set; }
 
@@ -39,11 +56,12 @@ namespace logicPC.Gestionnaires
 
         public event PropertyChangedEventHandler RenderRefreshNeeded;   //Téléchargement d'une bitmapImage terminé.
 
-        public GestionnaireListes()
+        public GestionnaireListes(IPersistanceManager persistance)
         {
+            Persistance = persistance;
             ActiveKey = new string("");
             ActiveList = 0;
-            Datagridcards = new();
+            CardDataToDisplay = new();
             Data = ImporterManager.ImportAll();
             ProtectedData = Data;
             UserListsStorage = new();
@@ -164,7 +182,7 @@ namespace logicPC.Gestionnaires
         {
             DataNotifier.Invoke(sender, new(toast));
             if (toast == "refreshDatagrids")
-                Datagridcards = new();
+                CardDataToDisplay = new();
         }
     }
 }

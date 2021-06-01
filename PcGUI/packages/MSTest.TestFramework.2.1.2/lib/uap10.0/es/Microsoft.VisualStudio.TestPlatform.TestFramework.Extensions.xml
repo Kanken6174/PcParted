@@ -24,16 +24,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">Archivo o directorio para implementar. La ruta de acceso es relativa al directorio de salida de compilación. El elemento se copiará en el mismo directorio que los ensamblados de prueba implementados.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">Ruta de acceso relativa o absoluta al archivo o directorio para implementar. La ruta de acceso es relativa al directorio de salida de compilación. El elemento se copiará en el mismo directorio que los ensamblados de prueba implementados.</param>
-            <param name="outputDirectory">Ruta de acceso del directorio en el que se van a copiar los elementos. Puede ser absoluta o relativa respecto al directorio de implementación. Todos los archivos y directorios que identifica <paramref name="path"/> se copiarán en este directorio.</param>
+            <param name="outputDirectory">Ruta de acceso del directorio en el que se van a copiar los elementos. Puede ser absoluta o relativa respecto al directorio de implementación. Todos los archivos y directorios que identifica <paramref name="path" /> se copiarán en este directorio.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -58,7 +58,7 @@
             El método de prueba.
             </param>
             <returns>
-            Una matriz de <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/> Instancias.
+            Una matriz de <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" /> Instancias.
             </returns>
             Throws <exception cref="T:System.NotSupportedException"> when run on an async test method.
             </exception>

@@ -24,16 +24,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/> 클래스의 새 인스턴스를 초기화합니다.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" /> 클래스의 새 인스턴스를 초기화합니다.
             </summary>
             <param name="path">배포할 파일 또는 디렉터리. 경로는 빌드 출력 디렉터리에 대해 상대적입니다. 배포된 테스트 어셈블리와 동일한 디렉터리에 항목이 복사됩니다.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/> 클래스의 새 인스턴스를 초기화합니다.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" /> 클래스의 새 인스턴스를 초기화합니다.
             </summary>
             <param name="path">배포할 파일 또는 디렉터리에 대한 상대 또는 절대 경로. 경로는 빌드 출력 디렉터리에 대해 상대적입니다. 배포된 테스트 어셈블리와 동일한 디렉터리에 항목이 복사됩니다.</param>
-            <param name="outputDirectory">항목을 복사할 디렉터리의 경로. 배포 디렉터리에 대한 절대 경로 또는 상대 경로일 수 있습니다.<paramref name="path"/>에 의해 식별되는 모든 파일 및 디렉터리는 이 디렉터리에 복사됩니다.</param>
+            <param name="outputDirectory">항목을 복사할 디렉터리의 경로. 배포 디렉터리에 대한 절대 경로 또는 상대 경로일 수 있습니다.<paramref name="path" />에 의해 식별되는 모든 파일 및 디렉터리는 이 디렉터리에 복사됩니다.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -58,7 +58,7 @@
             테스트 메서드입니다.
             </param>
             <returns>
-            배열 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>인스턴스.
+            배열 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />인스턴스.
          </returns>
             Throws <exception cref="T:System.NotSupportedException"> when run on an async test method.
             </exception>

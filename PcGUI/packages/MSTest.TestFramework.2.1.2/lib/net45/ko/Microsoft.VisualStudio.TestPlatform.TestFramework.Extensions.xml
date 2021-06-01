@@ -19,16 +19,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/> 클래스의 새 인스턴스를 초기화합니다.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" /> 클래스의 새 인스턴스를 초기화합니다.
             </summary>
             <param name="path">배포할 파일 또는 디렉터리. 경로는 빌드 출력 디렉터리에 대해 상대적입니다. 배포된 테스트 어셈블리와 동일한 디렉터리에 항목이 복사됩니다.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/> 클래스의 새 인스턴스를 초기화합니다.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" /> 클래스의 새 인스턴스를 초기화합니다.
             </summary>
             <param name="path">배포할 파일 또는 디렉터리에 대한 상대 또는 절대 경로. 경로는 빌드 출력 디렉터리에 대해 상대적입니다. 배포된 테스트 어셈블리와 동일한 디렉터리에 항목이 복사됩니다.</param>
-            <param name="outputDirectory">항목을 복사할 디렉터리의 경로. 배포 디렉터리에 대한 절대 경로 또는 상대 경로일 수 있습니다.<paramref name="path"/>에 의해 식별되는 모든 파일 및 디렉터리는 이 디렉터리에 복사됩니다.</param>
+            <param name="outputDirectory">항목을 복사할 디렉터리의 경로. 배포 디렉터리에 대한 절대 경로 또는 상대 경로일 수 있습니다.<paramref name="path" />에 의해 식별되는 모든 파일 및 디렉터리는 이 디렉터리에 복사됩니다.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -122,7 +122,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection"/> 클래스의 새 인스턴스를 초기화합니다.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection" /> 클래스의 새 인스턴스를 초기화합니다.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Item(System.String)">
@@ -148,7 +148,7 @@
             <summary>
             컬렉션에서 System.Configuration.ConfigurationElement를 제거합니다.
             </summary>
-            <param name="element"><see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/> .</param>
+            <param name="element"><see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" /> .</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Remove(System.String)">
             <summary>
@@ -163,9 +163,9 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.CreateNewElement">
             <summary>
-            새 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>을(를) 만듭니다.
+            새 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" />을(를) 만듭니다.
             </summary>
-            <returns>새 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.</returns>
+            <returns>새 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" />.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
             <summary>
@@ -212,7 +212,7 @@
             속성의 컬렉션을 가져옵니다.
             </summary>
             <returns>
-            <see cref="T:System.Configuration.ConfigurationPropertyCollection"/> 요소의 속성입니다.
+            <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> 요소의 속성입니다.
             </returns>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject">
@@ -222,7 +222,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,System.String)">
             <summary>
-            private 클래스의 이미 존재하는 개체를 포함하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> 클래스의
+            private 클래스의 이미 존재하는 개체를 포함하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> 클래스의
             새 인스턴스를 초기화합니다.
             </summary>
             <param name="obj"> 전용 멤버에 도달하기 위한 시작 지점 역할을 하는 개체</param>
@@ -230,7 +230,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Object[])">
             <summary>
-            지정된 형식을 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> 클래스의 새 인스턴스를
+            지정된 형식을 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> 클래스의 새 인스턴스를
             초기화합니다.
             </summary>
             <param name="assemblyName">어셈블리의 이름</param>
@@ -239,17 +239,17 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Type[],System.Object[])">
             <summary>
-            지정된 형식을 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> 클래스의 새 인스턴스를
+            지정된 형식을 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> 클래스의 새 인스턴스를
             초기화합니다.
             </summary>
             <param name="assemblyName">어셈블리의 이름</param>
             <param name="typeName">정규화된 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 가져올 생성자에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 가져올 생성자에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
             <param name="args">생성자에 전달할 인수</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Object[])">
             <summary>
-            지정된 형식을 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> 클래스의 새 인스턴스를
+            지정된 형식을 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> 클래스의 새 인스턴스를
             초기화합니다.
             </summary>
             <param name="type">만들 개체의 형식</param>
@@ -257,23 +257,23 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Type[],System.Object[])">
             <summary>
-            지정된 형식을 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> 클래스의 새 인스턴스를
+            지정된 형식을 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> 클래스의 새 인스턴스를
             초기화합니다.
             </summary>
             <param name="type">만들 개체의 형식</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 가져올 생성자에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 가져올 생성자에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
             <param name="args">생성자에 전달할 인수</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object)">
             <summary>
-            지정된 개체를 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> 클래스의 새 인스턴스를
+            지정된 개체를 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> 클래스의 새 인스턴스를
             초기화합니다.
             </summary>
             <param name="obj">래핑할 개체</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType)">
             <summary>
-            지정된 개체를 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> 클래스의 새 인스턴스를
+            지정된 개체를 래핑하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> 클래스의 새 인스턴스를
             초기화합니다.
             </summary>
             <param name="obj">래핑할 개체</param>
@@ -315,7 +315,7 @@
             지정된 메서드를 호출합니다.
             </summary>
             <param name="name">메서드의 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <returns>메서드 호출의 결과</returns>
         </member>
@@ -324,7 +324,7 @@
             지정된 메서드를 호출합니다.
             </summary>
             <param name="name">메서드의 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <param name="typeArguments">제네릭 인수의 형식에 해당하는 형식의 배열.</param>
             <returns>메서드 호출의 결과</returns>
@@ -343,7 +343,7 @@
             지정된 메서드를 호출합니다.
             </summary>
             <param name="name">메서드의 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <param name="culture">문화권 정보</param>
             <returns>메서드 호출의 결과</returns>
@@ -353,7 +353,7 @@
             지정된 메서드를 호출합니다.
             </summary>
             <param name="name">메서드의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <returns>메서드 호출의 결과</returns>
         </member>
@@ -362,8 +362,8 @@
             지정된 메서드를 호출합니다.
             </summary>
             <param name="name">메서드의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <returns>메서드 호출의 결과</returns>
         </member>
@@ -372,7 +372,7 @@
             지정된 메서드를 호출합니다.
             </summary>
             <param name="name">메서드의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <param name="culture">문화권 정보</param>
             <returns>메서드 호출의 결과</returns>
@@ -382,8 +382,8 @@
             지정된 메서드를 호출합니다.
             </summary>
             <param name="name">메서드의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <param name="culture">문화권 정보</param>
             <returns>메서드 호출의 결과</returns>
@@ -393,8 +393,8 @@
             지정된 메서드를 호출합니다.
             </summary>
             <param name="name">메서드의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 메서드가 가져올 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <param name="culture">문화권 정보</param>
             <param name="typeArguments">제네릭 인수의 형식에 해당하는 형식의 배열.</param>
@@ -421,7 +421,7 @@
             각 차원에 대한 첨자 배열을 사용하여 배열 요소를 가져옵니다
             </summary>
             <param name="name">멤버의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="indices">구성된 비트마스크</param>
             <returns>요소의 배열입니다.</returns>
         </member>
@@ -430,7 +430,7 @@
             각 차원에 대해 첨자의 배열을 사용하여 배열 요소를 설정합니다.
             </summary>
             <param name="name">멤버의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="value">설정할 값</param>
             <param name="indices">구성된 비트마스크</param>
         </member>
@@ -453,7 +453,7 @@
             필드를 가져옵니다.
             </summary>
             <param name="name">필드의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <returns>필드입니다.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetField(System.String,System.Reflection.BindingFlags,System.Object)">
@@ -461,7 +461,7 @@
             필드를 설정합니다.
             </summary>
             <param name="name">필드의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="value">설정할 값</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetFieldOrProperty(System.String)">
@@ -483,7 +483,7 @@
             필드 또는 속성을 가져옵니다.
             </summary>
             <param name="name">필드 또는 속성의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <returns>필드 또는 속성입니다.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetFieldOrProperty(System.String,System.Reflection.BindingFlags,System.Object)">
@@ -491,7 +491,7 @@
             필드 또는 속성을 설정합니다.
             </summary>
             <param name="name">필드 또는 속성의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="value">설정할 값</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetProperty(System.String,System.Object[])">
@@ -507,7 +507,7 @@
             속성을 가져옵니다
             </summary>
             <param name="name">속성의 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <returns>속성입니다.</returns>
         </member>
@@ -524,7 +524,7 @@
             속성을 설정합니다.
             </summary>
             <param name="name">속성의 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="value">설정할 값</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
         </member>
@@ -533,7 +533,7 @@
             속성을 가져옵니다
             </summary>
             <param name="name">속성의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <returns>속성입니다.</returns>
         </member>
@@ -542,8 +542,8 @@
             속성을 가져옵니다
             </summary>
             <param name="name">속성의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <returns>속성입니다.</returns>
         </member>
@@ -552,7 +552,7 @@
             속성을 설정합니다.
             </summary>
             <param name="name">속성의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="value">설정할 값</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
         </member>
@@ -561,9 +561,9 @@
             속성을 설정합니다.
             </summary>
             <param name="name">속성의 이름</param>
-            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags"/> 검색 수행 방법을 지정.</param>
+            <param name="bindingFlags">하나 이상의 배열 인덱스로 <see cref="T:System.Reflection.BindingFlags" /> 검색 수행 방법을 지정.</param>
             <param name="value">설정할 값</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.ValidateAccessString(System.String)">
@@ -589,7 +589,7 @@
             <param name="methodName">서명 캐시를 검색할 메서드의 이름.</param>
             <param name="parameterTypes">검색할 매개 변수의 형식에 해당하는 형식의 배열.</param>
             <param name="typeArguments">제네릭 인수의 형식에 해당하는 형식의 배열.</param>
-            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags"/> 메서드 서명을 추가로 필터링.</param>
+            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags" /> 메서드 서명을 추가로 필터링.</param>
             <param name="modifiers">매개 변수에 대한 한정자입니다.</param>
             <returns>methodinfo 인스턴스입니다.</returns>
         </member>
@@ -610,14 +610,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.String,System.String)">
             <summary>
-            private 형식을 포함하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/> 클래스의 새 인스턴스를 초기화합니다.
+            private 형식을 포함하는 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType" /> 클래스의 새 인스턴스를 초기화합니다.
             </summary>
             <param name="assemblyName">어셈블리 이름</param>
             <param name="typeName">다음의 정규화된 이름: </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.Type)">
             <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/> class that contains
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType" /> class that contains
             the private type from the type object
             </summary>
             <param name="type">만들어야 할 래핑된 형식.</param>
@@ -640,7 +640,7 @@
             정적 멤버를 호출합니다.
             </summary>
             <param name="name">InvokeHelper에 대한 멤버의 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
             <param name="args">호출에 대한 인수</param>
             <returns>호출의 결과</returns>
         </member>
@@ -649,7 +649,7 @@
             정적 멤버를 호출합니다.
             </summary>
             <param name="name">InvokeHelper에 대한 멤버의 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
             <param name="args">호출에 대한 인수</param>
             <param name="typeArguments">제네릭 인수의 형식에 해당하는 형식의 배열.</param>
             <returns>호출의 결과</returns>
@@ -668,7 +668,7 @@
             정적 메서드를 호출합니다.
             </summary>
             <param name="name">멤버의 이름</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
             <param name="args">호출에 대한 인수</param>
             <param name="culture">문화권 정보</param>
             <returns>호출의 결과</returns>
@@ -688,7 +688,7 @@
             </summary>
             <param name="name">멤버의 이름</param>
             <param name="bindingFlags">추가 호출 특성</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
             <param name="args">호출에 대한 인수</param>
             <returns>호출의 결과</returns>
         </member>
@@ -708,7 +708,7 @@
             </summary>
             <param name="name">멤버의 이름</param>
             <param name="bindingFlags">추가 호출 특성</param>
-            /// <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
+            /// <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
             <param name="args">호출에 대한 인수</param>
             <param name="culture">문화권</param>
             <returns>호출의 결과</returns>
@@ -719,7 +719,7 @@
             </summary>
             <param name="name">멤버의 이름</param>
             <param name="bindingFlags">추가 호출 특성</param>
-            /// <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
+            /// <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 호출할 메서드에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체</param>
             <param name="args">호출에 대한 인수</param>
             <param name="culture">문화권</param>
             <param name="typeArguments">제네릭 인수의 형식에 해당하는 형식의 배열.</param>
@@ -853,7 +853,7 @@
             </summary>
             <param name="name">속성의 이름</param>
             <param name="value">필드나 속성에 대해 설정할 값</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticProperty(System.String,System.Reflection.BindingFlags,System.Object[])">
@@ -871,7 +871,7 @@
             </summary>
             <param name="name">속성의 이름</param>
             <param name="bindingFlags">추가 호출 특성.</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
             <returns>정적 속성입니다.</returns>
         </member>
@@ -891,7 +891,7 @@
             <param name="name">속성의 이름</param>
             <param name="bindingFlags">추가 호출 특성.</param>
             <param name="value">필드나 속성에 대해 설정할 값</param>
-            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type"/> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
+            <param name="parameterTypes">다음의 배열: <see cref="T:System.Type" /> 인덱싱된 속성에 대한 매개 변수의 수, 순서 및 형식을 나타내는 개체.</param>
             <param name="args">호출할 멤버에 전달하기 위한 인수.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeHelperStatic(System.String,System.Reflection.BindingFlags,System.Object[],System.Globalization.CultureInfo)">
@@ -1008,17 +1008,17 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory">
             <summary>
-            테스트 실행을 위해 배포되는 파일의 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>의 하위 디렉터리입니다.
+            테스트 실행을 위해 배포되는 파일의 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />의 하위 디렉터리입니다.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory">
             <summary>
-            테스트 실행의 결과에 대한 기본 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>의 하위 디렉터리입니다.
+            테스트 실행의 결과에 대한 기본 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />의 하위 디렉터리입니다.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory">
             <summary>
-            테스트 실행 결과 파일의 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>의 하위 디렉터리입니다.
+            테스트 실행 결과 파일의 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory" />의 하위 디렉터리입니다.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory">
@@ -1029,20 +1029,20 @@
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDir">
             <summary>
             배포된 파일 및 결과 파일이 저장되는, 테스트 실행에 대한 기본 디렉터리를 가져옵니다.
-            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>과(와) 같습니다. 해당 속성을 대신 사용하세요.
+            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />과(와) 같습니다. 해당 속성을 대신 사용하세요.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDeploymentDir">
             <summary>
-            테스트 실행에 대해 배포되는 파일의 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>의 하위 디렉터리입니다.
-            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory"/>과(와) 같습니다. 해당 속성을 대신 사용하세요.
+            테스트 실행에 대해 배포되는 파일의 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />의 하위 디렉터리입니다.
+            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory" />과(와) 같습니다. 해당 속성을 대신 사용하세요.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestLogsDir">
             <summary>
-            테스트 실행 결과 파일의 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>의 하위 디렉터리입니다.
-            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory"/>과(와) 같습니다. 테스트 실행 결과 파일의 해당 속성 또는 테스트 관련 결과 파일의
-            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory"/>을(를) 대신 사용하세요.
+            테스트 실행 결과 파일의 디렉터리를 가져옵니다. 일반적으로 <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory" />의 하위 디렉터리입니다.
+            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory" />과(와) 같습니다. 테스트 실행 결과 파일의 해당 속성 또는 테스트 관련 결과 파일의
+            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory" />을(를) 대신 사용하세요.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">

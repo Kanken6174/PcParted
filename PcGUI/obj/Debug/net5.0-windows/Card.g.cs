@@ -134,7 +134,7 @@ namespace PcParted {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PcParted;component/card.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PcGUI;component/card.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Card.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

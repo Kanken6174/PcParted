@@ -56,10 +56,10 @@ namespace PcParted
                 {
                     foreach (KeyValuePair<string, Card> card in gestionnaire.UserListsStorage[selected].Cards)
                     {
-                        gestionnaire.Datagridcards.TryAdd(gestionnaire.UserListsStorage[selected].QuantityCards[card.Key], card.Value);
+                        gestionnaire.CardDataToDisplay.TryAdd(gestionnaire.UserListsStorage[selected].QuantityCards[card.Key], card.Value);
                     }
                     DGrid.ItemsSource = null;
-                    DGrid.ItemsSource = gestionnaire.Datagridcards;
+                    DGrid.ItemsSource = gestionnaire.CardDataToDisplay;
                 }
            
         }

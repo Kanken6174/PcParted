@@ -102,7 +102,7 @@ namespace PcParted {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PcParted;component/filtremenu.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PcGUI;component/filtremenu.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\FiltreMenu.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

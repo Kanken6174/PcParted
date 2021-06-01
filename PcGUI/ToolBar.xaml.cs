@@ -12,7 +12,7 @@ namespace PcParted
     /// </summary>
     public partial class UserControl7 : UserControl
     {
-        public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
+        public GestionnaireListes Gestionnaire => (App.Current as App).monGestionnaire;
         public UserControl7()
         {
             InitializeComponent();
@@ -20,22 +20,30 @@ namespace PcParted
 
         private void MenuItem_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Dataset files (*.pnm)|*.pnm|All files (*.*)|*.*";
-            openFileDialog.InitialDirectory = @"Y:\cs\datacrawler";
+            OpenFileDialog openFileDialog = new()
+            {
+                Filter = "Dataset files (*.pnm)|*.pnm|All files (*.*)|*.*",
+                InitialDirectory = @"Y:\cs\datacrawler"
+            };
             if (openFileDialog.ShowDialog() == true)
-                _ = File.ReadAllText(openFileDialog.FileName);
+                //_ = File.ReadAllText(openFileDialog.FileName);
+                Gestionnaire.LoadUL();
         }
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
-            System.Windows.Application.Current.MainWindow.Close();
+            Application.Current.MainWindow.Close();
 
         }
 
-        private void newList(object sender, RoutedEventArgs e)
+        private void NewList(object sender, RoutedEventArgs e)
         {
-            gestionnaire.AjouterListe("NewList", new logicPC.Conteneurs.UserList());
+            Gestionnaire.AjouterListe("NewList", new logicPC.Conteneurs.UserList());
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            Gestionnaire.SaveUL();
         }
     }
 }

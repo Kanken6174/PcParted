@@ -59,7 +59,7 @@
                   Height="280"
                   Margin="527,55,0,0"
                   VerticalAlignment="Top"
-                  Width="237" />
+                  Width="237"/>
         <Button Content="Export PNG"
                 HorizontalAlignment="Left"
                 Height="25"

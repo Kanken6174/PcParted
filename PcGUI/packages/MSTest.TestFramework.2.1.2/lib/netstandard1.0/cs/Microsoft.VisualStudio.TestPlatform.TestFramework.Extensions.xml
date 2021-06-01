@@ -22,16 +22,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">Soubor nebo adresář, který se má nasadit. Cesta je relativní ve vztahu k adresáři výstupu sestavení. Položka bude zkopírována do adresáře, ve kterém jsou nasazená testovací sestavení.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">Relativní nebo absolutní cesta k souboru nebo adresáři, který se má nasadit. Cesta je relativní ve vztahu k adresáři výstupu sestavení. Položka bude zkopírována do stejného adresáře jako nasazená testovací sestavení.</param>
-            <param name="outputDirectory">Cesta k adresáři, do kterého se mají položky kopírovat. Může být absolutní nebo relativní ve vztahu k adresáři nasazení. Všechny soubory a adresáře určené cestou <paramref name="path"/> budou zkopírovány do tohoto adresáře.</param>
+            <param name="outputDirectory">Cesta k adresáři, do kterého se mají položky kopírovat. Může být absolutní nebo relativní ve vztahu k adresáři nasazení. Všechny soubory a adresáře určené cestou <paramref name="path" /> budou zkopírovány do tohoto adresáře.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>

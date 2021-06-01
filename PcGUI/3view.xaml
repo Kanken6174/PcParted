@@ -87,7 +87,6 @@
                       HorizontalAlignment="Stretch"
                       CanContentScroll="false">
             <WrapPanel x:Name="wrappy">
-
             </WrapPanel>
         </ScrollViewer>
 

@@ -1,9 +1,8 @@
-using logicPC;
+using logicPC.ImportStrategies;
 using logicPC.Parsers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-using logicPC.ImportStrategies;
 
 namespace testImportUnitaire
 {

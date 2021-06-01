@@ -1,6 +1,5 @@
-﻿using logicPC;
+﻿using logicPC.enums;
 using logicPC.Parsers;
-using logicPC.enums;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 

@@ -1042,6 +1042,19 @@
         "runtime": {
           "bin/placeholder/logicPC.dll": {}
         }
+      },
+      "Stub/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "logicPC": "0.8.0"
+        },
+        "compile": {
+          "bin/placeholder/Stub.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stub.dll": {}
+        }
       }
     }
   },
@@ -3379,6 +3392,11 @@
       "type": "project",
       "path": "../logicPC/logicPC.csproj",
       "msbuildProject": "../logicPC/logicPC.csproj"
+    },
+    "Stub/1.0.0": {
+      "type": "project",
+      "path": "../solution/Stub/Stub.csproj",
+      "msbuildProject": "../solution/Stub/Stub.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3386,6 +3404,7 @@
       "Microsoft.CSharp >= 4.7.0",
       "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers >= 0.2.222702",
       "Microsoft.Windows.Compatibility >= 5.0.2",
+      "Stub >= 1.0.0",
       "System.Reactive >= 5.0.0",
       "System.Runtime.CompilerServices.Unsafe >= 5.0.0",
       "logicPC >= 0.8.0"
@@ -3398,9 +3417,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\cs\\PcParted\\PcParted\\PcGUI\\PcParted.csproj",
-      "projectName": "PcParted",
-      "projectPath": "Y:\\cs\\PcParted\\PcParted\\PcGUI\\PcParted.csproj",
+      "projectUniqueName": "Y:\\cs\\PcParted\\PcParted\\PcGUI\\PcGUI.csproj",
+      "projectName": "PcGUI",
+      "projectPath": "Y:\\cs\\PcParted\\PcParted\\PcGUI\\PcGUI.csproj",
       "packagesPath": "C:\\Users\\Yorick\\.nuget\\packages\\",
       "outputPath": "Y:\\cs\\PcParted\\PcParted\\PcGUI\\obj\\",
       "projectStyle": "PackageReference",
@@ -3422,6 +3441,9 @@
           "projectReferences": {
             "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj": {
               "projectPath": "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj"
+            },
+            "Y:\\cs\\PcParted\\PcParted\\solution\\Stub\\Stub.csproj": {
+              "projectPath": "Y:\\cs\\PcParted\\PcParted\\solution\\Stub\\Stub.csproj"
             }
           }
         }

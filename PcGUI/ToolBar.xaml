@@ -27,9 +27,9 @@
                       Foreground="AliceBlue"
                       Background="DimGray"
                       RenderTransformOrigin="1.828,0.493">
-                <MenuItem Header="_New GPU list" Click="newList"/>
+                <MenuItem Header="_New GPU list" Click="NewList"/>
                 <MenuItem Header="_Open GPU list" Click="MenuItem_Click"/>
-                <MenuItem Header="_Save GPU list" />
+                <MenuItem Header="_Save GPU list" Click="MenuItem_Click_2"/>
                 <MenuItem Header="_Save GPU list As" />
                 <Separator />
                 <MenuItem Header="_Load dataset" Click="MenuItem_Click"/>

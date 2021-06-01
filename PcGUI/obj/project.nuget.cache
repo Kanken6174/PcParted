@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y5QEXtIbrx0I9p1qpdBIbVoOp68ZqheBHKhIr6XZ539REh+Nek6DzJaEUeO83K3Vu8IhOjCrmORiD45Yy0cM3A==",
+  "dgSpecHash": "NR/ZSA/XpbzUyaxAHnvsQai1U+LcA1dBOVmW8Vu9Lo8/5xN8sCwbXpmIqDhRVM4gkDIEgTs4JXPc8OsBgAcVwg==",
   "success": true,
-  "projectFilePath": "Y:\\cs\\PcParted\\PcParted\\PcGUI\\PcParted.csproj",
+  "projectFilePath": "Y:\\cs\\PcParted\\PcParted\\PcGUI\\PcGUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Yorick\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.2.222702\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.2.222702.nupkg.sha512",

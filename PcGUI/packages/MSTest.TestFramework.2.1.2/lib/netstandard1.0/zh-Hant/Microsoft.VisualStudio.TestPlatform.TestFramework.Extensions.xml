@@ -22,16 +22,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" /> 類別的新執行個體。
             </summary>
             <param name="path">要部署的檔案或目錄。路徑是建置輸出目錄的相對路徑。項目將會複製到與已部署的測試組件相同的目錄。</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/> 類別的新執行個體
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" /> 類別的新執行個體
             </summary>
             <param name="path">要部署之檔案或目錄的相對或絕對路徑。路徑是建置輸出目錄的相對路徑。項目將會複製到與已部署的測試組件相同的目錄。</param>
-            <param name="outputDirectory">要將項目複製到其中之目錄的路徑。它可以是部署目錄的絕對或相對路徑。下者所識別的所有檔案和目錄: <paramref name="path"/> 將會複製到這個目錄中。</param>
+            <param name="outputDirectory">要將項目複製到其中之目錄的路徑。它可以是部署目錄的絕對或相對路徑。下者所識別的所有檔案和目錄: <paramref name="path" /> 將會複製到這個目錄中。</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>

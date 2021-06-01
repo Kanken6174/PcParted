@@ -1,13 +1,13 @@
-﻿using System.Windows;
-using System.Windows.Controls;
+﻿using logicPC.CardData;
+using logicPC.FiltersAndSearch;
 using logicPC.Gestionnaires;
 using logicPC.Settings;
 using System.Collections.Generic;
-using logicPC.FiltersAndSearch;
-using System.Threading.Tasks;
-using System.Windows.Media.Imaging;
-using logicPC.CardData;
 using System.IO;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 
 namespace PcParted
 {
@@ -26,12 +26,12 @@ namespace PcParted
         private int PacketsDoneIndex = 0;
 
         private Card _toShow;
+
         public Card ToShow
         {
             get { return _toShow; }
             set
             {
-
                 _toShow = value;
                 ShouldDetailbeShown = !ShouldDetailbeShown;
                 DetailedCard.onVisibilityChanged(ToShow, cardID);
@@ -74,13 +74,13 @@ namespace PcParted
                         group.Add(card.Key);
                     }
                     i++;
-                    
                 }
                 PacketsDoneIndex += SettingsLogic.PoolingMax;
                 availablePackets = 0;
                 RefreshGroup(group);
             }
         }
+
         private void ShowSpinnerFor(string name)
         {
             UserControl3 clone = (UserControl3)wrappy.FindName(name);
@@ -122,7 +122,7 @@ namespace PcParted
 
         public void RefreshGroup(List<string> group)
         {
-            foreach(string name in group)
+            foreach (string name in group)
             {
                 if (wrappy.FindName(name) != null)
                 {
@@ -135,15 +135,13 @@ namespace PcParted
                     {
                         clone.Visibility = Visibility.Visible;
                     }
-
                 }
-
             }
         }
 
         public void RefreshAll()
         {
-            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData) 
+            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
             {
                 if (wrappy.FindName(card.Key) != null)
                 {
@@ -162,8 +160,9 @@ namespace PcParted
                 }
             }
         }
+
         /// <summary>
-        /// Sauvegarde une 
+        /// Sauvegarde une
         /// </summary>
         /// <param name="toSave"></param>
         /// <param name="ID"></param>
@@ -175,7 +174,7 @@ namespace PcParted
         }
 
         /// <summary>
-        /// Cette tâche renvoie la bitmapimage correspondante à "key", ou celle par défaut si elle n'existe pas 
+        /// Cette tâche renvoie la bitmapimage correspondante à "key", ou celle par défaut si elle n'existe pas
         /// </summary>
         /// <param name="key">La clé de dictionnaire correspondant à la carte</param>
         /// <returns></returns>
@@ -208,7 +207,6 @@ namespace PcParted
             }
             else
             {
-
             }
             return bmp;
         }
@@ -238,7 +236,6 @@ namespace PcParted
 
         private void UserControl5_Loaded(object sender, RoutedEventArgs e)
         {
-
         }
 
         public void CloseDetail(object sender, RoutedEventArgs e)
@@ -255,7 +252,6 @@ namespace PcParted
 
         private void DetailedCard_Loaded(object sender, RoutedEventArgs e)
         {
-
         }
 
         private void search(object sender, RoutedEventArgs e)

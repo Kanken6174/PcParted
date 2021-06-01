@@ -24,16 +24,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            Initialisiert eine neue Instanz der <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>-Klasse.
+            Initialisiert eine neue Instanz der <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />-Klasse.
             </summary>
             <param name="path">Die bereitzustellende Datei oder das Verzeichnis. Der Pfad ist relativ zum Buildausgabeverzeichnis. Das Element wird in das gleiche Verzeichnis wie die bereitgestellten Testassemblys kopiert.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            Initialisiert eine neue Instanz der <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>-Klasse.
+            Initialisiert eine neue Instanz der <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />-Klasse.
             </summary>
             <param name="path">Der relative oder absolute Pfad zur bereitzustellenden Datei oder zum Verzeichnis. Der Pfad ist relativ zum Buildausgabeverzeichnis. Das Element wird in das gleiche Verzeichnis wie die bereitgestellten Testassemblys kopiert.</param>
-            <param name="outputDirectory">Der Pfad des Verzeichnisses, in das die Elemente kopiert werden sollen. Er kann absolut oder relativ zum Bereitstellungsverzeichnis sein. Alle Dateien und Verzeichnisse, die identifiziert werden durch <paramref name="path"/> werden in dieses Verzeichnis kopiert.</param>
+            <param name="outputDirectory">Der Pfad des Verzeichnisses, in das die Elemente kopiert werden sollen. Er kann absolut oder relativ zum Bereitstellungsverzeichnis sein. Alle Dateien und Verzeichnisse, die identifiziert werden durch <paramref name="path" /> werden in dieses Verzeichnis kopiert.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -58,7 +58,7 @@
             Die Testmethode.
             </param>
             <returns>
-            Ein Array aus <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>-Instanzen.
+            Ein Array aus <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />-Instanzen.
             </returns>
             Throws <exception cref="T:System.NotSupportedException"> when run on an async test method.
             </exception>

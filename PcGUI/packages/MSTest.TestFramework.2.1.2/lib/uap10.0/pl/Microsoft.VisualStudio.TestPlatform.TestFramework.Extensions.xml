@@ -24,16 +24,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">Plik lub katalog do wdrożenia. Ścieżka jest określana względem katalogu wyjściowego kompilacji. Element zostanie skopiowany do tego samego katalogu co wdrożone zestawy testowe.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />
             </summary>
             <param name="path">Względna lub bezwzględna ścieżka do pliku lub katalogu do wdrożenia. Ścieżka jest określana względem katalogu wyjściowego kompilacji. Element zostanie skopiowany do tego samego katalogu co wdrożone zestawy testowe.</param>
-            <param name="outputDirectory">Ścieżka katalogu, do którego mają być kopiowane elementy. Może być bezwzględna lub określana względem katalogu wdrażania. Wszystkie pliki i katalogi określone przez <paramref name="path"/> zostaną skopiowane do tego katalogu.</param>
+            <param name="outputDirectory">Ścieżka katalogu, do którego mają być kopiowane elementy. Może być bezwzględna lub określana względem katalogu wdrażania. Wszystkie pliki i katalogi określone przez <paramref name="path" /> zostaną skopiowane do tego katalogu.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -58,7 +58,7 @@
             Metoda testowa.
             </param>
             <returns>
-            Tablica elementów <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/> wystąpienia.
+            Tablica elementów <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" /> wystąpienia.
             </returns>
             Throws <exception cref="T:System.NotSupportedException"> when run on an async test method.
             </exception>

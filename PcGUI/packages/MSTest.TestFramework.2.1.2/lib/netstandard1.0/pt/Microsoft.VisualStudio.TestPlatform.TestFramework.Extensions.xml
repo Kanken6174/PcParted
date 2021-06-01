@@ -22,16 +22,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-             Inicializa uma nova instância da classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+             Inicializa uma nova instância da classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">O arquivo ou o diretório a ser implantado. O caminho é relativo ao diretório de saída do build. O item será copiado para o mesmo diretório que o dos assemblies de teste implantados.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-             Inicializa uma nova instância da classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
+             Inicializa uma nova instância da classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />
             </summary>
             <param name="path">O caminho relativo ou absoluto ao arquivo ou ao diretório a ser implantado. O caminho é relativo ao diretório de saída do build. O item será copiado para o mesmo diretório que o dos assemblies de teste implantados.</param>
-            <param name="outputDirectory">O caminho do diretório para o qual os itens deverão ser copiados. Ele pode ser absoluto ou relativo ao diretório de implantação. Todos os arquivos e diretórios identificados por <paramref name="path"/> serão copiados para esse diretório.</param>
+            <param name="outputDirectory">O caminho do diretório para o qual os itens deverão ser copiados. Ele pode ser absoluto ou relativo ao diretório de implantação. Todos os arquivos e diretórios identificados por <paramref name="path" /> serão copiados para esse diretório.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>

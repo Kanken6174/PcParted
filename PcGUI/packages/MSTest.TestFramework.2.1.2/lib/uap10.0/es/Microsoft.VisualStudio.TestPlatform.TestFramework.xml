@@ -132,13 +132,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" />.
             </summary>
             <param name="data1"> Objeto de datos. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object,System.Object[])">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/>, que toma una matriz de argumentos.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" />, que toma una matriz de argumentos.
             </summary>
             <param name="data1"> Objeto de datos. </param>
             <param name="moreData"> Más datos. </param>
@@ -160,20 +160,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String,System.Exception)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" />.
             </summary>
             <param name="msg"> El mensaje. </param>
             <param name="ex"> La excepción. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" />.
             </summary>
             <param name="msg"> El mensaje. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" />.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException">
@@ -187,20 +187,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String,System.Exception)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" />.
             </summary>
             <param name="msg"> Mensaje de la excepción. </param>
             <param name="ex"> La excepción. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" />.
             </summary>
             <param name="msg"> Mensaje de la excepción. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" />.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute">
@@ -210,13 +210,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/> con el tipo esperado.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" /> con el tipo esperado.
             </summary>
             <param name="exceptionType">Tipo de la excepción esperada</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/>
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" />
             con el tipo esperado y el mensaje para incluir cuando la prueba no produce una excepción.
             </summary>
             <param name="exceptionType">Tipo de la excepción esperada</param>
@@ -253,12 +253,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> con un mensaje de ausencia de excepción predeterminado.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> con un mensaje de ausencia de excepción predeterminado.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> con un mensaje de ausencia de excepción.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> con un mensaje de ausencia de excepción.
             </summary>
             <param name="noExceptionMessage">
             Mensaje para incluir en el resultado de la prueba si esta no se supera debido a que no se inicia una
@@ -287,8 +287,8 @@
             Determina si se espera la excepción. Si el método devuelve un valor, se entiende
             que se esperaba la excepción. Si el método produce una excepción,
             se entiende que no se esperaba la excepción y se incluye el mensaje
-            de la misma en el resultado de la prueba. Se puede usar <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert"/> para mayor
-            comodidad. Si se utiliza <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive"/> y la aserción no funciona,
+            de la misma en el resultado de la prueba. Se puede usar <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert" /> para mayor
+            comodidad. Si se utiliza <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive" /> y la aserción no funciona,
             el resultado de la prueba se establece como No concluyente.
             </summary>
             <param name="exception">Excepción que inicia la prueba unitaria</param>
@@ -310,7 +310,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> que
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> que
             satisface la restricción "renovable" en genéricos de C#.
             </summary>
             <remarks>
@@ -319,7 +319,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor(System.Int32)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> que
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> que
             inicializa la propiedad Data con un valor proporcionado por el usuario.
             </summary>
             <param name="data">Cualquier valor entero</param>
@@ -345,14 +345,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.CompareTo(System.Object)">
             <summary>
-            Compara los datos de los dos objetos <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>.
+            Compara los datos de los dos objetos <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />.
             </summary>
             <param name="obj">Objeto con el que se va a comparar.</param>
             <returns>
             Número con signo que indica los valores relativos de esta instancia y valor.
             </returns>
             <exception cref="T:System.NotSupportedException">
-            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>.
+            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.GetEnumerator">
@@ -400,7 +400,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute"/> y le aplica la categoría a la prueba.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute" /> y le aplica la categoría a la prueba.
             </summary>
             <param name="testCategory">
             Categoría de prueba.
@@ -425,7 +425,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute.#ctor">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute" />.
             Aplica la categoría a la prueba. Las cadenas que devuelve TestCategories
             se usan con el comando /category para filtrar las pruebas.
             </summary>
@@ -442,20 +442,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String,System.Exception)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" />.
             </summary>
             <param name="msg"> El mensaje. </param>
             <param name="ex"> La excepción. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" />.
             </summary>
             <param name="msg"> El mensaje. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" />.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
@@ -485,7 +485,7 @@
             Condición que la prueba espera que sea true.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String)">
@@ -497,11 +497,11 @@
             Condición que la prueba espera que sea true.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="condition"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="condition" />
             es false. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String,System.Object[])">
@@ -513,14 +513,14 @@
             Condición que la prueba espera que sea true.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="condition"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="condition" />
             es false. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean)">
@@ -532,7 +532,7 @@
             Condición que la prueba espera que sea false.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String)">
@@ -544,11 +544,11 @@
             Condición que la prueba espera que sea false.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="condition"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="condition" />
             es true. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String,System.Object[])">
@@ -560,14 +560,14 @@
             Condición que la prueba espera que sea false.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="condition"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="condition" />
             es true. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object)">
@@ -579,7 +579,7 @@
             El objeto que la prueba espera que sea NULL.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String)">
@@ -591,11 +591,11 @@
             El objeto que la prueba espera que sea NULL.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
             no es NULL. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String,System.Object[])">
@@ -607,14 +607,14 @@
             El objeto que la prueba espera que sea NULL.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
             no es NULL. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object)">
@@ -626,7 +626,7 @@
             El objeto que la prueba espera que no sea NULL.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String)">
@@ -638,11 +638,11 @@
             El objeto que la prueba espera que no sea NULL.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
             es NULL. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String,System.Object[])">
@@ -654,14 +654,14 @@
             El objeto que la prueba espera que no sea NULL.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
             es NULL. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object)">
@@ -676,8 +676,8 @@
             Segundo objeto para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String)">
@@ -692,13 +692,13 @@
             Segundo objeto para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual que <paramref name="expected"/>. El mensaje se muestra
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual que <paramref name="expected" />. El mensaje se muestra
             en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String,System.Object[])">
@@ -713,16 +713,16 @@
             Segundo objeto para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual que <paramref name="expected"/>. El mensaje se muestra
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual que <paramref name="expected" />. El mensaje se muestra
             en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object)">
@@ -732,14 +732,14 @@
             </summary>
             <param name="notExpected">
             Primer objeto para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo objeto para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String)">
@@ -749,19 +749,19 @@
             </summary>
             <param name="notExpected">
             Primer objeto para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo objeto para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual que <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual que <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String,System.Object[])">
@@ -771,22 +771,22 @@
             </summary>
             <param name="notExpected">
             Primer objeto para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo objeto para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual que <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual que <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0)">
@@ -805,7 +805,7 @@
             Segundo valor para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String)">
@@ -824,13 +824,13 @@
             Segundo valor para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String,System.Object[])">
@@ -849,16 +849,16 @@
             Segundo valor para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0)">
@@ -872,13 +872,13 @@
             </typeparam>
             <param name="notExpected">
             Primer valor para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String)">
@@ -892,18 +892,18 @@
             </typeparam>
             <param name="notExpected">
             Primer valor para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String,System.Object[])">
@@ -917,21 +917,21 @@
             </typeparam>
             <param name="notExpected">
             Primer valor para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor para comparar. Este es el valor generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object)">
@@ -947,8 +947,8 @@
             Segundo objeto para comparar. Este es el objeto generado por el código sometido a prueba.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String)">
@@ -964,13 +964,13 @@
             Segundo objeto para comparar. Este es el objeto generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -986,16 +986,16 @@
             Segundo objeto para comparar. Este es el objeto generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object)">
@@ -1006,13 +1006,13 @@
             </summary>
             <param name="notExpected">
             Primer objeto para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo objeto para comparar. Este es el objeto generado por el código sometido a prueba.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String)">
@@ -1023,18 +1023,18 @@
             </summary>
             <param name="notExpected">
             Primer objeto para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo objeto para comparar. Este es el objeto generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -1045,21 +1045,21 @@
             </summary>
             <param name="notExpected">
             Primer objeto para comparar. Este es el valor que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo objeto para comparar. Este es el objeto generado por el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single)">
@@ -1075,12 +1075,12 @@
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="expected"/>
-            por más de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="expected" />
+            por más de <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1096,17 +1096,17 @@
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="expected"/>
-            por más de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="expected" />
+            por más de <paramref name="delta" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            difiere de <paramref name="expected"/> por más de
-            <paramref name="delta"/>. El mensaje se muestra en los resultados de las pruebas.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            difiere de <paramref name="expected" /> por más de
+            <paramref name="delta" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1122,20 +1122,20 @@
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="expected"/>
-            por más de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="expected" />
+            por más de <paramref name="delta" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            difiere de <paramref name="expected"/> por más de
-            <paramref name="delta"/>. El mensaje se muestra en los resultados de las pruebas.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            difiere de <paramref name="expected" /> por más de
+            <paramref name="delta" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single)">
@@ -1145,18 +1145,18 @@
             </summary>
             <param name="notExpected">
             Primer valor float para comparar. Este es el valor float que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor float para comparar. Este es el valor float generado por el código sometido a prueba.
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="notExpected"/>
-            por un máximo de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="notExpected" />
+            por un máximo de <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1166,23 +1166,23 @@
             </summary>
             <param name="notExpected">
             Primer valor float para comparar. Este es el valor float que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor float para comparar. Este es el valor float generado por el código sometido a prueba.
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="notExpected"/>
-            por un máximo de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="notExpected" />
+            por un máximo de <paramref name="delta" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/> o difiere por menos de
-            <paramref name="delta"/>. El mensaje se muestra en los resultados de las pruebas.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" /> o difiere por menos de
+            <paramref name="delta" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1192,26 +1192,26 @@
             </summary>
             <param name="notExpected">
             Primer valor float para comparar. Este es el valor float que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor float para comparar. Este es el valor float generado por el código sometido a prueba.
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="notExpected"/>
-            por un máximo de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="notExpected" />
+            por un máximo de <paramref name="delta" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/> o difiere por menos de
-            <paramref name="delta"/>. El mensaje se muestra en los resultados de las pruebas.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" /> o difiere por menos de
+            <paramref name="delta" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double)">
@@ -1227,12 +1227,12 @@
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="expected"/>
-            por más de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="expected" />
+            por más de <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1248,16 +1248,16 @@
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="expected"/>
-            por más de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="expected" />
+            por más de <paramref name="delta" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            difiere de <paramref name="expected"/> por más de
-            <paramref name="delta"/>. El mensaje se muestra en los resultados de las pruebas.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            difiere de <paramref name="expected" /> por más de
+            <paramref name="delta" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1273,19 +1273,19 @@
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="expected"/>
-            por más de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="expected" />
+            por más de <paramref name="delta" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            difiere de <paramref name="expected"/> por más de
-            <paramref name="delta"/>. El mensaje se muestra en los resultados de las pruebas.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            difiere de <paramref name="expected" /> por más de
+            <paramref name="delta" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double)">
@@ -1295,18 +1295,18 @@
             </summary>
             <param name="notExpected">
             Primer valor double para comparar. Este es el valor double que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor double para comparar. Este es el valor double generado por el código sometido a prueba.
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="notExpected"/>
-            por un máximo de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="notExpected" />
+            por un máximo de <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1316,23 +1316,23 @@
             </summary>
             <param name="notExpected">
             Primer valor double para comparar. Este es el valor double que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor double para comparar. Este es el valor double generado por el código sometido a prueba.
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="notExpected"/>
-            por un máximo de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="notExpected" />
+            por un máximo de <paramref name="delta" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/> o difiere por menos de
-            <paramref name="delta"/>. El mensaje se muestra en los resultados de las pruebas.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" /> o difiere por menos de
+            <paramref name="delta" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1342,26 +1342,26 @@
             </summary>
             <param name="notExpected">
             Primer valor double para comparar. Este es el valor double que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segundo valor double para comparar. Este es el valor double generado por el código sometido a prueba.
             </param>
             <param name="delta">
             Precisión requerida. Se iniciará una excepción solamente si
-            <paramref name="actual"/> difiere de <paramref name="notExpected"/>
-            por un máximo de <paramref name="delta"/>.
+            <paramref name="actual" /> difiere de <paramref name="notExpected" />
+            por un máximo de <paramref name="delta" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/> o difiere por menos de
-            <paramref name="delta"/>. El mensaje se muestra en los resultados de las pruebas.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" /> o difiere por menos de
+            <paramref name="delta" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean)">
@@ -1380,7 +1380,7 @@
             indica una comparación que no distingue mayúsculas de minúsculas).
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1399,12 +1399,12 @@
             indica una comparación que no distingue mayúsculas de minúsculas).
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1423,15 +1423,15 @@
             indica una comparación que no distingue mayúsculas de minúsculas).
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1453,7 +1453,7 @@
             Objeto CultureInfo que proporciona información de comparación específica de la referencia cultural.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1475,12 +1475,12 @@
             Objeto CultureInfo que proporciona información de comparación específica de la referencia cultural.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1502,15 +1502,15 @@
             Objeto CultureInfo que proporciona información de comparación específica de la referencia cultural.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean)">
@@ -1520,7 +1520,7 @@
             </summary>
             <param name="notExpected">
             Primera cadena para comparar. Esta es la cadena que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda cadena para comparar. Esta es la cadena generada por el código sometido a prueba.
@@ -1530,7 +1530,7 @@
             indica una comparación que no distingue mayúsculas de minúsculas).
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1540,7 +1540,7 @@
             </summary>
             <param name="notExpected">
             Primera cadena para comparar. Esta es la cadena que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda cadena para comparar. Esta es la cadena generada por el código sometido a prueba.
@@ -1550,12 +1550,12 @@
             indica una comparación que no distingue mayúsculas de minúsculas).
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1565,7 +1565,7 @@
             </summary>
             <param name="notExpected">
             Primera cadena para comparar. Esta es la cadena que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda cadena para comparar. Esta es la cadena generada por el código sometido a prueba.
@@ -1575,15 +1575,15 @@
             indica una comparación que no distingue mayúsculas de minúsculas).
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1593,7 +1593,7 @@
             </summary>
             <param name="notExpected">
             Primera cadena para comparar. Esta es la cadena que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda cadena para comparar. Esta es la cadena generada por el código sometido a prueba.
@@ -1606,7 +1606,7 @@
             Objeto CultureInfo que proporciona información de comparación específica de la referencia cultural.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1616,7 +1616,7 @@
             </summary>
             <param name="notExpected">
             Primera cadena para comparar. Esta es la cadena que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda cadena para comparar. Esta es la cadena generada por el código sometido a prueba.
@@ -1629,12 +1629,12 @@
             Objeto CultureInfo que proporciona información de comparación específica de la referencia cultural.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1644,7 +1644,7 @@
             </summary>
             <param name="notExpected">
             Primera cadena para comparar. Esta es la cadena que la prueba espera que no
-            coincida con <paramref name="actual"/>.
+            coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda cadena para comparar. Esta es la cadena generada por el código sometido a prueba.
@@ -1657,15 +1657,15 @@
             Objeto CultureInfo que proporciona información de comparación específica de la referencia cultural.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type)">
@@ -1678,12 +1678,12 @@
             El objeto que la prueba espera que sea del tipo especificado.
             </param>
             <param name="expectedType">
-            Tipo esperado de <paramref name="value"/>.
+            Tipo esperado de <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String)">
@@ -1696,17 +1696,17 @@
             El objeto que la prueba espera que sea del tipo especificado.
             </param>
             <param name="expectedType">
-            Tipo esperado de <paramref name="value"/>.
+            Tipo esperado de <paramref name="value" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            no es una instancia de <paramref name="expectedType"/>. El mensaje se
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            no es una instancia de <paramref name="expectedType" />. El mensaje se
             muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1719,20 +1719,20 @@
             El objeto que la prueba espera que sea del tipo especificado.
             </param>
             <param name="expectedType">
-            Tipo esperado de <paramref name="value"/>.
+            Tipo esperado de <paramref name="value" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            no es una instancia de <paramref name="expectedType"/>. El mensaje se
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            no es una instancia de <paramref name="expectedType" />. El mensaje se
             muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type)">
@@ -1745,12 +1745,12 @@
             El objeto que la prueba espera que no sea del tipo especificado.
             </param>
             <param name="wrongType">
-            El tipo que <paramref name="value"/> no debe tener.
+            El tipo que <paramref name="value" /> no debe tener.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String)">
@@ -1763,17 +1763,17 @@
             El objeto que la prueba espera que no sea del tipo especificado.
             </param>
             <param name="wrongType">
-            El tipo que <paramref name="value"/> no debe tener.
+            El tipo que <paramref name="value" /> no debe tener.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            es una instancia de <paramref name="wrongType"/>. El mensaje se muestra
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            es una instancia de <paramref name="wrongType" />. El mensaje se muestra
             en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1786,20 +1786,20 @@
             El objeto que la prueba espera que no sea del tipo especificado.
             </param>
             <param name="wrongType">
-            El tipo que <paramref name="value"/> no debe tener.
+            El tipo que <paramref name="value" /> no debe tener.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            es una instancia de <paramref name="wrongType"/>. El mensaje se muestra
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            es una instancia de <paramref name="wrongType" />. El mensaje se muestra
             en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail">
@@ -1831,7 +1831,7 @@
             resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Always thrown.
@@ -1866,7 +1866,7 @@
             resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException">
             Always thrown.
@@ -1876,7 +1876,7 @@
             <summary>
             Las sobrecargas de igualdad estáticas se usan para comparar la igualdad de referencia de
             instancias de dos tipos. Este método <b>no</b> debe usarse para comparar la igualdad de dos instancias.
-            Este objeto se devolverá <b>siempre</b> con Assert.Fail. Utilice 
+            Este objeto se devolverá <b>siempre</b> con Assert.Fail. Utilice
             Assert.AreEqual y las sobrecargas asociadas en pruebas unitarias.
             </summary>
             <param name="objA"> Objeto A </param>
@@ -1885,12 +1885,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action)">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
             y devuelve una excepción
             <code>
             AssertFailedException
             </code>
-            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegado para el código que se va a probar y que se espera que inicie una excepción.
@@ -1899,7 +1899,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             El tipo de excepción que se espera que se inicie.
@@ -1907,25 +1907,25 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String)">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
             y devuelve una excepción
             <code>
             AssertFailedException
             </code>
-            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegado a código que se va a probar y que se espera que inicie una excepción.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="action"/>
-            no inicia una excepción de tipo <typeparamref name="T"/>.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="action" />
+            no inicia una excepción de tipo <typeparamref name="T" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             El tipo de excepción que se espera que se inicie.
@@ -1933,12 +1933,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object})">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
             y devuelve una excepción
             <code>
             AssertFailedException
             </code>
-            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegado a código que se va a probar y que se espera que inicie una excepción.
@@ -1947,7 +1947,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             El tipo de excepción que se espera que se inicie.
@@ -1955,25 +1955,25 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String)">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
             y devuelve una excepción
             <code>
             AssertFailedException
             </code>
-            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegado a código que se va a probar y que se espera que inicie una excepción.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="action"/>
-            no inicia una excepción de tipo <typeparamref name="T"/>.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="action" />
+            no inicia una excepción de tipo <typeparamref name="T" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             El tipo de excepción que se espera que se inicie.
@@ -1981,28 +1981,28 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String,System.Object[])">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
             y devuelve una excepción
             <code>
             AssertFailedException
             </code>
-            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegado a código que se va a probar y que se espera que inicie una excepción.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="action"/>
-            no inicia una excepción de tipo <typeparamref name="T"/>.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="action" />
+            no inicia una excepción de tipo <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throw exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throw exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             El tipo de excepción que se espera que se inicie.
@@ -2010,28 +2010,28 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String,System.Object[])">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
             y devuelve una excepción
             <code>
             AssertFailedException
             </code>
-            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegado a código que se va a probar y que se espera que inicie una excepción.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="action"/>
-            no inicia una excepción de tipo <typeparamref name="T"/>.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="action" />
+            no inicia una excepción de tipo <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             El tipo de excepción que se espera que se inicie.
@@ -2039,12 +2039,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task})">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
             y devuelve una excepción
             <code>
             AssertFailedException
             </code>
-            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegado para el código que se va a probar y que se espera que inicie una excepción.
@@ -2053,49 +2053,49 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
- <see cref="T:System.Threading.Tasks.Task"/> que ejecuta el delegado.
+ <see cref="T:System.Threading.Tasks.Task" /> que ejecuta el delegado.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String)">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
-            y devuelve una excepción <code>AssertFailedException</code> si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
+            y devuelve una excepción <code>AssertFailedException</code> si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">Delegado para el código que se va a probar y que se espera que inicie una excepción.</param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="action"/>
-            no inicia una excepción de tipo <typeparamref name="T"/>.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="action" />
+            no inicia una excepción de tipo <typeparamref name="T" />.
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
- <see cref="T:System.Threading.Tasks.Task"/> que ejecuta el delegado.
+ <see cref="T:System.Threading.Tasks.Task" /> que ejecuta el delegado.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String,System.Object[])">
             <summary>
-            Comprueba si el código especificado por el delegado <paramref name="action"/> produce exactamente la excepción dada de tipo <typeparamref name="T"/> (y no de un tipo derivado)
-            y devuelve una excepción <code>AssertFailedException</code> si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T"/>.
+            Comprueba si el código especificado por el delegado <paramref name="action" /> produce exactamente la excepción dada de tipo <typeparamref name="T" /> (y no de un tipo derivado)
+            y devuelve una excepción <code>AssertFailedException</code> si el código no produce la excepción dada o produce otra de un tipo que no sea <typeparamref name="T" />.
             </summary>
             <param name="action">Delegado para el código que se va a probar y que se espera que inicie una excepción.</param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="action"/>
-            no inicia una excepción de tipo <typeparamref name="T"/>.
+            Mensaje que se va a incluir en la excepción cuando <paramref name="action" />
+            no inicia una excepción de tipo <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
- <see cref="T:System.Threading.Tasks.Task"/> que ejecuta el delegado.
+ <see cref="T:System.Threading.Tasks.Task" /> que ejecuta el delegado.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ReplaceNullChars(System.String)">
@@ -2181,14 +2181,14 @@
             cadena de prueba.
             </summary>
             <param name="value">
-            La cadena que se espera que contenga <paramref name="substring"/>.
+            La cadena que se espera que contenga <paramref name="substring" />.
             </param>
             <param name="substring">
-            La cadena que se espera que aparezca en <paramref name="value"/>.
+            La cadena que se espera que aparezca en <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String)">
@@ -2198,19 +2198,19 @@
             cadena de prueba.
             </summary>
             <param name="value">
-            La cadena que se espera que contenga <paramref name="substring"/>.
+            La cadena que se espera que contenga <paramref name="substring" />.
             </param>
             <param name="substring">
-            La cadena que se espera que aparezca en <paramref name="value"/>.
+            La cadena que se espera que aparezca en <paramref name="value" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="substring"/>
-            no se encuentra en <paramref name="value"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="substring" />
+            no se encuentra en <paramref name="value" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String,System.Object[])">
@@ -2220,22 +2220,22 @@
             cadena de prueba.
             </summary>
             <param name="value">
-            La cadena que se espera que contenga <paramref name="substring"/>.
+            La cadena que se espera que contenga <paramref name="substring" />.
             </param>
             <param name="substring">
-            La cadena que se espera que aparezca en <paramref name="value"/>.
+            La cadena que se espera que aparezca en <paramref name="value" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="substring"/>
-            no se encuentra en <paramref name="value"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="substring" />
+            no se encuentra en <paramref name="value" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String)">
@@ -2245,14 +2245,14 @@
             subcadena.
             </summary>
             <param name="value">
-            Cadena que se espera que empiece por <paramref name="substring"/>.
+            Cadena que se espera que empiece por <paramref name="substring" />.
             </param>
             <param name="substring">
-            Cadena que se espera que sea un prefijo de <paramref name="value"/>.
+            Cadena que se espera que sea un prefijo de <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String)">
@@ -2262,19 +2262,19 @@
             subcadena.
             </summary>
             <param name="value">
-            Cadena que se espera que empiece por <paramref name="substring"/>.
+            Cadena que se espera que empiece por <paramref name="substring" />.
             </param>
             <param name="substring">
-            Cadena que se espera que sea un prefijo de <paramref name="value"/>.
+            Cadena que se espera que sea un prefijo de <paramref name="value" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            no empieza por <paramref name="substring"/>. El mensaje se
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            no empieza por <paramref name="substring" />. El mensaje se
             muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String,System.Object[])">
@@ -2284,22 +2284,22 @@
             subcadena.
             </summary>
             <param name="value">
-            Cadena que se espera que empiece por <paramref name="substring"/>.
+            Cadena que se espera que empiece por <paramref name="substring" />.
             </param>
             <param name="substring">
-            Cadena que se espera que sea un prefijo de <paramref name="value"/>.
+            Cadena que se espera que sea un prefijo de <paramref name="value" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            no empieza por <paramref name="substring"/>. El mensaje se
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            no empieza por <paramref name="substring" />. El mensaje se
             muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String)">
@@ -2309,14 +2309,14 @@
             subcadena.
             </summary>
             <param name="value">
-            Cadena que se espera que termine con <paramref name="substring"/>.
+            Cadena que se espera que termine con <paramref name="substring" />.
             </param>
             <param name="substring">
-            Cadena que se espera que sea un sufijo de <paramref name="value"/>.
+            Cadena que se espera que sea un sufijo de <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String)">
@@ -2326,19 +2326,19 @@
             subcadena.
             </summary>
             <param name="value">
-            Cadena que se espera que termine con <paramref name="substring"/>.
+            Cadena que se espera que termine con <paramref name="substring" />.
             </param>
             <param name="substring">
-            Cadena que se espera que sea un sufijo de <paramref name="value"/>.
+            Cadena que se espera que sea un sufijo de <paramref name="value" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            no termina con <paramref name="substring"/>. El mensaje se
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            no termina con <paramref name="substring" />. El mensaje se
             muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String,System.Object[])">
@@ -2348,22 +2348,22 @@
             subcadena.
             </summary>
             <param name="value">
-            Cadena que se espera que termine con <paramref name="substring"/>.
+            Cadena que se espera que termine con <paramref name="substring" />.
             </param>
             <param name="substring">
-            Cadena que se espera que sea un sufijo de <paramref name="value"/>.
+            Cadena que se espera que sea un sufijo de <paramref name="value" />.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            no termina con <paramref name="substring"/>. El mensaje se
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            no termina con <paramref name="substring" />. El mensaje se
             muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex)">
@@ -2372,15 +2372,15 @@
             y produce una excepción si la cadena no coincide con la expresión.
             </summary>
             <param name="value">
-            La cadena que se espera que coincida con <paramref name="pattern"/>.
+            La cadena que se espera que coincida con <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Expresión regular con la que se espera que <paramref name="value"/>
+            Expresión regular con la que se espera que <paramref name="value" />
             coincida.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2389,20 +2389,20 @@
             y produce una excepción si la cadena no coincide con la expresión.
             </summary>
             <param name="value">
-            La cadena que se espera que coincida con <paramref name="pattern"/>.
+            La cadena que se espera que coincida con <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Expresión regular con la que se espera que <paramref name="value"/>
+            Expresión regular con la que se espera que <paramref name="value" />
             coincida.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            no coincide con <paramref name="pattern"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            no coincide con <paramref name="pattern" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2411,23 +2411,23 @@
             y produce una excepción si la cadena no coincide con la expresión.
             </summary>
             <param name="value">
-            La cadena que se espera que coincida con <paramref name="pattern"/>.
+            La cadena que se espera que coincida con <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Expresión regular con la que se espera que <paramref name="value"/>
+            Expresión regular con la que se espera que <paramref name="value" />
             coincida.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            no coincide con <paramref name="pattern"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            no coincide con <paramref name="pattern" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex)">
@@ -2436,14 +2436,14 @@
             y produce una excepción si la cadena coincide con la expresión.
             </summary>
             <param name="value">
-            Cadena que se espera que no coincida con <paramref name="pattern"/>.
+            Cadena que se espera que no coincida con <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Expresión regular con la que se espera que <paramref name="value"/> no
+            Expresión regular con la que se espera que <paramref name="value" /> no
             coincida.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2452,19 +2452,19 @@
             y produce una excepción si la cadena coincide con la expresión.
             </summary>
             <param name="value">
-            Cadena que se espera que no coincida con <paramref name="pattern"/>.
+            Cadena que se espera que no coincida con <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Expresión regular con la que se espera que <paramref name="value"/> no
+            Expresión regular con la que se espera que <paramref name="value" /> no
             coincida.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            coincide con <paramref name="pattern"/>. El mensaje se muestra en los resultados de las
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            coincide con <paramref name="pattern" />. El mensaje se muestra en los resultados de las
             pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2473,22 +2473,22 @@
             y produce una excepción si la cadena coincide con la expresión.
             </summary>
             <param name="value">
-            Cadena que se espera que no coincida con <paramref name="pattern"/>.
+            Cadena que se espera que no coincida con <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Expresión regular con la que se espera que <paramref name="value"/> no
+            Expresión regular con la que se espera que <paramref name="value" /> no
             coincida.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="value"/>
-            coincide con <paramref name="pattern"/>. El mensaje se muestra en los resultados de las
+            Mensaje que se va a incluir en la excepción cuando <paramref name="value" />
+            coincide con <paramref name="pattern" />. El mensaje se muestra en los resultados de las
             pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert">
@@ -2521,8 +2521,8 @@
             El elemento que se espera que esté en la colección.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String)">
@@ -2537,13 +2537,13 @@
             El elemento que se espera que esté en la colección.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="element"/>
-            no se encuentra en <paramref name="collection"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="element" />
+            no se encuentra en <paramref name="collection" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2558,16 +2558,16 @@
             El elemento que se espera que esté en la colección.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="element"/>
-            no se encuentra en <paramref name="collection"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="element" />
+            no se encuentra en <paramref name="collection" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object)">
@@ -2582,8 +2582,8 @@
             El elemento que se espera que no esté en la colección.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String)">
@@ -2598,13 +2598,13 @@
             El elemento que se espera que no esté en la colección.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="element"/>
-            se encuentra en <paramref name="collection"/>. El mensaje se muestra en los resultados de las
+            Mensaje que se va a incluir en la excepción cuando <paramref name="element" />
+            se encuentra en <paramref name="collection" />. El mensaje se muestra en los resultados de las
             pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2619,16 +2619,16 @@
             El elemento que se espera que no esté en la colección.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="element"/>
-            se encuentra en <paramref name="collection"/>. El mensaje se muestra en los resultados de las
+            Mensaje que se va a incluir en la excepción cuando <paramref name="element" />
+            se encuentra en <paramref name="collection" />. El mensaje se muestra en los resultados de las
             pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection)">
@@ -2640,7 +2640,7 @@
             Colección donde buscar elementos NULL.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String)">
@@ -2652,11 +2652,11 @@
             Colección donde buscar elementos NULL.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="collection"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="collection" />
             contiene un elemento NULL. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String,System.Object[])">
@@ -2668,14 +2668,14 @@
             Colección donde buscar elementos NULL.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="collection"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="collection" />
             contiene un elemento NULL. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection)">
@@ -2688,7 +2688,7 @@
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String)">
@@ -2700,13 +2700,13 @@
             Colección donde buscar elementos duplicados.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="collection"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="collection" />
             contiene al menos un elemento duplicado. El mensaje se muestra en los
             resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String,System.Object[])">
@@ -2718,16 +2718,16 @@
             Colección donde buscar elementos duplicados.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="collection"/>
+            Mensaje que se va a incluir en la excepción cuando <paramref name="collection" />
             contiene al menos un elemento duplicado. El mensaje se muestra en los
             resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2737,14 +2737,14 @@
             superconjunto.
             </summary>
             <param name="subset">
-            Se esperaba que la colección fuera un subconjunto de <paramref name="superset"/>.
+            Se esperaba que la colección fuera un subconjunto de <paramref name="superset" />.
             </param>
             <param name="superset">
-            Se esperaba que la colección fuera un superconjunto de <paramref name="subset"/>
+            Se esperaba que la colección fuera un superconjunto de <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2754,19 +2754,19 @@
             superconjunto.
             </summary>
             <param name="subset">
-            Se esperaba que la colección fuera un subconjunto de <paramref name="superset"/>.
+            Se esperaba que la colección fuera un subconjunto de <paramref name="superset" />.
             </param>
             <param name="superset">
-            Se esperaba que la colección fuera un superconjunto de <paramref name="subset"/>
+            Se esperaba que la colección fuera un superconjunto de <paramref name="subset" />
             </param>
             <param name="message">
             Mensaje que se va a incluir en la excepción cuando un elemento de
-            <paramref name="subset"/> no se encuentra en <paramref name="superset"/>.
+            <paramref name="subset" /> no se encuentra en <paramref name="superset" />.
             El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2776,22 +2776,22 @@
             superconjunto.
             </summary>
             <param name="subset">
-            Se esperaba que la colección fuera un subconjunto de <paramref name="superset"/>.
+            Se esperaba que la colección fuera un subconjunto de <paramref name="superset" />.
             </param>
             <param name="superset">
-            Se esperaba que la colección fuera un superconjunto de <paramref name="subset"/>
+            Se esperaba que la colección fuera un superconjunto de <paramref name="subset" />
             </param>
             <param name="message">
             Mensaje que se va a incluir en la excepción cuando un elemento de
-            <paramref name="subset"/> no se encuentra en <paramref name="superset"/>.
+            <paramref name="subset" /> no se encuentra en <paramref name="superset" />.
             El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2801,14 +2801,14 @@
             superconjunto.
             </summary>
             <param name="subset">
-            Se esperaba que la colección no fuera un subconjunto de <paramref name="superset"/>.
+            Se esperaba que la colección no fuera un subconjunto de <paramref name="superset" />.
             </param>
             <param name="superset">
-            Se esperaba que la colección no fuera un superconjunto de <paramref name="subset"/>
+            Se esperaba que la colección no fuera un superconjunto de <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2818,19 +2818,19 @@
             superconjunto.
             </summary>
             <param name="subset">
-            Se esperaba que la colección no fuera un subconjunto de <paramref name="superset"/>.
+            Se esperaba que la colección no fuera un subconjunto de <paramref name="superset" />.
             </param>
             <param name="superset">
-            Se esperaba que la colección no fuera un superconjunto de <paramref name="subset"/>
+            Se esperaba que la colección no fuera un superconjunto de <paramref name="subset" />
             </param>
             <param name="message">
             Mensaje que se va a incluir en la excepción cuando cada elemento de
-            <paramref name="subset"/> también se encuentra en <paramref name="superset"/>.
+            <paramref name="subset" /> también se encuentra en <paramref name="superset" />.
             El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2840,22 +2840,22 @@
             superconjunto.
             </summary>
             <param name="subset">
-            Se esperaba que la colección no fuera un subconjunto de <paramref name="superset"/>.
+            Se esperaba que la colección no fuera un subconjunto de <paramref name="superset" />.
             </param>
             <param name="superset">
-            Se esperaba que la colección no fuera un superconjunto de <paramref name="subset"/>
+            Se esperaba que la colección no fuera un superconjunto de <paramref name="subset" />
             </param>
             <param name="message">
             Mensaje que se va a incluir en la excepción cuando cada elemento de
-            <paramref name="subset"/> también se encuentra en <paramref name="superset"/>.
+            <paramref name="subset" /> también se encuentra en <paramref name="superset" />.
             El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEquivalent(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2921,7 +2921,7 @@
             en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if an element was found in one of the collections but not
@@ -2962,8 +2962,8 @@
             el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            contiene los mismos elementos que <paramref name="expected"/>. El mensaje
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            contiene los mismos elementos que <paramref name="expected" />. El mensaje
             se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
@@ -2986,12 +2986,12 @@
             el código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            contiene los mismos elementos que <paramref name="expected"/>. El mensaje
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            contiene los mismos elementos que <paramref name="expected" />. El mensaje
             se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if the two collections contained the same elements, including
@@ -3009,12 +3009,12 @@
             tipo especificado.
             </param>
             <param name="expectedType">
-            El tipo esperado de cada elemento de <paramref name="collection"/>.
+            El tipo esperado de cada elemento de <paramref name="collection" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String)">
@@ -3028,17 +3028,17 @@
             tipo especificado.
             </param>
             <param name="expectedType">
-            El tipo esperado de cada elemento de <paramref name="collection"/>.
+            El tipo esperado de cada elemento de <paramref name="collection" />.
             </param>
             <param name="message">
             Mensaje que se va a incluir en la excepción cuando un elemento de
-            <paramref name="collection"/> no es una instancia de
-            <paramref name="expectedType"/>. El mensaje se muestra en los resultados de las pruebas.
+            <paramref name="collection" /> no es una instancia de
+            <paramref name="expectedType" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String,System.Object[])">
@@ -3052,20 +3052,20 @@
             tipo especificado.
             </param>
             <param name="expectedType">
-            El tipo esperado de cada elemento de <paramref name="collection"/>.
+            El tipo esperado de cada elemento de <paramref name="collection" />.
             </param>
             <param name="message">
             Mensaje que se va a incluir en la excepción cuando un elemento de
-            <paramref name="collection"/> no es una instancia de
-            <paramref name="expectedType"/>. El mensaje se muestra en los resultados de las pruebas.
+            <paramref name="collection" /> no es una instancia de
+            <paramref name="expectedType" />. El mensaje se muestra en los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3083,8 +3083,8 @@
             código sometido a prueba.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3102,13 +3102,13 @@
             código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3126,16 +3126,16 @@
             código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3147,14 +3147,14 @@
             </summary>
             <param name="notExpected">
             Primera colección para comparar. Esta es la colección que la prueba espera que
-            no coincida con <paramref name="actual"/>.
+            no coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda colección para comparar. Esta es la colección generada por el
             código sometido a prueba.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3166,19 +3166,19 @@
             </summary>
             <param name="notExpected">
             Primera colección para comparar. Esta es la colección que la prueba espera que
-            no coincida con <paramref name="actual"/>.
+            no coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda colección para comparar. Esta es la colección generada por el
             código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3190,22 +3190,22 @@
             </summary>
             <param name="notExpected">
             Primera colección para comparar. Esta es la colección que la prueba espera que
-            no coincida con <paramref name="actual"/>.
+            no coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda colección para comparar. Esta es la colección generada por el
             código sometido a prueba.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3226,8 +3226,8 @@
             Implementación de comparación que se va a usar al comparar elementos de la colección.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3248,13 +3248,13 @@
             Implementación de comparación que se va a usar al comparar elementos de la colección.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3275,16 +3275,16 @@
             Implementación de comparación que se va a usar al comparar elementos de la colección.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            no es igual a <paramref name="expected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            no es igual a <paramref name="expected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3296,7 +3296,7 @@
             </summary>
             <param name="notExpected">
             Primera colección para comparar. Esta es la colección que la prueba espera que
-            no coincida con <paramref name="actual"/>.
+            no coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda colección para comparar. Esta es la colección generada por el
@@ -3306,7 +3306,7 @@
             Implementación de comparación que se va a usar al comparar elementos de la colección.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3318,7 +3318,7 @@
             </summary>
             <param name="notExpected">
             Primera colección para comparar. Esta es la colección que la prueba espera que
-            no coincida con <paramref name="actual"/>.
+            no coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda colección para comparar. Esta es la colección generada por el
@@ -3328,12 +3328,12 @@
             Implementación de comparación que se va a usar al comparar elementos de la colección.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3345,7 +3345,7 @@
             </summary>
             <param name="notExpected">
             Primera colección para comparar. Esta es la colección que la prueba espera que
-            no coincida con <paramref name="actual"/>.
+            no coincida con <paramref name="actual" />.
             </param>
             <param name="actual">
             Segunda colección para comparar. Esta es la colección generada por el
@@ -3355,15 +3355,15 @@
             Implementación de comparación que se va a usar al comparar elementos de la colección.
             </param>
             <param name="message">
-            Mensaje que se va a incluir en la excepción cuando <paramref name="actual"/>
-            es igual a <paramref name="notExpected"/>. El mensaje se muestra en
+            Mensaje que se va a incluir en la excepción cuando <paramref name="actual" />
+            es igual a <paramref name="notExpected" />. El mensaje se muestra en
             los resultados de las pruebas.
             </param>
             <param name="parameters">
-            Matriz de parámetros que se usa al formatear <paramref name="message"/>.
+            Matriz de parámetros que se usa al formatear <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOfHelper(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3374,14 +3374,14 @@
             igual al número de repeticiones en el superconjunto.
             </summary>
             <param name="subset">
-            Colección que la prueba espera que esté incluida en <paramref name="superset"/>.
+            Colección que la prueba espera que esté incluida en <paramref name="superset" />.
             </param>
             <param name="superset">
-            Colección que la prueba espera que contenga <paramref name="subset"/>.
+            Colección que la prueba espera que contenga <paramref name="subset" />.
             </param>
             <returns>
-            True si <paramref name="subset"/> es un subconjunto de
-            <paramref name="superset"/>, de lo contrario false.
+            True si <paramref name="subset" /> es un subconjunto de
+            <paramref name="superset" />, de lo contrario false.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.GetElementCounts(System.Collections.ICollection,System.Int32@)">
@@ -3418,12 +3418,12 @@
             </param>
             <param name="expectedCount">
             Número esperado de repeticiones de
-            <paramref name="mismatchedElement"/> o 0 si no hay ningún elemento no
+            <paramref name="mismatchedElement" /> o 0 si no hay ningún elemento no
             coincidente.
             </param>
             <param name="actualCount">
             El número real de repeticiones de
-            <paramref name="mismatchedElement"/> o 0 si no hay ningún elemento no
+            <paramref name="mismatchedElement" /> o 0 si no hay ningún elemento no
             coincidente.
             </param>
             <param name="mismatchedElement">
@@ -3446,19 +3446,19 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" />.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String,System.Exception)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" />.
             </summary>
             <param name="msg"> El mensaje. </param>
             <param name="ex"> La excepción. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" />.
             </summary>
             <param name="msg"> El mensaje. </param>
         </member>
@@ -3680,7 +3680,7 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.PrivateAccessorConstructorNotFound">
             <summary>
-              Busca una cadena traducida similar a 
+              Busca una cadena traducida similar a
                  "No se encontró el constructor con la signatura especificada. Es posible que tenga que regenerar el descriptor de acceso privado,
                  o que el miembro sea privado y esté definido en una clase base. Si se trata de esto último, debe pasar el tipo
                  que define el miembro al constructor de PrivateObject".
@@ -3688,7 +3688,7 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.PrivateAccessorMemberNotFound">
             <summary>
-              Busca una cadena traducida similar a 
+              Busca una cadena traducida similar a
                  "No se encontró el miembro especificado ({0}). Es posible que tenga que regenerar el descriptor de acceso privado,
                  o que el miembro sea privado y esté definido en una clase base. Si se trata de esto último, debe pasar el tipo
                  que define el miembro al constructor de PrivateObject".
@@ -3798,7 +3798,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout">
             <summary>
-            Enumeración para cuando se agota el tiempo de espera que se puede usar con el atributo <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/>.
+            Enumeración para cuando se agota el tiempo de espera que se puede usar con el atributo <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" />.
             El tipo de la enumeración debe coincidir.
             </summary>
         </member>
@@ -3817,7 +3817,7 @@
             Obtiene un atributo de método de prueba que habilita la ejecución de esta prueba.
             </summary>
             <param name="testMethodAttribute">La instancia de atributo de método de prueba definida en este método.</param>
-            <returns>Tipo <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute"/> que se utilizará para ejecutar esta prueba.</returns>
+            <returns>Tipo <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute" /> que se utilizará para ejecutar esta prueba.</returns>
             <remarks>Extensions can override this method to customize how all methods in a class are run.</remarks>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute">
@@ -3855,7 +3855,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute" />.
             </summary>
             <param name="name">
             El nombre.
@@ -3901,7 +3901,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute" />.
             </summary>
             <param name="owner">
             El propietario.
@@ -3919,7 +3919,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute.#ctor(System.Int32)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute" />.
             </summary>
             <param name="priority">
             La prioridad.
@@ -3937,7 +3937,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute"/> para describir una prueba.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute" /> para describir una prueba.
             </summary>
             <param name="description">La descripción.</param>
         </member>
@@ -3953,7 +3953,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute"/> para el URI de estructura de proyecto de CSS.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute" /> para el URI de estructura de proyecto de CSS.
             </summary>
             <param name="cssProjectStructure">URI de estructura de proyectos de CSS.</param>
         </member>
@@ -3969,7 +3969,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute"/> para el URI de iteración de CSS.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute" /> para el URI de iteración de CSS.
             </summary>
             <param name="cssIteration">URI de iteración de CSS.</param>
         </member>
@@ -3985,7 +3985,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute.#ctor(System.Int32)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute"/> para el atributo WorkItem.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute" /> para el atributo WorkItem.
             </summary>
             <param name="id">Identificador de un elemento de trabajo.</param>
         </member>
@@ -4001,7 +4001,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(System.Int32)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" />.
             </summary>
             <param name="timeout">
             Tiempo de espera.
@@ -4009,7 +4009,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> con un tiempo de espera preestablecido.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> con un tiempo de espera preestablecido.
             </summary>
             <param name="timeout">
             Tiempo de espera
@@ -4027,7 +4027,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.#ctor">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.DisplayName">
@@ -4108,13 +4108,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String,System.String,Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/>. Esta instancia se inicializará con un proveedor de datos, una cadena de conexión, una tabla de datos y un método de acceso a datos para acceder al origen de datos.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" />. Esta instancia se inicializará con un proveedor de datos, una cadena de conexión, una tabla de datos y un método de acceso a datos para acceder al origen de datos.
             </summary>
             <param name="providerInvariantName">Nombre invariable del proveedor de datos, como System.Data.SqlClient</param>
             <param name="connectionString">
-            Cadena de conexión específica del proveedor de datos. 
+            Cadena de conexión específica del proveedor de datos.
             ADVERTENCIA: La cadena de conexión puede contener información confidencial (por ejemplo, una contraseña).
-            La cadena de conexión se almacena en texto sin formato en el código fuente y en el ensamblado compilado. 
+            La cadena de conexión se almacena en texto sin formato en el código fuente y en el ensamblado compilado.
             Restrinja el acceso al código fuente y al ensamblado para proteger esta información confidencial.
             </param>
             <param name="tableName">Nombre de la tabla de datos.</param>
@@ -4122,20 +4122,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/>. Esta instancia se inicializará con una cadena de conexión y un nombre de tabla.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" />. Esta instancia se inicializará con una cadena de conexión y un nombre de tabla.
             Especifique la cadena de conexión y la tabla de datos para acceder al origen de datos OLEDB.
             </summary>
             <param name="connectionString">
-            Cadena de conexión específica del proveedor de datos. 
+            Cadena de conexión específica del proveedor de datos.
             ADVERTENCIA: La cadena de conexión puede contener información confidencial (por ejemplo, una contraseña).
-            La cadena de conexión se almacena en texto sin formato en el código fuente y en el ensamblado compilado. 
+            La cadena de conexión se almacena en texto sin formato en el código fuente y en el ensamblado compilado.
             Restrinja el acceso al código fuente y al ensamblado para proteger esta información confidencial.
             </param>
             <param name="tableName">Nombre de la tabla de datos.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String)">
             <summary>
-            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/>. Esta instancia se inicializará con un proveedor de datos y una cadena de conexión asociada al nombre del valor de configuración.
+            Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" />. Esta instancia se inicializará con un proveedor de datos y una cadena de conexión asociada al nombre del valor de configuración.
             </summary>
             <param name="dataSourceSettingName">El nombre de un origen de datos que se encuentra en la sección &lt;microsoft.visualstudio.qualitytools&gt; del archivo app.config.</param>
         </member>
@@ -4161,9 +4161,9 @@
              <summary>
              Obtiene el método usado para tener acceso al origen de datos.
             </summary>
-            
+
              <returns>
-             Uno de los<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod"/> . Si <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> no se ha inicializado, devolverá el valor predeterminado <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random"/>.
+             Uno de los<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod" /> . Si <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> no se ha inicializado, devolverá el valor predeterminado <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random" />.
              </returns>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.DataSourceSettingName">
@@ -4184,7 +4184,7 @@
             El método de prueba.
             </param>
             <returns>
-            Una matriz de <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>.
+            Una matriz de <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.RunDataDrivenTest(Microsoft.VisualStudio.TestTools.UnitTesting.ITestMethod,Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute[])">

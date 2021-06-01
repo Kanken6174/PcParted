@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PcParted {
+namespace PcGUI {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

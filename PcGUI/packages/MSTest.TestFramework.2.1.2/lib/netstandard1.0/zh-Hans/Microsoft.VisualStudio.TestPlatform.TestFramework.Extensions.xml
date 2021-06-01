@@ -22,16 +22,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/> 类的新实例。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" /> 类的新实例。
             </summary>
             <param name="path">要部署的文件或目录。路径与生成输出目录相关。将项复制到与已部署测试程序集相同的目录。</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/> 类的新实例
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" /> 类的新实例
             </summary>
             <param name="path">要部署的文件或目录的相对路径或绝对路径。该路径相对于生成输出目录。将项复制到与已部署测试程序集相同的目录。</param>
-            <param name="outputDirectory">要将项复制到其中的目录路径。它可以是绝对部署目录或相对部署目录。所有由以下对象标识的文件和目录: <paramref name="path"/> 将复制到此目录。</param>
+            <param name="outputDirectory">要将项复制到其中的目录路径。它可以是绝对部署目录或相对部署目录。所有由以下对象标识的文件和目录: <paramref name="path" /> 将复制到此目录。</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>

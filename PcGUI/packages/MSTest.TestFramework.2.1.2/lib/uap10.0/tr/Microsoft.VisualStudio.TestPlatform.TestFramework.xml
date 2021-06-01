@@ -132,13 +132,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="data1"> Veri nesnesi. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object,System.Object[])">
             <summary>
-            Bir bağımsız değişken dizisi alan <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/> sınıfının yeni bir örneğini başlatır.
+            Bir bağımsız değişken dizisi alan <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="data1"> Bir veri nesnesi. </param>
             <param name="moreData"> Daha fazla veri. </param>
@@ -160,20 +160,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String,System.Exception)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="msg"> İleti. </param>
             <param name="ex"> Özel durum. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="msg"> İleti. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException">
@@ -187,20 +187,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String,System.Exception)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="msg"> Özel durum iletisi. </param>
             <param name="ex"> Özel durum. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="msg"> Özel durum iletisi. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute">
@@ -210,13 +210,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)">
             <summary>
-            Beklenen tür ile <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/> sınıfının yeni bir örneğini başlatır
+            Beklenen tür ile <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" /> sınıfının yeni bir örneğini başlatır
             </summary>
             <param name="exceptionType">Beklenen özel durum türü</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)">
             <summary>
-            Beklenen tür ve test tarafından özel durum oluşturulmadığında eklenecek ileti ile <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/> sınıfının
+            Beklenen tür ve test tarafından özel durum oluşturulmadığında eklenecek ileti ile <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" /> sınıfının
             yeni bir örneğini başlatır.
             </summary>
             <param name="exceptionType">Beklenen özel durum türü</param>
@@ -253,12 +253,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor">
             <summary>
-            Varsayılan bir 'özel durum yok' iletisi ile <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> sınıfının yeni bir örneğini başlatır
+            Varsayılan bir 'özel durum yok' iletisi ile <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> sınıfının yeni bir örneğini başlatır
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor(System.String)">
             <summary>
-            Bir 'özel durum yok' iletisi ile <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> sınıfının yeni bir örneğini başlatır
+            Bir 'özel durum yok' iletisi ile <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> sınıfının yeni bir örneğini başlatır
             </summary>
             <param name="noExceptionMessage">
             Test bir özel durum oluşturmama nedeniyle başarısız olursa test sonucuna
@@ -286,9 +286,9 @@
             <summary>
             Özel durumun beklenip beklenmediğini belirler. Metot dönüş yapıyorsa, özel
             durumun beklendiği anlaşılır. Metot bir özel durum oluşturuyorsa, özel durumun
-            beklenmediği anlaşılır ve oluşturulan özel durumun iletisi test sonucuna 
-            eklenir. Kolaylık sağlamak amacıyla <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert"/> sınıfı kullanılabilir.
-            <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive"/> kullanılırsa ve onaylama başarısız olursa,
+            beklenmediği anlaşılır ve oluşturulan özel durumun iletisi test sonucuna
+            eklenir. Kolaylık sağlamak amacıyla <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert" /> sınıfı kullanılabilir.
+            <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive" /> kullanılırsa ve onaylama başarısız olursa,
             test sonucu Belirsiz olarak ayarlanır.
             </summary>
             <param name="exception">Birim testi tarafından oluşturulan özel durum</param>
@@ -310,7 +310,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> sınıfının C# genel türlerindeki 'newable'
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> sınıfının C# genel türlerindeki 'newable'
             kısıtlamasını karşılayan yeni bir örneğini başlatır.
             </summary>
             <remarks>
@@ -319,7 +319,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor(System.Int32)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> sınıfının, Data özelliğini kullanıcı
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> sınıfının, Data özelliğini kullanıcı
             tarafından sağlanan bir değerle başlatan yeni bir örneğini başlatır.
             </summary>
             <param name="data">Herhangi bir tamsayı değeri</param>
@@ -345,14 +345,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.CompareTo(System.Object)">
             <summary>
-            İki <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> nesnesinin verilerini karşılaştırır.
+            İki <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> nesnesinin verilerini karşılaştırır.
             </summary>
             <param name="obj">Karşılaştırılacak nesne.</param>
             <returns>
             Bu örnek ve değerin göreli değerlerini gösteren, işaretli sayı.
             </returns>
             <exception cref="T:System.NotSupportedException">
-            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>.
+            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.GetEnumerator">
@@ -400,7 +400,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute"/> sınıfının yeni bir örneğini başlatır ve kategoriyi teste uygular.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute" /> sınıfının yeni bir örneğini başlatır ve kategoriyi teste uygular.
             </summary>
             <param name="testCategory">
             Test Kategorisi.
@@ -425,7 +425,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute" /> sınıfının yeni bir örneğini başlatır.
             Kategoriyi teste uygular. TestCategories tarafından döndürülen
             dizeler /category komutu içinde testleri filtrelemek için kullanılır
             </summary>
@@ -442,20 +442,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String,System.Exception)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="msg"> İleti. </param>
             <param name="ex"> Özel durum. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="msg"> İleti. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
@@ -485,7 +485,7 @@
             Testte true olması beklenen koşul.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String)">
@@ -497,11 +497,11 @@
             Testte true olması beklenen koşul.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="condition"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="condition" />
             false. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String,System.Object[])">
@@ -513,14 +513,14 @@
             Testte true olması beklenen koşul.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="condition"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="condition" />
             false. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean)">
@@ -532,7 +532,7 @@
             Testte false olması beklenen koşul.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String)">
@@ -544,11 +544,11 @@
             Testte false olması beklenen koşul.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="condition"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="condition" />
             true. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String,System.Object[])">
@@ -560,14 +560,14 @@
             Testte false olması beklenen koşul.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="condition"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="condition" />
             true. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object)">
@@ -579,7 +579,7 @@
             Testte null olması beklenen nesne.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String)">
@@ -591,11 +591,11 @@
             Testte null olması beklenen nesne.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
             null değil. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String,System.Object[])">
@@ -607,14 +607,14 @@
             Testte null olması beklenen nesne.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
             null değil. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object)">
@@ -626,7 +626,7 @@
             Testte null olmaması beklenen nesne.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String)">
@@ -638,11 +638,11 @@
             Testte null olmaması beklenen nesne.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
             null. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String,System.Object[])">
@@ -654,14 +654,14 @@
             Testte null olmaması beklenen nesne.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
             null. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object)">
@@ -676,8 +676,8 @@
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String)">
@@ -692,13 +692,13 @@
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şununla aynı değil: <paramref name="expected"/>. İleti test
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şununla aynı değil: <paramref name="expected" />. İleti test
             sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String,System.Object[])">
@@ -713,16 +713,16 @@
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şununla aynı değil: <paramref name="expected"/>. İleti test
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şununla aynı değil: <paramref name="expected" />. İleti test
             sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object)">
@@ -732,14 +732,14 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci nesne. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String)">
@@ -749,19 +749,19 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci nesne. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şununla aynıdır: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şununla aynıdır: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String,System.Object[])">
@@ -771,22 +771,22 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci nesne. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şununla aynıdır: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şununla aynıdır: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0)">
@@ -805,7 +805,7 @@
             Karşılaştırılacak ikinci değer. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String)">
@@ -824,13 +824,13 @@
             Karşılaştırılacak ikinci değer. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String,System.Object[])">
@@ -849,16 +849,16 @@
             Karşılaştırılacak ikinci değer. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0)">
@@ -872,13 +872,13 @@
             </typeparam>
             <param name="notExpected">
             Karşılaştırılacak birinci değer. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci değer. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String)">
@@ -892,18 +892,18 @@
             </typeparam>
             <param name="notExpected">
             Karşılaştırılacak birinci değer. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci değer. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String,System.Object[])">
@@ -917,21 +917,21 @@
             </typeparam>
             <param name="notExpected">
             Karşılaştırılacak birinci değer. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci değer. Test kapsamındaki kod tarafından bu değer oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object)">
@@ -947,8 +947,8 @@
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String)">
@@ -964,13 +964,13 @@
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -986,16 +986,16 @@
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object)">
@@ -1006,13 +1006,13 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci nesne. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String)">
@@ -1023,18 +1023,18 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci nesne. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -1045,21 +1045,21 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci nesne. Testte bu değerin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci nesne. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single)">
@@ -1075,12 +1075,12 @@
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="expected"/>
-            şundan fazla: <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="expected" />
+            şundan fazla: <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1096,17 +1096,17 @@
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="expected"/>
-            şundan fazla: <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="expected" />
+            şundan fazla: <paramref name="delta" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şundan farklıdır: <paramref name="expected"/> şundan fazla:
-            <paramref name="delta"/>. İleti test sonuçlarında gösterilir.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şundan farklıdır: <paramref name="expected" /> şundan fazla:
+            <paramref name="delta" />. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1122,20 +1122,20 @@
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="expected"/>
-            şundan fazla: <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="expected" />
+            şundan fazla: <paramref name="delta" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şundan farklıdır: <paramref name="expected"/> şundan fazla:
-            <paramref name="delta"/>. İleti test sonuçlarında gösterilir.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şundan farklıdır: <paramref name="expected" /> şundan fazla:
+            <paramref name="delta" />. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single)">
@@ -1145,18 +1145,18 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak ilk kayan nokta. Testte bu kayan noktanın
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci kayan nokta. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="notExpected"/>
-            en fazla <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="notExpected" />
+            en fazla <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1166,23 +1166,23 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak ilk kayan nokta. Testte bu kayan noktanın
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci kayan nokta. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="notExpected"/>
-            en fazla <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="notExpected" />
+            en fazla <paramref name="delta" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/> veya şu değerden daha az farklı:
-            <paramref name="delta"/>. İleti test sonuçlarında gösterilir.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" /> veya şu değerden daha az farklı:
+            <paramref name="delta" />. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1192,26 +1192,26 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak ilk kayan nokta. Testte bu kayan noktanın
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci kayan nokta. Test kapsamındaki kod tarafından bu nesne oluşturulur.
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="notExpected"/>
-            en fazla <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="notExpected" />
+            en fazla <paramref name="delta" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/> veya şu değerden daha az farklı:
-            <paramref name="delta"/>. İleti test sonuçlarında gösterilir.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" /> veya şu değerden daha az farklı:
+            <paramref name="delta" />. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double)">
@@ -1227,12 +1227,12 @@
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="expected"/>
-            şundan fazla: <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="expected" />
+            şundan fazla: <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1248,16 +1248,16 @@
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="expected"/>
-            şundan fazla: <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="expected" />
+            şundan fazla: <paramref name="delta" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şundan farklıdır: <paramref name="expected"/> şundan fazla:
-            <paramref name="delta"/>. İleti test sonuçlarında gösterilir.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şundan farklıdır: <paramref name="expected" /> şundan fazla:
+            <paramref name="delta" />. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1273,19 +1273,19 @@
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="expected"/>
-            şundan fazla: <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="expected" />
+            şundan fazla: <paramref name="delta" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şundan farklıdır: <paramref name="expected"/> şundan fazla:
-            <paramref name="delta"/>. İleti test sonuçlarında gösterilir.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şundan farklıdır: <paramref name="expected" /> şundan fazla:
+            <paramref name="delta" />. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double)">
@@ -1295,18 +1295,18 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci çift. Testte bu çiftin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci çift. Test kapsamındaki kod tarafından bu çift oluşturulur.
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="notExpected"/>
-            en fazla <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="notExpected" />
+            en fazla <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1316,23 +1316,23 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci çift. Testte bu çiftin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci çift. Test kapsamındaki kod tarafından bu çift oluşturulur.
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="notExpected"/>
-            en fazla <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="notExpected" />
+            en fazla <paramref name="delta" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/> veya şu değerden daha az farklı:
-            <paramref name="delta"/>. İleti test sonuçlarında gösterilir.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" /> veya şu değerden daha az farklı:
+            <paramref name="delta" />. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1342,26 +1342,26 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci çift. Testte bu çiftin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci çift. Test kapsamındaki kod tarafından bu çift oluşturulur.
             </param>
             <param name="delta">
             Gerekli doğruluk. Yalnızca şu durumlarda bir özel durum oluşturulur:
-            <paramref name="actual"/> şundan farklı: <paramref name="notExpected"/>
-            en fazla <paramref name="delta"/>.
+            <paramref name="actual" /> şundan farklı: <paramref name="notExpected" />
+            en fazla <paramref name="delta" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/> veya şu değerden daha az farklı:
-            <paramref name="delta"/>. İleti test sonuçlarında gösterilir.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" /> veya şu değerden daha az farklı:
+            <paramref name="delta" />. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean)">
@@ -1380,7 +1380,7 @@
             değeri büyük/küçük harfe duyarsız bir karşılaştırmayı belirtir.)
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1399,12 +1399,12 @@
             değeri büyük/küçük harfe duyarsız bir karşılaştırmayı belirtir.)
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1423,15 +1423,15 @@
             değeri büyük/küçük harfe duyarsız bir karşılaştırmayı belirtir.)
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1453,7 +1453,7 @@
             Kültüre özel karşılaştırma bilgileri veren bir CultureInfo nesnesi.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1475,12 +1475,12 @@
             Kültüre özel karşılaştırma bilgileri veren bir CultureInfo nesnesi.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1502,15 +1502,15 @@
             Kültüre özel karşılaştırma bilgileri veren bir CultureInfo nesnesi.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean)">
@@ -1520,7 +1520,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci dize. Testte bu dizenin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci dize. Bu dize test kapsamındaki kod tarafından oluşturulur.
@@ -1530,7 +1530,7 @@
             değeri büyük/küçük harfe duyarsız bir karşılaştırmayı belirtir.)
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1540,7 +1540,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci dize. Testte bu dizenin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci dize. Bu dize test kapsamındaki kod tarafından oluşturulur.
@@ -1550,12 +1550,12 @@
             değeri büyük/küçük harfe duyarsız bir karşılaştırmayı belirtir.)
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1565,7 +1565,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci dize. Testte bu dizenin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci dize. Bu dize test kapsamındaki kod tarafından oluşturulur.
@@ -1575,15 +1575,15 @@
             değeri büyük/küçük harfe duyarsız bir karşılaştırmayı belirtir.)
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1593,7 +1593,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci dize. Testte bu dizenin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci dize. Bu dize test kapsamındaki kod tarafından oluşturulur.
@@ -1606,7 +1606,7 @@
             Kültüre özel karşılaştırma bilgileri veren bir CultureInfo nesnesi.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1616,7 +1616,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci dize. Testte bu dizenin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci dize. Bu dize test kapsamındaki kod tarafından oluşturulur.
@@ -1629,12 +1629,12 @@
             Kültüre özel karşılaştırma bilgileri veren bir CultureInfo nesnesi.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1644,7 +1644,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci dize. Testte bu dizenin eşleşmemesi
-            beklenir <paramref name="actual"/>.
+            beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci dize. Bu dize test kapsamındaki kod tarafından oluşturulur.
@@ -1657,82 +1657,82 @@
             Kültüre özel karşılaştırma bilgileri veren bir CultureInfo nesnesi.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type)">
             <summary>
-            Belirtilen nesnenin beklenen türde bir örnek olup olmadığını test eder ve 
-            beklenen tür, nesnenin devralma hiyerarşisinde değilse 
+            Belirtilen nesnenin beklenen türde bir örnek olup olmadığını test eder ve
+            beklenen tür, nesnenin devralma hiyerarşisinde değilse
             bir özel durum oluşturur.
             </summary>
             <param name="value">
             Testte belirtilen türde olması beklenen nesne.
             </param>
             <param name="expectedType">
-            Beklenen tür:<paramref name="value"/>.
+            Beklenen tür:<paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String)">
             <summary>
-            Belirtilen nesnenin beklenen türde bir örnek olup olmadığını test eder ve 
-            beklenen tür, nesnenin devralma hiyerarşisinde değilse 
+            Belirtilen nesnenin beklenen türde bir örnek olup olmadığını test eder ve
+            beklenen tür, nesnenin devralma hiyerarşisinde değilse
             bir özel durum oluşturur.
             </summary>
             <param name="value">
             Testte belirtilen türde olması beklenen nesne.
             </param>
             <param name="expectedType">
-            Beklenen tür:<paramref name="value"/>.
+            Beklenen tür:<paramref name="value" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            şunun bir örneği değil: <paramref name="expectedType"/>. İleti
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            şunun bir örneği değil: <paramref name="expectedType" />. İleti
             test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
             <summary>
-            Belirtilen nesnenin beklenen türde bir örnek olup olmadığını test eder ve 
-            beklenen tür, nesnenin devralma hiyerarşisinde değilse 
+            Belirtilen nesnenin beklenen türde bir örnek olup olmadığını test eder ve
+            beklenen tür, nesnenin devralma hiyerarşisinde değilse
             bir özel durum oluşturur.
             </summary>
             <param name="value">
             Testte belirtilen türde olması beklenen nesne.
             </param>
             <param name="expectedType">
-            Beklenen tür:<paramref name="value"/>.
+            Beklenen tür:<paramref name="value" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            şunun bir örneği değil: <paramref name="expectedType"/>. İleti
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            şunun bir örneği değil: <paramref name="expectedType" />. İleti
             test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type)">
@@ -1745,12 +1745,12 @@
             Testte beklenen türde olmaması beklenen nesne.
             </param>
             <param name="wrongType">
-            Tür <paramref name="value"/> olmamalıdır.
+            Tür <paramref name="value" /> olmamalıdır.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String)">
@@ -1763,17 +1763,17 @@
             Testte beklenen türde olmaması beklenen nesne.
             </param>
             <param name="wrongType">
-            Tür <paramref name="value"/> olmamalıdır.
+            Tür <paramref name="value" /> olmamalıdır.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            şunun bir örneğidir: <paramref name="wrongType"/>. İleti test
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            şunun bir örneğidir: <paramref name="wrongType" />. İleti test
             sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1786,20 +1786,20 @@
             Testte beklenen türde olmaması beklenen nesne.
             </param>
             <param name="wrongType">
-            Tür <paramref name="value"/> olmamalıdır.
+            Tür <paramref name="value" /> olmamalıdır.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            şunun bir örneğidir: <paramref name="wrongType"/>. İleti test
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            şunun bir örneğidir: <paramref name="wrongType" />. İleti test
             sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail">
@@ -1831,7 +1831,7 @@
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Always thrown.
@@ -1866,7 +1866,7 @@
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException">
             Always thrown.
@@ -1885,8 +1885,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action)">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa
             <code>
             AssertFailedException
             </code>
@@ -1899,7 +1899,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Oluşturulması beklenen özel durum türü.
@@ -1907,8 +1907,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String)">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa
             <code>
             AssertFailedException
             </code>
@@ -1918,14 +1918,14 @@
             Test edilecek ve özel durum oluşturması beklenen kodun temsilcisi.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="action"/>
-            şu türde bir özel durum oluşturmaz: <typeparamref name="T"/>.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="action" />
+            şu türde bir özel durum oluşturmaz: <typeparamref name="T" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Oluşturulması beklenen özel durum türü.
@@ -1933,8 +1933,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object})">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa
             <code>
             AssertFailedException
             </code>
@@ -1947,7 +1947,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Oluşturulması beklenen özel durum türü.
@@ -1955,8 +1955,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String)">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa
             <code>
             AssertFailedException
             </code>
@@ -1966,14 +1966,14 @@
             Test edilecek ve özel durum oluşturması beklenen kodun temsilcisi.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="action"/>
-            şu türde bir özel durum oluşturmaz: <typeparamref name="T"/>.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="action" />
+            şu türde bir özel durum oluşturmaz: <typeparamref name="T" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Oluşturulması beklenen özel durum türü.
@@ -1981,8 +1981,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String,System.Object[])">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa
             <code>
             AssertFailedException
             </code>
@@ -1992,17 +1992,17 @@
             Test edilecek ve özel durum oluşturması beklenen kodun temsilcisi.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="action"/>
-            şu türde bir özel durum oluşturmaz: <typeparamref name="T"/>.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="action" />
+            şu türde bir özel durum oluşturmaz: <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throw exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throw exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Oluşturulması beklenen özel durum türü.
@@ -2010,8 +2010,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String,System.Object[])">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa
             <code>
             AssertFailedException
             </code>
@@ -2021,17 +2021,17 @@
             Test edilecek ve özel durum oluşturması beklenen kodun temsilcisi.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="action"/>
-            şu türde bir özel durum oluşturmaz: <typeparamref name="T"/>.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="action" />
+            şu türde bir özel durum oluşturmaz: <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Oluşturulması beklenen özel durum türü.
@@ -2039,8 +2039,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task})">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa
             <code>
             AssertFailedException
             </code>
@@ -2053,49 +2053,49 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            Bir <see cref="T:System.Threading.Tasks.Task"/> temsilciyi çalıştırıyor.
+            Bir <see cref="T:System.Threading.Tasks.Task" /> temsilciyi çalıştırıyor.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String)">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa <code>AssertFailedException</code> oluşturur.
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa <code>AssertFailedException</code> oluşturur.
             </summary>
             <param name="action">Test edilecek ve özel durum oluşturması beklenen kodun temsilcisi.</param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="action"/>
-            tarafından şu türde özel durum oluşturulmadığı durumlarda oluşturulur: <typeparamref name="T"/>.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="action" />
+            tarafından şu türde özel durum oluşturulmadığı durumlarda oluşturulur: <typeparamref name="T" />.
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            Bir <see cref="T:System.Threading.Tasks.Task"/> temsilciyi çalıştırıyor.
+            Bir <see cref="T:System.Threading.Tasks.Task" /> temsilciyi çalıştırıyor.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String,System.Object[])">
             <summary>
-            <paramref name="action"/> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T"/> türündeki (türetilmiş bir türde olmayan) özel durumu
-            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T"/> türünden başka bir türde özel durum oluşturuyorsa <code>AssertFailedException</code> oluşturur.
+            <paramref name="action" /> temsilcisi tarafından belirtilen kodun tam olarak belirtilen <typeparamref name="T" /> türündeki (türetilmiş bir türde olmayan) özel durumu
+            oluşturup oluşturmadığını test eder ve kod özel durum oluşturmuyorsa veya <typeparamref name="T" /> türünden başka bir türde özel durum oluşturuyorsa <code>AssertFailedException</code> oluşturur.
             </summary>
             <param name="action">Test edilecek ve özel durum oluşturması beklenen kodun temsilcisi.</param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="action"/>
-            tarafından şu türde özel durum oluşturulmadığı durumlarda oluşturulur: <typeparamref name="T"/>.
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="action" />
+            tarafından şu türde özel durum oluşturulmadığı durumlarda oluşturulur: <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            Bir <see cref="T:System.Threading.Tasks.Task"/> temsilciyi çalıştırıyor.
+            Bir <see cref="T:System.Threading.Tasks.Task" /> temsilciyi çalıştırıyor.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ReplaceNullChars(System.String)">
@@ -2181,14 +2181,14 @@
             oluşturur.
             </summary>
             <param name="value">
-            Şunu içermesi beklenen dize <paramref name="substring"/>.
+            Şunu içermesi beklenen dize <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun içinde gerçekleşmesi beklenen dize: <paramref name="value"/>.
+            Şunun içinde gerçekleşmesi beklenen dize: <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String)">
@@ -2198,19 +2198,19 @@
             oluşturur.
             </summary>
             <param name="value">
-            Şunu içermesi beklenen dize <paramref name="substring"/>.
+            Şunu içermesi beklenen dize <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun içinde gerçekleşmesi beklenen dize: <paramref name="value"/>.
+            Şunun içinde gerçekleşmesi beklenen dize: <paramref name="value" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="substring"/>
-            şunun içinde değil: <paramref name="value"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="substring" />
+            şunun içinde değil: <paramref name="value" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String,System.Object[])">
@@ -2220,22 +2220,22 @@
             oluşturur.
             </summary>
             <param name="value">
-            Şunu içermesi beklenen dize <paramref name="substring"/>.
+            Şunu içermesi beklenen dize <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun içinde gerçekleşmesi beklenen dize: <paramref name="value"/>.
+            Şunun içinde gerçekleşmesi beklenen dize: <paramref name="value" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="substring"/>
-            şunun içinde değil: <paramref name="value"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="substring" />
+            şunun içinde değil: <paramref name="value" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String)">
@@ -2245,14 +2245,14 @@
             oluşturur.
             </summary>
             <param name="value">
-            Şununla başlaması beklenen dize <paramref name="substring"/>.
+            Şununla başlaması beklenen dize <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun ön eki olması beklenen dize: <paramref name="value"/>.
+            Şunun ön eki olması beklenen dize: <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String)">
@@ -2262,19 +2262,19 @@
             oluşturur.
             </summary>
             <param name="value">
-            Şununla başlaması beklenen dize <paramref name="substring"/>.
+            Şununla başlaması beklenen dize <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun ön eki olması beklenen dize: <paramref name="value"/>.
+            Şunun ön eki olması beklenen dize: <paramref name="value" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            şununla başlamıyor: <paramref name="substring"/>. İleti
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            şununla başlamıyor: <paramref name="substring" />. İleti
             test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String,System.Object[])">
@@ -2284,22 +2284,22 @@
             oluşturur.
             </summary>
             <param name="value">
-            Şununla başlaması beklenen dize <paramref name="substring"/>.
+            Şununla başlaması beklenen dize <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun ön eki olması beklenen dize: <paramref name="value"/>.
+            Şunun ön eki olması beklenen dize: <paramref name="value" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            şununla başlamıyor: <paramref name="substring"/>. İleti
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            şununla başlamıyor: <paramref name="substring" />. İleti
             test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String)">
@@ -2309,14 +2309,14 @@
             oluşturur.
             </summary>
             <param name="value">
-            Dizenin şununla bitmesi beklenir: <paramref name="substring"/>.
+            Dizenin şununla bitmesi beklenir: <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun son eki olması beklenen dize: <paramref name="value"/>.
+            Şunun son eki olması beklenen dize: <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String)">
@@ -2326,19 +2326,19 @@
             oluşturur.
             </summary>
             <param name="value">
-            Dizenin şununla bitmesi beklenir: <paramref name="substring"/>.
+            Dizenin şununla bitmesi beklenir: <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun son eki olması beklenen dize: <paramref name="value"/>.
+            Şunun son eki olması beklenen dize: <paramref name="value" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            şununla bitmiyor: <paramref name="substring"/>. İleti
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            şununla bitmiyor: <paramref name="substring" />. İleti
             test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String,System.Object[])">
@@ -2348,22 +2348,22 @@
             oluşturur.
             </summary>
             <param name="value">
-            Dizenin şununla bitmesi beklenir: <paramref name="substring"/>.
+            Dizenin şununla bitmesi beklenir: <paramref name="substring" />.
             </param>
             <param name="substring">
-            Şunun son eki olması beklenen dize: <paramref name="value"/>.
+            Şunun son eki olması beklenen dize: <paramref name="value" />.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            şununla bitmiyor: <paramref name="substring"/>. İleti
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            şununla bitmiyor: <paramref name="substring" />. İleti
             test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex)">
@@ -2372,15 +2372,15 @@
             ve dize ifadeyle eşleşmiyorsa bir özel durum oluşturur.
             </summary>
             <param name="value">
-            Eşleşmesi beklenen dize <paramref name="pattern"/>.
+            Eşleşmesi beklenen dize <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Normal ifade: <paramref name="value"/> eşleşmesi
+            Normal ifade: <paramref name="value" /> eşleşmesi
             bekleniyor.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2389,20 +2389,20 @@
             ve dize ifadeyle eşleşmiyorsa bir özel durum oluşturur.
             </summary>
             <param name="value">
-            Eşleşmesi beklenen dize <paramref name="pattern"/>.
+            Eşleşmesi beklenen dize <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Normal ifade: <paramref name="value"/> eşleşmesi
+            Normal ifade: <paramref name="value" /> eşleşmesi
             bekleniyor.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            eşleşmiyor <paramref name="pattern"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            eşleşmiyor <paramref name="pattern" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2411,23 +2411,23 @@
             ve dize ifadeyle eşleşmiyorsa bir özel durum oluşturur.
             </summary>
             <param name="value">
-            Eşleşmesi beklenen dize <paramref name="pattern"/>.
+            Eşleşmesi beklenen dize <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Normal ifade: <paramref name="value"/> eşleşmesi
+            Normal ifade: <paramref name="value" /> eşleşmesi
             bekleniyor.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            eşleşmiyor <paramref name="pattern"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            eşleşmiyor <paramref name="pattern" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex)">
@@ -2436,14 +2436,14 @@
             ve dize ifadeyle eşleşiyorsa bir özel durum oluşturur.
             </summary>
             <param name="value">
-            Eşleşmemesi beklenen dize <paramref name="pattern"/>.
+            Eşleşmemesi beklenen dize <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Normal ifade: <paramref name="value"/> eşleşmemesi
+            Normal ifade: <paramref name="value" /> eşleşmemesi
             bekleniyor.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2452,19 +2452,19 @@
             ve dize ifadeyle eşleşiyorsa bir özel durum oluşturur.
             </summary>
             <param name="value">
-            Eşleşmemesi beklenen dize <paramref name="pattern"/>.
+            Eşleşmemesi beklenen dize <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Normal ifade: <paramref name="value"/> eşleşmemesi
+            Normal ifade: <paramref name="value" /> eşleşmemesi
             bekleniyor.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            eşleşme <paramref name="pattern"/>. İleti, test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            eşleşme <paramref name="pattern" />. İleti, test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2473,22 +2473,22 @@
             ve dize ifadeyle eşleşiyorsa bir özel durum oluşturur.
             </summary>
             <param name="value">
-            Eşleşmemesi beklenen dize <paramref name="pattern"/>.
+            Eşleşmemesi beklenen dize <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Normal ifade: <paramref name="value"/> eşleşmemesi
+            Normal ifade: <paramref name="value" /> eşleşmemesi
             bekleniyor.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="value"/>
-            eşleşme <paramref name="pattern"/>. İleti, test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="value" />
+            eşleşme <paramref name="pattern" />. İleti, test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert">
@@ -2521,8 +2521,8 @@
             Koleksiyonda olması beklenen öğe.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String)">
@@ -2537,13 +2537,13 @@
             Koleksiyonda olması beklenen öğe.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="element"/>
-            şunun içinde değil: <paramref name="collection"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="element" />
+            şunun içinde değil: <paramref name="collection" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2558,16 +2558,16 @@
             Koleksiyonda olması beklenen öğe.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="element"/>
-            şunun içinde değil: <paramref name="collection"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="element" />
+            şunun içinde değil: <paramref name="collection" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object)">
@@ -2582,8 +2582,8 @@
             Koleksiyonda olmaması beklenen öğe.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String)">
@@ -2598,13 +2598,13 @@
             Koleksiyonda olmaması beklenen öğe.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="element"/>
-            şunun içindedir: <paramref name="collection"/>. İleti, test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="element" />
+            şunun içindedir: <paramref name="collection" />. İleti, test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2619,16 +2619,16 @@
             Koleksiyonda olmaması beklenen öğe.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="element"/>
-            şunun içindedir: <paramref name="collection"/>. İleti, test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="element" />
+            şunun içindedir: <paramref name="collection" />. İleti, test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection)">
@@ -2640,7 +2640,7 @@
             İçinde null öğelerin aranacağı koleksiyon.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String)">
@@ -2652,11 +2652,11 @@
             İçinde null öğelerin aranacağı koleksiyon.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="collection"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="collection" />
             bir null öğe içeriyor. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String,System.Object[])">
@@ -2668,14 +2668,14 @@
             İçinde null öğelerin aranacağı koleksiyon.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="collection"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="collection" />
             bir null öğe içeriyor. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection)">
@@ -2688,7 +2688,7 @@
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String)">
@@ -2700,13 +2700,13 @@
             Yinelenen öğelerin aranacağı koleksiyon.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="collection"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="collection" />
             en az bir yinelenen öğe içeriyor. İleti, test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String,System.Object[])">
@@ -2718,16 +2718,16 @@
             Yinelenen öğelerin aranacağı koleksiyon.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="collection"/>
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="collection" />
             en az bir yinelenen öğe içeriyor. İleti, test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2737,14 +2737,14 @@
             yoksa bir özel durum oluşturur.
             </summary>
             <param name="subset">
-            Şunun alt kümesi olması beklenen koleksiyon: <paramref name="superset"/>.
+            Şunun alt kümesi olması beklenen koleksiyon: <paramref name="superset" />.
             </param>
             <param name="superset">
-            Şunun üst kümesi olması beklenen koleksiyon: <paramref name="subset"/>
+            Şunun üst kümesi olması beklenen koleksiyon: <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2754,19 +2754,19 @@
             yoksa bir özel durum oluşturur.
             </summary>
             <param name="subset">
-            Şunun alt kümesi olması beklenen koleksiyon: <paramref name="superset"/>.
+            Şunun alt kümesi olması beklenen koleksiyon: <paramref name="superset" />.
             </param>
             <param name="superset">
-            Şunun üst kümesi olması beklenen koleksiyon: <paramref name="subset"/>
+            Şunun üst kümesi olması beklenen koleksiyon: <paramref name="subset" />
             </param>
             <param name="message">
             İletinin özel duruma dahil edilmesi için şuradaki bir öğe:
-            <paramref name="subset"/> şurada bulunmuyor: <paramref name="superset"/>.
+            <paramref name="subset" /> şurada bulunmuyor: <paramref name="superset" />.
             İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2776,22 +2776,22 @@
             yoksa bir özel durum oluşturur.
             </summary>
             <param name="subset">
-            Şunun alt kümesi olması beklenen koleksiyon: <paramref name="superset"/>.
+            Şunun alt kümesi olması beklenen koleksiyon: <paramref name="superset" />.
             </param>
             <param name="superset">
-            Şunun üst kümesi olması beklenen koleksiyon: <paramref name="subset"/>
+            Şunun üst kümesi olması beklenen koleksiyon: <paramref name="subset" />
             </param>
             <param name="message">
             İletinin özel duruma dahil edilmesi için şuradaki bir öğe:
-            <paramref name="subset"/> şurada bulunmuyor: <paramref name="superset"/>.
+            <paramref name="subset" /> şurada bulunmuyor: <paramref name="superset" />.
             İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2801,14 +2801,14 @@
             bulunuyorsa bir özel durum oluşturur.
             </summary>
             <param name="subset">
-            Şunun alt kümesi olmaması beklenen koleksiyon: <paramref name="superset"/>.
+            Şunun alt kümesi olmaması beklenen koleksiyon: <paramref name="superset" />.
             </param>
             <param name="superset">
-            Şunun üst kümesi olmaması beklenen koleksiyon: <paramref name="subset"/>
+            Şunun üst kümesi olmaması beklenen koleksiyon: <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2818,19 +2818,19 @@
             bulunuyorsa bir özel durum oluşturur.
             </summary>
             <param name="subset">
-            Şunun alt kümesi olmaması beklenen koleksiyon: <paramref name="superset"/>.
+            Şunun alt kümesi olmaması beklenen koleksiyon: <paramref name="superset" />.
             </param>
             <param name="superset">
-            Şunun üst kümesi olmaması beklenen koleksiyon: <paramref name="subset"/>
+            Şunun üst kümesi olmaması beklenen koleksiyon: <paramref name="subset" />
             </param>
             <param name="message">
             Mesajın özel duruma dahil edilmesi için şuradaki her öğe:
-            <paramref name="subset"/> ayrıca şurada bulunur: <paramref name="superset"/>.
+            <paramref name="subset" /> ayrıca şurada bulunur: <paramref name="superset" />.
             İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2840,22 +2840,22 @@
             bulunuyorsa bir özel durum oluşturur.
             </summary>
             <param name="subset">
-            Şunun alt kümesi olmaması beklenen koleksiyon: <paramref name="superset"/>.
+            Şunun alt kümesi olmaması beklenen koleksiyon: <paramref name="superset" />.
             </param>
             <param name="superset">
-            Şunun üst kümesi olmaması beklenen koleksiyon: <paramref name="subset"/>
+            Şunun üst kümesi olmaması beklenen koleksiyon: <paramref name="subset" />
             </param>
             <param name="message">
             Mesajın özel duruma dahil edilmesi için şuradaki her öğe:
-            <paramref name="subset"/> ayrıca şurada bulunur: <paramref name="superset"/>.
+            <paramref name="subset" /> ayrıca şurada bulunur: <paramref name="superset" />.
             İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEquivalent(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2921,7 +2921,7 @@
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if an element was found in one of the collections but not
@@ -2962,8 +2962,8 @@
             bu koleksiyon oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şununla aynı öğeleri içerir: <paramref name="expected"/>. İleti
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şununla aynı öğeleri içerir: <paramref name="expected" />. İleti
             test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
@@ -2986,12 +2986,12 @@
             bu koleksiyon oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şununla aynı öğeleri içerir: <paramref name="expected"/>. İleti
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şununla aynı öğeleri içerir: <paramref name="expected" />. İleti
             test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if the two collections contained the same elements, including
@@ -3009,12 +3009,12 @@
             koleksiyon.
             </param>
             <param name="expectedType">
-            Her öğe için beklenen tür <paramref name="collection"/>.
+            Her öğe için beklenen tür <paramref name="collection" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String)">
@@ -3028,17 +3028,17 @@
             koleksiyon.
             </param>
             <param name="expectedType">
-            Her öğe için beklenen tür <paramref name="collection"/>.
+            Her öğe için beklenen tür <paramref name="collection" />.
             </param>
             <param name="message">
             İletinin özel duruma dahil edilmesi için şuradaki bir öğe:
-            <paramref name="collection"/> şunun bir örneği değil:
-            <paramref name="expectedType"/>. İleti test sonuçlarında gösterilir.
+            <paramref name="collection" /> şunun bir örneği değil:
+            <paramref name="expectedType" />. İleti test sonuçlarında gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String,System.Object[])">
@@ -3052,20 +3052,20 @@
             koleksiyon.
             </param>
             <param name="expectedType">
-            Her öğe için beklenen tür <paramref name="collection"/>.
+            Her öğe için beklenen tür <paramref name="collection" />.
             </param>
             <param name="message">
             İletinin özel duruma dahil edilmesi için şuradaki bir öğe:
-            <paramref name="collection"/> şunun bir örneği değil:
-            <paramref name="expectedType"/>. İleti test sonuçlarında gösterilir.
+            <paramref name="collection" /> şunun bir örneği değil:
+            <paramref name="expectedType" />. İleti test sonuçlarında gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3083,8 +3083,8 @@
              koleksiyon oluşturulur.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3102,13 +3102,13 @@
              koleksiyon oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3126,16 +3126,16 @@
              koleksiyon oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3147,14 +3147,14 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci koleksiyon. Testte bu koleksiyonun
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci koleksiyon. Test kapsamındaki kod tarafından bu
              koleksiyon oluşturulur.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3166,19 +3166,19 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci koleksiyon. Testte bu koleksiyonun
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci koleksiyon. Test kapsamındaki kod tarafından bu
              koleksiyon oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3190,22 +3190,22 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci koleksiyon. Testte bu koleksiyonun
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci koleksiyon. Test kapsamındaki kod tarafından bu
              koleksiyon oluşturulur.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3226,8 +3226,8 @@
             Koleksiyonun öğeleri karşılaştırılırken kullanılacak karşılaştırma uygulaması.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3248,13 +3248,13 @@
             Koleksiyonun öğeleri karşılaştırılırken kullanılacak karşılaştırma uygulaması.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3275,16 +3275,16 @@
             Koleksiyonun öğeleri karşılaştırılırken kullanılacak karşılaştırma uygulaması.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual"/>
-            şuna eşit değil: <paramref name="expected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti <paramref name="actual" />
+            şuna eşit değil: <paramref name="expected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message"/>.
+            Biçimlendirme sırasında kullanılacak parametre dizisi <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3296,7 +3296,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci koleksiyon. Testte bu koleksiyonun
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci koleksiyon. Test kapsamındaki kod tarafından bu
@@ -3306,7 +3306,7 @@
             Koleksiyonun öğeleri karşılaştırılırken kullanılacak karşılaştırma uygulaması.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3318,7 +3318,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci koleksiyon. Testte bu koleksiyonun
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci koleksiyon. Test kapsamındaki kod tarafından bu
@@ -3328,12 +3328,12 @@
             Koleksiyonun öğeleri karşılaştırılırken kullanılacak karşılaştırma uygulaması.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti: <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti: <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3345,7 +3345,7 @@
             </summary>
             <param name="notExpected">
             Karşılaştırılacak birinci koleksiyon. Testte bu koleksiyonun
-            eşleşmemesi beklenir <paramref name="actual"/>.
+            eşleşmemesi beklenir <paramref name="actual" />.
             </param>
             <param name="actual">
             Karşılaştırılacak ikinci koleksiyon. Test kapsamındaki kod tarafından bu
@@ -3355,15 +3355,15 @@
             Koleksiyonun öğeleri karşılaştırılırken kullanılacak karşılaştırma uygulaması.
             </param>
             <param name="message">
-            Şu durumda özel duruma dahil edilecek ileti: <paramref name="actual"/>
-            şuna eşittir: <paramref name="notExpected"/>. İleti test sonuçlarında
+            Şu durumda özel duruma dahil edilecek ileti: <paramref name="actual" />
+            şuna eşittir: <paramref name="notExpected" />. İleti test sonuçlarında
             gösterilir.
             </param>
             <param name="parameters">
-            Şu parametre biçimlendirilirken kullanılacak parametre dizisi: <paramref name="message"/>.
+            Şu parametre biçimlendirilirken kullanılacak parametre dizisi: <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOfHelper(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3374,14 +3374,14 @@
             eşit veya bu sayıdan daha az olmalıdır.
             </summary>
             <param name="subset">
-            Testin içinde bulunmasını beklediği koleksiyon <paramref name="superset"/>.
+            Testin içinde bulunmasını beklediği koleksiyon <paramref name="superset" />.
             </param>
             <param name="superset">
-            Testin içermesini beklediği koleksiyon <paramref name="subset"/>.
+            Testin içermesini beklediği koleksiyon <paramref name="subset" />.
             </param>
             <returns>
-            Şu durumda true: <paramref name="subset"/> şunun bir alt kümesidir:
-            <paramref name="superset"/>, aksi takdirde false.
+            Şu durumda true: <paramref name="subset" /> şunun bir alt kümesidir:
+            <paramref name="superset" />, aksi takdirde false.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.GetElementCounts(System.Collections.ICollection,System.Int32@)">
@@ -3418,12 +3418,12 @@
             </param>
             <param name="expectedCount">
             Şunun için beklenen oluşma sayısı:
-            <paramref name="mismatchedElement"/> veya uyumsuz öğe yoksa
+            <paramref name="mismatchedElement" /> veya uyumsuz öğe yoksa
             0.
             </param>
             <param name="actualCount">
             Gerçek oluşma sayısı:
-            <paramref name="mismatchedElement"/> veya uyumsuz öğe yoksa
+            <paramref name="mismatchedElement" /> veya uyumsuz öğe yoksa
             0.
             </param>
             <param name="mismatchedElement">
@@ -3446,19 +3446,19 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String,System.Exception)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="msg"> İleti. </param>
             <param name="ex"> Özel durum. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="msg"> İleti. </param>
         </member>
@@ -3680,7 +3680,7 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.PrivateAccessorConstructorNotFound">
             <summary>
-              Şuna benzer bir yerelleştirilmiş dize arar: 
+              Şuna benzer bir yerelleştirilmiş dize arar:
                  Belirtilen imzaya sahip oluşturucu bulunamadı. Özel erişimcinizi yeniden oluşturmanız gerekebilir
                  veya üye özel ve bir temel sınıfta tanımlanmış olabilir. İkinci durum geçerliyse üyeyi
                  tanımlayan türü PrivateObject oluşturucusuna geçirmeniz gerekir.
@@ -3689,7 +3689,7 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.PrivateAccessorMemberNotFound">
             <summary>
-              Şuna benzer bir yerelleştirilmiş dize arar: 
+              Şuna benzer bir yerelleştirilmiş dize arar:
                  Belirtilen üye ({0}) bulunamadı. Özel erişimcinizi yeniden oluşturmanız gerekebilir
                  veya üye özel ve bir temel sınıfta tanımlanmış olabilir. İkinci durum geçerliyse üyeyi tanımlayan türü
                  PrivateObject oluşturucusuna geçirmeniz gerekir.
@@ -3800,7 +3800,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout">
             <summary>
-            Zaman aşımları için <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> sınıfı ile birlikte kullanılabilen sabit listesi.
+            Zaman aşımları için <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> sınıfı ile birlikte kullanılabilen sabit listesi.
             Sabit listesinin türü eşleşmelidir
             </summary>
         </member>
@@ -3819,7 +3819,7 @@
             Bu testi çalıştırmayı sağlayan bir test metodu özniteliği alır.
             </summary>
             <param name="testMethodAttribute">Bu metot üzerinde tanımlanan test metodu özniteliği örneği.</param>
-            <returns>The <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute"/> bu testi çalıştırmak için kullanılabilir.</returns>
+            <returns>The <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute" /> bu testi çalıştırmak için kullanılabilir.</returns>
             <remarks>Extensions can override this method to customize how all methods in a class are run.</remarks>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute">
@@ -3857,7 +3857,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute.#ctor(System.String,System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="name">
             Ad.
@@ -3903,7 +3903,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="owner">
             Sahip.
@@ -3921,7 +3921,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute.#ctor(System.Int32)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="priority">
             Öncelik.
@@ -3939,7 +3939,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute.#ctor(System.String)">
             <summary>
-            Bir testi açıklamak için kullanılan <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute"/> sınıfının yeni bir örneğini başlatır.
+            Bir testi açıklamak için kullanılan <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="description">Açıklama.</param>
         </member>
@@ -3955,7 +3955,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute.#ctor(System.String)">
             <summary>
-            CSS Proje Yapısı URI'si için <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute"/> sınıfının yeni bir örneğini başlatır.
+            CSS Proje Yapısı URI'si için <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="cssProjectStructure">CSS Proje Yapısı URI'si.</param>
         </member>
@@ -3971,7 +3971,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute.#ctor(System.String)">
             <summary>
-            CSS Yineleme URI'si için <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute"/> sınıfının yeni bir örneğini başlatır.
+            CSS Yineleme URI'si için <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="cssIteration">CSS Yineleme URI'si.</param>
         </member>
@@ -3987,7 +3987,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute.#ctor(System.Int32)">
             <summary>
-            WorkItem Özniteliği için <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute"/> sınıfının yeni bir örneğini başlatır.
+            WorkItem Özniteliği için <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="id">Bir iş öğesinin kimliği.</param>
         </member>
@@ -4003,7 +4003,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(System.Int32)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> sınıfının yeni bir örneğini başlatır.
             </summary>
             <param name="timeout">
             Zaman aşımı.
@@ -4011,7 +4011,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> sınıfının önceden ayarlanmış bir zaman aşımı ile yeni bir örneğini başlatır
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> sınıfının önceden ayarlanmış bir zaman aşımı ile yeni bir örneğini başlatır
             </summary>
             <param name="timeout">
             Zaman aşımı
@@ -4029,7 +4029,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/> sınıfının yeni bir örneğini başlatır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" /> sınıfının yeni bir örneğini başlatır.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.DisplayName">
@@ -4110,13 +4110,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String,System.String,Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> sınıfının yeni bir örneğini başlatır. Bu örnek bir veri sağlayıcısı, bağlantı dizesi, veri tablosu ve veri kaynağına erişmek için kullanılan veri erişimi metodu ile başlatılır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> sınıfının yeni bir örneğini başlatır. Bu örnek bir veri sağlayıcısı, bağlantı dizesi, veri tablosu ve veri kaynağına erişmek için kullanılan veri erişimi metodu ile başlatılır.
             </summary>
             <param name="providerInvariantName">System.Data.SqlClient gibi değişmez veri sağlayıcısı adı</param>
             <param name="connectionString">
             Veri sağlayıcısına özgü bağlantı dizesi.
             UYARI: Bağlantı dizesi, hassas veriler (parola gibi) içerebilir.
-            Bağlantı dizesi, kaynak kodunda ve derlenmiş bütünleştirilmiş kodda düz metin olarak depolanır. 
+            Bağlantı dizesi, kaynak kodunda ve derlenmiş bütünleştirilmiş kodda düz metin olarak depolanır.
             Bu hassas bilgileri korumak için kaynak koda ve bütünleştirilmiş koda erişimi kısıtlayın.
             </param>
             <param name="tableName">Veri tablosunun adı.</param>
@@ -4124,20 +4124,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> sınıfının yeni bir örneğini başlatır. Bu örnek bir bağlantı dizesi ve tablo adı ile başlatılır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> sınıfının yeni bir örneğini başlatır. Bu örnek bir bağlantı dizesi ve tablo adı ile başlatılır.
             OLEDB veri kaynağına erişmek için kullanılan bağlantı dizesini ve veri tablosunu belirtin.
             </summary>
             <param name="connectionString">
             Veri sağlayıcısına özgü bağlantı dizesi.
             UYARI: Bağlantı dizesi, hassas veriler (parola gibi) içerebilir.
-            Bağlantı dizesi, kaynak kodunda ve derlenmiş bütünleştirilmiş kodda düz metin olarak depolanır. 
+            Bağlantı dizesi, kaynak kodunda ve derlenmiş bütünleştirilmiş kodda düz metin olarak depolanır.
             Bu hassas bilgileri korumak için kaynak koda ve bütünleştirilmiş koda erişimi kısıtlayın.
             </param>
             <param name="tableName">Veri tablosunun adı.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> sınıfının yeni bir örneğini başlatır. Bu örnek bir veri sağlayıcısı ile ve ayar adıyla ilişkili bir bağlantı dizesi ile başlatılır.
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> sınıfının yeni bir örneğini başlatır. Bu örnek bir veri sağlayıcısı ile ve ayar adıyla ilişkili bir bağlantı dizesi ile başlatılır.
             </summary>
             <param name="dataSourceSettingName">App.config dosyasındaki &lt;microsoft.visualstudio.qualitytools&gt; bölümünde bulunan veri kaynağının adı.</param>
         </member>
@@ -4163,9 +4163,9 @@
              <summary>
              Veri kaynağına erişmek için kullanılan metodu alır.
              </summary>
-            
+
              <returns>
-             Bir <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod"/> değerlerdir. Eğer <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> başlatılmazsa, varsayılan değeri döndürür <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random"/>.
+             Bir <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod" /> değerlerdir. Eğer <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> başlatılmazsa, varsayılan değeri döndürür <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random" />.
             </returns>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.DataSourceSettingName">
@@ -4186,7 +4186,7 @@
             Test Yöntemi.
             </param>
             <returns>
-            Bir <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>.
+            Bir <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.RunDataDrivenTest(Microsoft.VisualStudio.TestTools.UnitTesting.ITestMethod,Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute[])">

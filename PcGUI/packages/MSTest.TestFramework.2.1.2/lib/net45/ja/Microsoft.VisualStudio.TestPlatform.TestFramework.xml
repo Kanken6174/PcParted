@@ -132,13 +132,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="data1"> データ オブジェクト。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object,System.Object[])">
             <summary>
-            引数の配列を受け入れる <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/> クラスの新しいインスタンスを初期化します。
+            引数の配列を受け入れる <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="data1"> データ オブジェクト。 </param>
             <param name="moreData"> 追加のデータ。 </param>
@@ -160,20 +160,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String,System.Exception)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="msg"> メッセージ。 </param>
             <param name="ex"> 例外。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="msg"> メッセージ。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> クラスの新しいインスタンスを初期化します。
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException">
@@ -187,20 +187,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String,System.Exception)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="msg"> 例外メッセージ。 </param>
             <param name="ex"> 例外。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="msg"> 例外メッセージ。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> クラスの新しいインスタンスを初期化します。
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute">
@@ -210,14 +210,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)">
             <summary>
-            予期される型を指定して、<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/> クラスの新しいインスタンスを初期化する
+            予期される型を指定して、<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" /> クラスの新しいインスタンスを初期化する
             </summary>
             <param name="exceptionType">予期される例外の型</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)">
             <summary>
             予期される型と、テストで例外がスローされない場合に含めるメッセージとを指定して
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="exceptionType">予期される例外の型</param>
             <param name="noExceptionMessage">
@@ -253,12 +253,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor">
             <summary>
-            既定の例外なしメッセージを指定して <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> クラスの新しいインスタンスを初期化する
+            既定の例外なしメッセージを指定して <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> クラスの新しいインスタンスを初期化する
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor(System.String)">
             <summary>
-            例外なしメッセージを指定して <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> クラスの新しいインスタンスを初期化します
+            例外なしメッセージを指定して <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> クラスの新しいインスタンスを初期化します
             </summary>
             <param name="noExceptionMessage">
             例外がスローされなかったことが原因でテストが失敗した場合に、
@@ -287,8 +287,8 @@
             例外が予期されているかどうかを判断します。メソッドが戻る場合は、
             例外が予期されていたと解釈されます。メソッドが例外をスローする場合は、
             例外が予期されていなかったと解釈され、スローされた例外のメッセージが
-            テスト結果に含められます。便宜上、<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert"/> クラスを使用できます。
-            <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive"/> が使用され、アサーションが失敗すると、
+            テスト結果に含められます。便宜上、<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert" /> クラスを使用できます。
+            <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive" /> が使用され、アサーションが失敗すると、
             テスト成果は [結果不確定] に設定されます。
             </summary>
             <param name="exception">単体テストでスローされる例外</param>
@@ -311,7 +311,7 @@
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor">
             <summary>
             C# ジェネリックの 'newable' 制約を満たす
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <remarks>
             This constructor initializes the Data property to a random value.
@@ -319,7 +319,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor(System.Int32)">
             <summary>
-            Data プロパティをユーザー指定の値に初期化する <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> クラスの
+            Data プロパティをユーザー指定の値に初期化する <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> クラスの
             新しいインスタンスを初期化します。
             </summary>
             <param name="data">任意の整数値</param>
@@ -345,14 +345,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.CompareTo(System.Object)">
             <summary>
-            2 つの <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> オブジェクトのデータを比較します。
+            2 つの <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> オブジェクトのデータを比較します。
             </summary>
             <param name="obj">比較対象のオブジェクト。</param>
             <returns>
             このインスタンスと値の相対値を示す符号付きの数値。
             </returns>
             <exception cref="T:System.NotSupportedException">
-            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>.
+            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.GetEnumerator">
@@ -364,7 +364,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.Clone">
             <summary>
-            現在のオブジェクトに相当する GenericParameterHelper 
+            現在のオブジェクトに相当する GenericParameterHelper
             オブジェクトを返します。
             </summary>
             <returns>複製されたオブジェクト。</returns>
@@ -400,7 +400,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute"/> クラスの新しいインスタンスを初期化し、カテゴリをテストに適用します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute" /> クラスの新しいインスタンスを初期化し、カテゴリをテストに適用します。
             </summary>
             <param name="testCategory">
             テスト カテゴリ。
@@ -425,7 +425,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute" /> クラスの新しいインスタンスを初期化します。
             カテゴリをテストに適用します。TestCategories で返される文字列は
             テストをフィルター処理する /category コマンドで使用されます
             </summary>
@@ -442,20 +442,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String,System.Exception)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="msg"> メッセージ。 </param>
             <param name="ex"> 例外。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="msg"> メッセージ。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> クラスの新しいインスタンスを初期化します。
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
@@ -485,7 +485,7 @@
             テストで true であることが予期される条件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String)">
@@ -497,11 +497,11 @@
             テストで true であることが予期される条件。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="condition"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="condition" />
             false の場合。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String,System.Object[])">
@@ -513,14 +513,14 @@
             テストで true であることが予期される条件。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="condition"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="condition" />
             false の場合。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean)">
@@ -532,7 +532,7 @@
             テストで false であると予期される条件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String)">
@@ -544,11 +544,11 @@
             テストで false であると予期される条件。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="condition"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="condition" />
             true の場合。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String,System.Object[])">
@@ -560,14 +560,14 @@
             テストで false であると予期される条件。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="condition"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="condition" />
             true の場合。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object)">
@@ -579,7 +579,7 @@
             テストで null であると予期されるオブジェクト。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String)">
@@ -591,11 +591,11 @@
             テストで null であると予期されるオブジェクト。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
             null でない場合。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String,System.Object[])">
@@ -607,14 +607,14 @@
             テストで null であると予期されるオブジェクト。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
             null でない場合。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object)">
@@ -626,7 +626,7 @@
             テストで null 出ないと予期されるオブジェクト。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String)">
@@ -638,11 +638,11 @@
             テストで null 出ないと予期されるオブジェクト。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
             null である場合。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String,System.Object[])">
@@ -654,14 +654,14 @@
             テストで null 出ないと予期されるオブジェクト。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
             null である場合。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object)">
@@ -676,8 +676,8 @@
             比較する 2 番目のオブジェクト。これはテストのコードで生成される値です。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String)">
@@ -692,13 +692,13 @@
             比較する 2 番目のオブジェクト。これはテストのコードで生成される値です。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と同じではない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と同じではない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String,System.Object[])">
@@ -713,16 +713,16 @@
             比較する 2 番目のオブジェクト。これはテストのコードで生成される値です。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と同じではない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と同じではない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object)">
@@ -732,14 +732,14 @@
             </summary>
             <param name="notExpected">
             比較する最初のオブジェクト。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のオブジェクト。これはテストのコードで生成される値です。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String)">
@@ -749,19 +749,19 @@
             </summary>
             <param name="notExpected">
             比較する最初のオブジェクト。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のオブジェクト。これはテストのコードで生成される値です。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            と同じである場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            と同じである場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String,System.Object[])">
@@ -771,22 +771,22 @@
             </summary>
             <param name="notExpected">
             比較する最初のオブジェクト。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のオブジェクト。これはテストのコードで生成される値です。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            と同じである場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            と同じである場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0)">
@@ -805,7 +805,7 @@
             比較する 2 番目の値。これはテストのコードで生成される値です。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String)">
@@ -824,13 +824,13 @@
             比較する 2 番目の値。これはテストのコードで生成される値です。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String,System.Object[])">
@@ -849,16 +849,16 @@
             比較する 2 番目の値。これはテストのコードで生成される値です。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0)">
@@ -872,13 +872,13 @@
             </typeparam>
             <param name="notExpected">
             比較する最初の値。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の値。これはテストのコードで生成される値です。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String)">
@@ -892,18 +892,18 @@
             </typeparam>
             <param name="notExpected">
             比較する最初の値。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の値。これはテストのコードで生成される値です。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String,System.Object[])">
@@ -917,21 +917,21 @@
             </typeparam>
             <param name="notExpected">
             比較する最初の値。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の値。これはテストのコードで生成される値です。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object)">
@@ -947,8 +947,8 @@
             比較する 2 番目のオブジェクト。これはテストのコードで生成されるオブジェクトです。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String)">
@@ -964,13 +964,13 @@
             比較する 2 番目のオブジェクト。これはテストのコードで生成されるオブジェクトです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -986,16 +986,16 @@
             比較する 2 番目のオブジェクト。これはテストのコードで生成されるオブジェクトです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object)">
@@ -1006,13 +1006,13 @@
             </summary>
             <param name="notExpected">
             比較する最初のオブジェクト。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のオブジェクト。これはテストのコードで生成されるオブジェクトです。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String)">
@@ -1023,18 +1023,18 @@
             </summary>
             <param name="notExpected">
             比較する最初のオブジェクト。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のオブジェクト。これはテストのコードで生成されるオブジェクトです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -1045,21 +1045,21 @@
             </summary>
             <param name="notExpected">
             比較する最初のオブジェクト。これはテストで次と一致しないと予期される
-            値です <paramref name="actual"/>。
+            値です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のオブジェクト。これはテストのコードで生成されるオブジェクトです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single)">
@@ -1075,12 +1075,12 @@
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="expected"/>
-            次の値を超える差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="expected" />
+            次の値を超える差異がある場合 <paramref name="delta" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1096,17 +1096,17 @@
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="expected"/>
-            次の値を超える差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="expected" />
+            次の値を超える差異がある場合 <paramref name="delta" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            と異なる <paramref name="expected"/> 次の値を超える差異がある場合
-            <paramref name="delta"/>。メッセージはテスト結果に表示されます。
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            と異なる <paramref name="expected" /> 次の値を超える差異がある場合
+            <paramref name="delta" />。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1122,20 +1122,20 @@
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="expected"/>
-            次の値を超える差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="expected" />
+            次の値を超える差異がある場合 <paramref name="delta" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            と異なる <paramref name="expected"/> 次の値を超える差異がある場合
-            <paramref name="delta"/>。メッセージはテスト結果に表示されます。
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            と異なる <paramref name="expected" /> 次の値を超える差異がある場合
+            <paramref name="delta" />。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single)">
@@ -1145,18 +1145,18 @@
             </summary>
             <param name="notExpected">
             比較する最初の浮動小数。これはテストで次と一致しないと予期される
-            浮動小数です <paramref name="actual"/>。
+            浮動小数です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の浮動小数。これはテストのコードで生成される浮動小数です。
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="notExpected"/>
-            最大でも次の値の差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="notExpected" />
+            最大でも次の値の差異がある場合 <paramref name="delta" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1166,23 +1166,23 @@
             </summary>
             <param name="notExpected">
             比較する最初の浮動小数。これはテストで次と一致しないと予期される
-            浮動小数です <paramref name="actual"/>。
+            浮動小数です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の浮動小数。これはテストのコードで生成される浮動小数です。
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="notExpected"/>
-            最大でも次の値の差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="notExpected" />
+            最大でも次の値の差異がある場合 <paramref name="delta" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/> または次の値未満の差異がある場合
-            <paramref name="delta"/>。メッセージはテスト結果に表示されます。
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" /> または次の値未満の差異がある場合
+            <paramref name="delta" />。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1192,26 +1192,26 @@
             </summary>
             <param name="notExpected">
             比較する最初の浮動小数。これはテストで次と一致しないと予期される
-            浮動小数です <paramref name="actual"/>。
+            浮動小数です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の浮動小数。これはテストのコードで生成される浮動小数です。
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="notExpected"/>
-            最大でも次の値の差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="notExpected" />
+            最大でも次の値の差異がある場合 <paramref name="delta" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/> または次の値未満の差異がある場合
-            <paramref name="delta"/>。メッセージはテスト結果に表示されます。
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" /> または次の値未満の差異がある場合
+            <paramref name="delta" />。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double)">
@@ -1227,12 +1227,12 @@
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="expected"/>
-            次の値を超える差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="expected" />
+            次の値を超える差異がある場合 <paramref name="delta" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1248,16 +1248,16 @@
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="expected"/>
-            次の値を超える差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="expected" />
+            次の値を超える差異がある場合 <paramref name="delta" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            と異なる <paramref name="expected"/> 次の値を超える差異がある場合
-            <paramref name="delta"/>。メッセージはテスト結果に表示されます。
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            と異なる <paramref name="expected" /> 次の値を超える差異がある場合
+            <paramref name="delta" />。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1273,19 +1273,19 @@
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="expected"/>
-            次の値を超える差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="expected" />
+            次の値を超える差異がある場合 <paramref name="delta" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            と異なる <paramref name="expected"/> 次の値を超える差異がある場合
-            <paramref name="delta"/>。メッセージはテスト結果に表示されます。
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            と異なる <paramref name="expected" /> 次の値を超える差異がある場合
+            <paramref name="delta" />。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double)">
@@ -1295,18 +1295,18 @@
             </summary>
             <param name="notExpected">
             比較する最初の倍精度浮動小数点型。これはテストで次と一致しないと予期される
-            倍精度浮動小数点型です <paramref name="actual"/>。
+            倍精度浮動小数点型です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の倍精度浮動小数点型。これはテストのコードで生成される倍精度浮動小数点型です。
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="notExpected"/>
-            最大でも次の値の差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="notExpected" />
+            最大でも次の値の差異がある場合 <paramref name="delta" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1316,23 +1316,23 @@
             </summary>
             <param name="notExpected">
             比較する最初の倍精度浮動小数点型。これはテストで次と一致しないと予期される
-            倍精度浮動小数点型です <paramref name="actual"/>。
+            倍精度浮動小数点型です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の倍精度浮動小数点型。これはテストのコードで生成される倍精度浮動小数点型です。
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="notExpected"/>
-            最大でも次の値の差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="notExpected" />
+            最大でも次の値の差異がある場合 <paramref name="delta" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/> または次の値未満の差異がある場合
-            <paramref name="delta"/>。メッセージはテスト結果に表示されます。
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" /> または次の値未満の差異がある場合
+            <paramref name="delta" />。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1342,26 +1342,26 @@
             </summary>
             <param name="notExpected">
             比較する最初の倍精度浮動小数点型。これはテストで次と一致しないと予期される
-            倍精度浮動小数点型です <paramref name="actual"/>。
+            倍精度浮動小数点型です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の倍精度浮動小数点型。これはテストのコードで生成される倍精度浮動小数点型です。
             </param>
             <param name="delta">
             必要な精度。次の場合にのみ、例外がスローされます
-            <paramref name="actual"/> 次と異なる場合 <paramref name="notExpected"/>
-            最大でも次の値の差異がある場合 <paramref name="delta"/>。
+            <paramref name="actual" /> 次と異なる場合 <paramref name="notExpected" />
+            最大でも次の値の差異がある場合 <paramref name="delta" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/> または次の値未満の差異がある場合
-            <paramref name="delta"/>。メッセージはテスト結果に表示されます。
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" /> または次の値未満の差異がある場合
+            <paramref name="delta" />。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean)">
@@ -1380,7 +1380,7 @@
             は大文字と小文字を区別しない比較を示します。)
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1399,12 +1399,12 @@
             は大文字と小文字を区別しない比較を示します。)
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1423,15 +1423,15 @@
             は大文字と小文字を区別しない比較を示します。)
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1453,7 +1453,7 @@
             カルチャ固有の比較情報を提供する CultureInfo オブジェクト。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1475,12 +1475,12 @@
             カルチャ固有の比較情報を提供する CultureInfo オブジェクト。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1502,15 +1502,15 @@
             カルチャ固有の比較情報を提供する CultureInfo オブジェクト。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean)">
@@ -1520,7 +1520,7 @@
             </summary>
             <param name="notExpected">
             比較する最初の文字列。これはテストで次と一致しないと予期される
-            文字列です <paramref name="actual"/>。
+            文字列です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の文字列。これはテストのコードで生成される文字列です。
@@ -1530,7 +1530,7 @@
             は大文字と小文字を区別しない比較を示します。)
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1540,7 +1540,7 @@
             </summary>
             <param name="notExpected">
             比較する最初の文字列。これはテストで次と一致しないと予期される
-            文字列です <paramref name="actual"/>。
+            文字列です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の文字列。これはテストのコードで生成される文字列です。
@@ -1550,12 +1550,12 @@
             は大文字と小文字を区別しない比較を示します。)
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1565,7 +1565,7 @@
             </summary>
             <param name="notExpected">
             比較する最初の文字列。これはテストで次と一致しないと予期される
-            文字列です <paramref name="actual"/>。
+            文字列です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の文字列。これはテストのコードで生成される文字列です。
@@ -1575,15 +1575,15 @@
             は大文字と小文字を区別しない比較を示します。)
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1593,7 +1593,7 @@
             </summary>
             <param name="notExpected">
             比較する最初の文字列。これはテストで次と一致しないと予期される
-            文字列です <paramref name="actual"/>。
+            文字列です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の文字列。これはテストのコードで生成される文字列です。
@@ -1606,7 +1606,7 @@
             カルチャ固有の比較情報を提供する CultureInfo オブジェクト。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1616,7 +1616,7 @@
             </summary>
             <param name="notExpected">
             比較する最初の文字列。これはテストで次と一致しないと予期される
-            文字列です <paramref name="actual"/>。
+            文字列です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の文字列。これはテストのコードで生成される文字列です。
@@ -1629,12 +1629,12 @@
             カルチャ固有の比較情報を提供する CultureInfo オブジェクト。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1644,7 +1644,7 @@
             </summary>
             <param name="notExpected">
             比較する最初の文字列。これはテストで次と一致しないと予期される
-            文字列です <paramref name="actual"/>。
+            文字列です <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目の文字列。これはテストのコードで生成される文字列です。
@@ -1657,15 +1657,15 @@
             カルチャ固有の比較情報を提供する CultureInfo オブジェクト。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type)">
@@ -1678,12 +1678,12 @@
             テストで特定の型であると予期されるオブジェクト。
             </param>
             <param name="expectedType">
-            次の予期される型 <paramref name="value"/>。
+            次の予期される型 <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String)">
@@ -1696,17 +1696,17 @@
             テストで特定の型であると予期されるオブジェクト。
             </param>
             <param name="expectedType">
-            次の予期される型 <paramref name="value"/>。
+            次の予期される型 <paramref name="value" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            次のインスタンスではない場合 <paramref name="expectedType"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            次のインスタンスではない場合 <paramref name="expectedType" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1719,20 +1719,20 @@
             テストで特定の型であると予期されるオブジェクト。
             </param>
             <param name="expectedType">
-            次の予期される型 <paramref name="value"/>。
+            次の予期される型 <paramref name="value" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            次のインスタンスではない場合 <paramref name="expectedType"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            次のインスタンスではない場合 <paramref name="expectedType" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type)">
@@ -1745,12 +1745,12 @@
             テストで特定の型でないと予期されるオブジェクト。
             </param>
             <param name="wrongType">
-            次である型 <paramref name="value"/> 必要のない。
+            次である型 <paramref name="value" /> 必要のない。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String)">
@@ -1763,17 +1763,17 @@
             テストで特定の型でないと予期されるオブジェクト。
             </param>
             <param name="wrongType">
-            次である型 <paramref name="value"/> 必要のない。
+            次である型 <paramref name="value" /> 必要のない。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            次のインスタンスである場合 <paramref name="wrongType"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            次のインスタンスである場合 <paramref name="wrongType" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1786,20 +1786,20 @@
             テストで特定の型でないと予期されるオブジェクト。
             </param>
             <param name="wrongType">
-            次である型 <paramref name="value"/> 必要のない。
+            次である型 <paramref name="value" /> 必要のない。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            次のインスタンスである場合 <paramref name="wrongType"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            次のインスタンスである場合 <paramref name="wrongType" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail">
@@ -1831,7 +1831,7 @@
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Always thrown.
@@ -1866,7 +1866,7 @@
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException">
             Always thrown.
@@ -1885,8 +1885,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action)">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に
             <code>
             AssertFailedException
             </code>
@@ -1899,7 +1899,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             スローされることが予期される例外の種類。
@@ -1907,8 +1907,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String)">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に
             <code>
             AssertFailedException
             </code>
@@ -1918,14 +1918,14 @@
             テスト対象であり、例外をスローすると予期されるコードにデリゲートします。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="action"/>
-            型の例外をスローしません <typeparamref name="T"/>。
+            次の場合に、例外に含まれるメッセージ <paramref name="action" />
+            型の例外をスローしません <typeparamref name="T" />。
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             スローされることが予期される例外の種類。
@@ -1933,8 +1933,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object})">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に
             <code>
             AssertFailedException
             </code>
@@ -1947,7 +1947,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             スローされることが予期される例外の種類。
@@ -1955,8 +1955,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String)">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に
             <code>
             AssertFailedException
             </code>
@@ -1966,14 +1966,14 @@
             テスト対象であり、例外をスローすると予期されるコードにデリゲートします。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="action"/>
-            型の例外をスローしません <typeparamref name="T"/>。
+            次の場合に、例外に含まれるメッセージ <paramref name="action" />
+            型の例外をスローしません <typeparamref name="T" />。
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             スローされることが予期される例外の種類。
@@ -1981,8 +1981,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String,System.Object[])">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に
             <code>
             AssertFailedException
             </code>
@@ -1992,17 +1992,17 @@
             テスト対象であり、例外をスローすると予期されるコードにデリゲートします。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="action"/>
-            型の例外をスローしません <typeparamref name="T"/>。
+            次の場合に、例外に含まれるメッセージ <paramref name="action" />
+            型の例外をスローしません <typeparamref name="T" />。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throw exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throw exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             スローされることが予期される例外の種類。
@@ -2010,8 +2010,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String,System.Object[])">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に
             <code>
             AssertFailedException
             </code>
@@ -2021,17 +2021,17 @@
             テスト対象であり、例外をスローすると予期されるコードにデリゲートします。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="action"/>
-            型の例外をスローしません <typeparamref name="T"/>。
+            次の場合に、例外に含まれるメッセージ <paramref name="action" />
+            型の例外をスローしません <typeparamref name="T" />。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             スローされることが予期される例外の種類。
@@ -2039,8 +2039,8 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task})">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に
             <code>
             AssertFailedException
             </code>
@@ -2053,49 +2053,49 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            その <see cref="T:System.Threading.Tasks.Task"/> (デリゲートを実行中)。
+            その <see cref="T:System.Threading.Tasks.Task" /> (デリゲートを実行中)。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String)">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に <code>AssertFailedException</code> をスローするかどうかをテストします。
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に <code>AssertFailedException</code> をスローするかどうかをテストします。
             </summary>
             <param name="action">テスト対象であり、例外をスローすると予期されるコードにデリゲートします。</param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="action"/>
-            以下の型の例外をスローしない場合<typeparamref name="T"/>。
+            次の場合に、例外に含まれるメッセージ <paramref name="action" />
+            以下の型の例外をスローしない場合<typeparamref name="T" />。
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            その <see cref="T:System.Threading.Tasks.Task"/> (デリゲートを実行中)。
+            その <see cref="T:System.Threading.Tasks.Task" /> (デリゲートを実行中)。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String,System.Object[])">
             <summary>
-            デリゲート <paramref name="action"/> によって指定されたコードが型 <typeparamref name="T"/> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
-            およびコードが例外をスローしない場合や <typeparamref name="T"/> 以外の型の例外をスローする場合に <code>AssertFailedException</code> をスローするかどうかをテストします。
+            デリゲート <paramref name="action" /> によって指定されたコードが型 <typeparamref name="T" /> (派生型ではない) の指定されたとおりの例外をスローするかどうか、
+            およびコードが例外をスローしない場合や <typeparamref name="T" /> 以外の型の例外をスローする場合に <code>AssertFailedException</code> をスローするかどうかをテストします。
             </summary>
             <param name="action">テスト対象であり、例外をスローすると予期されるコードにデリゲートします。</param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="action"/>
-            以下の型の例外をスローしない場合<typeparamref name="T"/>。
+            次の場合に、例外に含まれるメッセージ <paramref name="action" />
+            以下の型の例外をスローしない場合<typeparamref name="T" />。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            その <see cref="T:System.Threading.Tasks.Task"/> (デリゲートを実行中)。
+            その <see cref="T:System.Threading.Tasks.Task" /> (デリゲートを実行中)。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ReplaceNullChars(System.String)">
@@ -2181,14 +2181,14 @@
             スローします。
             </summary>
             <param name="value">
-            次を含むと予期される文字列 <paramref name="substring"/>。
+            次を含むと予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次の内部で発生することが予期される文字列 <paramref name="value"/>。
+            次の内部で発生することが予期される文字列 <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String)">
@@ -2198,19 +2198,19 @@
             スローします。
             </summary>
             <param name="value">
-            次を含むと予期される文字列 <paramref name="substring"/>。
+            次を含むと予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次の内部で発生することが予期される文字列 <paramref name="value"/>。
+            次の内部で発生することが予期される文字列 <paramref name="value" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="substring"/>
-            次にない場合 <paramref name="value"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="substring" />
+            次にない場合 <paramref name="value" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String,System.Object[])">
@@ -2220,22 +2220,22 @@
             スローします。
             </summary>
             <param name="value">
-            次を含むと予期される文字列 <paramref name="substring"/>。
+            次を含むと予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次の内部で発生することが予期される文字列 <paramref name="value"/>。
+            次の内部で発生することが予期される文字列 <paramref name="value" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="substring"/>
-            次にない場合 <paramref name="value"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="substring" />
+            次にない場合 <paramref name="value" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String)">
@@ -2245,14 +2245,14 @@
             例外をスローします。
             </summary>
             <param name="value">
-            先頭が次であると予期される文字列 <paramref name="substring"/>。
+            先頭が次であると予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次のプレフィックスであると予期される文字列 <paramref name="value"/>。
+            次のプレフィックスであると予期される文字列 <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String)">
@@ -2262,19 +2262,19 @@
             例外をスローします。
             </summary>
             <param name="value">
-            先頭が次であると予期される文字列 <paramref name="substring"/>。
+            先頭が次であると予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次のプレフィックスであると予期される文字列 <paramref name="value"/>。
+            次のプレフィックスであると予期される文字列 <paramref name="value" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            先頭が次ではない場合 <paramref name="substring"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            先頭が次ではない場合 <paramref name="substring" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String,System.Object[])">
@@ -2284,22 +2284,22 @@
             例外をスローします。
             </summary>
             <param name="value">
-            先頭が次であると予期される文字列 <paramref name="substring"/>。
+            先頭が次であると予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次のプレフィックスであると予期される文字列 <paramref name="value"/>。
+            次のプレフィックスであると予期される文字列 <paramref name="value" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            先頭が次ではない場合 <paramref name="substring"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            先頭が次ではない場合 <paramref name="substring" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String)">
@@ -2309,14 +2309,14 @@
             例外をスローします。
             </summary>
             <param name="value">
-            末尾が次であることが予期される文字列 <paramref name="substring"/>。
+            末尾が次であることが予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次のサフィックスであると予期される文字列 <paramref name="value"/>。
+            次のサフィックスであると予期される文字列 <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String)">
@@ -2326,19 +2326,19 @@
             例外をスローします。
             </summary>
             <param name="value">
-            末尾が次であることが予期される文字列 <paramref name="substring"/>。
+            末尾が次であることが予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次のサフィックスであると予期される文字列 <paramref name="value"/>。
+            次のサフィックスであると予期される文字列 <paramref name="value" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            末尾が次ではない場合 <paramref name="substring"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            末尾が次ではない場合 <paramref name="substring" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String,System.Object[])">
@@ -2348,22 +2348,22 @@
             例外をスローします。
             </summary>
             <param name="value">
-            末尾が次であることが予期される文字列 <paramref name="substring"/>。
+            末尾が次であることが予期される文字列 <paramref name="substring" />。
             </param>
             <param name="substring">
-            次のサフィックスであると予期される文字列 <paramref name="value"/>。
+            次のサフィックスであると予期される文字列 <paramref name="value" />。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            末尾が次ではない場合 <paramref name="substring"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            末尾が次ではない場合 <paramref name="substring" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex)">
@@ -2372,15 +2372,15 @@
             文字列が表現と一致しない場合は例外をスローします。
             </summary>
             <param name="value">
-            次と一致すると予期される文字列 <paramref name="pattern"/>。
+            次と一致すると予期される文字列 <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            次である正規表現 <paramref name="value"/> is
+            次である正規表現 <paramref name="value" /> is
             一致することが予期される。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2389,20 +2389,20 @@
             文字列が表現と一致しない場合は例外をスローします。
             </summary>
             <param name="value">
-            次と一致すると予期される文字列 <paramref name="pattern"/>。
+            次と一致すると予期される文字列 <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            次である正規表現 <paramref name="value"/> is
+            次である正規表現 <paramref name="value" /> is
             一致することが予期される。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            一致しない場合 <paramref name="pattern"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            一致しない場合 <paramref name="pattern" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2411,23 +2411,23 @@
             文字列が表現と一致しない場合は例外をスローします。
             </summary>
             <param name="value">
-            次と一致すると予期される文字列 <paramref name="pattern"/>。
+            次と一致すると予期される文字列 <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            次である正規表現 <paramref name="value"/> is
+            次である正規表現 <paramref name="value" /> is
             一致することが予期される。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            一致しない場合 <paramref name="pattern"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            一致しない場合 <paramref name="pattern" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex)">
@@ -2436,14 +2436,14 @@
             文字列が表現と一致する場合は例外をスローします。
             </summary>
             <param name="value">
-            次と一致しないと予期される文字列 <paramref name="pattern"/>。
+            次と一致しないと予期される文字列 <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            次である正規表現 <paramref name="value"/> is
+            次である正規表現 <paramref name="value" /> is
             一致しないと予期される。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2452,19 +2452,19 @@
             文字列が表現と一致する場合は例外をスローします。
             </summary>
             <param name="value">
-            次と一致しないと予期される文字列 <paramref name="pattern"/>。
+            次と一致しないと予期される文字列 <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            次である正規表現 <paramref name="value"/> is
+            次である正規表現 <paramref name="value" /> is
             一致しないと予期される。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            一致する場合 <paramref name="pattern"/>。メッセージはテスト結果に
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            一致する場合 <paramref name="pattern" />。メッセージはテスト結果に
             表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2473,22 +2473,22 @@
             文字列が表現と一致する場合は例外をスローします。
             </summary>
             <param name="value">
-            次と一致しないと予期される文字列 <paramref name="pattern"/>。
+            次と一致しないと予期される文字列 <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            次である正規表現 <paramref name="value"/> is
+            次である正規表現 <paramref name="value" /> is
             一致しないと予期される。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="value"/>
-            一致する場合 <paramref name="pattern"/>。メッセージはテスト結果に
+            次の場合に、例外に含まれるメッセージ <paramref name="value" />
+            一致する場合 <paramref name="pattern" />。メッセージはテスト結果に
             表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert">
@@ -2521,8 +2521,8 @@
             コレクション内にあると予期される要素。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String)">
@@ -2537,13 +2537,13 @@
             コレクション内にあると予期される要素。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="element"/>
-            次にない場合 <paramref name="collection"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="element" />
+            次にない場合 <paramref name="collection" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2558,16 +2558,16 @@
             コレクション内にあると予期される要素。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="element"/>
-            次にない場合 <paramref name="collection"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="element" />
+            次にない場合 <paramref name="collection" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object)">
@@ -2582,8 +2582,8 @@
             コレクション内に存在しないことが予期される要素。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String)">
@@ -2598,13 +2598,13 @@
             コレクション内に存在しないことが予期される要素。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="element"/>
-            が次にある場合 <paramref name="collection"/>。メッセージはテスト結果に
+            次の場合に、例外に含まれるメッセージ <paramref name="element" />
+            が次にある場合 <paramref name="collection" />。メッセージはテスト結果に
             表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2619,16 +2619,16 @@
             コレクション内に存在しないことが予期される要素。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="element"/>
-            が次にある場合 <paramref name="collection"/>。メッセージはテスト結果に
+            次の場合に、例外に含まれるメッセージ <paramref name="element" />
+            が次にある場合 <paramref name="collection" />。メッセージはテスト結果に
             表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection)">
@@ -2640,7 +2640,7 @@
             要素を検索するコレクション。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String)">
@@ -2652,11 +2652,11 @@
             要素を検索するコレクション。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="collection"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="collection" />
             null 要素を含む場合。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String,System.Object[])">
@@ -2668,14 +2668,14 @@
             要素を検索するコレクション。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="collection"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="collection" />
             null 要素を含む場合。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection)">
@@ -2688,7 +2688,7 @@
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String)">
@@ -2700,13 +2700,13 @@
             重複する要素を検索するコレクション。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="collection"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="collection" />
             少なくとも 1 つの重複する要素が含まれています。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String,System.Object[])">
@@ -2718,16 +2718,16 @@
             重複する要素を検索するコレクション。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="collection"/>
+            次の場合に、例外に含まれるメッセージ <paramref name="collection" />
             少なくとも 1 つの重複する要素が含まれています。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2737,14 +2737,14 @@
             例外をスローします。
             </summary>
             <param name="subset">
-            次のサブセットであると予期されるコレクション <paramref name="superset"/>。
+            次のサブセットであると予期されるコレクション <paramref name="superset" />。
             </param>
             <param name="superset">
-            次のスーパーセットであると予期されるコレクション <paramref name="subset"/>
+            次のスーパーセットであると予期されるコレクション <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2754,19 +2754,19 @@
             例外をスローします。
             </summary>
             <param name="subset">
-            次のサブセットであると予期されるコレクション <paramref name="superset"/>。
+            次のサブセットであると予期されるコレクション <paramref name="superset" />。
             </param>
             <param name="superset">
-            次のスーパーセットであると予期されるコレクション <paramref name="subset"/>
+            次のスーパーセットであると予期されるコレクション <paramref name="subset" />
             </param>
             <param name="message">
             次にある要素が次の条件である場合に、例外に含まれるメッセージ
-            <paramref name="subset"/> 次に見つからない場合 <paramref name="superset"/>.
+            <paramref name="subset" /> 次に見つからない場合 <paramref name="superset" />.
             メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2776,22 +2776,22 @@
             例外をスローします。
             </summary>
             <param name="subset">
-            次のサブセットであると予期されるコレクション <paramref name="superset"/>。
+            次のサブセットであると予期されるコレクション <paramref name="superset" />。
             </param>
             <param name="superset">
-            次のスーパーセットであると予期されるコレクション <paramref name="subset"/>
+            次のスーパーセットであると予期されるコレクション <paramref name="subset" />
             </param>
             <param name="message">
             次にある要素が次の条件である場合に、例外に含まれるメッセージ
-            <paramref name="subset"/> 次に見つからない場合 <paramref name="superset"/>.
+            <paramref name="subset" /> 次に見つからない場合 <paramref name="superset" />.
             メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2801,14 +2801,14 @@
             例外をスローします。
             </summary>
             <param name="subset">
-            のサブセットではないと予期されるコレクション <paramref name="superset"/>。
+            のサブセットではないと予期されるコレクション <paramref name="superset" />。
             </param>
             <param name="superset">
-            次のスーパーセットであるとは予期されないコレクション <paramref name="subset"/>
+            次のスーパーセットであるとは予期されないコレクション <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2818,19 +2818,19 @@
             例外をスローします。
             </summary>
             <param name="subset">
-            のサブセットではないと予期されるコレクション <paramref name="superset"/>。
+            のサブセットではないと予期されるコレクション <paramref name="superset" />。
             </param>
             <param name="superset">
-            次のスーパーセットであるとは予期されないコレクション <paramref name="subset"/>
+            次のスーパーセットであるとは予期されないコレクション <paramref name="subset" />
             </param>
             <param name="message">
             次にあるすべての要素が次である場合に、例外に含まれるメッセージ
-            <paramref name="subset"/> 次にもある場合 <paramref name="superset"/>.
+            <paramref name="subset" /> 次にもある場合 <paramref name="superset" />.
             メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2840,22 +2840,22 @@
             例外をスローします。
             </summary>
             <param name="subset">
-            のサブセットではないと予期されるコレクション <paramref name="superset"/>。
+            のサブセットではないと予期されるコレクション <paramref name="superset" />。
             </param>
             <param name="superset">
-            次のスーパーセットであるとは予期されないコレクション <paramref name="subset"/>
+            次のスーパーセットであるとは予期されないコレクション <paramref name="subset" />
             </param>
             <param name="message">
             次にあるすべての要素が次である場合に、例外に含まれるメッセージ
-            <paramref name="subset"/> 次にもある場合 <paramref name="superset"/>.
+            <paramref name="subset" /> 次にもある場合 <paramref name="superset" />.
             メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEquivalent(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2921,7 +2921,7 @@
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if an element was found in one of the collections but not
@@ -2962,8 +2962,8 @@
             生成されるコレクションです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と同じ要素を含む場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と同じ要素を含む場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
@@ -2986,12 +2986,12 @@
             生成されるコレクションです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と同じ要素を含む場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と同じ要素を含む場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if the two collections contained the same elements, including
@@ -3009,12 +3009,12 @@
             含むコレクション。
             </param>
             <param name="expectedType">
-            次の各要素の予期される型 <paramref name="collection"/>。
+            次の各要素の予期される型 <paramref name="collection" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String)">
@@ -3028,17 +3028,17 @@
             含むコレクション。
             </param>
             <param name="expectedType">
-            次の各要素の予期される型 <paramref name="collection"/>。
+            次の各要素の予期される型 <paramref name="collection" />。
             </param>
             <param name="message">
             次にある要素が次の条件である場合に、例外に含まれるメッセージ
-            <paramref name="collection"/> 次のインスタンスではない場合
-            <paramref name="expectedType"/>。メッセージはテスト結果に表示されます。
+            <paramref name="collection" /> 次のインスタンスではない場合
+            <paramref name="expectedType" />。メッセージはテスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String,System.Object[])">
@@ -3052,20 +3052,20 @@
             含むコレクション。
             </param>
             <param name="expectedType">
-            次の各要素の予期される型 <paramref name="collection"/>。
+            次の各要素の予期される型 <paramref name="collection" />。
             </param>
             <param name="message">
             次にある要素が次の条件である場合に、例外に含まれるメッセージ
-            <paramref name="collection"/> 次のインスタンスではない場合
-            <paramref name="expectedType"/>。メッセージはテスト結果に表示されます。
+            <paramref name="collection" /> 次のインスタンスではない場合
+            <paramref name="expectedType" />。メッセージはテスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3083,8 +3083,8 @@
             コレクションです。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3102,13 +3102,13 @@
             コレクションです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3126,16 +3126,16 @@
             コレクションです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3147,14 +3147,14 @@
             </summary>
             <param name="notExpected">
             比較する最初のコレクション。これはテストで次と一致しないことが予期される
-            コレクションです <paramref name="actual"/>。
+            コレクションです <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のコレクション。これはテストのコードで生成される
             コレクションです。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3166,19 +3166,19 @@
             </summary>
             <param name="notExpected">
             比較する最初のコレクション。これはテストで次と一致しないことが予期される
-            コレクションです <paramref name="actual"/>。
+            コレクションです <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のコレクション。これはテストのコードで生成される
             コレクションです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3190,22 +3190,22 @@
             </summary>
             <param name="notExpected">
             比較する最初のコレクション。これはテストで次と一致しないことが予期される
-            コレクションです <paramref name="actual"/>。
+            コレクションです <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のコレクション。これはテストのコードで生成される
             コレクションです。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3226,8 +3226,8 @@
             コレクションの要素を比較する場合に使用する比較の実装。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3248,13 +3248,13 @@
             コレクションの要素を比較する場合に使用する比較の実装。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3275,16 +3275,16 @@
             コレクションの要素を比較する場合に使用する比較の実装。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しくない場合 <paramref name="expected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しくない場合 <paramref name="expected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3296,7 +3296,7 @@
             </summary>
             <param name="notExpected">
             比較する最初のコレクション。これはテストで次と一致しないことが予期される
-            コレクションです <paramref name="actual"/>。
+            コレクションです <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のコレクション。これはテストのコードで生成される
@@ -3306,7 +3306,7 @@
             コレクションの要素を比較する場合に使用する比較の実装。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3318,7 +3318,7 @@
             </summary>
             <param name="notExpected">
             比較する最初のコレクション。これはテストで次と一致しないことが予期される
-            コレクションです <paramref name="actual"/>。
+            コレクションです <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のコレクション。これはテストのコードで生成される
@@ -3328,12 +3328,12 @@
             コレクションの要素を比較する場合に使用する比較の実装。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3345,7 +3345,7 @@
             </summary>
             <param name="notExpected">
             比較する最初のコレクション。これはテストで次と一致しないことが予期される
-            コレクションです <paramref name="actual"/>。
+            コレクションです <paramref name="actual" />。
             </param>
             <param name="actual">
             比較する 2 番目のコレクション。これはテストのコードで生成される
@@ -3355,15 +3355,15 @@
             コレクションの要素を比較する場合に使用する比較の実装。
             </param>
             <param name="message">
-            次の場合に、例外に含まれるメッセージ <paramref name="actual"/>
-            次と等しい場合 <paramref name="notExpected"/>。メッセージは
+            次の場合に、例外に含まれるメッセージ <paramref name="actual" />
+            次と等しい場合 <paramref name="notExpected" />。メッセージは
             テスト結果に表示されます。
             </param>
             <param name="parameters">
-            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message"/>。
+            の書式を設定する場合に使用するパラメーターの配列 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOfHelper(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3374,14 +3374,14 @@
             スーパーセット内の出現回数以下である必要があります。
             </summary>
             <param name="subset">
-            テストで次に含まれると予期されるコレクション <paramref name="superset"/>。
+            テストで次に含まれると予期されるコレクション <paramref name="superset" />。
             </param>
             <param name="superset">
-            テストで次を含むと予期されるコレクション <paramref name="subset"/>。
+            テストで次を含むと予期されるコレクション <paramref name="subset" />。
             </param>
             <returns>
-            次の場合は true <paramref name="subset"/> 次のサブセットの場合
-            <paramref name="superset"/>、それ以外の場合は false。
+            次の場合は true <paramref name="subset" /> 次のサブセットの場合
+            <paramref name="superset" />、それ以外の場合は false。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.GetElementCounts(System.Collections.ICollection,System.Int32@)">
@@ -3418,16 +3418,16 @@
             </param>
             <param name="expectedCount">
             次の予期される発生回数
-            <paramref name="mismatchedElement"/> または一致しない要素がない場合は
+            <paramref name="mismatchedElement" /> または一致しない要素がない場合は
             0 です。
             </param>
             <param name="actualCount">
             次の実際の発生回数
-            <paramref name="mismatchedElement"/> または一致しない要素がない場合は
+            <paramref name="mismatchedElement" /> または一致しない要素がない場合は
             0 です。
             </param>
             <param name="mismatchedElement">
-            一致しない要素 (null の場合があります)、または一致しない要素がない場合は 
+            一致しない要素 (null の場合があります)、または一致しない要素がない場合は
             null です。
             </param>
             <returns>
@@ -3446,19 +3446,19 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> クラスの新しいインスタンスを初期化します。
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String,System.Exception)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="msg"> メッセージ。 </param>
             <param name="ex"> 例外。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="msg"> メッセージ。 </param>
         </member>
@@ -3684,16 +3684,14 @@
                  プライベート アクセサーを再生成しなければならないか、
                  またはメンバーがプライベートであり、基底クラスで定義されている可能性があります。後者である場合、メンバーを
                  PrivateObject のコンストラクターに定義する型を渡す必要があります。" に類似したローカライズされた文字列を検索します。
-               
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.PrivateAccessorMemberNotFound">
             <summary>
               "指定されたメンバー ({0}) が見つかりませんでした。プライベート アクセサーを再生成しなければならないか、
                  またはメンバーがプライベートであり、基底クラスで定義されている可能性があります。後者である場合、メンバーを
-                 定義する型を PrivateObject のコンストラクターに渡す必要があります。" 
+                 定義する型を PrivateObject のコンストラクターに渡す必要があります。"
                  に類似したローカライズされた文字列を検索します。
-               
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.StartsWithFail">
@@ -3800,7 +3798,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> クラスで使用できるタイムアウトの列挙型。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> クラスで使用できるタイムアウトの列挙型。
             列挙型の型は一致している必要があります
             </summary>
         </member>
@@ -3819,7 +3817,7 @@
             このテストの実行を可能するテスト メソッド属性を取得します。
             </summary>
             <param name="testMethodAttribute">このメソッドで定義されているテスト メソッド属性インスタンス。</param>
-            <returns>The <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute"/>。このテストを実行するために使用されます。</returns>
+            <returns>The <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute" />。このテストを実行するために使用されます。</returns>
             <remarks>Extensions can override this method to customize how all methods in a class are run.</remarks>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute">
@@ -3857,7 +3855,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute.#ctor(System.String,System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="name">
             名前。
@@ -3903,7 +3901,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="owner">
             所有者。
@@ -3921,7 +3919,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute.#ctor(System.Int32)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="priority">
             優先順位。
@@ -3939,7 +3937,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute.#ctor(System.String)">
             <summary>
-            テストを記述する <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute"/> クラスの新しいインスタンスを初期化します。
+            テストを記述する <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="description">説明。</param>
         </member>
@@ -3955,7 +3953,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute.#ctor(System.String)">
             <summary>
-            CSS プロジェクト構造の URI の <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute"/> クラスの新しいインスタンスを初期化します。
+            CSS プロジェクト構造の URI の <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="cssProjectStructure">CSS プロジェクト構造の URI。</param>
         </member>
@@ -3971,7 +3969,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute.#ctor(System.String)">
             <summary>
-            CSS イテレーション URI の <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute"/> クラスの新しいインスタンスを初期化します。
+            CSS イテレーション URI の <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="cssIteration">CSS イテレーション URI。</param>
         </member>
@@ -3987,7 +3985,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute.#ctor(System.Int32)">
             <summary>
-            WorkItem 属性の <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute"/> クラスの新しいインスタンスを初期化します。
+            WorkItem 属性の <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="id">作業項目に対する ID。</param>
         </member>
@@ -4003,7 +4001,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(System.Int32)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="timeout">
             タイムアウト。
@@ -4011,7 +4009,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout)">
             <summary>
-            事前設定するタイムアウトを指定して <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> クラスの新しいインスタンスを初期化する
+            事前設定するタイムアウトを指定して <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> クラスの新しいインスタンスを初期化する
             </summary>
             <param name="timeout">
             タイムアウト
@@ -4029,7 +4027,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.#ctor">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/> クラスの新しいインスタンスを初期化します。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" /> クラスの新しいインスタンスを初期化します。
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.DisplayName">
@@ -4110,7 +4108,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String,System.String,Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> クラスの新しいインスタンスを初期化します。このインスタンスは、データ ソースにアクセスするためのデータ プロバイダー、接続文字列、データ テーブル、データ アクセス方法を指定して初期化されます。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> クラスの新しいインスタンスを初期化します。このインスタンスは、データ ソースにアクセスするためのデータ プロバイダー、接続文字列、データ テーブル、データ アクセス方法を指定して初期化されます。
             </summary>
             <param name="providerInvariantName">System.Data.SqlClient などデータ プロバイダーの不変名</param>
             <param name="connectionString">
@@ -4124,7 +4122,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> クラスの新しいインスタンスを初期化します。このインスタンスは接続文字列とテーブル名を指定して初期化されます。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> クラスの新しいインスタンスを初期化します。このインスタンスは接続文字列とテーブル名を指定して初期化されます。
             OLEDB データ ソースにアクセスするには接続文字列とデータ テーブルを指定します。
             </summary>
             <param name="connectionString">
@@ -4137,7 +4135,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String)">
             <summary>
-            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> クラスの新しいインスタンスを初期化します。このインスタンスは設定名に関連付けられているデータ プロバイダーと接続文字列を使用して初期化されます。
+            <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> クラスの新しいインスタンスを初期化します。このインスタンスは設定名に関連付けられているデータ プロバイダーと接続文字列を使用して初期化されます。
             </summary>
             <param name="dataSourceSettingName">app.config ファイルの &lt;microsoft.visualstudio.qualitytools&gt; セクションにあるデータ ソースの名前。</param>
         </member>
@@ -4163,9 +4161,9 @@
              <summary>
              データ ソースへのアクセスに使用するメソッドを取得します。
              </summary>
-            
+
              <returns>
-             次のいずれか<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod"/> 値。以下の場合 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> 初期化されていない場合は、これは既定値を返します <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random"/>。
+             次のいずれか<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod" /> 値。以下の場合 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> 初期化されていない場合は、これは既定値を返します <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random" />。
             </returns>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.DataSourceSettingName">
@@ -4186,7 +4184,7 @@
             テスト メソッド。
             </param>
             <returns>
-            次の配列 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>。
+            次の配列 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.RunDataDrivenTest(Microsoft.VisualStudio.TestTools.UnitTesting.ITestMethod,Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute[])">

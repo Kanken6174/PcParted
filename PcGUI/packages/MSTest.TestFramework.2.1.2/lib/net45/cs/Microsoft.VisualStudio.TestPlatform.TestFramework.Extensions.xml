@@ -19,16 +19,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">Soubor nebo adresář, který se má nasadit. Cesta je relativní ve vztahu k adresáři výstupu sestavení. Položka bude zkopírována do adresáře, ve kterém jsou nasazená testovací sestavení.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">Relativní nebo absolutní cesta k souboru nebo adresáři, který se má nasadit. Cesta je relativní ve vztahu k adresáři výstupu sestavení. Položka bude zkopírována do stejného adresáře jako nasazená testovací sestavení.</param>
-            <param name="outputDirectory">Cesta k adresáři, do kterého se mají položky kopírovat. Může být absolutní nebo relativní ve vztahu k adresáři nasazení. Všechny soubory a adresáře určené cestou <paramref name="path"/> budou zkopírovány do tohoto adresáře.</param>
+            <param name="outputDirectory">Cesta k adresáři, do kterého se mají položky kopírovat. Může být absolutní nebo relativní ve vztahu k adresáři nasazení. Všechny soubory a adresáře určené cestou <paramref name="path" /> budou zkopírovány do tohoto adresáře.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -122,7 +122,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Item(System.String)">
@@ -148,7 +148,7 @@
             <summary>
             Odebere System.Configuration.ConfigurationElement z kolekce.
             </summary>
-            <param name="element"> <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/> .</param>
+            <param name="element"> <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" /> .</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Remove(System.String)">
             <summary>
@@ -163,9 +163,9 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.CreateNewElement">
             <summary>
-            Vytvoří nový <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.
+            Vytvoří nový <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" />.
             </summary>
-            <returns>Nový <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.</returns>
+            <returns>Nový <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" />.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
             <summary>
@@ -212,7 +212,7 @@
             Získá kolekci vlastností.
             </summary>
             <returns>
-            Třídu <see cref="T:System.Configuration.ConfigurationPropertyCollection"/> vlastností pro element
+            Třídu <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> vlastností pro element
             </returns>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject">
@@ -222,7 +222,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která obsahuje
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" />, která obsahuje
             už existující objekt privátní třídy.
             </summary>
             <param name="obj"> objektů, které slouží jako počáteční bod k dosažení privátních členů</param>
@@ -230,7 +230,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" />, která zabaluje
             zadaný typ.
             </summary>
             <param name="assemblyName">Název sestavení</param>
@@ -239,17 +239,17 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Type[],System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" />, která zabaluje
             zadaný typ.
             </summary>
             <param name="assemblyName">Název sestavení</param>
             <param name="typeName">plně kvalifikovaný název</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má načíst konstruktor</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má načíst konstruktor</param>
             <param name="args">Argumenty, které se mají předat konstruktoru</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" />, která zabaluje
             zadaný typ.
             </summary>
             <param name="type">typ objektu, který chcete vytvořit</param>
@@ -257,23 +257,23 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Type[],System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" />, která zabaluje
             zadaný typ.
             </summary>
             <param name="type">typ objektu, který chcete vytvořit</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má načíst konstruktor</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má načíst konstruktor</param>
             <param name="args">Argumenty, které se mají předat konstruktoru</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" />, která zabaluje
             daný objekt.
             </summary>
             <param name="obj">Objekt, který chcete zabalit</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" />, která zabaluje
             daný objekt.
             </summary>
             <param name="obj">Objekt, který chcete zabalit</param>
@@ -315,7 +315,7 @@
             Vyvolá zadanou metodu.
             </summary>
             <param name="name">Název metody</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <returns>Výsledek volání metody</returns>
         </member>
@@ -324,7 +324,7 @@
             Vyvolá zadanou metodu.
             </summary>
             <param name="name">Název metody</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
             <returns>Výsledek volání metody</returns>
@@ -343,7 +343,7 @@
             Vyvolá zadanou metodu.
             </summary>
             <param name="name">Název metody</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <param name="culture">Informace o jazykové verzi</param>
             <returns>Výsledek volání metody</returns>
@@ -353,7 +353,7 @@
             Vyvolá zadanou metodu.
             </summary>
             <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <returns>Výsledek volání metody</returns>
         </member>
@@ -362,8 +362,8 @@
             Vyvolá zadanou metodu.
             </summary>
             <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <returns>Výsledek volání metody</returns>
         </member>
@@ -372,7 +372,7 @@
             Vyvolá zadanou metodu.
             </summary>
             <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <param name="culture">Informace o jazykové verzi</param>
             <returns>Výsledek volání metody</returns>
@@ -382,8 +382,8 @@
             Vyvolá zadanou metodu.
             </summary>
             <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <param name="culture">Informace o jazykové verzi</param>
             <returns>Výsledek volání metody</returns>
@@ -393,8 +393,8 @@
             Vyvolá zadanou metodu.
             </summary>
             <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <param name="culture">Informace o jazykové verzi</param>
             <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
@@ -421,7 +421,7 @@
             Získá prvek pole pomocí pole dolních indexů pro jednotlivé rozměry.
             </summary>
             <param name="name">Název člena</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="indices">indexy pole</param>
             <returns>Pole prvků</returns>
         </member>
@@ -430,7 +430,7 @@
             Nastaví prvek pole pomocí pole dolních indexů pro jednotlivé rozměry.
             </summary>
             <param name="name">Název člena</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="value">Hodnota, která se má nastavit</param>
             <param name="indices">indexy pole</param>
         </member>
@@ -453,7 +453,7 @@
             Získá pole.
             </summary>
             <param name="name">Název pole</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <returns>Pole</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetField(System.String,System.Reflection.BindingFlags,System.Object)">
@@ -461,7 +461,7 @@
             Nastaví pole.
             </summary>
             <param name="name">Název pole</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="value">nastavovací hodnota</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetFieldOrProperty(System.String)">
@@ -483,7 +483,7 @@
             Získá pole nebo vlastnost.
             </summary>
             <param name="name">Název pole nebo vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <returns>Pole nebo vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetFieldOrProperty(System.String,System.Reflection.BindingFlags,System.Object)">
@@ -491,7 +491,7 @@
             Nastaví pole nebo vlastnost.
             </summary>
             <param name="name">Název pole nebo vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="value">nastavovací hodnota</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetProperty(System.String,System.Object[])">
@@ -507,7 +507,7 @@
             Získá vlastnost.
             </summary>
             <param name="name">Název vlastnosti</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <returns>Vlastnost</returns>
         </member>
@@ -524,7 +524,7 @@
             Nastaví vlastnost.
             </summary>
             <param name="name">Název vlastnosti</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
             <param name="value">nastavovací hodnota</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
         </member>
@@ -533,7 +533,7 @@
             Získá vlastnost.
             </summary>
             <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <returns>Vlastnost</returns>
         </member>
@@ -542,8 +542,8 @@
             Získá vlastnost.
             </summary>
             <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <returns>Vlastnost</returns>
         </member>
@@ -552,7 +552,7 @@
             Nastaví vlastnost.
             </summary>
             <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="value">nastavovací hodnota</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
         </member>
@@ -561,9 +561,9 @@
             Nastaví vlastnost.
             </summary>
             <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags" /> určující způsob vyhledávání.</param>
             <param name="value">nastavovací hodnota</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.ValidateAccessString(System.String)">
@@ -589,7 +589,7 @@
             <param name="methodName">Název metody, ve které chcete prohledat mezipaměť podpisu</param>
             <param name="parameterTypes">Pole typů odpovídající typům parametrů, ve kterých se má hledat.</param>
             <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
-            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags"/> pro další filtrování podpisů metody.</param>
+            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags" /> pro další filtrování podpisů metody.</param>
             <param name="modifiers">Modifikátory parametrů</param>
             <returns>Instance methodinfo</returns>
         </member>
@@ -610,14 +610,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.String,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, která obsahuje privátní typ.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType" />, která obsahuje privátní typ.
             </summary>
             <param name="assemblyName">Název sestavení</param>
             <param name="typeName">plně kvalifikovaný název </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.Type)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, která obsahuje
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType" />, která obsahuje
             privátní typ z objektu typu.
             </summary>
             <param name="type">Zabalený typ, který se má vytvořit</param>
@@ -640,7 +640,7 @@
             Vyvolá statický člen.
             </summary>
             <param name="name">Název členu InvokeHelper</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
             <param name="args">Argumenty vyvolání</param>
             <returns>Výsledek vyvolání</returns>
         </member>
@@ -649,7 +649,7 @@
             Vyvolá statický člen.
             </summary>
             <param name="name">Název členu InvokeHelper</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
             <param name="args">Argumenty vyvolání</param>
             <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
             <returns>Výsledek vyvolání</returns>
@@ -668,7 +668,7 @@
             Vyvolá statickou metodu.
             </summary>
             <param name="name">Název člena</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
             <param name="args">Argumenty k vyvolání</param>
             <param name="culture">Informace o jazykové verzi</param>
             <returns>Výsledek vyvolání</returns>
@@ -688,7 +688,7 @@
             </summary>
             <param name="name">Název člena</param>
             <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
             <param name="args">Argumenty k vyvolání</param>
             <returns>Výsledek vyvolání</returns>
         </member>
@@ -708,7 +708,7 @@
             </summary>
             <param name="name">Název členu</param>
             <param name="bindingFlags">Další atributy vyvolání</param>
-            /// <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
+            /// <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
             <param name="args">Argumenty k vyvolání</param>
             <param name="culture">Jazyková verze</param>
             <returns>Výsledek vyvolání</returns>
@@ -719,7 +719,7 @@
             </summary>
             <param name="name">Název členu</param>
             <param name="bindingFlags">Další atributy vyvolání</param>
-            /// <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
+            /// <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
             <param name="args">Argumenty k vyvolání</param>
             <param name="culture">Jazyková verze</param>
             <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
@@ -853,7 +853,7 @@
             </summary>
             <param name="name">Název vlastnosti</param>
             <param name="value">Hodnota, která se má nastavit pro pole nebo vlastnost</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticProperty(System.String,System.Reflection.BindingFlags,System.Object[])">
@@ -871,7 +871,7 @@
             </summary>
             <param name="name">Název vlastnosti</param>
             <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
             <returns>Statická vlastnost</returns>
         </member>
@@ -891,7 +891,7 @@
             <param name="name">Název vlastnosti</param>
             <param name="bindingFlags">Další atributy vyvolání</param>
             <param name="value">Hodnota, která se má nastavit pro pole nebo vlastnost</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type" /> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
             <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeHelperStatic(System.String,System.Reflection.BindingFlags,System.Object[],System.Globalization.CultureInfo)">
@@ -1008,17 +1008,17 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory">
             <summary>
-            Získá adresář pro soubory nasazené pro testovací běh. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Získá adresář pro soubory nasazené pro testovací běh. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory">
             <summary>
-            Získá základní adresář pro výsledky z testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Získá základní adresář pro výsledky z testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory">
             <summary>
-            Získá adresář pro soubory výsledků testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
+            Získá adresář pro soubory výsledků testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory">
@@ -1029,20 +1029,20 @@
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDir">
             <summary>
             Získá základní adresář pro testovací běh, do kterého se ukládají nasazené soubory a soubory výsledků.
-            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>. Použijte místo toho tuto vlastnost.
+            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />. Použijte místo toho tuto vlastnost.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDeploymentDir">
             <summary>
-            Získá adresář pro soubory nasazené pro testovací běh. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
-            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory"/>. Použijte místo toho tuto vlastnost.
+            Získá adresář pro soubory nasazené pro testovací běh. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />.
+            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory" />. Použijte místo toho tuto vlastnost.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestLogsDir">
             <summary>
-            Získá adresář pro soubory výsledků testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
-            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory"/>. Pro soubory výsledků testovacího běhu použijte tuto vlastnost,
-            pro soubory výsledků konkrétního testu pak <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory"/>.
+            Získá adresář pro soubory výsledků testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory" />.
+            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory" />. Pro soubory výsledků testovacího běhu použijte tuto vlastnost,
+            pro soubory výsledků konkrétního testu pak <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">

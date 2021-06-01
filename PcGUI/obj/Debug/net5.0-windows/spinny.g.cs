@@ -78,7 +78,7 @@ namespace PcParted {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PcParted;component/spinny.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PcGUI;component/spinny.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\spinny.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

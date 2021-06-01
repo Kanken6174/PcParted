@@ -1,11 +1,9 @@
-using logicPC;
+using logicPC.CardData;
 using logicPC.FiltersAndSearch;
-using logicPC.ImportStrategies;
+using logicPC.Importers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-using logicPC.CardData;
-using logicPC.Importers;
 
 namespace FilterTesting
 {

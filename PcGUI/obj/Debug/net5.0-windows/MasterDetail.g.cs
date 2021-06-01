@@ -86,7 +86,7 @@ namespace PcParted {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PcParted;component/masterdetail.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PcGUI;component/masterdetail.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MasterDetail.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -132,13 +132,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" />.
             </summary>
             <param name="data1"> Datový objekt </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object,System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/>, která přijímá pole argumentů.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" />, která přijímá pole argumentů.
             </summary>
             <param name="data1"> Datový objekt </param>
             <param name="moreData"> Další data </param>
@@ -160,20 +160,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String,System.Exception)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" />.
             </summary>
             <param name="msg"> Zpráva </param>
             <param name="ex"> Výjimka </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" />.
             </summary>
             <param name="msg"> Zpráva </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" />.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException">
@@ -187,20 +187,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String,System.Exception)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" />.
             </summary>
             <param name="msg"> Zpráva o výjimce </param>
             <param name="ex"> Výjimka </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" />.
             </summary>
             <param name="msg"> Zpráva o výjimce </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" />.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute">
@@ -210,13 +210,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/> s očekávaným typem.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" /> s očekávaným typem.
             </summary>
             <param name="exceptionType">Typ očekávané výjimky</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/>
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" />
             s očekávaným typem a zprávou, která se zahrne v případě, že test nevyvolá žádnou výjimku.
             </summary>
             <param name="exceptionType">Typ očekávané výjimky</param>
@@ -253,12 +253,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> s výchozí zprávou no-exception.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> s výchozí zprávou no-exception.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> se zprávou no-exception.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> se zprávou no-exception.
             </summary>
             <param name="noExceptionMessage">
             Zprávy, které mají být zahrnuty ve výsledku testu, pokud se test nezdaří z důvodu nevyvolání
@@ -287,8 +287,8 @@
             Určuje, jestli se daná výjimka očekává. Pokud metoda skončí, rozumí se tomu tak,
             že se výjimka očekávala. Pokud metoda vyvolá výjimku, rozumí se tím,
             že se výjimka neočekávala a součástí výsledku testu
-            je zpráva vyvolané výjimky. Pomocí třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert"/> je možné si usnadnit
-            práci. Pokud se použije <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive"/> a kontrolní výraz selže,
+            je zpráva vyvolané výjimky. Pomocí třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert" /> je možné si usnadnit
+            práci. Pokud se použije <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive" /> a kontrolní výraz selže,
             výsledek testu se nastaví na Neprůkazný.
             </summary>
             <param name="exception">Výjimka vyvolaná testem jednotek</param>
@@ -310,7 +310,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>, která
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />, která
             splňuje omezení newable v obecných typech jazyka C#.
             </summary>
             <remarks>
@@ -319,7 +319,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor(System.Int32)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>, která
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />, která
             inicializuje vlastnost Data na hodnotu zadanou uživatelem.
             </summary>
             <param name="data">Libovolné celé číslo</param>
@@ -345,14 +345,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.CompareTo(System.Object)">
             <summary>
-            Porovná data daných dvou objektů <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>.
+            Porovná data daných dvou objektů <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />.
             </summary>
             <param name="obj">Objekt pro porovnání</param>
             <returns>
             Číslo se znaménkem označující relativní hodnoty této instance a hodnoty
             </returns>
             <exception cref="T:System.NotSupportedException">
-            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>.
+            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.GetEnumerator">
@@ -400,7 +400,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute"/> a zavede pro daný test kategorii.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute" /> a zavede pro daný test kategorii.
             </summary>
             <param name="testCategory">
             Kategorie testu
@@ -425,7 +425,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute" />.
             Tuto kategorii zavede pro daný test. Řetězce vrácené z TestCategories
             se použijí spolu s příkazem /category k filtrování testů.
             </summary>
@@ -442,20 +442,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String,System.Exception)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" />.
             </summary>
             <param name="msg"> Zpráva </param>
             <param name="ex"> Výjimka </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" />.
             </summary>
             <param name="msg"> Zpráva </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" />.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
@@ -485,7 +485,7 @@
             Podmínka, která má být podle testu pravdivá.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String)">
@@ -497,11 +497,11 @@
             Podmínka, která má být podle testu pravdivá.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="condition"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="condition" />
             je nepravda. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String,System.Object[])">
@@ -513,14 +513,14 @@
             Podmínka, která má být podle testu pravdivá.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="condition"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="condition" />
             je nepravda. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean)">
@@ -532,7 +532,7 @@
             Podmínka, která podle testu má být nepravdivá
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String)">
@@ -544,11 +544,11 @@
             Podmínka, která podle testu má být nepravdivá
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="condition"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="condition" />
             je pravda. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String,System.Object[])">
@@ -560,14 +560,14 @@
             Podmínka, která podle testu má být nepravdivá
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="condition"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="condition" />
             je pravda. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object)">
@@ -579,7 +579,7 @@
             Objekt, který má podle testu být Null
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String)">
@@ -591,11 +591,11 @@
             Objekt, který má podle testu být Null
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
             není Null. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String,System.Object[])">
@@ -607,14 +607,14 @@
             Objekt, který má podle testu být Null
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
             není Null. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object)">
@@ -626,7 +626,7 @@
             Objekt, u kterého test očekává, že nebude Null.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String)">
@@ -638,11 +638,11 @@
             Objekt, u kterého test očekává, že nebude Null.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
             je Null. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String,System.Object[])">
@@ -654,14 +654,14 @@
             Objekt, u kterého test očekává, že nebude Null.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
             je Null. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object)">
@@ -676,8 +676,8 @@
             Druhý objekt, který chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String)">
@@ -692,12 +692,12 @@
             Druhý objekt, který chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String,System.Object[])">
@@ -712,15 +712,15 @@
             Druhý objekt, který chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object)">
@@ -730,14 +730,14 @@
             </summary>
             <param name="notExpected">
             První objekt, který chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý objekt, který chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String)">
@@ -747,19 +747,19 @@
             </summary>
             <param name="notExpected">
             První objekt, který chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý objekt, který chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String,System.Object[])">
@@ -769,22 +769,22 @@
             </summary>
             <param name="notExpected">
             První objekt, který chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý objekt, který chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0)">
@@ -803,7 +803,7 @@
             Druhá hodnota, kterou chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String)">
@@ -822,13 +822,13 @@
             Druhá hodnota, kterou chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String,System.Object[])">
@@ -847,16 +847,16 @@
             Druhá hodnota, kterou chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0)">
@@ -870,13 +870,13 @@
             </typeparam>
             <param name="notExpected">
             První hodnota, kterou chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá hodnota, kterou chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String)">
@@ -890,18 +890,18 @@
             </typeparam>
             <param name="notExpected">
             První hodnota, kterou chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá hodnota, kterou chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String,System.Object[])">
@@ -915,21 +915,21 @@
             </typeparam>
             <param name="notExpected">
             První hodnota, kterou chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá hodnota, kterou chcete porovnat. Jedná se o hodnotu vytvořenou testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object)">
@@ -945,8 +945,8 @@
             Druhý objekt, který chcete porovnat. Jedná se o objekt vytvořený testovaným kódem.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String)">
@@ -962,13 +962,13 @@
             Druhý objekt, který chcete porovnat. Jedná se o objekt vytvořený testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -984,16 +984,16 @@
             Druhý objekt, který chcete porovnat. Jedná se o objekt vytvořený testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object)">
@@ -1004,13 +1004,13 @@
             </summary>
             <param name="notExpected">
             První objekt, který chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý objekt, který chcete porovnat. Jedná se o objekt vytvořený testovaným kódem.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String)">
@@ -1021,18 +1021,18 @@
             </summary>
             <param name="notExpected">
             První objekt, který chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý objekt, který chcete porovnat. Jedná se o objekt vytvořený testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -1043,21 +1043,21 @@
             </summary>
             <param name="notExpected">
             První objekt, který chcete porovnat. Jedná se o hodnotu, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý objekt, který chcete porovnat. Jedná se o objekt vytvořený testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single)">
@@ -1073,12 +1073,12 @@
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="expected"/>
-            o více než <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="expected" />
+            o více než <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1094,17 +1094,17 @@
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="expected"/>
-            o více než <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="expected" />
+            o více než <paramref name="delta" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se liší od <paramref name="expected"/> o více než
-            <paramref name="delta"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se liší od <paramref name="expected" /> o více než
+            <paramref name="delta" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1120,20 +1120,20 @@
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="expected"/>
-            o více než <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="expected" />
+            o více než <paramref name="delta" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se liší od <paramref name="expected"/> o více než
-            <paramref name="delta"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se liší od <paramref name="expected" /> o více než
+            <paramref name="delta" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single)">
@@ -1143,18 +1143,18 @@
             </summary>
             <param name="notExpected">
             První desetinná čárka, kterou chcete porovnat. Toto je desetinná čárka, která se podle testu nemá
-            shodovat s aktuální hodnotou <paramref name="actual"/>.
+            shodovat s aktuální hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá plovoucí desetinná čárka, kterou chcete porovnat. Jedná se o plovoucí desetinnou čárku vytvořenou testovaným kódem.
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="notExpected"/>
-            o maximálně <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="notExpected" />
+            o maximálně <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1164,23 +1164,23 @@
             </summary>
             <param name="notExpected">
             První desetinná čárka, kterou chcete porovnat. Toto je desetinná čárka, která se podle testu nemá
-            shodovat s aktuální hodnotou <paramref name="actual"/>.
+            shodovat s aktuální hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá plovoucí desetinná čárka, kterou chcete porovnat. Jedná se o plovoucí desetinnou čárku vytvořenou testovaným kódem.
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="notExpected"/>
-            o maximálně <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="notExpected" />
+            o maximálně <paramref name="delta" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/> nebo se liší o méně než
-            <paramref name="delta"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" /> nebo se liší o méně než
+            <paramref name="delta" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1190,26 +1190,26 @@
             </summary>
             <param name="notExpected">
             První desetinná čárka, kterou chcete porovnat. Toto je desetinná čárka, která se podle testu nemá
-            shodovat s aktuální hodnotou <paramref name="actual"/>.
+            shodovat s aktuální hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá plovoucí desetinná čárka, kterou chcete porovnat. Jedná se o plovoucí desetinnou čárku vytvořenou testovaným kódem.
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="notExpected"/>
-            o maximálně <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="notExpected" />
+            o maximálně <paramref name="delta" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/> nebo se liší o méně než
-            <paramref name="delta"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" /> nebo se liší o méně než
+            <paramref name="delta" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double)">
@@ -1225,12 +1225,12 @@
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="expected"/>
-            o více než <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="expected" />
+            o více než <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1246,16 +1246,16 @@
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="expected"/>
-            o více než <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="expected" />
+            o více než <paramref name="delta" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se liší od <paramref name="expected"/> o více než
-            <paramref name="delta"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se liší od <paramref name="expected" /> o více než
+            <paramref name="delta" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1271,19 +1271,19 @@
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="expected"/>
-            o více než <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="expected" />
+            o více než <paramref name="delta" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se liší od <paramref name="expected"/> o více než
-            <paramref name="delta"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se liší od <paramref name="expected" /> o více než
+            <paramref name="delta" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double)">
@@ -1293,18 +1293,18 @@
             </summary>
             <param name="notExpected">
             První dvojitá přesnost, kterou chcete porovnat. Jedná se o dvojitou přesnost, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá dvojitá přesnost, kterou chcete porovnat. Jedná se o dvojitou přesnost vytvořenou testovaným kódem.
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="notExpected"/>
-            o maximálně <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="notExpected" />
+            o maximálně <paramref name="delta" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1314,23 +1314,23 @@
             </summary>
             <param name="notExpected">
             První dvojitá přesnost, kterou chcete porovnat. Jedná se o dvojitou přesnost, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá dvojitá přesnost, kterou chcete porovnat. Jedná se o dvojitou přesnost vytvořenou testovaným kódem.
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="notExpected"/>
-            o maximálně <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="notExpected" />
+            o maximálně <paramref name="delta" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/> nebo se liší o méně než
-            <paramref name="delta"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" /> nebo se liší o méně než
+            <paramref name="delta" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1340,26 +1340,26 @@
             </summary>
             <param name="notExpected">
             První dvojitá přesnost, kterou chcete porovnat. Jedná se o dvojitou přesnost, která se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá dvojitá přesnost, kterou chcete porovnat. Jedná se o dvojitou přesnost vytvořenou testovaným kódem.
             </param>
             <param name="delta">
             Požadovaná přesnost. Výjimka bude vyvolána pouze tehdy, pokud
-            <paramref name="actual"/> se liší od <paramref name="notExpected"/>
-            o maximálně <paramref name="delta"/>.
+            <paramref name="actual" /> se liší od <paramref name="notExpected" />
+            o maximálně <paramref name="delta" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/> nebo se liší o méně než
-            <paramref name="delta"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" /> nebo se liší o méně než
+            <paramref name="delta" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean)">
@@ -1378,7 +1378,7 @@
             označuje porovnání bez rozlišování velkých a malých písmen.)
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1397,12 +1397,12 @@
             označuje porovnání bez rozlišování velkých a malých písmen.)
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1421,15 +1421,15 @@
             označuje porovnání bez rozlišování velkých a malých písmen.)
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1451,7 +1451,7 @@
             Objekt CultureInfo, který poskytuje informace o porovnání jazykových verzí.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1473,12 +1473,12 @@
             Objekt CultureInfo, který poskytuje informace o porovnání jazykových verzí.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1500,15 +1500,15 @@
             Objekt CultureInfo, který poskytuje informace o porovnání jazykových verzí.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean)">
@@ -1518,7 +1518,7 @@
             </summary>
             <param name="notExpected">
             První řetězec, který chcete porovnat. Jedná se o řetězec, který se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý řetězec, který se má porovnat. Jedná se o řetězec vytvořený testovaným kódem.
@@ -1528,7 +1528,7 @@
             označuje porovnání bez rozlišování velkých a malých písmen.)
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1538,7 +1538,7 @@
             </summary>
             <param name="notExpected">
             První řetězec, který chcete porovnat. Jedná se o řetězec, který se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý řetězec, který se má porovnat. Jedná se o řetězec vytvořený testovaným kódem.
@@ -1548,12 +1548,12 @@
             označuje porovnání bez rozlišování velkých a malých písmen.)
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1563,7 +1563,7 @@
             </summary>
             <param name="notExpected">
             První řetězec, který chcete porovnat. Jedná se o řetězec, který se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý řetězec, který se má porovnat. Jedná se o řetězec vytvořený testovaným kódem.
@@ -1573,15 +1573,15 @@
             označuje porovnání bez rozlišování velkých a malých písmen.)
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1591,7 +1591,7 @@
             </summary>
             <param name="notExpected">
             První řetězec, který chcete porovnat. Jedná se o řetězec, který se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý řetězec, který se má porovnat. Jedná se o řetězec vytvořený testovaným kódem.
@@ -1604,7 +1604,7 @@
             Objekt CultureInfo, který poskytuje informace o porovnání jazykových verzí.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1614,7 +1614,7 @@
             </summary>
             <param name="notExpected">
             První řetězec, který chcete porovnat. Jedná se o řetězec, který se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý řetězec, který se má porovnat. Jedná se o řetězec vytvořený testovaným kódem.
@@ -1627,12 +1627,12 @@
             Objekt CultureInfo, který poskytuje informace o porovnání jazykových verzí.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1642,7 +1642,7 @@
             </summary>
             <param name="notExpected">
             První řetězec, který chcete porovnat. Jedná se o řetězec, který se podle testu nemá
-            shodovat se skutečnou hodnotou <paramref name="actual"/>.
+            shodovat se skutečnou hodnotou <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhý řetězec, který se má porovnat. Jedná se o řetězec vytvořený testovaným kódem.
@@ -1655,15 +1655,15 @@
             Objekt CultureInfo, který poskytuje informace o porovnání jazykových verzí.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type)">
@@ -1676,12 +1676,12 @@
             Objekt, který podle testu má být zadaného typu
             </param>
             <param name="expectedType">
-            Očekávaný typ <paramref name="value"/>.
+            Očekávaný typ <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String)">
@@ -1694,17 +1694,17 @@
             Objekt, který podle testu má být zadaného typu
             </param>
             <param name="expectedType">
-            Očekávaný typ <paramref name="value"/>.
+            Očekávaný typ <paramref name="value" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            není instancí <paramref name="expectedType"/>. Zpráva se
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            není instancí <paramref name="expectedType" />. Zpráva se
             zobrazuje ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1717,20 +1717,20 @@
             Objekt, který podle testu má být zadaného typu
             </param>
             <param name="expectedType">
-            Očekávaný typ <paramref name="value"/>.
+            Očekávaný typ <paramref name="value" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            není instancí <paramref name="expectedType"/>. Zpráva se
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            není instancí <paramref name="expectedType" />. Zpráva se
             zobrazuje ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type)">
@@ -1743,12 +1743,12 @@
             Objekt, který podle testu nemá být zadaného typu.
             </param>
             <param name="wrongType">
-            Typ, který by hodnotou <paramref name="value"/> neměl být.
+            Typ, který by hodnotou <paramref name="value" /> neměl být.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String)">
@@ -1761,16 +1761,16 @@
             Objekt, který podle testu nemá být zadaného typu.
             </param>
             <param name="wrongType">
-            Typ, který by hodnotou <paramref name="value"/> neměl být.
+            Typ, který by hodnotou <paramref name="value" /> neměl být.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            je instancí <paramref name="wrongType"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            je instancí <paramref name="wrongType" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1783,19 +1783,19 @@
             Objekt, který podle testu nemá být zadaného typu.
             </param>
             <param name="wrongType">
-            Typ, který by hodnotou <paramref name="value"/> neměl být.
+            Typ, který by hodnotou <paramref name="value" /> neměl být.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            je instancí <paramref name="wrongType"/>. Zpráva je zobrazena ve výsledcích testu.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            je instancí <paramref name="wrongType" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail">
@@ -1827,7 +1827,7 @@
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Always thrown.
@@ -1862,7 +1862,7 @@
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException">
             Always thrown.
@@ -1881,12 +1881,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action)">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
             a vyvolá
             <code>
             AssertFailedException
             </code>,
-            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegát kódu, který chcete testovat a který má vyvolat výjimku
@@ -1895,7 +1895,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Typ výjimky, ke které má podle očekávání dojít
@@ -1903,25 +1903,25 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String)">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
             a vyvolá
             <code>
             AssertFailedException
             </code>,
-            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegujte kód, který chcete testovat a který má vyvolat výjimku.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action"/>
-            nevyvolá výjimku typu <typeparamref name="T"/>.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action" />
+            nevyvolá výjimku typu <typeparamref name="T" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Typ výjimky, ke které má podle očekávání dojít
@@ -1929,12 +1929,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object})">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
             a vyvolá
             <code>
             AssertFailedException
             </code>,
-            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegujte kód, který chcete testovat a který má vyvolat výjimku.
@@ -1943,7 +1943,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Typ výjimky, ke které má podle očekávání dojít
@@ -1951,25 +1951,25 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String)">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
             a vyvolá
             <code>
             AssertFailedException
             </code>,
-            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegujte kód, který chcete testovat a který má vyvolat výjimku.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action"/>
-            nevyvolá výjimku typu <typeparamref name="T"/>.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action" />
+            nevyvolá výjimku typu <typeparamref name="T" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Typ výjimky, ke které má podle očekávání dojít
@@ -1977,28 +1977,28 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String,System.Object[])">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
             a vyvolá
             <code>
             AssertFailedException
             </code>,
-            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegujte kód, který chcete testovat a který má vyvolat výjimku.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action"/>
-            nevyvolá výjimku typu <typeparamref name="T"/>.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action" />
+            nevyvolá výjimku typu <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throw exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throw exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Typ výjimky, ke které má podle očekávání dojít
@@ -2006,28 +2006,28 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String,System.Object[])">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
             a vyvolá
             <code>
             AssertFailedException
             </code>,
-            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegujte kód, který chcete testovat a který má vyvolat výjimku.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action"/>
-            nevyvolá výjimku typu <typeparamref name="T"/>.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action" />
+            nevyvolá výjimku typu <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             Typ výjimky, ke které má podle očekávání dojít
@@ -2035,12 +2035,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task})">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
             a vyvolá
             <code>
             AssertFailedException
             </code>,
-            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">
             Delegát kódu, který chcete testovat a který má vyvolat výjimku
@@ -2049,49 +2049,49 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            Třídu <see cref="T:System.Threading.Tasks.Task"/> spouští delegáta.
+            Třídu <see cref="T:System.Threading.Tasks.Task" /> spouští delegáta.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String)">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
-            a vyvolá <code>AssertFailedException</code>, pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
+            a vyvolá <code>AssertFailedException</code>, pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">Delegát kódu, který chcete testovat a který má vyvolat výjimku</param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action"/>
-            nevyvolá výjimku typu <typeparamref name="T"/>.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action" />
+            nevyvolá výjimku typu <typeparamref name="T" />.
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            Třídu <see cref="T:System.Threading.Tasks.Task"/> spouští delegáta.
+            Třídu <see cref="T:System.Threading.Tasks.Task" /> spouští delegáta.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String,System.Object[])">
             <summary>
-            Testujte, jestli kód určený delegátem <paramref name="action"/> vyvolá přesně danou výjimku typu <typeparamref name="T"/> (a ne odvozeného typu),
-            a vyvolá <code>AssertFailedException</code>, pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T"/>.
+            Testujte, jestli kód určený delegátem <paramref name="action" /> vyvolá přesně danou výjimku typu <typeparamref name="T" /> (a ne odvozeného typu),
+            a vyvolá <code>AssertFailedException</code>, pokud kód nevyvolává výjimky nebo vyvolává výjimky typu jiného než <typeparamref name="T" />.
             </summary>
             <param name="action">Delegát kódu, který chcete testovat a který má vyvolat výjimku</param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action"/>
-            nevyvolá výjimku typu <typeparamref name="T"/>.
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="action" />
+            nevyvolá výjimku typu <typeparamref name="T" />.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-            Třídu <see cref="T:System.Threading.Tasks.Task"/> spouští delegáta.
+            Třídu <see cref="T:System.Threading.Tasks.Task" /> spouští delegáta.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ReplaceNullChars(System.String)">
@@ -2177,14 +2177,14 @@
             nevyskytuje.
             </summary>
             <param name="value">
-            Řetězec, který má obsahovat <paramref name="substring"/>.
+            Řetězec, který má obsahovat <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec má být v rozmezí hodnot <paramref name="value"/>.
+            Řetězec má být v rozmezí hodnot <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String)">
@@ -2194,19 +2194,19 @@
             nevyskytuje.
             </summary>
             <param name="value">
-            Řetězec, který má obsahovat <paramref name="substring"/>.
+            Řetězec, který má obsahovat <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec má být v rozmezí hodnot <paramref name="value"/>.
+            Řetězec má být v rozmezí hodnot <paramref name="value" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="substring"/>
-            není v <paramref name="value"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="substring" />
+            není v <paramref name="value" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String,System.Object[])">
@@ -2216,22 +2216,22 @@
             nevyskytuje.
             </summary>
             <param name="value">
-            Řetězec, který má obsahovat <paramref name="substring"/>.
+            Řetězec, který má obsahovat <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec má být v rozmezí hodnot <paramref name="value"/>.
+            Řetězec má být v rozmezí hodnot <paramref name="value" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="substring"/>
-            není v <paramref name="value"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="substring" />
+            není v <paramref name="value" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String)">
@@ -2241,14 +2241,14 @@
             nezačíná.
             </summary>
             <param name="value">
-            Řetězec, který má začínat na <paramref name="substring"/>.
+            Řetězec, který má začínat na <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec, který má být prefixem hodnoty <paramref name="value"/>.
+            Řetězec, který má být prefixem hodnoty <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String)">
@@ -2258,19 +2258,19 @@
             nezačíná.
             </summary>
             <param name="value">
-            Řetězec, který má začínat na <paramref name="substring"/>.
+            Řetězec, který má začínat na <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec, který má být prefixem hodnoty <paramref name="value"/>.
+            Řetězec, který má být prefixem hodnoty <paramref name="value" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            nezačíná na <paramref name="substring"/>. Zpráva se
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            nezačíná na <paramref name="substring" />. Zpráva se
             zobrazuje ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String,System.Object[])">
@@ -2280,22 +2280,22 @@
             nezačíná.
             </summary>
             <param name="value">
-            Řetězec, který má začínat na <paramref name="substring"/>.
+            Řetězec, který má začínat na <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec, který má být prefixem hodnoty <paramref name="value"/>.
+            Řetězec, který má být prefixem hodnoty <paramref name="value" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            nezačíná na <paramref name="substring"/>. Zpráva se
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            nezačíná na <paramref name="substring" />. Zpráva se
             zobrazuje ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String)">
@@ -2305,14 +2305,14 @@
             nekončí.
             </summary>
             <param name="value">
-            Řetězec, který má končit na <paramref name="substring"/>.
+            Řetězec, který má končit na <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec, který má být příponou <paramref name="value"/>.
+            Řetězec, který má být příponou <paramref name="value" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String)">
@@ -2322,19 +2322,19 @@
             nekončí.
             </summary>
             <param name="value">
-            Řetězec, který má končit na <paramref name="substring"/>.
+            Řetězec, který má končit na <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec, který má být příponou <paramref name="value"/>.
+            Řetězec, který má být příponou <paramref name="value" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            nekončí na <paramref name="substring"/>. Zpráva se
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            nekončí na <paramref name="substring" />. Zpráva se
             zobrazuje ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String,System.Object[])">
@@ -2344,22 +2344,22 @@
             nekončí.
             </summary>
             <param name="value">
-            Řetězec, který má končit na <paramref name="substring"/>.
+            Řetězec, který má končit na <paramref name="substring" />.
             </param>
             <param name="substring">
-            Řetězec, který má být příponou <paramref name="value"/>.
+            Řetězec, který má být příponou <paramref name="value" />.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            nekončí na <paramref name="substring"/>. Zpráva se
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            nekončí na <paramref name="substring" />. Zpráva se
             zobrazuje ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex)">
@@ -2368,15 +2368,15 @@
             vyvolá výjimku, pokud se řetězec s výrazem neshoduje.
             </summary>
             <param name="value">
-            Řetězec, který se má shodovat se vzorkem <paramref name="pattern"/>.
+            Řetězec, který se má shodovat se vzorkem <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Regulární výraz, který <paramref name="value"/> se
+            Regulární výraz, který <paramref name="value" /> se
             má shodovat.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2385,20 +2385,20 @@
             vyvolá výjimku, pokud se řetězec s výrazem neshoduje.
             </summary>
             <param name="value">
-            Řetězec, který se má shodovat se vzorkem <paramref name="pattern"/>.
+            Řetězec, který se má shodovat se vzorkem <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Regulární výraz, který <paramref name="value"/> se
+            Regulární výraz, který <paramref name="value" /> se
             má shodovat.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            neodpovídá <paramref name="pattern"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            neodpovídá <paramref name="pattern" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2407,23 +2407,23 @@
             vyvolá výjimku, pokud se řetězec s výrazem neshoduje.
             </summary>
             <param name="value">
-            Řetězec, který se má shodovat se vzorkem <paramref name="pattern"/>.
+            Řetězec, který se má shodovat se vzorkem <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Regulární výraz, který <paramref name="value"/> se
+            Regulární výraz, který <paramref name="value" /> se
             má shodovat.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            neodpovídá <paramref name="pattern"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            neodpovídá <paramref name="pattern" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex)">
@@ -2432,14 +2432,14 @@
             a vyvolá výjimku, pokud se řetězec s výrazem shoduje.
             </summary>
             <param name="value">
-            Řetězec, který se nemá shodovat se skutečnou hodnotou <paramref name="pattern"/>.
+            Řetězec, který se nemá shodovat se skutečnou hodnotou <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Regulární výraz, který <paramref name="value"/> se
+            Regulární výraz, který <paramref name="value" /> se
             nemá shodovat.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2448,19 +2448,19 @@
             a vyvolá výjimku, pokud se řetězec s výrazem shoduje.
             </summary>
             <param name="value">
-            Řetězec, který se nemá shodovat se skutečnou hodnotou <paramref name="pattern"/>.
+            Řetězec, který se nemá shodovat se skutečnou hodnotou <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Regulární výraz, který <paramref name="value"/> se
+            Regulární výraz, který <paramref name="value" /> se
             nemá shodovat.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            odpovídá <paramref name="pattern"/>. Zpráva je zobrazena ve výsledcích
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            odpovídá <paramref name="pattern" />. Zpráva je zobrazena ve výsledcích
             testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2469,22 +2469,22 @@
             a vyvolá výjimku, pokud se řetězec s výrazem shoduje.
             </summary>
             <param name="value">
-            Řetězec, který se nemá shodovat se skutečnou hodnotou <paramref name="pattern"/>.
+            Řetězec, který se nemá shodovat se skutečnou hodnotou <paramref name="pattern" />.
             </param>
             <param name="pattern">
-            Regulární výraz, který <paramref name="value"/> se
+            Regulární výraz, který <paramref name="value" /> se
             nemá shodovat.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value"/>
-            odpovídá <paramref name="pattern"/>. Zpráva je zobrazena ve výsledcích
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="value" />
+            odpovídá <paramref name="pattern" />. Zpráva je zobrazena ve výsledcích
             testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert">
@@ -2517,8 +2517,8 @@
             Prvek, který má být v kolekci
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String)">
@@ -2533,13 +2533,13 @@
             Prvek, který má být v kolekci
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="element"/>
-            není v <paramref name="collection"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="element" />
+            není v <paramref name="collection" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2554,16 +2554,16 @@
             Prvek, který má být v kolekci
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="element"/>
-            není v <paramref name="collection"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="element" />
+            není v <paramref name="collection" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object)">
@@ -2578,8 +2578,8 @@
             Prvek, který nemá být v kolekci
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String)">
@@ -2594,13 +2594,13 @@
             Prvek, který nemá být v kolekci
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="element"/>
-            je v kolekci <paramref name="collection"/>. Zpráva je zobrazena ve výsledcích
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="element" />
+            je v kolekci <paramref name="collection" />. Zpráva je zobrazena ve výsledcích
             testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2615,16 +2615,16 @@
             Prvek, který nemá být v kolekci
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="element"/>
-            je v kolekci <paramref name="collection"/>. Zpráva je zobrazena ve výsledcích
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="element" />
+            je v kolekci <paramref name="collection" />. Zpráva je zobrazena ve výsledcích
             testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection)">
@@ -2636,7 +2636,7 @@
             Kolekce, ve které chcete hledat prvky Null.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String)">
@@ -2648,11 +2648,11 @@
             Kolekce, ve které chcete hledat prvky Null.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="collection"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="collection" />
             obsahuje prvek Null. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String,System.Object[])">
@@ -2664,14 +2664,14 @@
             Kolekce, ve které chcete hledat prvky Null.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="collection"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="collection" />
             obsahuje prvek Null. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection)">
@@ -2684,7 +2684,7 @@
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String)">
@@ -2696,13 +2696,13 @@
             Kolekce, ve které chcete hledat duplicitní prvky
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="collection"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="collection" />
             obsahuje alespoň jeden duplicitní prvek. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String,System.Object[])">
@@ -2714,16 +2714,16 @@
             Kolekce, ve které chcete hledat duplicitní prvky
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="collection"/>
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="collection" />
             obsahuje alespoň jeden duplicitní prvek. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2733,14 +2733,14 @@
             prvkem nadmnožiny.
             </summary>
             <param name="subset">
-            Kolekce, která má být podmnožinou <paramref name="superset"/>.
+            Kolekce, která má být podmnožinou <paramref name="superset" />.
             </param>
             <param name="superset">
-            Kolekce má být nadmnožinou <paramref name="subset"/>
+            Kolekce má být nadmnožinou <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2750,19 +2750,19 @@
             prvkem nadmnožiny.
             </summary>
             <param name="subset">
-            Kolekce, která má být podmnožinou <paramref name="superset"/>.
+            Kolekce, která má být podmnožinou <paramref name="superset" />.
             </param>
             <param name="superset">
-            Kolekce má být nadmnožinou <paramref name="subset"/>
+            Kolekce má být nadmnožinou <paramref name="subset" />
             </param>
             <param name="message">
             Zpráva, kterou chcete zahrnout do výjimky, pokud prvek v
-            <paramref name="subset"/> se nenachází v podmnožině <paramref name="superset"/>.
+            <paramref name="subset" /> se nenachází v podmnožině <paramref name="superset" />.
             Zpráva je zobrazena ve výsledku testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2772,22 +2772,22 @@
             prvkem nadmnožiny.
             </summary>
             <param name="subset">
-            Kolekce, která má být podmnožinou <paramref name="superset"/>.
+            Kolekce, která má být podmnožinou <paramref name="superset" />.
             </param>
             <param name="superset">
-            Kolekce má být nadmnožinou <paramref name="subset"/>
+            Kolekce má být nadmnožinou <paramref name="subset" />
             </param>
             <param name="message">
             Zpráva, kterou chcete zahrnout do výjimky, pokud prvek v
-            <paramref name="subset"/> se nenachází v podmnožině <paramref name="superset"/>.
+            <paramref name="subset" /> se nenachází v podmnožině <paramref name="superset" />.
             Zpráva je zobrazena ve výsledku testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2797,14 +2797,14 @@
             nadmnožiny.
             </summary>
             <param name="subset">
-            Kolekce, která nemá být podmnožinou nadmnožiny <paramref name="superset"/>.
+            Kolekce, která nemá být podmnožinou nadmnožiny <paramref name="superset" />.
             </param>
             <param name="superset">
-            Kolekce, která nemá být nadmnožinou podmnožiny <paramref name="subset"/>
+            Kolekce, která nemá být nadmnožinou podmnožiny <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2814,19 +2814,19 @@
             nadmnožiny.
             </summary>
             <param name="subset">
-            Kolekce, která nemá být podmnožinou nadmnožiny <paramref name="superset"/>.
+            Kolekce, která nemá být podmnožinou nadmnožiny <paramref name="superset" />.
             </param>
             <param name="superset">
-            Kolekce, která nemá být nadmnožinou podmnožiny <paramref name="subset"/>
+            Kolekce, která nemá být nadmnožinou podmnožiny <paramref name="subset" />
             </param>
             <param name="message">
             Zpráva, kterou chcete zahrnout do výjimky, pokud každý prvek v podmnožině
-            <paramref name="subset"/> se nachází také v nadmnožině <paramref name="superset"/>.
+            <paramref name="subset" /> se nachází také v nadmnožině <paramref name="superset" />.
             Zpráva je zobrazena ve výsledku testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2836,22 +2836,22 @@
             nadmnožiny.
             </summary>
             <param name="subset">
-            Kolekce, která nemá být podmnožinou nadmnožiny <paramref name="superset"/>.
+            Kolekce, která nemá být podmnožinou nadmnožiny <paramref name="superset" />.
             </param>
             <param name="superset">
-            Kolekce, která nemá být nadmnožinou podmnožiny <paramref name="subset"/>
+            Kolekce, která nemá být nadmnožinou podmnožiny <paramref name="subset" />
             </param>
             <param name="message">
             Zpráva, kterou chcete zahrnout do výjimky, pokud každý prvek v podmnožině
-            <paramref name="subset"/> se nachází také v nadmnožině <paramref name="superset"/>.
+            <paramref name="subset" /> se nachází také v nadmnožině <paramref name="superset" />.
             Zpráva je zobrazena ve výsledku testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEquivalent(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2917,7 +2917,7 @@
             ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if an element was found in one of the collections but not
@@ -2958,8 +2958,8 @@
             testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            obsahuje stejný prvek jako <paramref name="expected"/>. Zpráva
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            obsahuje stejný prvek jako <paramref name="expected" />. Zpráva
             je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
@@ -2982,12 +2982,12 @@
             testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            obsahuje stejný prvek jako <paramref name="expected"/>. Zpráva
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            obsahuje stejný prvek jako <paramref name="expected" />. Zpráva
             je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if the two collections contained the same elements, including
@@ -3005,12 +3005,12 @@
             zadaného typu.
             </param>
             <param name="expectedType">
-            Očekávaný typ jednotlivých prvků <paramref name="collection"/>.
+            Očekávaný typ jednotlivých prvků <paramref name="collection" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String)">
@@ -3024,17 +3024,17 @@
             zadaného typu.
             </param>
             <param name="expectedType">
-            Očekávaný typ jednotlivých prvků <paramref name="collection"/>.
+            Očekávaný typ jednotlivých prvků <paramref name="collection" />.
             </param>
             <param name="message">
             Zpráva, kterou chcete zahrnout do výjimky, pokud prvek v
-            <paramref name="collection"/> není instancí typu
-            <paramref name="expectedType"/>. Zpráva je zobrazena ve výsledcích testu.
+            <paramref name="collection" /> není instancí typu
+            <paramref name="expectedType" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String,System.Object[])">
@@ -3048,20 +3048,20 @@
             zadaného typu.
             </param>
             <param name="expectedType">
-            Očekávaný typ jednotlivých prvků <paramref name="collection"/>.
+            Očekávaný typ jednotlivých prvků <paramref name="collection" />.
             </param>
             <param name="message">
             Zpráva, kterou chcete zahrnout do výjimky, pokud prvek v
-            <paramref name="collection"/> není instancí typu
-            <paramref name="expectedType"/>. Zpráva je zobrazena ve výsledcích testu.
+            <paramref name="collection" /> není instancí typu
+            <paramref name="expectedType" />. Zpráva je zobrazena ve výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3079,8 +3079,8 @@
             testovaným kódem.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3098,13 +3098,13 @@
             testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3122,16 +3122,16 @@
             testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3143,14 +3143,14 @@
             </summary>
             <param name="notExpected">
             První kolekce, kterou chcete porovnat. Jedná se o kolekci, která podle testu
-            nemá odpovídat <paramref name="actual"/>.
+            nemá odpovídat <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá kolekce, kterou chcete porovnat. Jedná se o kolekci vytvořenou
             testovaným kódem.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3162,19 +3162,19 @@
             </summary>
             <param name="notExpected">
             První kolekce, kterou chcete porovnat. Jedná se o kolekci, která podle testu
-            nemá odpovídat <paramref name="actual"/>.
+            nemá odpovídat <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá kolekce, kterou chcete porovnat. Jedná se o kolekci vytvořenou
             testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3186,22 +3186,22 @@
             </summary>
             <param name="notExpected">
             První kolekce, kterou chcete porovnat. Jedná se o kolekci, která podle testu
-            nemá odpovídat <paramref name="actual"/>.
+            nemá odpovídat <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá kolekce, kterou chcete porovnat. Jedná se o kolekci vytvořenou
             testovaným kódem.
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3222,8 +3222,8 @@
             Implementace porovnání, která se má použít pro porovnání prvků kolekce
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3244,13 +3244,13 @@
             Implementace porovnání, která se má použít pro porovnání prvků kolekce
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3271,16 +3271,16 @@
             Implementace porovnání, která se má použít pro porovnání prvků kolekce
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual"/>
-            se nerovná <paramref name="expected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, pokud <paramref name="actual" />
+            se nerovná <paramref name="expected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3292,7 +3292,7 @@
             </summary>
             <param name="notExpected">
             První kolekce, kterou chcete porovnat. Jedná se o kolekci, která podle testu
-            nemá odpovídat <paramref name="actual"/>.
+            nemá odpovídat <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá kolekce, kterou chcete porovnat. Jedná se o kolekci vytvořenou
@@ -3302,7 +3302,7 @@
             Implementace porovnání, která se má použít pro porovnání prvků kolekce
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3314,7 +3314,7 @@
             </summary>
             <param name="notExpected">
             První kolekce, kterou chcete porovnat. Jedná se o kolekci, která podle testu
-            nemá odpovídat <paramref name="actual"/>.
+            nemá odpovídat <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá kolekce, kterou chcete porovnat. Jedná se o kolekci vytvořenou
@@ -3324,12 +3324,12 @@
             Implementace porovnání, která se má použít pro porovnání prvků kolekce
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, když <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, když <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3341,7 +3341,7 @@
             </summary>
             <param name="notExpected">
             První kolekce, kterou chcete porovnat. Jedná se o kolekci, která podle testu
-            nemá odpovídat <paramref name="actual"/>.
+            nemá odpovídat <paramref name="actual" />.
             </param>
             <param name="actual">
             Druhá kolekce, kterou chcete porovnat. Jedná se o kolekci vytvořenou
@@ -3351,15 +3351,15 @@
             Implementace porovnání, která se má použít pro porovnání prvků kolekce
             </param>
             <param name="message">
-            Zpráva, kterou chcete zahrnout do výjimky, když <paramref name="actual"/>
-            se rovná <paramref name="notExpected"/>. Zpráva je zobrazena ve
+            Zpráva, kterou chcete zahrnout do výjimky, když <paramref name="actual" />
+            se rovná <paramref name="notExpected" />. Zpráva je zobrazena ve
             výsledcích testu.
             </param>
             <param name="parameters">
-            Pole parametrů, které se má použít při formátování <paramref name="message"/>.
+            Pole parametrů, které se má použít při formátování <paramref name="message" />.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOfHelper(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3370,14 +3370,14 @@
             se musí rovnat počtu výskytů v nadmnožině.
             </summary>
             <param name="subset">
-            Kolekce, která podle testu má být obsažena v nadmnožině <paramref name="superset"/>.
+            Kolekce, která podle testu má být obsažena v nadmnožině <paramref name="superset" />.
             </param>
             <param name="superset">
-            Kolekce, která podle testu má obsahovat <paramref name="subset"/>.
+            Kolekce, která podle testu má obsahovat <paramref name="subset" />.
             </param>
             <returns>
-            Pravda, pokud <paramref name="subset"/> je podmnožinou
-            <paramref name="superset"/>, jinak nepravda.
+            Pravda, pokud <paramref name="subset" /> je podmnožinou
+            <paramref name="superset" />, jinak nepravda.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.GetElementCounts(System.Collections.ICollection,System.Int32@)">
@@ -3414,12 +3414,12 @@
             </param>
             <param name="expectedCount">
             Očekávaný počet výskytů prvku
-            <paramref name="mismatchedElement"/> nebo 0, pokud není žádný nevyhovující
+            <paramref name="mismatchedElement" /> nebo 0, pokud není žádný nevyhovující
             prvek.
             </param>
             <param name="actualCount">
             Skutečný počet výskytů prvku
-            <paramref name="mismatchedElement"/> nebo 0, pokud není žádný nevyhovující
+            <paramref name="mismatchedElement" /> nebo 0, pokud není žádný nevyhovující
             prvek.
             </param>
             <param name="mismatchedElement">
@@ -3442,19 +3442,19 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" />.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String,System.Exception)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" />.
             </summary>
             <param name="msg"> Zpráva </param>
             <param name="ex"> Výjimka </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" />.
             </summary>
             <param name="msg"> Zpráva </param>
         </member>
@@ -3676,20 +3676,18 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.PrivateAccessorConstructorNotFound">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný řetězci 
+              Vyhledá lokalizovaný řetězec podobný řetězci
                  Konstruktor se zadaným podpisem se nenašel. Pravděpodobně budete muset obnovit privátní přístupový objekt,
                  nebo je člen pravděpodobně privátní a založený na základní třídě. Pokud je pravdivý druhý zmíněný případ, musíte vložit typ
                  definující člen do konstruktoru objektu PrivateObject.
-               
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.PrivateAccessorMemberNotFound">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný řetězci 
+              Vyhledá lokalizovaný řetězec podobný řetězci
                  Zadaný člen ({0}) se nenašel. Pravděpodobně budete muset obnovit privátní přístupový objekt,
                  nebo je člen pravděpodobně privátní a založený na základní třídě. Pokud je pravdivý druhý zmíněný případ, musíte vložit typ
                  definující člen do konstruktoru atributu PrivateObject.
-               
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.FrameworkMessages.StartsWithFail">
@@ -3796,7 +3794,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout">
             <summary>
-            Výčet pro časové limity, který se dá použít spolu s třídou <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/>.
+            Výčet pro časové limity, který se dá použít spolu s třídou <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" />.
             Typ výčtu musí odpovídat
             </summary>
         </member>
@@ -3815,7 +3813,7 @@
             Získá atribut testovací metody, který umožní spustit tento test.
             </summary>
             <param name="testMethodAttribute">Instance atributu testovací metody definované v této metodě.</param>
-            <returns>Typ <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute"/> Použije se ke spuštění tohoto testu.</returns>
+            <returns>Typ <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute" /> Použije se ke spuštění tohoto testu.</returns>
             <remarks>Extensions can override this method to customize how all methods in a class are run.</remarks>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute">
@@ -3853,7 +3851,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute" />.
             </summary>
             <param name="name">
             Název
@@ -3899,7 +3897,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute" />.
             </summary>
             <param name="owner">
             Vlastník
@@ -3917,7 +3915,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute.#ctor(System.Int32)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute" />.
             </summary>
             <param name="priority">
             Priorita
@@ -3935,7 +3933,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute"/>, která popíše test.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute" />, která popíše test.
             </summary>
             <param name="description">Popis</param>
         </member>
@@ -3951,7 +3949,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute.#ctor(System.String)">
             <summary>
-             Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute"/> pro identifikátor URI struktury projektů CSS.
+             Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute" /> pro identifikátor URI struktury projektů CSS.
             </summary>
             <param name="cssProjectStructure">Identifikátor URI struktury projektů CSS</param>
         </member>
@@ -3967,7 +3965,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute"/> pro identifikátor URI iterace CSS.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute" /> pro identifikátor URI iterace CSS.
             </summary>
             <param name="cssIteration">Identifikátor URI iterace CSS</param>
         </member>
@@ -3983,7 +3981,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute.#ctor(System.Int32)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute"/> pro atribut WorkItem.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute" /> pro atribut WorkItem.
             </summary>
             <param name="id">ID pro pracovní položku</param>
         </member>
@@ -3999,7 +3997,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(System.Int32)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" />.
             </summary>
             <param name="timeout">
             Časový limit
@@ -4007,7 +4005,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> s předem nastaveným časovým limitem.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> s předem nastaveným časovým limitem.
             </summary>
             <param name="timeout">
             Časový limit
@@ -4025,7 +4023,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.DisplayName">
@@ -4106,7 +4104,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String,System.String,Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/>. Tato instance se inicializuje s poskytovatelem dat, připojovacím řetězcem, tabulkou dat a přístupovou metodou k datům, pomocí kterých se získá přístup ke zdroji dat.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" />. Tato instance se inicializuje s poskytovatelem dat, připojovacím řetězcem, tabulkou dat a přístupovou metodou k datům, pomocí kterých se získá přístup ke zdroji dat.
             </summary>
             <param name="providerInvariantName">Název poskytovatele neutrálních dat, jako je System.Data.SqlClient</param>
             <param name="connectionString">
@@ -4120,7 +4118,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/>. Tato instance se inicializuje s připojovacím řetězcem a názvem tabulky.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" />. Tato instance se inicializuje s připojovacím řetězcem a názvem tabulky.
             Zadejte připojovací řetězec a tabulku dat, pomocí kterých se získá přístup ke zdroji dat OLEDB.
             </summary>
             <param name="connectionString">
@@ -4133,7 +4131,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/>. Tato instance se inicializuje s poskytovatelem dat a připojovacím řetězcem přidruženým k názvu nastavení.
+            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" />. Tato instance se inicializuje s poskytovatelem dat a připojovacím řetězcem přidruženým k názvu nastavení.
             </summary>
             <param name="dataSourceSettingName">Název zdroje dat nalezený v oddílu &lt;microsoft.visualstudio.qualitytools&gt; souboru app.config.</param>
         </member>
@@ -4159,9 +4157,9 @@
              <summary>
              Získá metodu používanou pro přístup ke zdroji dat.
              </summary>
-            
+
              <returns>
-             Jedna z těchto položek: <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod"/>. Pokud <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> není inicializován, vrátí výchozí hodnotu <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random"/>.
+             Jedna z těchto položek: <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod" />. Pokud <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> není inicializován, vrátí výchozí hodnotu <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random" />.
              </returns>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.DataSourceSettingName">
@@ -4182,7 +4180,7 @@
             Testovací metoda
             </param>
             <returns>
-            Pole <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>.
+            Pole <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />.
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.RunDataDrivenTest(Microsoft.VisualStudio.TestTools.UnitTesting.ITestMethod,Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute[])">

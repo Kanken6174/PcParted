@@ -19,16 +19,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />.
             </summary>
             <param name="path">File o directory per la distribuzione. Il percorso è relativo alla directory di output della compilazione. L'elemento verrà copiato nella stessa directory degli assembly di test distribuiti.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute" />
             </summary>
             <param name="path">Percorso relativo o assoluto del file o della directory per la distribuzione. Il percorso è relativo alla directory di output della compilazione. L'elemento verrà copiato nella stessa directory degli assembly di test distribuiti.</param>
-            <param name="outputDirectory">Percorso della directory in cui vengono copiati gli elementi. Può essere assoluto o relativo rispetto alla directory di distribuzione. Tutte le directory e tutti i file identificati da <paramref name="path"/> verranno copiati in questa directory.</param>
+            <param name="outputDirectory">Percorso della directory in cui vengono copiati gli elementi. Può essere assoluto o relativo rispetto alla directory di distribuzione. Tutte le directory e tutti i file identificati da <paramref name="path" /> verranno copiati in questa directory.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -122,7 +122,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.#ctor">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection"/>.
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Item(System.String)">
@@ -148,7 +148,7 @@
             <summary>
             Rimuove un elemento System.Configuration.ConfigurationElement dalla raccolta.
             </summary>
-            <param name="element">Elemento <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/> .</param>
+            <param name="element">Elemento <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" /> .</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Remove(System.String)">
             <summary>
@@ -163,9 +163,9 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.CreateNewElement">
             <summary>
-            Crea un nuovo oggetto <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.
+            Crea un nuovo oggetto <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" />.
             </summary>
-            <returns>Nuovo elemento <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.</returns>
+            <returns>Nuovo elemento <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement" />.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
             <summary>
@@ -212,7 +212,7 @@
             Ottiene la raccolta di proprietà.
             </summary>
             <returns>
-             <see cref="T:System.Configuration.ConfigurationPropertyCollection"/> delle proprietà per l'elemento.
+             <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> delle proprietà per l'elemento.
             </returns>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject">
@@ -222,7 +222,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,System.String)">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> che contiene
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> che contiene
             l'oggetto già esistente della classe privata
             </summary>
             <param name="obj"> oggetto che funge da punto di partenza per raggiungere i membri privati</param>
@@ -230,7 +230,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Object[])">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> che esegue il wrapping del
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> che esegue il wrapping del
             tipo specificato.
             </summary>
             <param name="assemblyName">Nome dell'assembly</param>
@@ -239,17 +239,17 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Type[],System.Object[])">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> che esegue il wrapping del
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> che esegue il wrapping del
             tipo specificato.
             </summary>
             <param name="assemblyName">Nome dell'assembly</param>
             <param name="typeName">nome completo</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al costruttore da ottenere</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al costruttore da ottenere</param>
             <param name="args">Argomenti da passare al costruttore</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Object[])">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> che esegue il wrapping del
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> che esegue il wrapping del
             tipo specificato.
             </summary>
             <param name="type">tipo dell'oggetto da creare</param>
@@ -257,23 +257,23 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Type[],System.Object[])">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> che esegue il wrapping del
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> che esegue il wrapping del
             tipo specificato.
             </summary>
             <param name="type">tipo dell'oggetto da creare</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al costruttore da ottenere</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al costruttore da ottenere</param>
             <param name="args">Argomenti da passare al costruttore</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object)">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> che esegue il wrapping
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> che esegue il wrapping
             dell'oggetto specificato.
             </summary>
             <param name="obj">oggetto di cui eseguire il wrapping</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType)">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/> che esegue il wrapping
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject" /> che esegue il wrapping
             dell'oggetto specificato.
             </summary>
             <param name="obj">oggetto di cui eseguire il wrapping</param>
@@ -315,7 +315,7 @@
             Richiama il metodo specificato
             </summary>
             <param name="name">Nome del metodo</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <returns>Risultato della chiamata al metodo</returns>
         </member>
@@ -324,7 +324,7 @@
             Richiama il metodo specificato
             </summary>
             <param name="name">Nome del metodo</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <param name="typeArguments">Matrice di tipi corrispondenti ai tipi degli argomenti generici.</param>
             <returns>Risultato della chiamata al metodo</returns>
@@ -343,7 +343,7 @@
             Richiama il metodo specificato
             </summary>
             <param name="name">Nome del metodo</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <param name="culture">Info su impostazioni cultura</param>
             <returns>Risultato della chiamata al metodo</returns>
@@ -353,7 +353,7 @@
             Richiama il metodo specificato
             </summary>
             <param name="name">Nome del metodo</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <returns>Risultato della chiamata al metodo</returns>
         </member>
@@ -362,8 +362,8 @@
             Richiama il metodo specificato
             </summary>
             <param name="name">Nome del metodo</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <returns>Risultato della chiamata al metodo</returns>
         </member>
@@ -372,7 +372,7 @@
             Richiama il metodo specificato
             </summary>
             <param name="name">Nome del metodo</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <param name="culture">Info su impostazioni cultura</param>
             <returns>Risultato della chiamata al metodo</returns>
@@ -382,8 +382,8 @@
             Richiama il metodo specificato
             </summary>
             <param name="name">Nome del metodo</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <param name="culture">Info su impostazioni cultura</param>
             <returns>Risultato della chiamata al metodo</returns>
@@ -393,8 +393,8 @@
             Richiama il metodo specificato
             </summary>
             <param name="name">Nome del metodo</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da ottenere.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <param name="culture">Info su impostazioni cultura</param>
             <param name="typeArguments">Matrice di tipi corrispondenti ai tipi degli argomenti generici.</param>
@@ -421,7 +421,7 @@
             Ottiene l'elemento di matrice usando la matrice di indici per ogni dimensione
             </summary>
             <param name="name">Nome del membro</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="indices">indici della matrice</param>
             <returns>Matrice di elementi.</returns>
         </member>
@@ -430,7 +430,7 @@
             Imposta l'elemento di matrice usando la matrice di indici per ogni dimensione
             </summary>
             <param name="name">Nome del membro</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="value">Valore da impostare</param>
             <param name="indices">indici della matrice</param>
         </member>
@@ -453,7 +453,7 @@
             Ottiene il campo
             </summary>
             <param name="name">Nome del campo</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <returns>Campo.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetField(System.String,System.Reflection.BindingFlags,System.Object)">
@@ -461,7 +461,7 @@
             Imposta il campo
             </summary>
             <param name="name">Nome del campo</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="value">valore da impostare</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetFieldOrProperty(System.String)">
@@ -483,7 +483,7 @@
             Ottiene il campo o la proprietà
             </summary>
             <param name="name">Nome del campo o della proprietà</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <returns>Campo o proprietà.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetFieldOrProperty(System.String,System.Reflection.BindingFlags,System.Object)">
@@ -491,7 +491,7 @@
             Imposta il campo o la proprietà
             </summary>
             <param name="name">Nome del campo o della proprietà</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="value">valore da impostare</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetProperty(System.String,System.Object[])">
@@ -507,7 +507,7 @@
             Ottiene la proprietà
             </summary>
             <param name="name">Nome della proprietà</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <returns>Proprietà.</returns>
         </member>
@@ -524,7 +524,7 @@
             Imposta la proprietà
             </summary>
             <param name="name">Nome della proprietà</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
             <param name="value">valore da impostare</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
         </member>
@@ -533,7 +533,7 @@
             Ottiene la proprietà
             </summary>
             <param name="name">Nome della proprietà</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <returns>Proprietà.</returns>
         </member>
@@ -542,8 +542,8 @@
             Ottiene la proprietà
             </summary>
             <param name="name">Nome della proprietà</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <returns>Proprietà.</returns>
         </member>
@@ -552,7 +552,7 @@
             Imposta la proprietà
             </summary>
             <param name="name">Nome della proprietà</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="value">valore da impostare</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
         </member>
@@ -561,9 +561,9 @@
             Imposta la proprietà
             </summary>
             <param name="name">Nome della proprietà</param>
-            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags"/> che specificano in che modo viene eseguita la ricerca.</param>
+            <param name="bindingFlags">Maschera di bit costituita da uno o più <see cref="T:System.Reflection.BindingFlags" /> che specificano in che modo viene eseguita la ricerca.</param>
             <param name="value">valore da impostare</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.ValidateAccessString(System.String)">
@@ -589,7 +589,7 @@
             <param name="methodName">Nome del metodo in cui cercare la cache delle firme.</param>
             <param name="parameterTypes">Matrice di tipi corrispondenti ai tipi dei parametri in cui eseguire la ricerca.</param>
             <param name="typeArguments">Matrice di tipi corrispondenti ai tipi degli argomenti generici.</param>
-            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags"/> per filtrare ulteriormente le firme del metodo.</param>
+            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags" /> per filtrare ulteriormente le firme del metodo.</param>
             <param name="modifiers">Modificatori per i parametri.</param>
             <returns>Istanza di MethodInfo.</returns>
         </member>
@@ -610,14 +610,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.String,System.String)">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/> che contiene il tipo privato.
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType" /> che contiene il tipo privato.
             </summary>
             <param name="assemblyName">Nome dell'assembly</param>
             <param name="typeName">nome completo del </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.Type)">
             <summary>
-            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/> che contiene 
+            Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType" /> che contiene
             il tipo privato dell'oggetto tipo
             </summary>
             <param name="type">Oggetto Type con wrapping da creare.</param>
@@ -640,7 +640,7 @@
             Richiama il membro statico
             </summary>
             <param name="name">Nome del membro per InvokeHelper</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
             <param name="args">Argomenti della chiamata</param>
             <returns>Risultato della chiamata</returns>
         </member>
@@ -649,7 +649,7 @@
             Richiama il membro statico
             </summary>
             <param name="name">Nome del membro per InvokeHelper</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
             <param name="args">Argomenti della chiamata</param>
             <param name="typeArguments">Matrice di tipi corrispondenti ai tipi degli argomenti generici.</param>
             <returns>Risultato della chiamata</returns>
@@ -668,7 +668,7 @@
             Richiama il metodo statico
             </summary>
             <param name="name">Nome del membro</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
             <param name="args">Argomenti della chiamata</param>
             <param name="culture">Info su impostazioni cultura</param>
             <returns>Risultato della chiamata</returns>
@@ -688,7 +688,7 @@
             </summary>
             <param name="name">Nome del membro</param>
             <param name="bindingFlags">Attributi di chiamata aggiuntivi</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
             <param name="args">Argomenti della chiamata</param>
             <returns>Risultato della chiamata</returns>
         </member>
@@ -708,7 +708,7 @@
             </summary>
             <param name="name">Nome del membro</param>
             <param name="bindingFlags">Attributi di chiamata aggiuntivi</param>
-            /// <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
+            /// <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
             <param name="args">Argomenti della chiamata</param>
             <param name="culture">Impostazioni cultura</param>
             <returns>Risultato della chiamata</returns>
@@ -719,7 +719,7 @@
             </summary>
             <param name="name">Nome del membro</param>
             <param name="bindingFlags">Attributi di chiamata aggiuntivi</param>
-            /// <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
+            /// <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi al metodo da richiamare</param>
             <param name="args">Argomenti della chiamata</param>
             <param name="culture">Impostazioni cultura</param>
             <param name="typeArguments">Matrice di tipi corrispondenti ai tipi degli argomenti generici.</param>
@@ -853,7 +853,7 @@
             </summary>
             <param name="name">Nome della proprietà</param>
             <param name="value">Valore da impostare sul campo o sulla proprietà</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticProperty(System.String,System.Reflection.BindingFlags,System.Object[])">
@@ -871,7 +871,7 @@
             </summary>
             <param name="name">Nome della proprietà</param>
             <param name="bindingFlags">Attributi di chiamata aggiuntivi.</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
             <returns>Proprietà statica.</returns>
         </member>
@@ -891,7 +891,7 @@
             <param name="name">Nome della proprietà</param>
             <param name="bindingFlags">Attributi di chiamata aggiuntivi.</param>
             <param name="value">Valore da impostare sul campo o sulla proprietà</param>
-            <param name="parameterTypes">Matrice di <see cref="T:System.Type"/> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
+            <param name="parameterTypes">Matrice di <see cref="T:System.Type" /> oggetti che rappresentano numero, ordine e tipo dei parametri relativi alla proprietà indicizzata.</param>
             <param name="args">Argomenti da passare al membro da richiamare.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeHelperStatic(System.String,System.Reflection.BindingFlags,System.Object[],System.Globalization.CultureInfo)">
@@ -1008,17 +1008,17 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory">
             <summary>
-            Ottiene la directory per i file distribuiti per l'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Ottiene la directory per i file distribuiti per l'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory">
             <summary>
-            Ottiene la directory di base per i risultati dell'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Ottiene la directory di base per i risultati dell'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory">
             <summary>
-            Ottiene la directory per i file di risultati dell'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
+            Ottiene la directory per i file di risultati dell'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory" />.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory">
@@ -1029,20 +1029,20 @@
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDir">
             <summary>
             Ottiene la directory di base per l'esecuzione dei test, in cui vengono archiviati i file distribuiti e i file di risultati.
-            Uguale a <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>. In alternativa, usare tale proprietà.
+            Uguale a <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />. In alternativa, usare tale proprietà.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDeploymentDir">
             <summary>
-            Ottiene la directory per i file distribuiti per l'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
-            Uguale a <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory"/>. In alternativa, usare tale proprietà.
+            Ottiene la directory per i file distribuiti per l'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory" />.
+            Uguale a <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory" />. In alternativa, usare tale proprietà.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestLogsDir">
             <summary>
-            Ottiene la directory per i file di risultati dell'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
-            Uguale a <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory"/>. In alternativa, usare tale proprietà per i file di risultati dell'esecuzione dei test oppure
-            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory"/> per file di risultati specifici del test.
+            Ottiene la directory per i file di risultati dell'esecuzione dei test. È in genere una sottodirectory di <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory" />.
+            Uguale a <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory" />. In alternativa, usare tale proprietà per i file di risultati dell'esecuzione dei test oppure
+            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory" /> per file di risultati specifici del test.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">

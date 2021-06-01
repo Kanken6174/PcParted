@@ -62,7 +62,7 @@ namespace PcParted {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PcParted;component/parametres.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PcGUI;component/parametres.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Parametres.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

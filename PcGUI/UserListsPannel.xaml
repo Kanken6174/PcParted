@@ -19,7 +19,7 @@
                   VerticalAlignment="Top"
                   Width="495"
                   AutoGenerateColumns="True"
-                  ItemsSource="{Binding Datagridcards, UpdateSourceTrigger=PropertyChanged}"
+                  ItemsSource="{Binding CardDataToDisplay, UpdateSourceTrigger=PropertyChanged}"
                   >
         </DataGrid>
         <ComboBox x:Name="ListesComboBox"

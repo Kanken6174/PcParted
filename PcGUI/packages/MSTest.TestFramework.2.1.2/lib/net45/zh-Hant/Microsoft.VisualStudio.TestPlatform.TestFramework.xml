@@ -132,13 +132,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" /> 類別的新執行個體。
             </summary>
             <param name="data1"> 資料物件。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object,System.Object[])">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute"/> 類別 (其採用引數的陣列) 的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute" /> 類別 (其採用引數的陣列) 的新執行個體。
             </summary>
             <param name="data1"> 資料物件。 </param>
             <param name="moreData"> 其他資料。 </param>
@@ -160,20 +160,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String,System.Exception)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> 類別的新執行個體。
             </summary>
             <param name="msg"> 訊息。 </param>
             <param name="ex"> 例外狀況。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> 類別的新執行個體。
             </summary>
             <param name="msg"> 訊息。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException.#ctor">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException" /> 類別的新執行個體。
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException">
@@ -187,20 +187,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String,System.Exception)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> 類別的新執行個體。
             </summary>
             <param name="msg"> 例外狀況訊息。 </param>
             <param name="ex"> 例外狀況。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> 類別的新執行個體。
             </summary>
             <param name="msg"> 例外狀況訊息。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException.#ctor">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException" /> 類別的新執行個體。
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute">
@@ -210,13 +210,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)">
             <summary>
-            初始化具預期類型之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/> 類別的新執行個體
+            初始化具預期類型之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" /> 類別的新執行個體
             </summary>
             <param name="exceptionType">預期的例外狀況類型</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute"/> 類別
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute" /> 類別
             (其具預期類型及訊息，用以在測試未擲回任何例外狀況時予以納入) 的新執行個體。
             </summary>
             <param name="exceptionType">預期的例外狀況類型</param>
@@ -253,12 +253,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor">
             <summary>
-            使用預設無例外狀況訊息初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> 類別的新執行個體
+            使用預設無例外狀況訊息初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> 類別的新執行個體
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute.#ctor(System.String)">
             <summary>
-            初始化具無例外狀況訊息之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute"/> 類別的新執行個體
+            初始化具無例外狀況訊息之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionBaseAttribute" /> 類別的新執行個體
             </summary>
             <param name="noExceptionMessage">
             測試因未擲回例外狀況而失敗時，要包含在測試結果中的
@@ -287,8 +287,8 @@
             判斷是否預期會發生例外狀況。如果傳回方法，則了解
             預期會發生例外狀況。如果方法擲回例外狀況，則了解
             預期不會發生例外狀況，而且測試結果中
-            會包含所擲回例外狀況的訊息。<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert"/> 類別可以基於便利
-            使用。如果使用 <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive"/> 並且判斷提示失敗，
+            會包含所擲回例外狀況的訊息。<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert" /> 類別可以基於便利
+            使用。如果使用 <see cref="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive" /> 並且判斷提示失敗，
             則測試結果設定為 [結果不明]。
             </summary>
             <param name="exception">單元測試所擲回的例外狀況</param>
@@ -310,7 +310,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> 類別 (其符合 C# 泛型中的 'newable' 限制式)
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> 類別 (其符合 C# 泛型中的 'newable' 限制式)
             的新執行個體。
             </summary>
             <remarks>
@@ -319,7 +319,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor(System.Int32)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> 類別 (其將 Data 屬性初始化為使用者提供的值)
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> 類別 (其將 Data 屬性初始化為使用者提供的值)
             的新執行個體。
             </summary>
             <param name="data">任何整數值</param>
@@ -345,14 +345,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.CompareTo(System.Object)">
             <summary>
-            比較這兩個 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/> 物件的資料。
+            比較這兩個 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" /> 物件的資料。
             </summary>
             <param name="obj">要比較的物件。</param>
             <returns>
             已簽署的編號，表示此執行個體及值的相對值。
             </returns>
             <exception cref="T:System.NotSupportedException">
-            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper"/>.
+            Thrown when the object passed in is not an instance of <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.GetEnumerator">
@@ -400,7 +400,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute"/> 類別的新執行個體，並將分類套用至測試。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute" /> 類別的新執行個體，並將分類套用至測試。
             </summary>
             <param name="testCategory">
             測試「分類」。
@@ -425,7 +425,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute.#ctor">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryBaseAttribute" /> 類別的新執行個體。
              將分類套用至測試。TestCategories 所傳回的字串
             會與 /category 命令搭配使用，以篩選測試
             </summary>
@@ -442,20 +442,20 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String,System.Exception)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> 類別的新執行個體。
             </summary>
             <param name="msg"> 訊息。 </param>
             <param name="ex"> 例外狀況。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> 類別的新執行個體。
             </summary>
             <param name="msg"> 訊息。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException.#ctor">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException" /> 類別的新執行個體。
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
@@ -485,7 +485,7 @@
             測試預期為 true 的條件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String)">
@@ -497,11 +497,11 @@
             測試預期為 true 的條件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="condition"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="condition" />
             為 false。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean,System.String,System.Object[])">
@@ -513,14 +513,14 @@
             測試預期為 true 的條件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="condition"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="condition" />
             為 false。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is false.
+            Thrown if <paramref name="condition" /> is false.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean)">
@@ -532,7 +532,7 @@
             測試預期為 false 的條件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String)">
@@ -544,11 +544,11 @@
             測試預期為 false 的條件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="condition"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="condition" />
             為 true。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse(System.Boolean,System.String,System.Object[])">
@@ -560,14 +560,14 @@
             測試預期為 false 的條件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="condition"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="condition" />
             為 true。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="condition"/> is true.
+            Thrown if <paramref name="condition" /> is true.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object)">
@@ -579,7 +579,7 @@
             測試預期為 null 的物件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String)">
@@ -591,11 +591,11 @@
             測試預期為 null 的物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
             不為 null。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNull(System.Object,System.String,System.Object[])">
@@ -607,14 +607,14 @@
             測試預期為 null 的物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
             不為 null。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null.
+            Thrown if <paramref name="value" /> is not null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object)">
@@ -626,7 +626,7 @@
             測試預期不為 null 的物件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String)">
@@ -638,11 +638,11 @@
             測試預期不為 null 的物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
             為 null。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(System.Object,System.String,System.Object[])">
@@ -654,14 +654,14 @@
             測試預期不為 null 的物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
             為 null。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null.
+            Thrown if <paramref name="value" /> is null.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object)">
@@ -676,8 +676,8 @@
             要比較的第二個物件。這是正在測試的程式碼所產生的值。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String)">
@@ -692,13 +692,13 @@
             要比較的第二個物件。這是正在測試的程式碼所產生的值。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            與下者不同: <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            與下者不同: <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreSame(System.Object,System.Object,System.String,System.Object[])">
@@ -713,16 +713,16 @@
             要比較的第二個物件。這是正在測試的程式碼所產生的值。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            與下者不同: <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            與下者不同: <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> does not refer to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> does not refer to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object)">
@@ -732,14 +732,14 @@
             </summary>
             <param name="notExpected">
             要比較的第一個物件。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個物件。這是正在測試的程式碼所產生的值。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String)">
@@ -749,19 +749,19 @@
             </summary>
             <param name="notExpected">
             要比較的第一個物件。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個物件。這是正在測試的程式碼所產生的值。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            與下者相同: <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            與下者相同: <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotSame(System.Object,System.Object,System.String,System.Object[])">
@@ -771,22 +771,22 @@
             </summary>
             <param name="notExpected">
             要比較的第一個物件。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個物件。這是正在測試的程式碼所產生的值。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            與下者相同: <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            與下者相同: <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> refers to the same object
-            as <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> refers to the same object
+            as <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0)">
@@ -805,7 +805,7 @@
             要比較的第二個值。這是正在測試的程式碼所產生的值。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String)">
@@ -824,13 +824,13 @@
             要比較的第二個值。這是正在測試的程式碼所產生的值。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual``1(``0,``0,System.String,System.Object[])">
@@ -849,16 +849,16 @@
             要比較的第二個值。這是正在測試的程式碼所產生的值。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0)">
@@ -872,13 +872,13 @@
             </typeparam>
             <param name="notExpected">
             要比較的第一個值。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個值。這是正在測試的程式碼所產生的值。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String)">
@@ -892,18 +892,18 @@
             </typeparam>
             <param name="notExpected">
             要比較的第一個值。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個值。這是正在測試的程式碼所產生的值。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual``1(``0,``0,System.String,System.Object[])">
@@ -917,21 +917,21 @@
             </typeparam>
             <param name="notExpected">
             要比較的第一個值。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個值。這是正在測試的程式碼所產生的值。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object)">
@@ -947,8 +947,8 @@
             要比較的第二個物件。這是正在測試的程式碼所產生的物件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String)">
@@ -964,13 +964,13 @@
             要比較的第二個物件。這是正在測試的程式碼所產生的物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -986,16 +986,16 @@
             要比較的第二個物件。這是正在測試的程式碼所產生的物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object)">
@@ -1006,13 +1006,13 @@
             </summary>
             <param name="notExpected">
             要比較的第一個物件。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個物件。這是正在測試的程式碼所產生的物件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String)">
@@ -1023,18 +1023,18 @@
             </summary>
             <param name="notExpected">
             要比較的第一個物件。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個物件。這是正在測試的程式碼所產生的物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Object,System.Object,System.String,System.Object[])">
@@ -1045,21 +1045,21 @@
             </summary>
             <param name="notExpected">
             要比較的第一個物件。測試預期這個值
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個物件。這是正在測試的程式碼所產生的物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single)">
@@ -1075,12 +1075,12 @@
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="expected"/>
-            超過 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="expected" />
+            超過 <paramref name="delta" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1096,17 +1096,17 @@
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="expected"/>
-            超過 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="expected" />
+            超過 <paramref name="delta" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不同於 <paramref name="expected"/> 超過
-            <paramref name="delta"/>。訊息會顯示在測試結果中。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不同於 <paramref name="expected" /> 超過
+            <paramref name="delta" />。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1122,20 +1122,20 @@
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="expected"/>
-            超過 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="expected" />
+            超過 <paramref name="delta" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不同於 <paramref name="expected"/> 超過
-            <paramref name="delta"/>。訊息會顯示在測試結果中。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不同於 <paramref name="expected" /> 超過
+            <paramref name="delta" />。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single)">
@@ -1145,18 +1145,18 @@
             </summary>
             <param name="notExpected">
             要比較的第一個 float。測試預期這個 float 不
-            符合 <paramref name="actual"/>。
+            符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個 float。這是正在測試的程式碼所產生的 float。
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="notExpected"/>
-            最多 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="notExpected" />
+            最多 <paramref name="delta" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String)">
@@ -1166,23 +1166,23 @@
             </summary>
             <param name="notExpected">
             要比較的第一個 float。測試預期這個 float 不
-            符合 <paramref name="actual"/>。
+            符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個 float。這是正在測試的程式碼所產生的 float。
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="notExpected"/>
-            最多 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="notExpected" />
+            最多 <paramref name="delta" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/> 或差異小於
-            <paramref name="delta"/>。訊息會顯示在測試結果中。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" /> 或差異小於
+            <paramref name="delta" />。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Single,System.Single,System.Single,System.String,System.Object[])">
@@ -1192,26 +1192,26 @@
             </summary>
             <param name="notExpected">
             要比較的第一個 float。測試預期這個 float 不
-            符合 <paramref name="actual"/>。
+            符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個 float。這是正在測試的程式碼所產生的 float。
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="notExpected"/>
-            最多 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="notExpected" />
+            最多 <paramref name="delta" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/> 或差異小於
-            <paramref name="delta"/>。訊息會顯示在測試結果中。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" /> 或差異小於
+            <paramref name="delta" />。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double)">
@@ -1227,12 +1227,12 @@
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="expected"/>
-            超過 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="expected" />
+            超過 <paramref name="delta" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1248,16 +1248,16 @@
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="expected"/>
-            超過 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="expected" />
+            超過 <paramref name="delta" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不同於 <paramref name="expected"/> 超過
-            <paramref name="delta"/>。訊息會顯示在測試結果中。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不同於 <paramref name="expected" /> 超過
+            <paramref name="delta" />。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1273,19 +1273,19 @@
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="expected"/>
-            超過 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="expected" />
+            超過 <paramref name="delta" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不同於 <paramref name="expected"/> 超過
-            <paramref name="delta"/>。訊息會顯示在測試結果中。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不同於 <paramref name="expected" /> 超過
+            <paramref name="delta" />。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double)">
@@ -1295,18 +1295,18 @@
             </summary>
             <param name="notExpected">
             要比較的第一個雙精度浮點數。測試預期這個雙精度浮點數
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個雙精度浮點數。這是正在測試的程式碼所產生的雙精度浮點數。
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="notExpected"/>
-            最多 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="notExpected" />
+            最多 <paramref name="delta" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String)">
@@ -1316,23 +1316,23 @@
             </summary>
             <param name="notExpected">
             要比較的第一個雙精度浮點數。測試預期這個雙精度浮點數
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個雙精度浮點數。這是正在測試的程式碼所產生的雙精度浮點數。
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="notExpected"/>
-            最多 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="notExpected" />
+            最多 <paramref name="delta" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/> 或差異小於
-            <paramref name="delta"/>。訊息會顯示在測試結果中。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" /> 或差異小於
+            <paramref name="delta" />。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.Double,System.Double,System.Double,System.String,System.Object[])">
@@ -1342,26 +1342,26 @@
             </summary>
             <param name="notExpected">
             要比較的第一個雙精度浮點數。測試預期這個雙精度浮點數
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個雙精度浮點數。這是正在測試的程式碼所產生的雙精度浮點數。
             </param>
             <param name="delta">
             所需的精確度。只有在下列情況才會擲回例外狀況:
-            <paramref name="actual"/> 不同於 <paramref name="notExpected"/>
-            最多 <paramref name="delta"/>。
+            <paramref name="actual" /> 不同於 <paramref name="notExpected" />
+            最多 <paramref name="delta" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/> 或差異小於
-            <paramref name="delta"/>。訊息會顯示在測試結果中。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" /> 或差異小於
+            <paramref name="delta" />。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean)">
@@ -1380,7 +1380,7 @@
             表示不區分大小寫的比較)。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1399,12 +1399,12 @@
             表示不區分大小寫的比較)。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1423,15 +1423,15 @@
             表示不區分大小寫的比較)。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1453,7 +1453,7 @@
             提供文化特性 (culture) 特定比較資訊的 CultureInfo 物件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1475,12 +1475,12 @@
             提供文化特性 (culture) 特定比較資訊的 CultureInfo 物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1502,15 +1502,15 @@
             提供文化特性 (culture) 特定比較資訊的 CultureInfo 物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean)">
@@ -1520,7 +1520,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個字串。測試預期這個字串
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個字串。這是正在測試的程式碼所產生的字串。
@@ -1530,7 +1530,7 @@
             表示不區分大小寫的比較)。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String)">
@@ -1540,7 +1540,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個字串。測試預期這個字串
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個字串。這是正在測試的程式碼所產生的字串。
@@ -1550,12 +1550,12 @@
             表示不區分大小寫的比較)。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.String,System.Object[])">
@@ -1565,7 +1565,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個字串。測試預期這個字串
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個字串。這是正在測試的程式碼所產生的字串。
@@ -1575,15 +1575,15 @@
             表示不區分大小寫的比較)。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)">
@@ -1593,7 +1593,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個字串。測試預期這個字串
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個字串。這是正在測試的程式碼所產生的字串。
@@ -1606,7 +1606,7 @@
             提供文化特性 (culture) 特定比較資訊的 CultureInfo 物件。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String)">
@@ -1616,7 +1616,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個字串。測試預期這個字串
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個字串。這是正在測試的程式碼所產生的字串。
@@ -1629,12 +1629,12 @@
             提供文化特性 (culture) 特定比較資訊的 CultureInfo 物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreNotEqual(System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
@@ -1644,7 +1644,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個字串。測試預期這個字串
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個字串。這是正在測試的程式碼所產生的字串。
@@ -1657,15 +1657,15 @@
             提供文化特性 (culture) 特定比較資訊的 CultureInfo 物件。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type)">
@@ -1678,12 +1678,12 @@
             測試預期為所指定類型的物件。
             </param>
             <param name="expectedType">
-            下者的預期類型: <paramref name="value"/>。
+            下者的預期類型: <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String)">
@@ -1696,17 +1696,17 @@
             測試預期為所指定類型的物件。
             </param>
             <param name="expectedType">
-            下者的預期類型: <paramref name="value"/>。
+            下者的預期類型: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            不是下者的執行個體: <paramref name="expectedType"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            不是下者的執行個體: <paramref name="expectedType" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1719,20 +1719,20 @@
             測試預期為所指定類型的物件。
             </param>
             <param name="expectedType">
-            下者的預期類型: <paramref name="value"/>。
+            下者的預期類型: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            不是下者的執行個體: <paramref name="expectedType"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            不是下者的執行個體: <paramref name="expectedType" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type)">
@@ -1745,12 +1745,12 @@
             測試預期不為所指定類型的物件。
             </param>
             <param name="wrongType">
-            下者不應該屬於的類型: <paramref name="value"/>。
+            下者不應該屬於的類型: <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String)">
@@ -1763,17 +1763,17 @@
             測試預期不為所指定類型的物件。
             </param>
             <param name="wrongType">
-            下者不應該屬於的類型: <paramref name="value"/>。
+            下者不應該屬於的類型: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            是下者的執行個體: <paramref name="wrongType"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            是下者的執行個體: <paramref name="wrongType" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotInstanceOfType(System.Object,System.Type,System.String,System.Object[])">
@@ -1786,20 +1786,20 @@
             測試預期不為所指定類型的物件。
             </param>
             <param name="wrongType">
-            下者不應該屬於的類型: <paramref name="value"/>。
+            下者不應該屬於的類型: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            是下者的執行個體: <paramref name="wrongType"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            是下者的執行個體: <paramref name="wrongType" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> is not null and
-            <paramref name="wrongType"/> is in the inheritance hierarchy
-            of <paramref name="value"/>.
+            Thrown if <paramref name="value" /> is not null and
+            <paramref name="wrongType" /> is in the inheritance hierarchy
+            of <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail">
@@ -1831,7 +1831,7 @@
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Always thrown.
@@ -1866,7 +1866,7 @@
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException">
             Always thrown.
@@ -1885,12 +1885,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action)">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
+            測試委派 <paramref name="action" /> 所指定的程式碼會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
             並擲回
             <code>
             AssertFailedException
             </code>
-            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況)。
+            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況)。
             </summary>
             <param name="action">
             要測試程式碼並預期擲回例外狀況的委派。
@@ -1899,7 +1899,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             預期擲回的例外狀況類型。
@@ -1907,25 +1907,25 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String)">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
+            測試委派 <paramref name="action" /> 所指定的程式碼會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
             並擲回
             <code>
             AssertFailedException
             </code>
-            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況)。
+            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況)。
             </summary>
             <param name="action">
             要測試程式碼並預期擲回例外狀況的委派。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action"/>
-            未擲回下列類型的例外狀況: <typeparamref name="T"/>。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action" />
+            未擲回下列類型的例外狀況: <typeparamref name="T" />。
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             預期擲回的例外狀況類型。
@@ -1933,12 +1933,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object})">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
+            測試委派 <paramref name="action" /> 所指定的程式碼會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
             並擲回
             <code>
             AssertFailedException
             </code>
-            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況)。
+            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況)。
             </summary>
             <param name="action">
             要測試程式碼並預期擲回例外狀況的委派。
@@ -1947,7 +1947,7 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             預期擲回的例外狀況類型。
@@ -1955,25 +1955,25 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String)">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
+            測試委派 <paramref name="action" /> 所指定的程式碼會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
             並擲回
             <code>
             AssertFailedException
             </code>
-            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況)。
+            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況)。
             </summary>
             <param name="action">
             要測試程式碼並預期擲回例外狀況的委派。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action"/>
-            未擲回下列類型的例外狀況: <typeparamref name="T"/>。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action" />
+            未擲回下列類型的例外狀況: <typeparamref name="T" />。
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             預期擲回的例外狀況類型。
@@ -1981,28 +1981,28 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Func{System.Object},System.String,System.Object[])">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
+            測試委派 <paramref name="action" /> 所指定的程式碼會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
             並擲回
             <code>
             AssertFailedException
             </code>
-            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況)。
+            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況)。
             </summary>
             <param name="action">
             要測試程式碼並預期擲回例外狀況的委派。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action"/>
-            未擲回下列類型的例外狀況: <typeparamref name="T"/>。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action" />
+            未擲回下列類型的例外狀況: <typeparamref name="T" />。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throw exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throw exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             預期擲回的例外狀況類型。
@@ -2010,28 +2010,28 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException``1(System.Action,System.String,System.Object[])">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
+            測試委派 <paramref name="action" /> 所指定的程式碼會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
             並擲回
             <code>
             AssertFailedException
             </code>
-            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況)。
+            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況)。
             </summary>
             <param name="action">
             要測試程式碼並預期擲回例外狀況的委派。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action"/>
-            未擲回下列類型的例外狀況: <typeparamref name="T"/>。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action" />
+            未擲回下列類型的例外狀況: <typeparamref name="T" />。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <typeparam name="T">
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
             預期擲回的例外狀況類型。
@@ -2039,12 +2039,12 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task})">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
+            測試委派 <paramref name="action" /> 所指定的程式碼會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
             並擲回
             <code>
             AssertFailedException
             </code>
-            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況)。
+            (若程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況)。
             </summary>
             <param name="action">
             要測試程式碼並預期擲回例外狀況的委派。
@@ -2053,49 +2053,49 @@
             Type of exception expected to be thrown.
             </typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-             <see cref="T:System.Threading.Tasks.Task"/> 執行委派。
+             <see cref="T:System.Threading.Tasks.Task" /> 執行委派。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String)">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼是否會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
-            並於程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況時，擲回 <code>AssertFailedException</code>。
+            測試委派 <paramref name="action" /> 所指定的程式碼是否會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
+            並於程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況時，擲回 <code>AssertFailedException</code>。
             </summary>
             <param name="action">委派給要進行測試且預期會擲回例外狀況的程式碼。</param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action"/>
-            未擲回下列類型的例外狀況: <typeparamref name="T"/>。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action" />
+            未擲回下列類型的例外狀況: <typeparamref name="T" />。
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-             <see cref="T:System.Threading.Tasks.Task"/> 執行委派。
+             <see cref="T:System.Threading.Tasks.Task" /> 執行委派。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsExceptionAsync``1(System.Func{System.Threading.Tasks.Task},System.String,System.Object[])">
             <summary>
-            測試委派 <paramref name="action"/> 所指定的程式碼是否會擲回 <typeparamref name="T"/> 類型的確切指定例外狀況 (而非衍生類型)
-            並於程式碼未擲回例外狀況或擲回非 <typeparamref name="T"/> 類型的例外狀況時，擲回 <code>AssertFailedException</code>。
+            測試委派 <paramref name="action" /> 所指定的程式碼是否會擲回 <typeparamref name="T" /> 類型的確切指定例外狀況 (而非衍生類型)
+            並於程式碼未擲回例外狀況或擲回非 <typeparamref name="T" /> 類型的例外狀況時，擲回 <code>AssertFailedException</code>。
             </summary>
             <param name="action">委派給要進行測試且預期會擲回例外狀況的程式碼。</param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action"/>
-            未擲回下列類型的例外狀況: <typeparamref name="T"/>。
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="action" />
+            未擲回下列類型的例外狀況: <typeparamref name="T" />。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <typeparam name="T">Type of exception expected to be thrown.</typeparam>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="action"/> does not throws exception of type <typeparamref name="T"/>.
+            Thrown if <paramref name="action" /> does not throws exception of type <typeparamref name="T" />.
             </exception>
             <returns>
-             <see cref="T:System.Threading.Tasks.Task"/> 執行委派。
+             <see cref="T:System.Threading.Tasks.Task" /> 執行委派。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ReplaceNullChars(System.String)">
@@ -2181,14 +2181,14 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            預期包含下者的字串: <paramref name="substring"/>。
+            預期包含下者的字串: <paramref name="substring" />。
             </param>
             <param name="substring">
-            預期在下列時間內發生的字串: <paramref name="value"/>。
+            預期在下列時間內發生的字串: <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String)">
@@ -2198,19 +2198,19 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            預期包含下者的字串: <paramref name="substring"/>。
+            預期包含下者的字串: <paramref name="substring" />。
             </param>
             <param name="substring">
-            預期在下列時間內發生的字串: <paramref name="value"/>。
+            預期在下列時間內發生的字串: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="substring"/>
-            未位於 <paramref name="value"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="substring" />
+            未位於 <paramref name="value" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(System.String,System.String,System.String,System.Object[])">
@@ -2220,22 +2220,22 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            預期包含下者的字串: <paramref name="substring"/>。
+            預期包含下者的字串: <paramref name="substring" />。
             </param>
             <param name="substring">
-            預期在下列時間內發生的字串: <paramref name="value"/>。
+            預期在下列時間內發生的字串: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="substring"/>
-            未位於 <paramref name="value"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="substring" />
+            未位於 <paramref name="value" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="substring"/> is not found in
-            <paramref name="value"/>.
+            Thrown if <paramref name="substring" /> is not found in
+            <paramref name="value" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String)">
@@ -2245,14 +2245,14 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            字串預期開頭為 <paramref name="substring"/>。
+            字串預期開頭為 <paramref name="substring" />。
             </param>
             <param name="substring">
-            字串預期為下者的前置詞: <paramref name="value"/>。
+            字串預期為下者的前置詞: <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String)">
@@ -2262,19 +2262,19 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            字串預期開頭為 <paramref name="substring"/>。
+            字串預期開頭為 <paramref name="substring" />。
             </param>
             <param name="substring">
-            字串預期為下者的前置詞: <paramref name="value"/>。
+            字串預期為下者的前置詞: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            的開頭不是 <paramref name="substring"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            的開頭不是 <paramref name="substring" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.StartsWith(System.String,System.String,System.String,System.Object[])">
@@ -2284,22 +2284,22 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            字串預期開頭為 <paramref name="substring"/>。
+            字串預期開頭為 <paramref name="substring" />。
             </param>
             <param name="substring">
-            字串預期為下者的前置詞: <paramref name="value"/>。
+            字串預期為下者的前置詞: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            的開頭不是 <paramref name="substring"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            的開頭不是 <paramref name="substring" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not begin with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not begin with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String)">
@@ -2309,14 +2309,14 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            字串預期結尾為 <paramref name="substring"/>。
+            字串預期結尾為 <paramref name="substring" />。
             </param>
             <param name="substring">
-            字串預期為下者的字尾: <paramref name="value"/>。
+            字串預期為下者的字尾: <paramref name="value" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String)">
@@ -2326,19 +2326,19 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            字串預期結尾為 <paramref name="substring"/>。
+            字串預期結尾為 <paramref name="substring" />。
             </param>
             <param name="substring">
-            字串預期為下者的字尾: <paramref name="value"/>。
+            字串預期為下者的字尾: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            的結尾不是 <paramref name="substring"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            的結尾不是 <paramref name="substring" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.EndsWith(System.String,System.String,System.String,System.Object[])">
@@ -2348,22 +2348,22 @@
             擲回例外狀況。
             </summary>
             <param name="value">
-            字串預期結尾為 <paramref name="substring"/>。
+            字串預期結尾為 <paramref name="substring" />。
             </param>
             <param name="substring">
-            字串預期為下者的字尾: <paramref name="value"/>。
+            字串預期為下者的字尾: <paramref name="value" />。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            的結尾不是 <paramref name="substring"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            的結尾不是 <paramref name="substring" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not end with
-            <paramref name="substring"/>.
+            Thrown if <paramref name="value" /> does not end with
+            <paramref name="substring" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex)">
@@ -2372,15 +2372,15 @@
             並在字串不符合運算式時擲回例外狀況。
             </summary>
             <param name="value">
-            預期符合下者的字串: <paramref name="pattern"/>。
+            預期符合下者的字串: <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            規則運算式，<paramref name="value"/> 
+            規則運算式，<paramref name="value" />
             預期相符。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2389,20 +2389,20 @@
             並在字串不符合運算式時擲回例外狀況。
             </summary>
             <param name="value">
-            預期符合下者的字串: <paramref name="pattern"/>。
+            預期符合下者的字串: <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            規則運算式，<paramref name="value"/> 
+            規則運算式，<paramref name="value" />
             預期相符。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            不符合 <paramref name="pattern"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            不符合 <paramref name="pattern" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Matches(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2411,23 +2411,23 @@
             並在字串不符合運算式時擲回例外狀況。
             </summary>
             <param name="value">
-            預期符合下者的字串: <paramref name="pattern"/>。
+            預期符合下者的字串: <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            規則運算式，<paramref name="value"/> 
+            規則運算式，<paramref name="value" />
             預期相符。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            不符合 <paramref name="pattern"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            不符合 <paramref name="pattern" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> does not match
-            <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> does not match
+            <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex)">
@@ -2436,14 +2436,14 @@
             並在字串符合運算式時擲回例外狀況。
             </summary>
             <param name="value">
-            預期不符合下者的字串: <paramref name="pattern"/>。
+            預期不符合下者的字串: <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            規則運算式，<paramref name="value"/> 
+            規則運算式，<paramref name="value" />
             預期不相符。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String)">
@@ -2452,19 +2452,19 @@
             並在字串符合運算式時擲回例外狀況。
             </summary>
             <param name="value">
-            預期不符合下者的字串: <paramref name="pattern"/>。
+            預期不符合下者的字串: <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            規則運算式，<paramref name="value"/> 
+            規則運算式，<paramref name="value" />
             預期不相符。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            符合 <paramref name="pattern"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            符合 <paramref name="pattern" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.DoesNotMatch(System.String,System.Text.RegularExpressions.Regex,System.String,System.Object[])">
@@ -2473,22 +2473,22 @@
             並在字串符合運算式時擲回例外狀況。
             </summary>
             <param name="value">
-            預期不符合下者的字串: <paramref name="pattern"/>。
+            預期不符合下者的字串: <paramref name="pattern" />。
             </param>
             <param name="pattern">
-            規則運算式，<paramref name="value"/> 
+            規則運算式，<paramref name="value" />
             預期不相符。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value"/>
-            符合 <paramref name="pattern"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="value" />
+            符合 <paramref name="pattern" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="value"/> matches <paramref name="pattern"/>.
+            Thrown if <paramref name="value" /> matches <paramref name="pattern" />.
             </exception>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert">
@@ -2521,8 +2521,8 @@
             預期在集合中的元素。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String)">
@@ -2537,13 +2537,13 @@
             預期在集合中的元素。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="element"/>
-            未位於 <paramref name="collection"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="element" />
+            未位於 <paramref name="collection" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.Contains(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2558,16 +2558,16 @@
             預期在集合中的元素。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="element"/>
-            未位於 <paramref name="collection"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="element" />
+            未位於 <paramref name="collection" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is not found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is not found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object)">
@@ -2582,8 +2582,8 @@
             預期不在集合中的元素。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String)">
@@ -2598,13 +2598,13 @@
             預期不在集合中的元素。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="element"/>
-            位於 <paramref name="collection"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="element" />
+            位於 <paramref name="collection" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.DoesNotContain(System.Collections.ICollection,System.Object,System.String,System.Object[])">
@@ -2619,16 +2619,16 @@
             預期不在集合中的元素。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="element"/>
-            位於 <paramref name="collection"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="element" />
+            位於 <paramref name="collection" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="element"/> is found in
-            <paramref name="collection"/>.
+            Thrown if <paramref name="element" /> is found in
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection)">
@@ -2640,7 +2640,7 @@
             要在其中搜尋 null 元素的集合。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String)">
@@ -2652,11 +2652,11 @@
             要在其中搜尋 null 元素的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="collection"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="collection" />
             包含 null 元素。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreNotNull(System.Collections.ICollection,System.String,System.Object[])">
@@ -2668,14 +2668,14 @@
             要在其中搜尋 null 元素的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="collection"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="collection" />
             包含 null 元素。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if a null element is found in <paramref name="collection"/>.
+            Thrown if a null element is found in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection)">
@@ -2688,7 +2688,7 @@
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String)">
@@ -2700,13 +2700,13 @@
             在其中搜尋重複元素的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="collection"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="collection" />
             包含至少一個重複元素。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreUnique(System.Collections.ICollection,System.String,System.Object[])">
@@ -2718,16 +2718,16 @@
             在其中搜尋重複元素的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="collection"/>
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="collection" />
             包含至少一個重複元素。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if a two or more equal elements are found in
-            <paramref name="collection"/>.
+            <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2737,14 +2737,14 @@
             例外狀況。
             </summary>
             <param name="subset">
-            集合預期為下者的子集: <paramref name="superset"/>。
+            集合預期為下者的子集: <paramref name="superset" />。
             </param>
             <param name="superset">
-            集合預期為下者的超集: <paramref name="subset"/>
+            集合預期為下者的超集: <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2754,19 +2754,19 @@
             例外狀況。
             </summary>
             <param name="subset">
-            集合預期為下者的子集: <paramref name="superset"/>。
+            集合預期為下者的子集: <paramref name="superset" />。
             </param>
             <param name="superset">
-            集合預期為下者的超集: <paramref name="subset"/>
+            集合預期為下者的超集: <paramref name="subset" />
             </param>
             <param name="message">
             在下列情況下，要包含在例外狀況中的訊息: 下者中的元素:
-            <paramref name="subset"/> 在下者中找不到: <paramref name="superset"/>。
+            <paramref name="subset" /> 在下者中找不到: <paramref name="superset" />。
             訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2776,22 +2776,22 @@
             例外狀況。
             </summary>
             <param name="subset">
-            集合預期為下者的子集: <paramref name="superset"/>。
+            集合預期為下者的子集: <paramref name="superset" />。
             </param>
             <param name="superset">
-            集合預期為下者的超集: <paramref name="subset"/>
+            集合預期為下者的超集: <paramref name="subset" />
             </param>
             <param name="message">
             在下列情況下，要包含在例外狀況中的訊息: 下者中的元素:
-            <paramref name="subset"/> 在下者中找不到: <paramref name="superset"/>。
+            <paramref name="subset" /> 在下者中找不到: <paramref name="superset" />。
             訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="subset"/> is not found in
-            <paramref name="superset"/>.
+            Thrown if an element in <paramref name="subset" /> is not found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2801,14 +2801,14 @@
             例外狀況。
             </summary>
             <param name="subset">
-            集合預期不為下者的子集: <paramref name="superset"/>。
+            集合預期不為下者的子集: <paramref name="superset" />。
             </param>
             <param name="superset">
-            集合預期不為下者的超集: <paramref name="subset"/>
+            集合預期不為下者的超集: <paramref name="subset" />
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -2818,19 +2818,19 @@
             例外狀況。
             </summary>
             <param name="subset">
-            集合預期不為下者的子集: <paramref name="superset"/>。
+            集合預期不為下者的子集: <paramref name="superset" />。
             </param>
             <param name="superset">
-            集合預期不為下者的超集: <paramref name="subset"/>
+            集合預期不為下者的超集: <paramref name="subset" />
             </param>
             <param name="message">
             在下列情況下，要包含在例外狀況中的訊息: 下者中的每個元素:
-            <paramref name="subset"/> 也會在下者中找到: <paramref name="superset"/>。
+            <paramref name="subset" /> 也會在下者中找到: <paramref name="superset" />。
             訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsNotSubsetOf(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -2840,22 +2840,22 @@
             例外狀況。
             </summary>
             <param name="subset">
-            集合預期不為下者的子集: <paramref name="superset"/>。
+            集合預期不為下者的子集: <paramref name="superset" />。
             </param>
             <param name="superset">
-            集合預期不為下者的超集: <paramref name="subset"/>
+            集合預期不為下者的超集: <paramref name="subset" />
             </param>
             <param name="message">
             在下列情況下，要包含在例外狀況中的訊息: 下者中的每個元素:
-            <paramref name="subset"/> 也會在下者中找到: <paramref name="superset"/>。
+            <paramref name="subset" /> 也會在下者中找到: <paramref name="superset" />。
             訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if every element in <paramref name="subset"/> is also found in
-            <paramref name="superset"/>.
+            Thrown if every element in <paramref name="subset" /> is also found in
+            <paramref name="superset" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEquivalent(System.Collections.ICollection,System.Collections.ICollection)">
@@ -2921,7 +2921,7 @@
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if an element was found in one of the collections but not
@@ -2962,8 +2962,8 @@
             所產生的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            包含與下者相同的元素: <paramref name="expected"/>。訊息
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            包含與下者相同的元素: <paramref name="expected" />。訊息
             會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
@@ -2986,12 +2986,12 @@
             所產生的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            包含與下者相同的元素: <paramref name="expected"/>。訊息
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            包含與下者相同的元素: <paramref name="expected" />。訊息
             會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
             Thrown if the two collections contained the same elements, including
@@ -3009,12 +3009,12 @@
             的集合。
             </param>
             <param name="expectedType">
-            下者的每個元素的預期類型: <paramref name="collection"/>。
+            下者的每個元素的預期類型: <paramref name="collection" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String)">
@@ -3028,17 +3028,17 @@
             的集合。
             </param>
             <param name="expectedType">
-            下者的每個元素的預期類型: <paramref name="collection"/>。
+            下者的每個元素的預期類型: <paramref name="collection" />。
             </param>
             <param name="message">
             在下列情況下，要包含在例外狀況中的訊息: 下者中的元素:
-            <paramref name="collection"/> 不是下者的執行個體:
-            <paramref name="expectedType"/>。訊息會顯示在測試結果中。
+            <paramref name="collection" /> 不是下者的執行個體:
+            <paramref name="expectedType" />。訊息會顯示在測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AllItemsAreInstancesOfType(System.Collections.ICollection,System.Type,System.String,System.Object[])">
@@ -3052,20 +3052,20 @@
             的集合。
             </param>
             <param name="expectedType">
-            下者的每個元素的預期類型: <paramref name="collection"/>。
+            下者的每個元素的預期類型: <paramref name="collection" />。
             </param>
             <param name="message">
             在下列情況下，要包含在例外狀況中的訊息: 下者中的元素:
-            <paramref name="collection"/> 不是下者的執行個體:
-            <paramref name="expectedType"/>。訊息會顯示在測試結果中。
+            <paramref name="collection" /> 不是下者的執行個體:
+            <paramref name="expectedType" />。訊息會顯示在測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if an element in <paramref name="collection"/> is null or
-            <paramref name="expectedType"/> is not in the inheritance hierarchy
-            of an element in <paramref name="collection"/>.
+            Thrown if an element in <paramref name="collection" /> is null or
+            <paramref name="expectedType" /> is not in the inheritance hierarchy
+            of an element in <paramref name="collection" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3083,8 +3083,8 @@
             所產生的集合。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3102,13 +3102,13 @@
             所產生的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3126,16 +3126,16 @@
             所產生的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3147,14 +3147,14 @@
             </summary>
             <param name="notExpected">
             要比較的第一個集合。測試預期這個集合
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個集合。這是正在測試的程式碼
             所產生的集合。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String)">
@@ -3166,19 +3166,19 @@
             </summary>
             <param name="notExpected">
             要比較的第一個集合。測試預期這個集合
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個集合。這是正在測試的程式碼
             所產生的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.String,System.Object[])">
@@ -3190,22 +3190,22 @@
             </summary>
             <param name="notExpected">
             要比較的第一個集合。測試預期這個集合
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個集合。這是正在測試的程式碼
             所產生的集合。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3226,8 +3226,8 @@
             要在比較集合元素時使用的比較實作。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3248,13 +3248,13 @@
             要在比較集合元素時使用的比較實作。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3275,16 +3275,16 @@
             要在比較集合元素時使用的比較實作。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            不等於 <paramref name="expected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            不等於 <paramref name="expected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            在將下者格式化時要使用的參數陣列: <paramref name="message"/>。
+            在將下者格式化時要使用的參數陣列: <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to
-            <paramref name="actual"/>.
+            Thrown if <paramref name="expected" /> is not equal to
+            <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer)">
@@ -3296,7 +3296,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個集合。測試預期這個集合
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個集合。這是正在測試的程式碼
@@ -3306,7 +3306,7 @@
             要在比較集合元素時使用的比較實作。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String)">
@@ -3318,7 +3318,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個集合。測試預期這個集合
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個集合。這是正在測試的程式碼
@@ -3328,12 +3328,12 @@
             要在比較集合元素時使用的比較實作。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.AreNotEqual(System.Collections.ICollection,System.Collections.ICollection,System.Collections.IComparer,System.String,System.Object[])">
@@ -3345,7 +3345,7 @@
             </summary>
             <param name="notExpected">
             要比較的第一個集合。測試預期這個集合
-            不符合 <paramref name="actual"/>。
+            不符合 <paramref name="actual" />。
             </param>
             <param name="actual">
             要比較的第二個集合。這是正在測試的程式碼
@@ -3355,15 +3355,15 @@
             要在比較集合元素時使用的比較實作。
             </param>
             <param name="message">
-            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual"/>
-            等於 <paramref name="notExpected"/>。訊息會顯示在
+            在下列情況下，要包含在例外狀況中的訊息: <paramref name="actual" />
+            等於 <paramref name="notExpected" />。訊息會顯示在
             測試結果中。
             </param>
             <param name="parameters">
-            參數陣列，使用時機為格式 <paramref name="message"/>。
+            參數陣列，使用時機為格式 <paramref name="message" />。
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="notExpected"/> is equal to <paramref name="actual"/>.
+            Thrown if <paramref name="notExpected" /> is equal to <paramref name="actual" />.
             </exception>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.IsSubsetOfHelper(System.Collections.ICollection,System.Collections.ICollection)">
@@ -3374,14 +3374,14 @@
             等於在超集中的出現次數。
             </summary>
             <param name="subset">
-            測試預期包含在下者中的集合: <paramref name="superset"/>。
+            測試預期包含在下者中的集合: <paramref name="superset" />。
             </param>
             <param name="superset">
-            測試預期包含下者的集合: <paramref name="subset"/>。
+            測試預期包含下者的集合: <paramref name="subset" />。
             </param>
             <returns>
-            True 的情況為 <paramref name="subset"/> 是下者的子集:
-            <paramref name="superset"/>，否則為 false。
+            True 的情況為 <paramref name="subset" /> 是下者的子集:
+            <paramref name="superset" />，否則為 false。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert.GetElementCounts(System.Collections.ICollection,System.Int32@)">
@@ -3418,12 +3418,12 @@
             </param>
             <param name="expectedCount">
             下者的預期出現次數:
-            <paramref name="mismatchedElement"/> 或 0 (如果沒有不相符的
+            <paramref name="mismatchedElement" /> 或 0 (如果沒有不相符的
             元素)。
             </param>
             <param name="actualCount">
             下者的實際出現次數:
-            <paramref name="mismatchedElement"/> 或 0 (如果沒有不相符的
+            <paramref name="mismatchedElement" /> 或 0 (如果沒有不相符的
             元素)。
             </param>
             <param name="mismatchedElement">
@@ -3446,19 +3446,19 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> 類別的新執行個體。
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String,System.Exception)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> 類別的新執行個體。
             </summary>
             <param name="msg"> 訊息。 </param>
             <param name="ex"> 例外狀況。 </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException" /> 類別的新執行個體。
             </summary>
             <param name="msg"> 訊息。 </param>
         </member>
@@ -3800,7 +3800,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout">
             <summary>
-            逾時的列舉，可以與 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> 類別搭配使用。
+            逾時的列舉，可以與 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> 類別搭配使用。
              列舉的類型必須相符
             </summary>
         </member>
@@ -3819,7 +3819,7 @@
             取得可讓您執行此測試的測試方法屬性。
             </summary>
             <param name="testMethodAttribute">此方法上所定義的測試方法屬性執行個體。</param>
-            <returns>此 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute"/> 要用來執行此測試。</returns>
+            <returns>此 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute" /> 要用來執行此測試。</returns>
             <remarks>Extensions can override this method to customize how all methods in a class are run.</remarks>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute">
@@ -3857,7 +3857,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute.#ctor(System.String,System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute" /> 類別的新執行個體。
             </summary>
             <param name="name">
             名稱。
@@ -3903,7 +3903,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute" /> 類別的新執行個體。
             </summary>
             <param name="owner">
             擁有者。
@@ -3921,7 +3921,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute.#ctor(System.Int32)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute" /> 類別的新執行個體。
             </summary>
             <param name="priority">
             優先順序。
@@ -3939,7 +3939,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute"/> 類別的新執行個體來描述測試。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute" /> 類別的新執行個體來描述測試。
             </summary>
             <param name="description">描述。</param>
         </member>
@@ -3955,7 +3955,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute.#ctor(System.String)">
             <summary>
-            初始化用於 CSS 專案結構 URI 之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute"/> 類別的新執行個體。
+            初始化用於 CSS 專案結構 URI 之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute" /> 類別的新執行個體。
             </summary>
             <param name="cssProjectStructure">CSS 專案結構 URI。</param>
         </member>
@@ -3971,7 +3971,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute.#ctor(System.String)">
             <summary>
-            初始化用於 CSS 反覆項目 URI 之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute"/> 類別的新執行個體。
+            初始化用於 CSS 反覆項目 URI 之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute" /> 類別的新執行個體。
             </summary>
             <param name="cssIteration">CSS 反覆項目 URI。</param>
         </member>
@@ -3987,7 +3987,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute.#ctor(System.Int32)">
             <summary>
-            初始化用於工作項目屬性之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute"/> 類別的新執行個體。
+            初始化用於工作項目屬性之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute" /> 類別的新執行個體。
             </summary>
             <param name="id">工作項目的識別碼。</param>
         </member>
@@ -4003,7 +4003,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(System.Int32)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> 類別的新執行個體。
             </summary>
             <param name="timeout">
             逾時。
@@ -4011,7 +4011,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute.#ctor(Microsoft.VisualStudio.TestTools.UnitTesting.TestTimeout)">
             <summary>
-            初始化具有預設逾時之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute"/> 類別的新執行個體
+            初始化具有預設逾時之 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute" /> 類別的新執行個體
             </summary>
             <param name="timeout">
             逾時
@@ -4029,7 +4029,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.#ctor">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/> 類別的新執行個體。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" /> 類別的新執行個體。
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult.DisplayName">
@@ -4110,7 +4110,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String,System.String,Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> 類別的新執行個體。將使用資料提供者、連接字串、運算列表和資料存取方法將這個執行個體初始化，以存取資料來源。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> 類別的新執行個體。將使用資料提供者、連接字串、運算列表和資料存取方法將這個執行個體初始化，以存取資料來源。
             </summary>
             <param name="providerInvariantName">非變異資料提供者名稱 (例如 System.Data.SqlClient)</param>
             <param name="connectionString">
@@ -4124,7 +4124,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String,System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> 類別的新執行個體。此執行個體將使用連接字串和表格名稱進行初始化。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> 類別的新執行個體。此執行個體將使用連接字串和表格名稱進行初始化。
             指定連接字串和運算列表以存取 OLEDB 資料來源。
             </summary>
             <param name="connectionString">
@@ -4137,7 +4137,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.#ctor(System.String)">
             <summary>
-            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> 類別的新執行個體。將使用與設定名稱相關聯的資料提供者和連接字串將這個執行個體初始化。
+            初始化 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> 類別的新執行個體。將使用與設定名稱相關聯的資料提供者和連接字串將這個執行個體初始化。
             </summary>
             <param name="dataSourceSettingName">在 app.config 檔案的 &lt;microsoft.visualstudio.qualitytools&gt; 區段中找到資料來源名稱。</param>
         </member>
@@ -4163,9 +4163,9 @@
              <summary>
              取得用來存取資料來源的方法。
              </summary>
-            
+
              <returns>
-             下列其中之一:<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod"/> 值。如果 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute"/> 未進行初始化，則這會傳回預設值 <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random"/>。
+             下列其中之一:<see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod" /> 值。如果 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute" /> 未進行初始化，則這會傳回預設值 <see cref="F:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod.Random" />。
              </returns>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute.DataSourceSettingName">
@@ -4186,7 +4186,7 @@
             測試「方法」。
             </param>
             <returns>
-            下列項目的陣列: <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/>。
+            下列項目的陣列: <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult" />。
             </returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.RunDataDrivenTest(Microsoft.VisualStudio.TestTools.UnitTesting.ITestMethod,Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute[])">
