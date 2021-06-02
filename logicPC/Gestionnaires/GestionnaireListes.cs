@@ -21,13 +21,14 @@ namespace logicPC.Gestionnaires
         /// </summary>
         public IPersistanceManager Persistance { get; set; }
 
-        public void LoadUL(string PATH=@".\UserLists\")
+        public void LoadUL(string PATH = @".\UserLists\")
         {
             var data = Persistance.Load();
-            foreach(var j in data)
-            {
-                AjouterListe(j.Key, j.Value);
-            }
+            if (data != null)
+                foreach (var j in data)
+                {
+                    AjouterListe(j.Key, j.Value);
+                }
         }
 
         public void SaveUL(string PATH = @".\UserLists\")
@@ -41,7 +42,8 @@ namespace logicPC.Gestionnaires
         public Dictionary<string, Card> Data;
         public IReadOnlyDictionary<string, Card> ProtectedData;
         public ConcurrentObservableDictionary<string, Stream> StreamStorage;
-        public ConcurrentObservableSortedDictionary<string, UserList> UserListsStorage { get; set; }
+
+        public ConcurrentObservableDictionary<string, UserList> UserListsStorage { get; set; }
 
 
         public ConcurrentObservableDictionary<int, Card> CardDataToDisplay { get; set; }
@@ -183,6 +185,8 @@ namespace logicPC.Gestionnaires
             DataNotifier.Invoke(sender, new(toast));
             if (toast == "refreshDatagrids")
                 CardDataToDisplay = new();
+
+            UserListsStorage = UserListsStorage;
         }
     }
 }

@@ -26,9 +26,10 @@ namespace PcParted
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             gestionnaire.ActiveKey = (string)ListBox.SelectedValue;
+            DatagridRefresh_needed(this, "");
         }
 
-        public ConcurrentObservableSortedDictionary<string, UserList> GetLists()
+        public ConcurrentObservableDictionary<string, UserList> GetLists()
         {
             return gestionnaire.UserListsStorage;
         }

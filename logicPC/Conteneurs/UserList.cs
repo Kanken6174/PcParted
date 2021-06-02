@@ -2,16 +2,20 @@
 using Swordfish.NET.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.Serialization;
 
 namespace logicPC.Conteneurs
 {
     /// <summary>
     /// Class d'une UserList.
     /// </summary>
+    [DataContract]
     public class UserList
     {
-        public ConcurrentObservableDictionary<string, Card> Cards { get; private set; }
-        public ConcurrentObservableDictionary<string, int> QuantityCards { get; private set; }
+        [DataMember]
+        public Dictionary<string, Card> Cards { get; private set; }
+        [DataMember]
+        public Dictionary<string, int> QuantityCards { get; private set; }
         private float PrixTotal;
         private double HashrateTotale;
         private double ConsommationTot;
@@ -21,13 +25,10 @@ namespace logicPC.Conteneurs
         public Card CardActive { get; private set; }
         public string IntID { get; private set; }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public UserList()
         {
             Cards = new();
             QuantityCards = new();
-            QuantityCards.PropertyChanged += UserList_PropertyChanged;
         }
 
         private void UserList_PropertyChanged(object sender, PropertyChangedEventArgs e)

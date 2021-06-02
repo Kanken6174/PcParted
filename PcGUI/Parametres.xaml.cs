@@ -1,6 +1,8 @@
 ﻿using System.Windows.Controls;
 using logicPC.Gestionnaires;
 using logicPC.Settings;
+using persisantce.Stub;
+using persistance.DataContract;
 
 namespace PcParted
 {
@@ -22,6 +24,16 @@ namespace PcParted
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
              int.TryParse(maxPool.Text, out SettingsLogic.PoolingMax);
+        }
+
+        private void stratBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            gestionnaire.Persistance = stratBox.SelectedIndex switch
+            {
+                0 => new DataContractPers(),
+                1 => new Stub(),
+                _ => new Stub(),
+            };
         }
     }
 }

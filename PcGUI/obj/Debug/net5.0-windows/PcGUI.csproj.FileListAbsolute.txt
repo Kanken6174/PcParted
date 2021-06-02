@@ -109,3 +109,5 @@ Y:\cs\PcParted\PcParted\PcGUI\obj\Debug\net5.0-windows\PcGUI.pdb
 Y:\cs\PcParted\PcParted\PcGUI\obj\Debug\net5.0-windows\PcGUI.genruntimeconfig.cache
 Y:\cs\PcParted\PcParted\PcGUI\bin\Debug\net5.0-windows\Stub.dll
 Y:\cs\PcParted\PcParted\PcGUI\bin\Debug\net5.0-windows\Stub.pdb
+Y:\cs\PcParted\PcParted\PcGUI\bin\Debug\net5.0-windows\DataContract.dll
+Y:\cs\PcParted\PcParted\PcGUI\bin\Debug\net5.0-windows\DataContract.pdb

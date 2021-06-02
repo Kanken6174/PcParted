@@ -1,5 +1,5 @@
 ﻿using logicPC.CardData;
-
+using System.Runtime.Serialization;
 namespace logicPC.Interfaces
 {
     /// <summary>

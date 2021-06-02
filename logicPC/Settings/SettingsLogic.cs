@@ -1,11 +1,12 @@
 ﻿using System;
+using System.IO;
 
 namespace logicPC.Settings
 {
     public static class SettingsLogic
     {
 #pragma warning disable CA2211 // Non-constant fields should not be visible
-        public static string PATH = @"C:\PcParted\datasets";
+        public static string PATH = $@"{Directory.GetCurrentDirectory()}\..\datasets\";
         public static Uri DummyPic = new(@"https://www.techpowerup.com/gpudb/placeholder_nvidia.jpg");
         public static float Difficulty = 1;
         public static float BitcoinPrice = 49814.19F;

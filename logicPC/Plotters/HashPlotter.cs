@@ -8,7 +8,7 @@ namespace logicPC.Plotters
 {
     public static class HashPlotter
     {
-        public static List<PointF> Plot(ConcurrentObservableDictionary<string, Card> dico, ConcurrentObservableDictionary<string, int> quantities, float end, float increment, float depreciationFactor)
+        public static List<PointF> Plot(Dictionary<string, Card> dico, Dictionary<string, int> quantities, float end, float increment, float depreciationFactor)
         {
             List<float> X = new();
             float hashpoint = 0;
@@ -32,7 +32,7 @@ namespace logicPC.Plotters
             return ret;
         }
 
-        public static List<PointF> PlotPowerCost(ConcurrentObservableDictionary<string, Card> dico, ConcurrentObservableDictionary<string, int> quantities, float end, float increment, float depreciationFactor)
+        public static List<PointF> PlotPowerCost(Dictionary<string, Card> dico, Dictionary<string, int> quantities, float end, float increment, float depreciationFactor)
         {
             List<float> X = new();
             float powerDraw = 0;

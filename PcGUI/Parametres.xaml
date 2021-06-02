@@ -89,12 +89,28 @@
                    Height="23"><Run Language="fr-fr"
                                     Text="Quantité de cartes par pool" /><LineBreak /><Run Language="fr-fr" /></TextBlock>
         <TextBox x:Name="maxPool"
-            HorizontalAlignment="Left"
+                 HorizontalAlignment="Left"
                  Margin="45,247,0,0"
                  Text="3"
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
                  Width="49"
                  TextChanged="TextBox_TextChanged" />
+        <ComboBox x:Name="stratBox"
+                  HorizontalAlignment="Left"
+                  Margin="440,71,0,0"
+                  VerticalAlignment="Top"
+                  Width="120"
+                  SelectionChanged="stratBox_SelectionChanged"
+                  SelectedIndex="0">
+            <ComboBoxItem>XML</ComboBoxItem>
+            <ComboBoxItem>Stub</ComboBoxItem>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="565,73,0,0"
+                   TextWrapping="Wrap"
+                   Width="270"
+                   Height="23"><Run Language="fr-fr"
+                                    Text="Stratégie enregistrement" /><LineBreak /><Run Language="fr-fr" /></TextBlock>
     </Grid>
 </UserControl>

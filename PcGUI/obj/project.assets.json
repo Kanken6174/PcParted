@@ -1028,6 +1028,19 @@
           }
         }
       },
+      "DataContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "logicPC": "0.8.0"
+        },
+        "compile": {
+          "bin/placeholder/DataContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataContract.dll": {}
+        }
+      },
       "logicPC/0.8.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -3388,6 +3401,11 @@
         "version.txt"
       ]
     },
+    "DataContract/1.0.0": {
+      "type": "project",
+      "path": "../solution/DataContract/DataContract.csproj",
+      "msbuildProject": "../solution/DataContract/DataContract.csproj"
+    },
     "logicPC/0.8.0": {
       "type": "project",
       "path": "../logicPC/logicPC.csproj",
@@ -3401,6 +3419,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "DataContract >= 1.0.0",
       "Microsoft.CSharp >= 4.7.0",
       "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers >= 0.2.222702",
       "Microsoft.Windows.Compatibility >= 5.0.2",
@@ -3441,6 +3460,9 @@
           "projectReferences": {
             "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj": {
               "projectPath": "Y:\\cs\\PcParted\\PcParted\\logicPC\\logicPC.csproj"
+            },
+            "Y:\\cs\\PcParted\\PcParted\\solution\\DataContract\\DataContract.csproj": {
+              "projectPath": "Y:\\cs\\PcParted\\PcParted\\solution\\DataContract\\DataContract.csproj"
             },
             "Y:\\cs\\PcParted\\PcParted\\solution\\Stub\\Stub.csproj": {
               "projectPath": "Y:\\cs\\PcParted\\PcParted\\solution\\Stub\\Stub.csproj"

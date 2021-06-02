@@ -4,7 +4,8 @@ using System.IO;
 using System.Windows;
 using Microsoft.Win32;
 using logicPC.Gestionnaires;
-
+using logicPC.Settings;
+using System.Text.RegularExpressions;
 namespace PcParted
 {
     /// <summary>
@@ -13,21 +14,27 @@ namespace PcParted
     public partial class UserControl7 : UserControl
     {
         public GestionnaireListes Gestionnaire => (App.Current as App).monGestionnaire;
+        public OpenFileDialog openFileDialog = new()
+        {
+            Filter = "XML save files (*.XML)|*.XML|All files (*.*)|*.*",
+            InitialDirectory = @"C:\"
+        };
         public UserControl7()
         {
             InitializeComponent();
+            var parentFolder = Directory.GetParent(Directory.GetCurrentDirectory()).FullName;
+            var xmlPath = Path.Combine(parentFolder, "XML");
+            openFileDialog.InitialDirectory = xmlPath;
         }
 
         private void MenuItem_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog = new()
-            {
-                Filter = "Dataset files (*.pnm)|*.pnm|All files (*.*)|*.*",
-                InitialDirectory = @"Y:\cs\datacrawler"
-            };
+            if (!Directory.Exists(openFileDialog.InitialDirectory))
+                Directory.CreateDirectory(openFileDialog.InitialDirectory);
             if (openFileDialog.ShowDialog() == true)
-                //_ = File.ReadAllText(openFileDialog.FileName);
-                Gestionnaire.LoadUL();
+                Gestionnaire.Persistance.PATH = openFileDialog.FileName;
+
+            Gestionnaire.LoadUL();
         }
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)

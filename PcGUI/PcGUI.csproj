@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\logicPC\logicPC.csproj" />
+    <ProjectReference Include="..\solution\DataContract\DataContract.csproj" />
     <ProjectReference Include="..\solution\Stub\Stub.csproj" />
   </ItemGroup>
   <ItemGroup>

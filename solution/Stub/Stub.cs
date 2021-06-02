@@ -3,6 +3,7 @@ using logicPC.Gestionnaires;
 using logicPC.Conteneurs;
 using Swordfish.NET.Collections;
 using System.IO;
+using System.Collections.Generic;
 
 
 namespace persisantce.Stub
@@ -12,9 +13,9 @@ namespace persisantce.Stub
         
         public string PATH { get; set; } = Path.Combine(Directory.GetCurrentDirectory(), "..//stub");
         public string FileName { get; set; } = "stub.USF";
-        ConcurrentObservableSortedDictionary<string, UserList> IPersistanceManager.Load()
+        ConcurrentObservableDictionary<string, UserList> IPersistanceManager.Load()
         {
-            ConcurrentObservableSortedDictionary<string, UserList> toReturn = new();
+            ConcurrentObservableDictionary<string, UserList> toReturn = new();
             toReturn.Add("une liste vide du stub", new());
             toReturn.Add("et une autre", new());
             toReturn.Add("et encore une autre!", new());
@@ -22,7 +23,7 @@ namespace persisantce.Stub
             return toReturn??new();
         }
 
-        void IPersistanceManager.Save(ConcurrentObservableSortedDictionary<string, UserList> toSave)
+        void IPersistanceManager.Save(ConcurrentObservableDictionary<string, UserList> toSave)
         {
             //rien du tout, c'est un stub!
         }

@@ -11,8 +11,8 @@ namespace logicPC.Gestionnaires
 {
     public interface IPersistanceManager
     {
-        
-        ConcurrentObservableSortedDictionary<string, UserList> Load();
-        void Save(ConcurrentObservableSortedDictionary<string, UserList> toSave);
+        public string PATH { get; set; }
+        ConcurrentObservableDictionary<string, UserList> Load();
+        void Save(ConcurrentObservableDictionary<string, UserList> toSave);
     }
 }

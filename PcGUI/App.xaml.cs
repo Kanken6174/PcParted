@@ -2,6 +2,7 @@
 using logicPC.Gestionnaires;
 using System.Collections.Generic;
 using persisantce.Stub;
+using persistance.DataContract;
 
 namespace PcParted
 {
@@ -10,7 +11,7 @@ namespace PcParted
     /// </summary>
     public partial class App : Application
     {
-        public GestionnaireListes monGestionnaire { get; private set; } = new GestionnaireListes(new Stub());
+        public GestionnaireListes monGestionnaire { get; private set; } = new GestionnaireListes(new DataContractPers());
         public App()
         {
 
