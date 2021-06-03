@@ -17,7 +17,7 @@ namespace logicPC.CardData
         [DataMember]
         public string Bus { get; private set; }
         [DataMember]
-        public string Manufacturer;
+        public string Manufacturer { get; set; }
         [DataMember]
         public Uri PictureURL { get; set; }
 

@@ -111,3 +111,4 @@ Y:\cs\PcParted\PcParted\PcGUI\obj\Release\net5.0-windows\PcGUI.dll
 Y:\cs\PcParted\PcParted\PcGUI\obj\Release\net5.0-windows\ref\PcGUI.dll
 Y:\cs\PcParted\PcParted\PcGUI\obj\Release\net5.0-windows\PcGUI.pdb
 Y:\cs\PcParted\PcParted\PcGUI\obj\Release\net5.0-windows\PcGUI.genruntimeconfig.cache
+Y:\cs\PcParted\PcParted\PcGUI\obj\Release\net5.0-windows\App.baml

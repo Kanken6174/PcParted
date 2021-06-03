@@ -9,6 +9,11 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
+using PcGUI.PicturePersistance;
+using Microsoft.VisualBasic;
+using System.Drawing;
+using System.Drawing.Imaging;
+
 namespace PcParted
 {
     /// <summary>
@@ -24,6 +29,8 @@ namespace PcParted
         public string cardID = default;
         private int availablePackets = 0;
         private int PacketsDoneIndex = 0;
+
+        private PngBitmapEncoder enc = new PngBitmapEncoder();
 
         private Card _toShow;
 
@@ -46,6 +53,7 @@ namespace PcParted
             InitRefresh();
             DetailedCard.parentElement = this;
             gestionnaire.StreamStorage.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
+            
         }
 
         /// <summary>
@@ -68,6 +76,7 @@ namespace PcParted
                         BitmapImage bmp = new();
                         bmp = await makeBmp(card.Key);
                         bmp.CacheOption = BitmapCacheOption.OnDemand;
+                        bmp.Freeze();
                         if (miniatures.ContainsKey(card.Key))
                             miniatures.Remove(card.Key);
                         miniatures.TryAdd(card.Key, bmp);
@@ -92,7 +101,7 @@ namespace PcParted
             RefreshAll();
         }
 
-        public void InitRefresh()
+        public async void InitRefresh()
         {
             wrappy.Children.Clear();
             foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
@@ -102,7 +111,7 @@ namespace PcParted
                 cloneCarte.ID = card.Key;
                 DetailedCard.carteID = card.Key;
                 cloneCarte.parent3view = this;
-                PopulateDefaultMiniatures(card.Key);
+                await PopulateDefaultMiniatures(card.Key, card.Value);
                 cloneCarte.ImgCard.Source = miniatures[card.Key];
                 cloneCarte.Name = card.Key;
                 wrappy.RegisterName(cloneCarte.Name, cloneCarte);
@@ -120,6 +129,10 @@ namespace PcParted
             }
         }
 
+        /// <summary>
+        /// Va refresh les miniatures des carted dont l'ID (key) est dans la liste de strings group
+        /// </summary>
+        /// <param name="group">La liste de keys à refresh</param>
         public void RefreshGroup(List<string> group)
         {
             foreach (string name in group)
@@ -129,7 +142,19 @@ namespace PcParted
                     UserControl3 clone = (UserControl3)wrappy.FindName(name);
                     clone.Visibility = Visibility.Collapsed;
                     if (miniatures.ContainsKey(name))
+                    {
                         clone.ImgCard.Source = miniatures[name];
+                        
+                       using (MemoryStream outStream = new MemoryStream())
+                        {
+                            BitmapEncoder enc = new BmpBitmapEncoder();
+                            enc.Frames.Add(BitmapFrame.Create(miniatures[name]));
+                            enc.Save(outStream);
+                            Bitmap bitmap = new Bitmap(outStream);
+                            if(!File.Exists($@"{SettingsLogic.CachePATH}{name}.png"))
+                            bitmap.Save($@"{SettingsLogic.CachePATH}{name}.png", ImageFormat.Png);
+                        }
+                    }
 
                     if (clone != null && gestionnaire.Data.ContainsKey(name))
                     {
@@ -167,10 +192,12 @@ namespace PcParted
         /// <param name="toSave"></param>
         /// <param name="ID"></param>
         /// <returns></returns>
-        public void PopulateDefaultMiniatures(string ID)
+        public async Task<bool> PopulateDefaultMiniatures(string ID, Card card)
         {
-            BitmapImage bmp = new(SettingsLogic.DummyPic);
+            BitmapImage bmp = new();
+            bmp = new(SettingsLogic.DummyPic);
             miniatures.Add(ID, bmp);
+            return true;
         }
 
         /// <summary>
@@ -193,8 +220,8 @@ namespace PcParted
                             bmp = new BitmapImage();
                             memStream.Position = 0;
                             bmp.BeginInit();
-                            bmp.StreamSource = memStream;
                             bmp.CacheOption = BitmapCacheOption.OnLoad;
+                            bmp.StreamSource = memStream;
                             bmp.DecodePixelWidth = 75;
                             bmp.EndInit();
                         }

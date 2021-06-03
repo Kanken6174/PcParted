@@ -14,6 +14,7 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using logicPC.CardData;
+using System.ServiceModel.Channels;
 
 namespace PcParted
 {
@@ -118,32 +119,45 @@ namespace PcParted
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            System.Windows.Size taille = new(graphScreen.ActualWidth, graphScreen.ActualHeight);
-            var scale = 1;
-            graphScreen.Measure(new System.Windows.Size(Double.PositiveInfinity, Double.PositiveInfinity));
-            var sz = graphScreen.RenderSize;
-            var rect = new Rect(sz);
-            var bmp = new RenderTargetBitmap((int)(scale * (rect.Width)),
-                                             (int)(scale * (rect.Height)),
-                                              scale * 96,
-                                              scale * 96,
-                                              PixelFormats.Default);
-            bmp.Render(graphScreen);
-            var enc = new PngBitmapEncoder();
-            enc.Frames.Add(BitmapFrame.Create(bmp));
-
-            string filename = @"Graphe";
-            int i = 1;
-            if (File.Exists(SettingsLogic.PATH + @"\Graphe.png"))
+            string graphDir = new(Directory.GetParent(Directory.GetParent(SettingsLogic.PATH).ToString()) + @"\captures\");
+            try
             {
-                while (File.Exists($"{ SettingsLogic.PATH + @"\"}{filename}({i}).png"))
-                    i++;
+                if (!Directory.Exists(graphDir))
+                    Directory.CreateDirectory(graphDir);
 
-                filename = $"{filename}({i})";
+                System.Windows.Size taille = new(graphScreen.ActualWidth, graphScreen.ActualHeight);
+                var scale = 1;
+                graphScreen.Measure(new System.Windows.Size(Double.PositiveInfinity, Double.PositiveInfinity));
+                var sz = graphScreen.RenderSize;
+                var rect = new Rect(sz);
+                var bmp = new RenderTargetBitmap((int)(scale * (rect.Width)),
+                                                 (int)(scale * (rect.Height)),
+                                                  scale * 96,
+                                                  scale * 96,
+                                                  PixelFormats.Default);
+                bmp.Render(graphScreen);
+                var enc = new PngBitmapEncoder();
+                enc.Frames.Add(BitmapFrame.Create(bmp));
+
+                string filename = @"Graphe";
+                int i = 1;
+
+                if (File.Exists(graphDir + @"Graphe.png"))
+                {
+                    while (File.Exists($"{graphDir}{filename}({i}).png"))
+                        i++;
+
+                    filename = $"{filename}({i})";
+                }
+                using (var stm = File.Create(graphDir + filename + @".png"))
+                {
+                    enc.Save(stm);
+                }
             }
-            using (var stm = File.Create(SettingsLogic.PATH+@"\"+filename+@".png"))
+            catch (UnauthorizedAccessException err)
             {
-                enc.Save(stm);
+                MessageBox.Show($"L'application doit être executée en tant qu'administrateur pour accéder au dossier: \n{graphDir} !\n\nArguments de l'exception:\n{err}", "PcParted: UnauthorizedAccessException",MessageBoxButton.OK, MessageBoxImage.Asterisk);
+                return;
             }
         }
         private void DatagridRefresh_needed<E>(object sender, E e)

@@ -9,4 +9,3 @@ Y:\cs\PcParted\PcParted\logicPC\obj\Release\net5.0\logicPC.csproj.CoreCompileInp
 Y:\cs\PcParted\PcParted\logicPC\obj\Release\net5.0\logicPC.dll
 Y:\cs\PcParted\PcParted\logicPC\obj\Release\net5.0\ref\logicPC.dll
 Y:\cs\PcParted\PcParted\logicPC\obj\Release\net5.0\logicPC.pdb
-Y:\cs\PcParted\PcParted\logicPC\obj\Release\net5.0\logicPC.csprojAssemblyReference.cache

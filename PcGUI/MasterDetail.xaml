@@ -53,9 +53,9 @@
                VerticalAlignment="Top"
                Width="266"
                Source="gpu1.png"
-               RenderOptions.BitmapScalingMode="HighQuality" 
+               RenderOptions.BitmapScalingMode="HighQuality"
                Opacity="1"
-               Panel.ZIndex="4"/>
+               Panel.ZIndex="4" />
         <TextBlock x:Name="nom_carte"
                    HorizontalAlignment="Center"
                    Margin="0,227,0,187"
@@ -76,18 +76,11 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-                   Margin="0,270,0,0"
-                   TextWrapping="Wrap"
-                   Text="Achitecture"
-                   VerticalAlignment="Top"
-                   Height="23"
-                   Width="330" />
-        <Button Content="Ajoute à la liste"
-                HorizontalAlignment="Left"
-                Margin="121,400,0,0"
+        <Button Content="Ajouter à la liste"
+                HorizontalAlignment="Center"
+                Margin="0,419,0,0"
                 VerticalAlignment="Top"
-                Width="103"
+                Width="128"
                 Click="Button_Click" />
         <Button x:Name="closeDetailButton"
                 Content="X"
@@ -98,19 +91,76 @@
                 Width="25"
                 Click="closeDetailButton_Click"
                 Visibility="Visible" />
-        <TextBlock HorizontalAlignment="Center"
-                   Margin="0,298,0,0"
-                   TextWrapping="Wrap"
-                   Text="Fabricant"
-                   VerticalAlignment="Top"
-                   Height="23"
-                   Width="330" />
         <local:spinner x:Name="spinny"
-            HorizontalAlignment="Center"
+                       HorizontalAlignment="Center"
                        Margin="0,33,0,0"
                        VerticalAlignment="Top"
                        Height="150"
-                       Width="150" 
-                       Visibility="Hidden"/>
+                       Width="150"
+                       Visibility="Hidden" />
+        <ScrollViewer Margin="1,265,0,50">
+            <WrapPanel x:Name="DetailWrap">
+                <TextBlock TextWrapping="NoWrap"
+                           FontFamily="Unispace">
+                                        <LineBreak />
+                    <Run Text="Informations"
+                         FontSize="15"
+                         FontStyle="Italic"></Run>
+                    <RibbonSeparator />
+                    <LineBreak />
+                    <Run Text="Constructeur: " />
+                    <Run Text="{Binding carte.Informations.Manufacturer, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <LineBreak />
+                    <Run Text="Architecture: " />
+                    <Run Text="{Binding carte.Informations.Architecture, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <LineBreak />
+                    <Run Text="Date de sortie: " />
+                    <Run Text="{Binding carte.Informations.ReleaseDate, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <LineBreak />
+                    <Run Text="Spécifications"
+                         FontSize="15"
+                         FontStyle="Italic"></Run>
+                    <RibbonSeparator />
+                    <LineBreak />
+                    <Run Text="Bitrate: " />
+                    <Run Text="{Binding carte.Specifications.BitRate, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                                        <LineBreak />
+                    <Run Text="Fréquence GPU: " />
+                    <Run Text="{Binding carte.Specifications.GpuFrequency, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                                        <LineBreak />
+                    <Run Text="Mémoire: " />
+                    <Run Text="{Binding carte.Specifications.MemorySize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <Run Text=" MB " />
+                    <Run Text="{Binding carte.Specifications.MemoryFrequency, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <Run Text=" MHZ" />
+                                        <LineBreak />
+                    <Run Text="RoPs/shaders/Tmus: " />
+                    <Run Text="{Binding carte.Specifications.RopUnits, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <Run Text="/" />
+                    <Run Text="{Binding carte.Specifications.ShaderUnits, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <Run Text="/" />
+                    <Run Text="{Binding carte.Specifications.TmuUnits, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <LineBreak />
+                    <Run Text="Théoriques"
+                         FontSize="15"
+                         FontStyle="Italic"></Run>
+                    <RibbonSeparator />
+                    <LineBreak />
+                    <Run Text="FP32GFLOPS: " />
+                    <Run Text="{Binding carte.Theorics.FP32GFLOPS, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                                        <LineBreak />
+                    <Run Text="Consommation: " />
+                    <Run Text="{Binding carte.Theorics.EnergyConsumption, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                                        <LineBreak />
+                    <Run Text="Prix: " />
+                    <Run Text="{Binding carte.Theorics.Price, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                                        <LineBreak />
+                    <Run Text="Charge thermique: " />
+                    <Run Text="{Binding carte.Theorics.TempLoad, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" />
+                    <Run Text="°C" />
+
+                </TextBlock>
+            </WrapPanel>
+        </ScrollViewer>
     </Grid>
 </UserControl>

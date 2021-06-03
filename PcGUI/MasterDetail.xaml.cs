@@ -12,12 +12,15 @@ namespace PcParted
     /// <summary>
     /// Logique d'interaction pour UserControl5.xaml
     /// </summary>
-    public partial class UserControl5 : UserControl
+    public partial class UserControl5 : UserControl, INotifyPropertyChanged
     {
         public MainApp parentElement;
         public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
-        public Card carte;
+        public Card carte { get; set; }
         public string carteID;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
         public UserControl5()
         {
             carte = new(null, null);
@@ -29,6 +32,7 @@ namespace PcParted
             spinny.Visibility = System.Windows.Visibility.Visible;
             this.carte = carte;
             this.carteID = ID;
+            carte.Theorics = new(carte.Specifications, carte.Informations);
             nom_carte.Text = carte.Informations.Model;
             BitmapImage Ipic;
             if (!carte.Informations.PictureURL.Equals("about:blank"))
@@ -44,6 +48,7 @@ namespace PcParted
        
             masterDetailPic.UseLayoutRounding = true;
             masterDetailPic.Source = Ipic;
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(""));
         }
 
         private void Ipic_DownloadCompleted(object sender, System.EventArgs e)

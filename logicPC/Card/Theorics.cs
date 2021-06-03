@@ -6,13 +6,13 @@ namespace logicPC.CardData
 {
     public class Theorics : ITheoric
     {
-        public float PixelFillrate;
-        public readonly float TextureFillrate;
-        public float FP32GFLOPS;    // 1 milion floating point operations per second, FP32
-        public double Hashrate;
-        public float TempLoad;
-        public int EnergyConsumption;
-        public float Price;
+        public float PixelFillrate { get; set; }
+        public float TextureFillrate { get; set; }
+        public float FP32GFLOPS { get; set; }  // 1 milion floating point operations per second, FP32
+        public double Hashrate { get; set; }
+        public float TempLoad { get; set; }
+        public int EnergyConsumption { get; set; }
+        public float Price { get; set; }
 
         private float DateFactor;
         private float ManufacturerFactor;
@@ -101,6 +101,7 @@ namespace logicPC.CardData
         {
             Price = (DateFactor * FP32GFLOPS * 3F);
             EnergyConsumption = (int)((DateFactor * (FP32GFLOPS / SettingsLogic.gflopPrice) * ManufacturerFactor * BusFactor) * 100);
+            TempLoad = (ManufacturerFactor * (FP32GFLOPS)/1.15F);
         }
 
         public override string ToString()

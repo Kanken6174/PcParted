@@ -3,6 +3,7 @@ using logicPC.Conteneurs;
 using logicPC.Downloaders;
 using logicPC.Importers;
 using logicPC.Settings;
+using Microsoft.Win32.SafeHandles;
 using Swordfish.NET.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -58,9 +59,14 @@ namespace logicPC.Gestionnaires
 
         public event PropertyChangedEventHandler RenderRefreshNeeded;   //Téléchargement d'une bitmapImage terminé.
 
-        public GestionnaireListes(IPersistanceManager persistance)
+        public GestionnaireListes(IPersistanceManager persistance = null)
         {
-            Persistance = persistance;
+            if (!Directory.Exists(SettingsLogic.CachePATH))
+            {
+                Directory.CreateDirectory(SettingsLogic.CachePATH);
+            }
+            if (persistance != null)
+                Persistance = persistance;
             ActiveKey = new string("");
             ActiveList = 0;
             CardDataToDisplay = new();
@@ -85,20 +91,32 @@ namespace logicPC.Gestionnaires
         {
             foreach (KeyValuePair<string, Card> carte in ProtectedData)
             {
-                if (carte.Value.Informations.PictureURL != new System.Uri("about:blank") && carte.Key != null)
+                if (!File.Exists($@"{SettingsLogic.CachePATH}{carte.Key}.png"))
                 {
-                    try
+                    if (carte.Value.Informations.PictureURL != new System.Uri("about:blank") && carte.Key != null)
                     {
-                        StreamStorage.TryAdd(carte.Key, await PictureDownloader.GetPicture(carte.Value.Informations.PictureURL));
-                        carte.Value.Informations.CarteMin = StreamStorage[carte.Key];
+                        try
+                        {
+                            StreamStorage.TryAdd(carte.Key, await PictureDownloader.GetPicture(carte.Value.Informations.PictureURL));
+                            carte.Value.Informations.CarteMin = StreamStorage[carte.Key];
+                        }
+                        catch (TaskCanceledException)
+                        {
+                            carte.Value.Informations.CarteMin = null;
+                        }
                     }
-                    catch (TaskCanceledException)
-                    {
+                    else
                         carte.Value.Informations.CarteMin = null;
-                    }
                 }
                 else
-                    carte.Value.Informations.CarteMin = null;
+                {
+                    FileStream FS = File.OpenRead($@"{SettingsLogic.CachePATH}{carte.Key}.png");
+                    MemoryStream MS = new();
+                    FS.Position = 0;
+                    await FS.CopyToAsync(MS);
+                    StreamStorage.TryAdd(carte.Key, MS);
+                    carte.Value.Informations.CarteMin = StreamStorage[carte.Key];
+                }
             }
         }
 

@@ -122,12 +122,6 @@
                 <local:UserControl2 Margin="20,1,21,-1" />
             </Grid>
         </Expander>
-        <Button Content="card test"
-                Height="36"
-                Margin="108,0,137,23"
-                VerticalAlignment="Bottom"
-                Grid.Column="1"
-                Click="Button_Click" />
         <TextBox Grid.Column="1"
                  HorizontalAlignment="Left"
                  Height="23"
