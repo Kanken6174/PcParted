@@ -18,11 +18,9 @@ namespace PcParted
         public MainApp parent3view;
         public Card laCarte;
         public string ID;
-        BitmapImage miniPic;
         public UserControl3()
         {
             InitializeComponent();
-            miniPic = new();
         }
 
 

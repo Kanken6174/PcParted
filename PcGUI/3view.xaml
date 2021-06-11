@@ -81,8 +81,6 @@
 
         <ScrollViewer x:Name="Scroller"
                       Grid.Column="1"
-                      VerticalScrollBarVisibility="Auto"
-                      Template="{DynamicResource Template_SCV1}"
                       Margin="0,40,0,0"
                       HorizontalAlignment="Stretch"
                       CanContentScroll="false">
@@ -100,9 +98,9 @@
                            HorizontalAlignment="Stretch" />
             </Expander.Header>
 
-            <local:UserControl4 RenderTransformOrigin="0.5,0.5"
-                                Height="520"
-                                Margin="0,0,-2,0"
+            <local:UserControl4 x:Name="Filters"
+                                RenderTransformOrigin="0.5,0.5"
+                                Margin="0,0,0,2"
                                 Width="Auto"
                                 ScrollViewer.CanContentScroll="True" />
         </Expander>
@@ -138,7 +136,7 @@
                 VerticalAlignment="Top"
                 Width="25"
                 Height="23"
-                Click="search"
+                Click="Search"
                 IsDefault="True" />
         <local:UserControl5 x:Name="DetailedCard"
                             Grid.Column="1"

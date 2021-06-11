@@ -3,6 +3,7 @@
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
     <ShowAllFiles>false</ShowAllFiles>
+    <_LastSelectedProfileId>Y:\cs\PcParted\PcParted\PcGUI\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="Graph.xaml.cs">

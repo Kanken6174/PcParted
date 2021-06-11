@@ -32,7 +32,7 @@
                   SelectedValuePath="Key"
                   DisplayMemberPath="Key"
                   ItemsSource="{Binding UserListsStorage, UpdateSourceTrigger=PropertyChanged}"
-                  SelectionChanged="ComboBox_SelectionChanged"
+                  SelectionChanged="SelectionBox_SelectionChanged"
                   SelectedIndex="{Binding ActiveList, UpdateSourceTrigger=PropertyChanged, BindsDirectlyToSource=True}" />
         <TextBox x:Name="incrementBox"
                  HorizontalAlignment="Left"
@@ -59,7 +59,15 @@
                   Height="280"
                   Margin="527,55,0,0"
                   VerticalAlignment="Top"
-                  Width="237"/>
+                  Width="237"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Quantité"
+                                    Binding="{Binding Value}" />
+                <DataGridTextColumn Header="Modèle"
+                                    Binding="{Binding Key}" />
+            </DataGrid.Columns>
+        </DataGrid>
         <Button Content="Export PNG"
                 HorizontalAlignment="Left"
                 Height="25"
@@ -67,6 +75,11 @@
                 VerticalAlignment="Top"
                 Width="99" 
                 Click="Button_Click_1"/>
+        <GridSplitter HorizontalAlignment="Left"
+                      Height="100"
+                      Margin="1085,365,0,0"
+                      VerticalAlignment="Top"
+                      Width="5" />
 
     </Grid>
 </UserControl>

@@ -51,17 +51,30 @@ namespace PcParted
             if (ListesComboBox.SelectedValue is not null)
                selected  = ListesComboBox.SelectedValue.ToString();
 
-            if(selected != null)
-                if (gestionnaire.UserListsStorage.ContainsKey(selected))
-                {
-                    foreach (KeyValuePair<string, Card> card in gestionnaire.UserListsStorage[selected].Cards)
-                    {
-                        gestionnaire.CardDataToDisplay.TryAdd(gestionnaire.UserListsStorage[selected].QuantityCards[card.Key], card.Value);
-                    }
-                    DGrid.ItemsSource = null;
-                    DGrid.ItemsSource = gestionnaire.CardDataToDisplay;
-                }
-           
+            DGrid.ItemsSource = null;
+            DGrid.ItemsSource = gestionnaire.CardDataToDisplay;
+        }
+
+        private void Button_ClickRename(object sender, RoutedEventArgs e)
+        {
+            if (ListesComboBox.SelectedValue == null)
+                ListesComboBox.SelectedIndex = 0;
+            
+            if(ListesComboBox.SelectedValue == null)
+                return;
+            
+            string selected = ListesComboBox.SelectedValue.ToString();
+
+            if (selected != null && gestionnaire.UserListsStorage.ContainsKey(selected))
+            {
+                gestionnaire.RenommeListe(selected, NameBox.Text);
+            }
+        }
+
+        private void ListesComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            gestionnaire.ActiveKey = (string)ListesComboBox.SelectedValue;
+            DatagridRefresh_needed(this, (string)ListesComboBox.SelectedValue);
         }
     }
 }

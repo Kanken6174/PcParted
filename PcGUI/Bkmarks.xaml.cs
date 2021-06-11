@@ -26,7 +26,7 @@ namespace PcParted
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             gestionnaire.ActiveKey = (string)ListBox.SelectedValue;
-            DatagridRefresh_needed(this, "");
+            DatagridRefresh_needed(this, (string)ListBox.SelectedValue);
         }
 
         public ConcurrentObservableDictionary<string, UserList> GetLists()
@@ -40,17 +40,8 @@ namespace PcParted
             if (ListBox.SelectedValue is not null)
                 selected = ListBox.SelectedValue.ToString();
 
-            if (selected != null)
-                if (gestionnaire.UserListsStorage.ContainsKey(selected))
-                {
-                    foreach (KeyValuePair<string, Card> card in gestionnaire.UserListsStorage[selected].Cards)
-                    {
-                        gestionnaire.CardDataToDisplay.TryAdd(gestionnaire.UserListsStorage[selected].QuantityCards[card.Key], card.Value);
-                    }
-                    GrdBkmarks.ItemsSource = null;
-                    GrdBkmarks.ItemsSource = gestionnaire.CardDataToDisplay;
-                }
-
+            GrdBkmarks.ItemsSource = null;
+            GrdBkmarks.ItemsSource = gestionnaire.CardDataToDisplay;
         }
     }
 

@@ -22,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistance", "Persistance"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataContract", "DataContract\DataContract.csproj", "{090B7D3E-8470-4B9A-A347-4552FC61EC60}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PcPartedInstaller", "PcPartedInstaller\PcPartedInstaller.vdproj", "{B6025B7F-A9CE-4555-A684-C46C9E93E6D6}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PcPartedInstaller2", "PcPartedInstaller2\PcPartedInstaller2.vdproj", "{03950FE3-7B08-4B40-9DC0-EEB12918A68E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,10 +80,10 @@ Global
 		{090B7D3E-8470-4B9A-A347-4552FC61EC60}.logic|Any CPU.Build.0 = Debug|Any CPU
 		{090B7D3E-8470-4B9A-A347-4552FC61EC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{090B7D3E-8470-4B9A-A347-4552FC61EC60}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6025B7F-A9CE-4555-A684-C46C9E93E6D6}.Debug|Any CPU.ActiveCfg = Debug
-		{B6025B7F-A9CE-4555-A684-C46C9E93E6D6}.Debug-git|Any CPU.ActiveCfg = Debug
-		{B6025B7F-A9CE-4555-A684-C46C9E93E6D6}.logic|Any CPU.ActiveCfg = Debug
-		{B6025B7F-A9CE-4555-A684-C46C9E93E6D6}.Release|Any CPU.ActiveCfg = Release
+		{03950FE3-7B08-4B40-9DC0-EEB12918A68E}.Debug|Any CPU.ActiveCfg = Debug
+		{03950FE3-7B08-4B40-9DC0-EEB12918A68E}.Debug-git|Any CPU.ActiveCfg = Debug
+		{03950FE3-7B08-4B40-9DC0-EEB12918A68E}.logic|Any CPU.ActiveCfg = Debug
+		{03950FE3-7B08-4B40-9DC0-EEB12918A68E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

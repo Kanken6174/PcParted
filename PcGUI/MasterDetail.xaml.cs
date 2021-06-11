@@ -45,7 +45,9 @@ namespace PcParted
                 Ipic = new BitmapImage(SettingsLogic.DummyPic);
                 spinny.Visibility = System.Windows.Visibility.Hidden;
             }
-       
+
+            RemButton.IsEnabled = gestionnaire.UserListsStorage[gestionnaire.ActiveKey].Cards.ContainsKey(carteID);
+
             masterDetailPic.UseLayoutRounding = true;
             masterDetailPic.Source = Ipic;
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(""));
@@ -61,6 +63,11 @@ namespace PcParted
             parentElement.CloseDetail(sender, e);
         }
 
+        /// <summary>
+        /// Bouton d'ajout à la liste active
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             if (!gestionnaire.UserListsStorage[gestionnaire.ActiveKey].Cards.ContainsKey(carteID))
@@ -71,7 +78,30 @@ namespace PcParted
             else
                 gestionnaire.UserListsStorage[gestionnaire.ActiveKey].QuantityCards[carteID]++;
 
-            gestionnaire.NotifyAction(sender, "refreshDatagrids");
+            gestionnaire.NotifyAction(sender, "");
+            RemButton.IsEnabled = gestionnaire.UserListsStorage[gestionnaire.ActiveKey].Cards.ContainsKey(carteID);
+        }
+
+        /// <summary>
+        /// Bouton de retrait de carte à la liste active
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (gestionnaire.UserListsStorage[gestionnaire.ActiveKey].Cards.ContainsKey(carteID))
+            {
+                gestionnaire.UserListsStorage[gestionnaire.ActiveKey].QuantityCards[carteID]--;
+                if (gestionnaire.UserListsStorage[gestionnaire.ActiveKey].QuantityCards[carteID] == 0)
+                {
+                    gestionnaire.UserListsStorage[gestionnaire.ActiveKey].Cards.Remove(carteID);
+                    gestionnaire.UserListsStorage[gestionnaire.ActiveKey].QuantityCards.Remove(carteID);
+                }
+            }
+
+
+            gestionnaire.NotifyAction(sender, "");
+            RemButton.IsEnabled = gestionnaire.UserListsStorage[gestionnaire.ActiveKey].Cards.ContainsKey(carteID);
         }
     }
 }

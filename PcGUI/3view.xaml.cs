@@ -21,7 +21,7 @@ namespace PcParted
     /// </summary>
     public partial class MainApp : UserControl
     {
-        public GestionnaireListes gestionnaire => (App.Current as App).monGestionnaire;
+        public GestionnaireListes Gestionnaire => (App.Current as App).monGestionnaire;
         public Dictionary<string, BitmapImage> miniatures;
         public Dictionary<string, UserControl3> cartesDisp;
         public bool ShouldDetailbeShown = false;
@@ -29,8 +29,6 @@ namespace PcParted
         public string cardID = default;
         private int availablePackets = 0;
         private int PacketsDoneIndex = 0;
-
-        private PngBitmapEncoder enc = new PngBitmapEncoder();
 
         private Card _toShow;
 
@@ -42,17 +40,21 @@ namespace PcParted
                 _toShow = value;
                 ShouldDetailbeShown = !ShouldDetailbeShown;
                 DetailedCard.onVisibilityChanged(ToShow, cardID);
-                showChanged();
+                ShowChanged();
             }
         }
 
+        /// <summary>
+        /// Le constructeur princpal de l'userControl 3view (cet UC sert un peu de HUB à l'application).
+        /// </summary>
         public MainApp()
         {
             miniatures = new();
             InitializeComponent();
             InitRefresh();
             DetailedCard.parentElement = this;
-            gestionnaire.StreamStorage.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
+            Filters.MyParent = this;
+            Gestionnaire.StreamStorage.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
             
         }
 
@@ -69,12 +71,12 @@ namespace PcParted
             {
                 int i = 0;
                 List<string> group = new();
-                foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
+                foreach (KeyValuePair<string, Card> card in Gestionnaire.ProtectedData)
                 {
                     if (i < (SettingsLogic.PoolingMax + PacketsDoneIndex) && i >= PacketsDoneIndex)
                     {
                         BitmapImage bmp = new();
-                        bmp = await makeBmp(card.Key);
+                        bmp = await MakeBmp(card.Key);
                         bmp.CacheOption = BitmapCacheOption.OnDemand;
                         bmp.Freeze();
                         if (miniatures.ContainsKey(card.Key))
@@ -90,28 +92,26 @@ namespace PcParted
             }
         }
 
-        private void ShowSpinnerFor(string name)
-        {
-            UserControl3 clone = (UserControl3)wrappy.FindName(name);
-            clone.loader.Visibility = Visibility.Visible;
-        }
-
         private void Gestionnaire_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             RefreshAll();
         }
 
-        public async void InitRefresh()
+        /// <summary>
+        /// Cette méthode est le refresh inital appellé à l'initalisation de l'application.
+        /// Il va notamment créer tous les UserControl3 (cartes) qui vont dans le wrappannel "wrappy".
+        /// </summary>
+        public void InitRefresh()
         {
             wrappy.Children.Clear();
-            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
+            foreach (KeyValuePair<string, Card> card in Gestionnaire.ProtectedData)
             {
                 UserControl3 cloneCarte = new();
                 cloneCarte.laCarte = card.Value;
                 cloneCarte.ID = card.Key;
                 DetailedCard.carteID = card.Key;
                 cloneCarte.parent3view = this;
-                await PopulateDefaultMiniatures(card.Key, card.Value);
+                PopulateDefaultMiniatures(card.Key, card.Value);
                 cloneCarte.ImgCard.Source = miniatures[card.Key];
                 cloneCarte.Name = card.Key;
                 wrappy.RegisterName(cloneCarte.Name, cloneCarte);
@@ -121,7 +121,7 @@ namespace PcParted
 
         public void RefreshRenderNoFilter()
         {
-            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
+            foreach (KeyValuePair<string, Card> card in Gestionnaire.ProtectedData)
             {
                 UserControl3 clone = (UserControl3)wrappy.FindName(card.Key);
                 if (clone.ImgCard.Source != miniatures[card.Key] && clone != null)
@@ -145,18 +145,18 @@ namespace PcParted
                     {
                         clone.ImgCard.Source = miniatures[name];
                         
-                       using (MemoryStream outStream = new MemoryStream())
+                       using (MemoryStream outStream = new())
                         {
                             BitmapEncoder enc = new BmpBitmapEncoder();
                             enc.Frames.Add(BitmapFrame.Create(miniatures[name]));
                             enc.Save(outStream);
-                            Bitmap bitmap = new Bitmap(outStream);
+                            Bitmap bitmap = new(outStream);
                             if(!File.Exists($@"{SettingsLogic.CachePATH}{name}.png"))
                             bitmap.Save($@"{SettingsLogic.CachePATH}{name}.png", ImageFormat.Png);
                         }
                     }
 
-                    if (clone != null && gestionnaire.Data.ContainsKey(name))
+                    if (clone != null && Gestionnaire.Data.ContainsKey(name))
                     {
                         clone.Visibility = Visibility.Visible;
                     }
@@ -166,7 +166,7 @@ namespace PcParted
 
         public void RefreshAll()
         {
-            foreach (KeyValuePair<string, Card> card in gestionnaire.ProtectedData)
+            foreach (KeyValuePair<string, Card> card in Gestionnaire.ProtectedData)
             {
                 if (wrappy.FindName(card.Key) != null)
                 {
@@ -174,7 +174,7 @@ namespace PcParted
                     clone.Visibility = Visibility.Collapsed;
                 }
             }
-            foreach (KeyValuePair<string, Card> card in gestionnaire.Data)
+            foreach (KeyValuePair<string, Card> card in Gestionnaire.Data)
             {
                 UserControl3 cloneCarte = (UserControl3)wrappy.FindName(card.Key);
                 if (cloneCarte != null)
@@ -192,7 +192,7 @@ namespace PcParted
         /// <param name="toSave"></param>
         /// <param name="ID"></param>
         /// <returns></returns>
-        public async Task<bool> PopulateDefaultMiniatures(string ID, Card card)
+        public bool PopulateDefaultMiniatures(string ID, Card card)
         {
             BitmapImage bmp = new();
             bmp = new(SettingsLogic.DummyPic);
@@ -205,15 +205,15 @@ namespace PcParted
         /// </summary>
         /// <param name="key">La clé de dictionnaire correspondant à la carte</param>
         /// <returns></returns>
-        private async Task<BitmapImage> makeBmp(string key)
+        private async Task<BitmapImage> MakeBmp(string key)
         {
             BitmapImage bmp = new(SettingsLogic.DummyPic);
-            if (gestionnaire.StreamStorage.ContainsKey(key) && gestionnaire.StreamStorage[key] != null)
+            if (Gestionnaire.StreamStorage.ContainsKey(key) && Gestionnaire.StreamStorage[key] != null)
             {
                 using (var memStream = new MemoryStream())
                 {
-                    gestionnaire.StreamStorage[key].Position = 0;
-                    await gestionnaire.StreamStorage[key].CopyToAsync(memStream);
+                    Gestionnaire.StreamStorage[key].Position = 0;
+                    await Gestionnaire.StreamStorage[key].CopyToAsync(memStream);
                     {
                         try
                         {
@@ -238,7 +238,7 @@ namespace PcParted
             return bmp;
         }
 
-        private void showChanged()
+        private void ShowChanged()
         {
             if (ShouldDetailbeShown)
             {
@@ -252,7 +252,7 @@ namespace PcParted
 
         private void AddCard(object sender, RoutedEventArgs e)
         {
-            UserControl3 clone = new UserControl3();
+            UserControl3 clone = new();
             wrappy.Children.Add(clone);
         }
 
@@ -281,15 +281,15 @@ namespace PcParted
         {
         }
 
-        private void search(object sender, RoutedEventArgs e)
+        private void Search(object sender, RoutedEventArgs e)
         {
-            gestionnaire.Data = gestionnaire.ProtectedData.SearchModel(searchTerms);
+            Gestionnaire.Data = Gestionnaire.ProtectedData.SearchModel(searchTerms);
             RefreshAll();
         }
 
         private async void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            await gestionnaire.GetAllPics();
+            await Gestionnaire.GetAllPics();
         }
     }
 }

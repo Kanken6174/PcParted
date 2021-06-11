@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PcGUI</id>
+    <version>1.0.0</version>
+    <authors>PcGUI</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="logicPC" version="0.8.0" exclude="Build,Analyzers" />
+        <dependency id="DataContract" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Stub" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Windows.Compatibility" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Reactive" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net5.0-windows7.0/loader.gif" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="Y:\cs\PcParted\PcParted\PcGUI\bin\Release\net5.0-windows\PcGUI.runtimeconfig.json" target="lib\net5.0-windows7.0\PcGUI.runtimeconfig.json" />
+    <file src="Y:\cs\PcParted\PcParted\PcGUI\bin\Release\net5.0-windows\PcGUI.dll" target="lib\net5.0-windows7.0\PcGUI.dll" />
+    <file src="Y:\cs\PcParted\PcParted\PcGUI\loader.gif" target="content\loader.gif" />
+    <file src="Y:\cs\PcParted\PcParted\PcGUI\loader.gif" target="contentFiles\any\net5.0-windows7.0\loader.gif" />
+  </files>
+</package>

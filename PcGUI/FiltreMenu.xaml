@@ -7,6 +7,21 @@
              mc:Ignorable="d"
              d:DesignHeight="450"
              Width="188">
+    <UserControl.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground"
+                    Value="black" />
+            <Setter Property="FontSize"
+                    Value="10" />
+            <Setter Property="FontFamily"
+                    Value="Unispace" />
+            <Setter Property="TextWrapping"
+                    Value="Wrap" />
+            <Setter Property="VerticalAlignment"
+                    Value="Top" />
+        </Style>
+    </UserControl.Resources>
+
     <Grid>
         <Rectangle Fill="Gray"
                    HorizontalAlignment="Left"
@@ -22,87 +37,117 @@
                   Margin="10,207,0,0"
                   VerticalAlignment="Top"
                   Width="120"
-                  ToolTip="Constructeur">
-            <ComboBoxItem IsSelected="True">Tous</ComboBoxItem>
-            <ComboBoxItem>Nvidia</ComboBoxItem>
-            <ComboBoxItem>Amd</ComboBoxItem>
-            <ComboBoxItem>Intel</ComboBoxItem>
+                  ToolTip="Constructeur"
+                  ItemsSource="{Binding ManufacturersList, UpdateSourceTrigger=Default, Mode=OneWay}">
         </ComboBox>
-        <ComboBox x:Name="Modele_series"
+        <ComboBox x:Name="Architectures"
                   HorizontalAlignment="Left"
                   Margin="10,234,0,0"
                   VerticalAlignment="Top"
                   Width="120"
-                  ToolTip="Série">
-            <ComboBoxItem IsSelected="True"
-                          Content="Tous" />
-            <ComboBoxItem Content="3000" />
-            <ComboBoxItem Content="2000" />
-            <ComboBoxItem Content="1600" />
-            <ComboBoxItem Content="1000" />
-            <ComboBoxItem Content="Pro" />
+                  ToolTip="Série"
+                  ItemsSource="{Binding ArchitecturedList, UpdateSourceTrigger=Default, Mode=OneWay}">
         </ComboBox>
-        <RadioButton Content="Sli support"
-                     HorizontalAlignment="Left"
-                     Margin="10,276,0,0"
-                     VerticalAlignment="Top" />
-        <RadioButton Content="Crossfire support"
-                     HorizontalAlignment="Left"
-                     Margin="10,296,0,0"
-                     VerticalAlignment="Top" />
-        <CheckBox Content="Blocage anti-minage"
-                  HorizontalAlignment="Left"
-                  Margin="10,316,0,0"
-                  VerticalAlignment="Top"
-                  ToolTip="Certaines cartes ont des blocages logiciels mises en place par le constructeur pour empêcher le minage de cryptomonnaie. Ils peuvent être contournés mais si vous n'êtes pas un utilisateur avancé, laissez cette case vide." />
         <Slider x:Name="prix"
                 HorizontalAlignment="Left"
                 Margin="19,70,0,0"
                 VerticalAlignment="Top"
-                Width="130" />
+                Width="130"
+                ValueChanged="prix_ValueChanged"
+                Maximum="{Binding MaxPrice, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, StringFormat=#0.00}" />
         <Slider x:Name="Consommation"
                 HorizontalAlignment="Left"
                 Margin="19,109,0,0"
                 VerticalAlignment="Top"
                 Width="130"
-                RenderTransformOrigin="0.408,4.278" />
+                RenderTransformOrigin="0.408,4.278"
+                Maximum="{Binding MaxPowerDraw, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, StringFormat=#0}"
+                ValueChanged="Consommation_ValueChanged" />
         <Slider x:Name="Hashrate"
                 HorizontalAlignment="Left"
                 Margin="19,157,0,0"
                 VerticalAlignment="Top"
                 Width="130"
-                RenderTransformOrigin="0.408,4.278" />
-        <TextBlock HorizontalAlignment="Left"
-                   Margin="19,90,0,0"
+                RenderTransformOrigin="0.408,4.278"
+                Maximum="{Binding MaxHashrate, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, StringFormat=#0}"
+                ValueChanged="Hashrate_ValueChanged" />
+        <TextBlock HorizontalAlignment="Center"
+                   Margin="0,90,0,0"
                    TextWrapping="Wrap"
                    VerticalAlignment="Top"
-                   Width="124"><Run Text="0         Prix m" /><Run Text="ax" /><Run Text="     3000" /></TextBlock>
-        <TextBlock HorizontalAlignment="Left"
-                   Margin="10,132,0,0"
+                   Width="188"
+                   TextAlignment="Center">
+            <Run Text="0.00€"
+                 x:Name="PriceMaxBox" />
+            <Run Text="Prix max" />
+            <Run Text="{Binding MaxPrice, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, StringFormat=#0.00€}" />
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Center"
+                   Margin="0,132,0,0"
                    TextWrapping="Wrap"
                    VerticalAlignment="Top"
-                   Width="159"><Run Text="0" /><Run Text=" " /><Run Text="consommation(W)" /><Run Text="max " /><Run Text="1500" /></TextBlock>
-        <TextBlock HorizontalAlignment="Left"
-                   Margin="19,180,0,0"
+                   Width="188"
+                   TextAlignment="Center">
+            <Run Text="0W"
+                 x:Name="ConsoBox" />
+            <Run Text="Consom. max" />
+            <Run Text="{Binding MaxPowerDraw, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, StringFormat=#0W}" />
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Center"
+                   Margin="0,180,0,0"
                    TextWrapping="Wrap"
-                   Text="0    Hashrate(MH/S)   300+"
                    VerticalAlignment="Top"
-                   Width="150" />
+                   Width="188"
+                   TextAlignment="Center">
+            <Run Text="0MH/S"
+                 x:Name="hashMin" />
+            <Run Text="Hashrate min." />
+            <Run Text="{Binding MaxHashrate, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, StringFormat=#0MH/S}" />
+        </TextBlock>
         <Button Content="Appliquer"
                 HorizontalAlignment="Left"
                 Margin="44,384,0,0"
                 VerticalAlignment="Top"
-                Width="75" />
+                Width="75"
+                Click="Button_Click" />
         <Slider x:Name="prix_Copy"
                 HorizontalAlignment="Left"
                 Margin="19,34,0,0"
                 VerticalAlignment="Top"
-                Width="130" />
-        <TextBlock HorizontalAlignment="Left"
-                   Margin="19,53,0,0"
+                Width="130"
+                Maximum="{Binding MaxPrice, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, StringFormat=#0.00}"
+                ValueChanged="prix_Copy_ValueChanged" />
+        <TextBlock HorizontalAlignment="Center"
+                   Margin="0,53,0,0"
                    TextWrapping="Wrap"
-                   Text="0         Prix min     3000"
                    VerticalAlignment="Top"
-                   Width="124" />
+                   TextAlignment="Center"
+                   Width="188">
+            <Run Text="0.00€"
+                 x:Name="PriceMinBox" />
+            <Run Text="Prix min" />
+            <Run Text="{Binding MaxPrice, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, StringFormat=#0.00}" />
+        </TextBlock>
+        <CheckBox x:Name="showCorrupted"
+                  Content="Montrer entrées non-fiables"
+                  HorizontalAlignment="Left"
+                  Margin="7,288,0,0"
+                  VerticalAlignment="Top"
+                  Height="19"
+                  Checked="showCorrupted_Checked"
+                  Unchecked="showCorrupted_Unchecked" />
+        <TextBlock HorizontalAlignment="Center"
+                   Height="26"
+                   Margin="0,307,0,0"
+                   TextWrapping="Wrap"
+                   Width="148"><Run Language="fr-fr"
+                                    Text="! Désactive aussi les sliders !" /></TextBlock>
+        <Border BorderThickness="1"
+                BorderBrush="Black"
+                HorizontalAlignment="Left"
+                Height="48"
+                Margin="-10,285,0,0"
+                VerticalAlignment="Top"
+                Width="198" />
     </Grid>
 </UserControl>

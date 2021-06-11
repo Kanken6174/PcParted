@@ -1,5 +1,6 @@
 ﻿using logicPC.Interfaces;
 using logicPC.Templates;
+using System;
 using System.Runtime.Serialization;
 
 namespace logicPC.CardData
@@ -8,7 +9,7 @@ namespace logicPC.CardData
     /// classe d'une card standard qui implémente l'interface ICard
     /// </summary>
     [DataContract]
-    public class Card : DataEntry, ICard
+    public class Card : DataEntry, ICard, IComparable
     {
         [DataMember]
         public Info Informations { get; set; }
@@ -29,6 +30,11 @@ namespace logicPC.CardData
         public override string ToString()
         {
             return $"{Informations} {Specifications} {Theorics}";
+        }
+
+        int IComparable.CompareTo(object obj)
+        {
+            return 0;
         }
     }
 }

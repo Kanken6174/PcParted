@@ -2,6 +2,8 @@
 using logicPC.Settings;
 using System.Collections.Generic;
 using System.IO;
+using Swordfish.NET.Collections;
+using System.Threading.Tasks;
 
 namespace logicPC.Importers
 {
@@ -11,7 +13,7 @@ namespace logicPC.Importers
         /// Importe toutes les cartes dans le répertoire par défaut indiqué dans logicPC.Settings
         /// </summary>
         /// <returns>Un dictionnaire contenant toutes les cartes issues de ce réprertoire</returns>
-        internal static Dictionary<string, Card> ImportAll()
+        internal static async Task<Dictionary<string, Card>> ImportAll()
         {
             string path = SettingsLogic.PATH;
 

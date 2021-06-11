@@ -8,6 +8,7 @@ using Swordfish.NET.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace logicPC.Gestionnaires
@@ -22,17 +23,15 @@ namespace logicPC.Gestionnaires
         /// </summary>
         public IPersistanceManager Persistance { get; set; }
 
-        public void LoadUL(string PATH = @".\UserLists\")
+        public void LoadUL()
         {
             var data = Persistance.Load();
             if (data != null)
                 foreach (var j in data)
-                {
                     AjouterListe(j.Key, j.Value);
-                }
         }
 
-        public void SaveUL(string PATH = @".\UserLists\")
+        public void SaveUL()
         {
             Persistance.Save(UserListsStorage);
         }
@@ -41,26 +40,36 @@ namespace logicPC.Gestionnaires
         /// Données du manager / gestionnaire de UserListes
         /// </summary>
         public Dictionary<string, Card> Data;
-        public IReadOnlyDictionary<string, Card> ProtectedData;
+        public readonly Dictionary<string, Card> ProtectedData;
         public ConcurrentObservableDictionary<string, Stream> StreamStorage;
-
         public ConcurrentObservableDictionary<string, UserList> UserListsStorage { get; set; }
-
-
-        public ConcurrentObservableDictionary<int, Card> CardDataToDisplay { get; set; }
+        public ConcurrentObservableDictionary<Card, int> CardDataToDisplay { get; set; }
 
         public string ActiveKey { get; set; }
-
         public int ActiveList { get; set; }
 
+        /// <summary>
+        /// Evènements
+        /// </summary>
         public event PropertyChangedEventHandler DataNotifier;  //Les classes abonnées à cet évènement recevront toutes les notifications envoyées par NotifyAction()
-
         public event PropertyChangedEventHandler PropertyChanged;   //PropertyChanged de GestionnaireListes... peu fonctionnel et remplacé par DataNotifier.
-
         public event PropertyChangedEventHandler RenderRefreshNeeded;   //Téléchargement d'une bitmapImage terminé.
+
+
+        /// <summary>
+        /// Données utilisées pour les filtres
+        /// </summary>
+        public List<string> ArchitecturedList { get; private set; } = new();
+        public List<string> ManufacturersList { get; private set; } = new();
+        public double MaxPrice { get; private set; } = new();
+        public double MinPrice { get; private set; } = new();
+        public double MinHashrate { get; private set; } = new();
+        public double MaxHashrate { get; private set; } = new();
+        public int MaxPowerDraw { get; private set; } = new();
 
         public GestionnaireListes(IPersistanceManager persistance = null)
         {
+            CardDataToDisplay = new();
             if (!Directory.Exists(SettingsLogic.CachePATH))
             {
                 Directory.CreateDirectory(SettingsLogic.CachePATH);
@@ -70,8 +79,9 @@ namespace logicPC.Gestionnaires
             ActiveKey = new string("");
             ActiveList = 0;
             CardDataToDisplay = new();
-            Data = ImporterManager.ImportAll();
-            ProtectedData = Data;
+            ProtectedData = ImporterManager.ImportAll().Result;
+            Data = ProtectedData;
+            getMaxes();
             UserListsStorage = new();
             StreamStorage = new();
             StreamStorage.PropertyChanged += RenderRefreshNeeded;
@@ -80,7 +90,36 @@ namespace logicPC.Gestionnaires
 
         private void Ignore(object sender, PropertyChangedEventArgs e)
         {
-            //Simplement pour éviter un crash en cas de non-utilisation
+            //Simplement pour éviter une exception en cas de non-utilisation
+        }
+
+        private void getMaxes()
+        {
+            ManufacturersList.Add("Tous");
+            ArchitecturedList.Add("Toutes");
+            foreach (KeyValuePair<string, Card> card in ProtectedData)
+            {
+                if (!ManufacturersList.Contains(card.Value.Informations.Manufacturer))
+                    ManufacturersList.Add(card.Value.Informations.Manufacturer);
+
+                if (!ArchitecturedList.Contains(card.Value.Informations.Architecture))
+                    ArchitecturedList.Add(card.Value.Informations.Architecture);
+
+                if (card.Value.Theorics.Price > MaxPrice)
+                    MaxPrice = card.Value.Theorics.Price;
+
+                if (card.Value.Theorics.Price < MinPrice)
+                    MinPrice = card.Value.Theorics.Price;
+
+                if (card.Value.Theorics.EnergyConsumption > MaxPowerDraw)
+                    MaxPowerDraw = card.Value.Theorics.EnergyConsumption;
+
+                if (card.Value.Theorics.Hashrate < MinHashrate)
+                    MinHashrate = card.Value.Theorics.Hashrate;
+
+                if (card.Value.Theorics.Hashrate > MaxHashrate)
+                    MaxHashrate = card.Value.Theorics.Hashrate;
+            }        
         }
 
         /// <summary>
@@ -101,6 +140,19 @@ namespace logicPC.Gestionnaires
                             carte.Value.Informations.CarteMin = StreamStorage[carte.Key];
                         }
                         catch (TaskCanceledException)
+                        {
+                            carte.Value.Informations.CarteMin = null;
+                        }
+                        catch (System.Net.Http.HttpRequestException)
+                        {
+                            carte.Value.Informations.CarteMin = null;
+                        }
+                        catch (System.Security.Authentication.AuthenticationException
+)
+                        {
+                            carte.Value.Informations.CarteMin = null;
+                        }
+                        catch (System.AccessViolationException)
                         {
                             carte.Value.Informations.CarteMin = null;
                         }
@@ -198,13 +250,25 @@ namespace logicPC.Gestionnaires
         /// </summary>
         /// <param name="sender">L'objet envoyant la notification</param>
         /// <param name="toast">Le type d'action demandée/param>
-        public void NotifyAction(object sender, string toast)
+        public void NotifyAction(object sender, string toast, int mode = 0)
         {
+            CardDataToDisplay = new();
+            if (mode == 0)
+            {
+                if (toast == "")
+                    toast = ActiveKey;
+                if(UserListsStorage.ContainsKey(toast))
+                    RefreshDataToDisplay(toast);
+            }
             DataNotifier.Invoke(sender, new(toast));
-            if (toast == "refreshDatagrids")
-                CardDataToDisplay = new();
+        }
 
-            UserListsStorage = UserListsStorage;
+        private void RefreshDataToDisplay(string key)
+        {
+            foreach (KeyValuePair<string, Card> card in UserListsStorage[key].Cards)
+            {
+                CardDataToDisplay.TryAdd(card.Value, UserListsStorage[key].QuantityCards[card.Key]);
+            }
         }
     }
 }

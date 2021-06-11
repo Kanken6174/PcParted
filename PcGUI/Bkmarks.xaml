@@ -83,8 +83,13 @@
                   VerticalAlignment="Stretch"
                   MaxWidth="600"
                   Margin="1,40,1,160"
-                  ItemsSource="{Binding ElementName=ListBox, Path=SelectedItem.Value, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
-                  AutoGenerateColumns="True">
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Quantité"
+                                    Binding="{Binding Value}" />
+                <DataGridTextColumn Header="Modèle"
+                                    Binding="{Binding Key}" />
+            </DataGrid.Columns>
 
             <DataGrid.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1"

@@ -77,8 +77,8 @@
             </TextBlock.RenderTransform>
         </TextBlock>
         <Button Content="Ajouter à la liste"
-                HorizontalAlignment="Center"
-                Margin="0,419,0,0"
+                HorizontalAlignment="Left"
+                Margin="48,417,0,0"
                 VerticalAlignment="Top"
                 Width="128"
                 Click="Button_Click" />
@@ -162,5 +162,12 @@
                 </TextBlock>
             </WrapPanel>
         </ScrollViewer>
+        <Button Content="Retirer de la liste"
+                HorizontalAlignment="Left"
+                Margin="186,417,0,0"
+                VerticalAlignment="Top" 
+                Click="Button_Click_1"
+                IsEnabled="False"
+                x:Name="RemButton"/>
     </Grid>
 </UserControl>

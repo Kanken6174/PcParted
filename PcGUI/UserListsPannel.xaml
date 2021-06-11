@@ -18,9 +18,13 @@
                   Margin="60,80,0,0"
                   VerticalAlignment="Top"
                   Width="495"
-                  AutoGenerateColumns="True"
-                  ItemsSource="{Binding CardDataToDisplay, UpdateSourceTrigger=PropertyChanged}"
-                  >
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Quantité"
+                                    Binding="{Binding Value}" />
+                <DataGridTextColumn Header="Modèle"
+                                    Binding="{Binding Key}" />
+            </DataGrid.Columns>
         </DataGrid>
         <ComboBox x:Name="ListesComboBox"
                   HorizontalAlignment="Left"
@@ -32,7 +36,7 @@
                   Height="33"
                   ItemsSource="{Binding UserListsStorage, UpdateSourceTrigger=PropertyChanged}"
                   SelectedIndex="0"
-                  SelectionChanged="DatagridRefresh_needed">
+                  SelectionChanged="ListesComboBox_SelectionChanged">
         </ComboBox>
         <Button Content="Supprimer"
                 HorizontalAlignment="Left"
@@ -51,9 +55,10 @@
                 FontSize="25"
                 FontFamily="consolas"
                 Click="Button_Click_add" />
-        <TextBox HorizontalAlignment="Left"
+        <TextBox x:Name="NameBox"
+                 HorizontalAlignment="Left"
                  Margin="625,205,0,0"
-                 Text="TextBox"
+                 Text="Nom"
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
                  Width="80" />
@@ -62,7 +67,8 @@
                 Margin="705,203,0,0"
                 VerticalAlignment="Top"
                 Width="70"
-                IsDefault="True">
+                IsDefault="True"
+                Click="Button_ClickRename">
         </Button>
 
 

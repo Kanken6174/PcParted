@@ -60,19 +60,29 @@ namespace PcParted
             
             graphScreen.Children.Clear();
             PointF old = new(0,0);
+            for (int i = 0; i < hashpoints.Count; i++)
+            {
+                old = new(i * 10, -10);
+                await SetPoint(new(i * 10, 0), old, System.Windows.Media.Brushes.Black, 0);
+            }
+            for (int i = 0; i < hashpoints.Count; i++)
+            {
+                old = new(-10, i * 10);
+                await SetPoint(new(0, i * 10), old, System.Windows.Media.Brushes.Black, 0);
+            }
             foreach (PointF point in hashpoints)
             {
-                await setPoint(point, old, System.Windows.Media.Brushes.Red, incNF);
+                await SetPoint(point, old, System.Windows.Media.Brushes.Red, incNF);
                 old = point;
             }
             old = new(0, 0);
             foreach (PointF point in powerDrawPoints)
             {
-                await setPoint(point, old, System.Windows.Media.Brushes.Orange, incNF);
+                await SetPoint(point, old, System.Windows.Media.Brushes.Orange, incNF);
                 old = point;
             }
         }
-        private async Task setPoint(PointF point, PointF old, System.Windows.Media.SolidColorBrush brush, float precisionDelay)
+        private async Task SetPoint(PointF point, PointF old, System.Windows.Media.SolidColorBrush brush, float precisionDelay)
         {
             Ellipse ellipse = new();
             ellipse.Height = 5;
@@ -105,11 +115,6 @@ namespace PcParted
                 Canvas.SetBottom(line, old.X);
             }
             
-        }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
 
         private static bool IsTextAllowed(string text)
@@ -165,18 +170,17 @@ namespace PcParted
             string selected = new("");
             if (SelectionBox.SelectedValue is not null)
                 selected = SelectionBox.SelectedValue.ToString();
+            if (DGrid is not null)
+            {
+                DGrid.ItemsSource = null;
+                DGrid.ItemsSource = gestionnaire.CardDataToDisplay;
+            }
+        }
 
-            if (selected != null)
-                if (gestionnaire.UserListsStorage.ContainsKey(selected))
-                {
-                    foreach (KeyValuePair<string, Card> card in gestionnaire.UserListsStorage[selected].Cards)
-                    {
-                        gestionnaire.CardDataToDisplay.TryAdd(gestionnaire.UserListsStorage[selected].QuantityCards[card.Key], card.Value);
-                    }
-                    DGrid.ItemsSource = null;
-                    DGrid.ItemsSource = gestionnaire.CardDataToDisplay;
-                }
-
+        private void SelectionBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            gestionnaire.ActiveKey = (string)SelectionBox.SelectedValue;
+            DatagridRefresh_needed(this, (string)SelectionBox.SelectedValue);
         }
     }
 }
