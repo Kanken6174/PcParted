@@ -100,7 +100,7 @@ namespace logicPC.CardData
         public void ProcessResults(Info info)
         {
             Price = (DateFactor * FP32GFLOPS * 3F);
-            EnergyConsumption = (int)((DateFactor * (FP32GFLOPS / SettingsLogic.gflopPrice) * ManufacturerFactor * BusFactor) * 100);
+            EnergyConsumption = (int)(((DateFactor * (FP32GFLOPS / SettingsLogic.gflopPrice) * ManufacturerFactor * BusFactor) * 100)/2.5F);
             TempLoad = (ManufacturerFactor * (FP32GFLOPS)/1.15F);
         }
 

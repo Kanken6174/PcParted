@@ -20,7 +20,7 @@ namespace FilterTesting
 
             for (int i = 0; i < 2; i++)
             {
-                deckTemp = ImporterManager.ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
+                deckTemp = ImporterManager.ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem");
 
                 foreach (KeyValuePair<int, Card> carte in deckTemp)
                     MainDataset.Add(fileName[i] + carte.Key, carte.Value);

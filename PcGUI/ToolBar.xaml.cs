@@ -19,12 +19,20 @@ namespace PcParted
             Filter = "XML save files (*.XML)|*.XML|All files (*.*)|*.*",
             InitialDirectory = @"C:\"
         };
+
+        public OpenFileDialog openFileDialogDataSets = new()
+        {
+            Filter = "Pnm Database files (*.pnm)|*.pnm",
+            InitialDirectory = @"C:\"
+        };
+
         public UserControl7()
         {
             InitializeComponent();
             var parentFolder = Directory.GetParent(Directory.GetCurrentDirectory()).FullName;
             var xmlPath = Path.Combine(parentFolder, "XML");
             openFileDialog.InitialDirectory = xmlPath;
+            openFileDialogDataSets.InitialDirectory = Path.Combine(parentFolder, "Datasets");
         }
 
         private void MenuItem_Click(object sender, System.Windows.RoutedEventArgs e)
@@ -51,6 +59,11 @@ namespace PcParted
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
             Gestionnaire.SaveUL();
+        }
+
+        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

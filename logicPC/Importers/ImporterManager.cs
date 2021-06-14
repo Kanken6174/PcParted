@@ -33,7 +33,7 @@ namespace logicPC.Importers
 
             for (int i = 0; i < fileName.Length; i++)
             {
-                Dictionary<int, Card> deckTemp = ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
+                Dictionary<int, Card> deckTemp = ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem");
 
                 foreach (KeyValuePair<int, Card> carte in deckTemp)
                 {

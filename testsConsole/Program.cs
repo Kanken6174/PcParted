@@ -33,7 +33,7 @@ namespace testsConsole
 
             for (int i = 0; i < fileName.Length; i++)
             {
-                deckTemp = ImporterManager.ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem", null);
+                deckTemp = ImporterManager.ImportSet(path, fileName[i] + ".pnm", fileName[i] + ".pem");
 
                 foreach (KeyValuePair<int, Card> carte in deckTemp)
                 {

@@ -9,7 +9,7 @@ namespace logicPC.Importers
 {
     internal class ImporterManagerBase
     {
-        internal static Dictionary<int, Card> ImportSet(string path, string PnmName, string PemName, string UslName)
+        internal static Dictionary<int, Card> ImportSet(string path, string PnmName, string PemName)
         {
             string constructeur = PemName.Split('.').FirstOrDefault();
 

@@ -6,7 +6,8 @@
              xmlns:local="clr-namespace:PcParted"
              mc:Ignorable="d"
              Height="536"
-             Width="792">
+             Width="792"
+             Loaded="UserControl_Loaded">
     <Grid Background="Gray">
         <Border BorderBrush="Black"
                 BorderThickness="3"
@@ -73,13 +74,24 @@
                 Height="25"
                 Margin="511,425,0,0"
                 VerticalAlignment="Top"
-                Width="99" 
-                Click="Button_Click_1"/>
+                Width="99"
+                Click="Button_Click_1" />
         <GridSplitter HorizontalAlignment="Left"
                       Height="100"
                       Margin="1085,365,0,0"
                       VerticalAlignment="Top"
                       Width="5" />
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="527,375,0,0"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"><Run Language="fr-fr"
+                                                Text="Zoom(avancé)" /></TextBlock>
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="738,375,0,0"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   RenderTransformOrigin="1.395,0.627"><Run Language="fr-fr"
+                                                            Text="Mois" /></TextBlock>
 
     </Grid>
 </UserControl>

@@ -8,7 +8,8 @@
              d:DataContext="{d:DesignInstance Type=gestionnaires:GestionnaireListes}"
              mc:Ignorable="d"
              d:DesignHeight="450"
-             Width="200">
+             Width="200"
+             Loaded="UserControl_Loaded">
     <UserControl.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="Foreground"
@@ -60,20 +61,29 @@
                    RadiusX="10" />
         <TextBlock HorizontalAlignment="Left"
                    Margin="21,359,0,0"
-                   Text="Wattage : XXX W"
                    VerticalAlignment="Top"
-                   Foreground="#DBDE86" />
+                   Foreground="#DBDE86"
+                   FontSize="13">
+                   <Run Text="Conso: " />
+                   <Run Text="" x:Name="watt"/>
+                   <Run Text="W" />
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left"
                    Margin="21,336,0,0"
-                   Text="Hashrate: XXX MH/S"
                    VerticalAlignment="Top"
-                   Foreground="#F6C78E" />
+                   Foreground="#F6C78E"
+                   FontSize="13">
+                <Run Text="HahsR:" />
+            <Run Text="0" x:Name="hash"/>
+            <Run Text="MH/S" />
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left"
                    Margin="21,395,0,0"
                    VerticalAlignment="Top"
-                   Foreground="#8CFFCA">
-            <Run Text="Coût total: "/>
-            <Run Text="{Binding ElementName=ListBox, Path=SelectedItem.Value.PrixTotalStr, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                   Foreground="#8CFFCA"
+                   FontSize="13">
+            <Run Text="Coût:"/>
+            <Run Text="" x:Name="euro"/>
             <Run Text="€" />
         </TextBlock>
 

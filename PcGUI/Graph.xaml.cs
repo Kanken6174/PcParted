@@ -100,7 +100,7 @@ namespace PcParted
                 Canvas.SetBottom(ellipse, point.X);
 
             await Task.Delay((int)(SettingsLogic.GraphAnimationDelay*precisionDelay));
-
+            /*
             if (old.X != 0)
             {
                 Line line = new();
@@ -111,10 +111,10 @@ namespace PcParted
                 line.Y1 = old.Y;
 
                 graphScreen.Children.Add(line);
-                Canvas.SetLeft(line, old.Y);
-                Canvas.SetBottom(line, old.X);
+                Canvas.SetLeft(line, point.X);
+                Canvas.SetBottom(line, point.Y);
             }
-            
+            */
         }
 
         private static bool IsTextAllowed(string text)
@@ -179,8 +179,19 @@ namespace PcParted
 
         private void SelectionBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            RefreshMe();
+        }
+
+        private void RefreshMe()
+        {
             gestionnaire.ActiveKey = (string)SelectionBox.SelectedValue;
-            DatagridRefresh_needed(this, (string)SelectionBox.SelectedValue);
+            gestionnaire.RefreshDataToDisplay((string)SelectionBox.SelectedValue);
+            DatagridRefresh_needed(this, new string((string)SelectionBox.SelectedValue));
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            RefreshMe();
         }
     }
 }

@@ -18,7 +18,7 @@ namespace logicPC.Settings
         public static int GraphIncrement = 10;
         public static int GraphAnimationDelay = 30;
         public static int gflopPrice = 12;
-        public static float powerInflationFactor = 0.98F;
+        public static float powerInflationFactor = 0.99F;
 #pragma warning restore CA2211 // Non-constant fields should not be visible
     }
 }

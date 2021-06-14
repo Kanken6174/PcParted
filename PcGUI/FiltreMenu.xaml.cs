@@ -59,6 +59,11 @@ namespace PcParted
             MyParent.RefreshAll();
         }
 
+        public void applyInit()
+        {
+            Button_Click(new(), new());
+        }
+
         private void showCorrupted_Checked(object sender, System.Windows.RoutedEventArgs e)
         {
             prix_Copy.IsEnabled = false;

@@ -10,7 +10,8 @@
              mc:Ignorable="d"
              d:DesignHeight="536"
              d:DesignWidth="792"
-             Background="Gray">
+             Background="Gray"
+             Loaded="UserControl_Loaded">
     <Grid>
         <DataGrid x:Name="DGrid"
                   HorizontalAlignment="Left"

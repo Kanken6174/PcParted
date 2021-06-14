@@ -47,7 +47,7 @@ namespace PcParted
 
         private void DatagridRefresh_needed<E>(object sender, E e)
         {
-            string selected = new("");
+            string selected = "";
             if (ListesComboBox.SelectedValue is not null)
                selected  = ListesComboBox.SelectedValue.ToString();
 
@@ -73,8 +73,19 @@ namespace PcParted
 
         private void ListesComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            refreshMe();
+        }
+
+        private void refreshMe()
+        {
             gestionnaire.ActiveKey = (string)ListesComboBox.SelectedValue;
-            DatagridRefresh_needed(this, (string)ListesComboBox.SelectedValue);
+            gestionnaire.RefreshDataToDisplay((string)ListesComboBox.SelectedValue);
+            DatagridRefresh_needed(this, new string((string)ListesComboBox.SelectedValue));
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            refreshMe();
         }
     }
 }

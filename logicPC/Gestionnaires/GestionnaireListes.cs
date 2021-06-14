@@ -67,6 +67,10 @@ namespace logicPC.Gestionnaires
         public double MaxHashrate { get; private set; } = new();
         public int MaxPowerDraw { get; private set; } = new();
 
+        /// <summary>
+        /// Constructeur de la classe GestionnaireListes
+        /// </summary>
+        /// <param name="persistance">Optionnel, définit le type de persistance à la déclaration d'objet</param>
         public GestionnaireListes(IPersistanceManager persistance = null)
         {
             CardDataToDisplay = new();
@@ -88,11 +92,10 @@ namespace logicPC.Gestionnaires
             DataNotifier += Ignore;
         }
 
-        private void Ignore(object sender, PropertyChangedEventArgs e)
-        {
-            //Simplement pour éviter une exception en cas de non-utilisation
-        }
 
+        /// <summary>
+        /// Comme son nom l'indique, récupère tous les extrêmes du dataset (min/max)
+        /// </summary>
         private void getMaxes()
         {
             ManufacturersList.Add("Tous");
@@ -123,7 +126,7 @@ namespace logicPC.Gestionnaires
         }
 
         /// <summary>
-        /// Appellée une fois au démarrage. Va remplir StreamStorage de streams pointant sur les différentes Uri correspondant à chaque image.
+        /// Appellée une fois au démarrage (par les vues pour optimiser la performance). Va remplir StreamStorage de streams pointant sur les différentes Uri correspondant à chaque image.
         /// </summary>
         /// <returns></returns>
         public async Task GetAllPics()
@@ -182,7 +185,7 @@ namespace logicPC.Gestionnaires
         /// Ajoute une liste vide au dictionnaire de listes d'utilisateur
         /// </summary>
         /// <param name="nom">Le nom de la liste à ajouter</param>
-        /// <returns></returns>
+        /// <returns>le nom valide qui ajouté</returns>
         public string AjouterListe(string nom, UserList toAdd)
         {
             int alreadyExists = 1;
@@ -203,7 +206,7 @@ namespace logicPC.Gestionnaires
         /// supprime une UserList de MesListes
         /// </summary>
         /// <param name="key">la clé (string) à supprimer du dictionnaire</param>
-        /// <returns></returns>
+        /// <returns>état de réussite</returns>
         public bool SupprimeListe(string key)
         {
             if (key != null && UserListsStorage.ContainsKey(key))
@@ -218,7 +221,6 @@ namespace logicPC.Gestionnaires
         /// Duplique une entrée du dictionnaire MesListes
         /// </summary>
         /// <param name="key">Clé de l'entrée à dupliquer</param>
-        /// <returns></returns>
         public void DuplicateList(string key)
         {
             if (key != null && UserListsStorage.ContainsKey(key))
@@ -249,7 +251,8 @@ namespace logicPC.Gestionnaires
         /// Surtout utilisé pour les datagrids où le binding de données venant de plusieurs sources de type dictionnaire est compliquée...
         /// </summary>
         /// <param name="sender">L'objet envoyant la notification</param>
-        /// <param name="toast">Le type d'action demandée/param>
+        /// <param name="toast">Un message string qui passe en argument/param>
+        /// <param name="mode">Le type d'action demandée, optionnel/param>
         public void NotifyAction(object sender, string toast, int mode = 0)
         {
             CardDataToDisplay = new();
@@ -263,12 +266,22 @@ namespace logicPC.Gestionnaires
             DataNotifier.Invoke(sender, new(toast));
         }
 
-        private void RefreshDataToDisplay(string key)
+        /// <summary>
+        /// Met à jour les données que doivent afficher les datagrids clientes.
+        /// </summary>
+        /// <param name="key">La clé de la UserList à afficher</param>
+        public void RefreshDataToDisplay(string key)
         {
+            CardDataToDisplay.Clear();
             foreach (KeyValuePair<string, Card> card in UserListsStorage[key].Cards)
             {
                 CardDataToDisplay.TryAdd(card.Value, UserListsStorage[key].QuantityCards[card.Key]);
             }
+        }
+
+        private void Ignore(object sender, PropertyChangedEventArgs e)
+        {
+            //Simplement pour éviter une exception en cas de non-utilisation
         }
     }
 }

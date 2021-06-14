@@ -55,7 +55,8 @@ namespace PcParted
             DetailedCard.parentElement = this;
             Filters.MyParent = this;
             Gestionnaire.StreamStorage.CollectionChanged += Gestionnaire_RenderRefreshNeeded;
-            
+            Filters.applyInit();
+
         }
 
         /// <summary>
