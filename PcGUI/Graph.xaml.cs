@@ -184,9 +184,12 @@ namespace PcParted
 
         private void RefreshMe()
         {
-            gestionnaire.ActiveKey = (string)SelectionBox.SelectedValue;
-            gestionnaire.RefreshDataToDisplay((string)SelectionBox.SelectedValue);
-            DatagridRefresh_needed(this, new string((string)SelectionBox.SelectedValue));
+            if (gestionnaire is not null && (string)SelectionBox.SelectedValue is not null)
+            {
+                gestionnaire.ActiveKey = (string)SelectionBox.SelectedValue;
+                gestionnaire.RefreshDataToDisplay((string)SelectionBox.SelectedValue);
+                DatagridRefresh_needed(this, new string((string)SelectionBox.SelectedValue));
+            }
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
